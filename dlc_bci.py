@@ -8,37 +8,14 @@ import errno
 
 from six.moves import urllib
 
-def tensor_from_file_local(root, filename,
-                     base_url = 'https://documents.epfl.ch/users/f/fl/fleuret/www/data/bci'):
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    root = os.path.join(dir_path, root)
-    file_path = os.path.join(root, filename)
-
-    if not os.path.exists(file_path):
-        try:
-            os.makedirs(root)
-        except OSError as e:
-            if e.errno == errno.EEXIST:
-                pass
-            else:
-                raise
-
-        url = base_url + '/' + filename
-
-        print('Downloading ' + url)
-        data = urllib.request.urlopen(url)
-        with open(file_path, 'wb') as f:
-            f.write(data.read())
-
-    return torch.from_numpy(numpy.loadtxt(file_path))
-
-
-
 def tensor_from_file(root, filename,
-                     base_url = 'https://documents.epfl.ch/users/f/fl/fleuret/www/data/bci'):
-
+                     base_url = 'https://documents.epfl.ch/users/f/fl/fleuret/www/data/bci',
+                     store_local=False):
+    if store_local:
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        root = os.path.join(dir_path, root)
+        if not os.path.exists(root): os.mkdir(root)
     file_path = os.path.join(root, filename)
-
     if not os.path.exists(file_path):
         try:
             os.makedirs(root)
@@ -79,23 +56,20 @@ def load(root, train = True, download = True, one_khz = False, store_local=False
     if train:
 
         if one_khz:
-            name = 'sp1s_aa_train_1000Hz.txt'
-            dataset = tensor_from_file(root, name) if not store_local else tensor_from_file_local(root, name)
+            dataset = tensor_from_file(root, 'sp1s_aa_train_1000Hz.txt', store_local=store_local)
         else:
-            name = 'sp1s_aa_train.txt'
-            dataset = tensor_from_file(root, name) if not store_local else tensor_from_file_local(root, name)
+            dataset = tensor_from_file(root, 'sp1s_aa_train.txt', store_local=store_local)
 
         input = dataset.narrow(1, 1, dataset.size(1) - 1)
         input = input.float().view(input.size(0), nb_electrodes, -1)
         target = dataset.narrow(1, 0, 1).clone().view(-1).long()
 
     else:
-
         if one_khz:
-            input = tensor_from_file(root, 'sp1s_aa_test_1000Hz.txt')
+            input = tensor_from_file(root, 'sp1s_aa_test_1000Hz.txt', store_local=store_local)
         else:
-            input = tensor_from_file(root, 'sp1s_aa_test.txt')
-        target = tensor_from_file(root, 'labels_data_set_iv.txt')
+            input = tensor_from_file(root, 'sp1s_aa_test.txt', store_local=store_local)
+        target = tensor_from_file(root, 'labels_data_set_iv.txt', store_local=store_local)
 
         input = input.float().view(input.size(0), nb_electrodes, -1)
         target = target.view(-1).long()
