@@ -19,3 +19,15 @@ The goal of this project is to implement a neural network to predict the lateral
 - [ ] Testing & others
     - [ ] loss evolutions curves
     - [ ] logging
+
+
+### Brainstorming
+Data set is clearly time dependant.
+Data set is composed of 316 examples of size 28 * 50 ?
+
+### Important
+The expected error, if classification is random, is 50%
+
+There are a lot of possible pitfalls in processing the test data which may lead to bad or even "random" results.
+references:
+http://www.bbci.de/competition/ii/results/
