@@ -18,7 +18,6 @@ The goal of this project is to implement a neural network to predict the lateral
         - [ ] channel level/time step level CNN
         - [ ] LSTMs with attention?
         - [ ] adding dense layer on one of the axis (input reprensentation)
-        - [ ] Main issue: data size. ~300ish data examples is not enough..
         - [ ] More simple stuff: SVM?
         - [ ] Deep FFNN with lot of dropout
 
@@ -29,8 +28,15 @@ The goal of this project is to implement a neural network to predict the lateral
 
 
 ### Brainstorming
-Data set is clearly time dependant.
-Data set is composed of 316 examples of size 28 * 50 ?
+Data set is composed of 316 examples of size 28 * 50. Each example has 28 channels, sample during 0.5 sec.
+The data set is thus time dependant, which is hard for classic neural net. This means that the solution should probably be able to handle time dependency, which is the reason why LSTMS or time level CNNs could be good.
+The dataset is really small.
+
+Main issue: dataset size. ~300ish data examples is not enough..
+
+-Q about dataset: is it really that small? How can we use deep learning? What is it actuall? Laterity of finger mvt?
+Can we use winners from the BCI competition as inspiration?
+In what format do you want the report? Paper style?
 
 ### Important
 The expected error, if classification is random, is 50%
