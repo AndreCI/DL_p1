@@ -1,5 +1,7 @@
 .idea
 .idea/
+figs
+figs/
 data
 data/
 __pycache__

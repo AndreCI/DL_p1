@@ -7,7 +7,7 @@ The goal of this project is to implement a neural network to predict the lateral
 ### TODO
 - [ ] data analysis
     - [x] data handler
-    - [ ] data visualisation
+    - [x] data visualisation
     - [ ] data checking
     - [ ] PCA?
     - [ ] data preparation (train, val, dev)
@@ -15,6 +15,13 @@ The goal of this project is to implement a neural network to predict the lateral
 - [ ] Models Implementations
     - [ ] simple first model (linear predictor)
     - [ ] brainstorm others ideas
+        - [ ] channel level/time step level CNN
+        - [ ] LSTMs with attention?
+        - [ ] adding dense layer on one of the axis (input reprensentation)
+        - [ ] Main issue: data size. ~300ish data examples is not enough..
+        - [ ] More simple stuff: SVM?
+        - [ ] Deep FFNN with lot of dropout
+
 
 - [ ] Testing & others
     - [ ] loss evolutions curves
