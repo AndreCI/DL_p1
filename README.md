@@ -44,3 +44,14 @@ The expected error, if classification is random, is 50%
 There are a lot of possible pitfalls in processing the test data which may lead to bad or even "random" results.
 references:
 http://www.bbci.de/competition/ii/results/
+
+## Journal
+
+#### 3/04
+After looking at the dataset, I decided to first implement a simple model (as asked) to see how it succeds
+
+I also want to implement a simple pipeline to automatically take cares of the train and test steps. I will probably design first or in conionction to the simple model an abstract class and the architecture to handle these steps.
+
+Finally, I may also want a way to save networks configuration. This could be done by allowing the user to store and load .xml files containing diverses infos on the networks.
+
+I'll start by thinking of the way the project should be constructed.
