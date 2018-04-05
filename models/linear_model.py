@@ -13,6 +13,9 @@ class LinearModel(Model):
         '''
         super(LinearModel, self).__init__()
         self.layers = []
+        self._build(layers)
+
+    def _build(self, layers):
         for l in layers:
             if len(l) == 3:
                 in_features = l[0]
@@ -66,4 +69,4 @@ class LinearModel(Model):
             #print("loss:",loss)
             if i % 10 == 0:
                 print("total_loss:",total_loss/(i+1))
-        return total_loss/(i+1)
+        return total_loss/(i+1), optimizer

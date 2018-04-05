@@ -2,6 +2,7 @@
 .idea/
 figs
 figs/
+models/stored_models/
 data
 data/
 __pycache__
