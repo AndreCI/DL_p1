@@ -55,3 +55,8 @@ I also want to implement a simple pipeline to automatically take cares of the tr
 Finally, I may also want a way to save networks configuration. This could be done by allowing the user to store and load .xml files containing diverses infos on the networks.
 
 I'll start by thinking of the way the project should be constructed.
+
+#### 05/04
+I start working on a first simple model. From this, I plan to developp the pipeline for futur models.
+
+First model implemented. The architecture is not nice, but the idea is to have a somewhat working model to build around. The next step will be focused on rearrange this model to allow the construction of an abstractive class and to refine the pipeline of events. By the way, the model is as expected terrible: it does not perform better than random chance.
