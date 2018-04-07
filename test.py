@@ -11,11 +11,11 @@ opt = parser.parse_args()
 
 train_̇input, train_̇target = bci.load(root='./data', train=True, store_local=True)
 
-layers = [(28*50, 1, True), 'tanh']
+layers = [(28*50, 5, True), 'tanh', (5, 5, True), 'tanh', (5, 5, True), 'tanh',(5, 5, True), 'tanh',(5, 1, True), 'tanh']
 
 linear = LinearModel(layers)
 
-for i in range(1):
+for i in range(100):
     L, optimizer = linear.run(train_̇input, train_̇target)
-    linear.save_model(optimizer, i, 0, opt)
+    #linear.save_model(optimizer, i, 0, opt)
     print(L)

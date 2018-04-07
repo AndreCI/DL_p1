@@ -25,7 +25,8 @@ class Model(torch.nn.Module):
         #TODO:rewrite
         save_dict = dict(
             {'model': self.state_dict(), 'optim': optimizer.state_dict(), 'epoch': epoch, 'iter': iterInd})
-        print('\n', '-' * 60)
+        print('\n')
+        print('-' * 60)
         save_name = 'savedModel_E%d_%d.pth' % (epoch, iterInd)
 
         save_name = os.path.join(opt.save_dir, save_name)

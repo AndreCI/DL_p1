@@ -60,3 +60,6 @@ I'll start by thinking of the way the project should be constructed.
 I start working on a first simple model. From this, I plan to developp the pipeline for futur models.
 
 First model implemented. The architecture is not nice, but the idea is to have a somewhat working model to build around. The next step will be focused on rearrange this model to allow the construction of an abstractive class and to refine the pipeline of events. By the way, the model is as expected terrible: it does not perform better than random chance.
+
+#### 07/04
+I added some depth to the original network, and we now achieve an accuracy of 25% (train set). Pipeline is now the priority.
