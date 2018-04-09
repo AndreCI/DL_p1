@@ -63,3 +63,6 @@ First model implemented. The architecture is not nice, but the idea is to have a
 
 #### 07/04
 I added some depth to the original network, and we now achieve an accuracy of 25% (train set). Pipeline is now the priority.
+
+#### 09/04
+Added some utilitary, such as loss evolution visualisation. Moreover, started to design recurrent_model. Finally, training is not working as expected: nothing is really moving. Fixing this should be next priority.
