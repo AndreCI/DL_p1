@@ -13,7 +13,7 @@ The goal of this project is to implement a neural network to predict the lateral
     - [ ] data preparation (train, val, dev)
 
 - [ ] Models Implementations
-    - [ ] simple first model (linear predictor)
+    - [x] simple first model (linear predictor)
     - [ ] brainstorm others ideas
         - [ ] channel level/time step level CNN
         - [ ] LSTMs with attention?
@@ -25,7 +25,6 @@ The goal of this project is to implement a neural network to predict the lateral
 - [ ] Testing & others
     - [ ] loss evolutions curves
     - [ ] logging
-
 
 ### Brainstorming
 Data set is composed of 316 examples of size 28 * 50. Each example has 28 channels, sample during 0.5 sec.

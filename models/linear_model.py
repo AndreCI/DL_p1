@@ -27,7 +27,7 @@ class LinearModel(Model):
         if optimizer == 'Adagrad':
             self.optimizer = torch.optim.Adagrad(list(self.parameters()))
         elif optimizer == 'SGD':
-            self.optimizer = torch.optim.SGD(list(self.parameters()), lr=0.01, momentum=0.9)
+            self.optimizer = torch.optim.SGD(list(self.parameters()), lr=0.005, momentum=0.9)
         else:
             raise NotImplementedError()
 
@@ -38,6 +38,7 @@ class LinearModel(Model):
                 out_features = l[1]
                 bias = l[2]
                 current_dense = torch.nn.Linear(in_features, out_features, bias=bias)
+                torch.nn.init.xavier_normal(current_dense.weight.data)
                 self.layers.append(current_dense)
                 self.add_module('dense',current_dense)
             elif len(l) == 1:
