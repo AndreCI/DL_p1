@@ -16,7 +16,7 @@ class Model(torch.nn.Module):
     def one_step_run(self, *args):
         raise NotImplementedError()
 
-    def run(self, *args):
+    def run(self, dataset, mode='train'):
         raise NotImplementedError()
 
     def save_model(self, optimizer, epoch, iterInd, opt):

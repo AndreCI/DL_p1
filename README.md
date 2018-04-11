@@ -45,6 +45,10 @@ There are a lot of possible pitfalls in processing the test data which may lead 
 references:
 http://www.bbci.de/competition/ii/results/
 
+#### Questions
+How well is the linear model supposed to behave?
+Not good, but better than random... No real idea.
+
 ## Journal
 
 #### 3/04
@@ -66,3 +70,11 @@ I added some depth to the original network, and we now achieve an accuracy of 25
 
 #### 09/04
 Added some utilitary, such as loss evolution visualisation. Moreover, started to design recurrent_model. Finally, training is not working as expected: nothing is really moving. Fixing this should be next priority.
+
+#### 11/04
+Worked on the pipeline. Class Dataset implemented, alongside with some data options (such as shuffle).
+Worked on the models. Debugging linear_model
+
+
+
+####

@@ -59,6 +59,7 @@ class LinearModel(Model):
                     self.add_module('activation', current_activation)
                 else:
                     raise NotImplementedError()
+        self.layers = torch.nn.ModuleList(self.layers)
 
     def forward(self, x):
         for l in self.layers:
@@ -72,7 +73,6 @@ class LinearModel(Model):
         prediction = self(features)
 
         v_target = Variable(torch.LongTensor([target]))
-
         if mode == 'train':
             self.optimizer.zero_grad()
             loss = self.criterion(prediction, v_target)
@@ -86,20 +86,20 @@ class LinearModel(Model):
             raise NotImplementedError()
 
 
-
-    def run(self, examples, targets, mode='train'):
+    def run(self, dataset, mode='train'):
         total_loss = 0.0
         losses = []
         predictions = []
-        #print("   ",mode)
-        for i, e in enumerate(examples):
-            target = targets[i]
-            loss, pred = self.one_step_run(e, target, mode=mode)
+        i = 0
+        while dataset.has_next_example():
+            i+=1
+            input, target = dataset.next_example()
+            loss, pred = self.one_step_run(input, target, mode=mode)
             loss = loss.data.numpy()[0]
             max_score, pred_class = (torch.max(pred.data, 1))#.numpy()[0]
-            predictions.append(pred_class)
+            predictions.append(pred_class.numpy()[0])
             losses.append(loss)
             total_loss+= loss
             #if i % 10 == 0:
-                #print("total_loss:",total_loss/(i+1))
-        return total_loss/(i+1), losses, predictions, self.optimizer
+                #print("total_loss:",total_loss/i)
+        return losses, predictions
