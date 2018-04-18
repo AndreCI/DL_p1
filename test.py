@@ -57,6 +57,56 @@ def rec_model(): #TODO: remove. Used for debug and exploration phase only
     display_losses(losses_train, losses_test, rec.type, opt, running_mean_param=50)
     display_accuracy(acc_train, acc_test, rec.type, opt, running_mean_param=20)
 
+def seq_model():
+    model = torch.nn.Sequential(
+        torch.nn.Linear(28*50, 20),
+        torch.nn.ReLU(),
+        torch.nn.Linear(20, 20),
+        torch.nn.Sigmoid(),
+        torch.nn.Linear(20, 20),
+        torch.nn.ReLU(),
+        torch.nn.Linear(20, 2),
+        torch.nn.Softmax()
+    )
+    criterion = torch.nn.CrossEntropyLoss()
+    optimizer = torch.optim.Adagrad(list(model.parameters()))
+    for i in range(0, 1000):
+        train_dataset.setup_epoch()
+        test_dataset.setup_epoch()
+        avg_loss = 0.0
+        avg_loss_test = 0.0
+        predictions = []
+        predictions_test = []
+        while train_dataset.has_next_example():
+            optimizer.zero_grad()
+            ex, target = train_dataset.next_example()
+            result = model(torch.autograd.Variable(ex).view(1, -1))
+            new_target = torch.autograd.Variable(torch.LongTensor([target]))
+            loss = criterion(result, new_target)
+            avg_loss += loss
+            loss.backward()
+            optimizer.step()
+            max_score, pred_class = (torch.max(result.data, 1))#.numpy()[0]
+            predictions.append(pred_class.numpy()[0])
+        while test_dataset.has_next_example():
+            ex, target = test_dataset.next_example()
+            result = model(torch.autograd.Variable(ex).view(1, -1))
+            new_target = torch.autograd.Variable(torch.LongTensor([target]))
+            loss = criterion(result, new_target)
+            max_score, pred_class = (torch.max(result.data, 1))  # .numpy()[0]
+            predictions_test.append(pred_class.numpy()[0])
+            avg_loss_test+=loss
+
+        acc_train = compute_accuracy(train_dataset, predictions, reduce=False)
+        acc_test = compute_accuracy(test_dataset, predictions_test, reduce=False)
+        print(str('Train accuracy %i epoch : %f, loss %f' %(i, sum(acc_train)/len(acc_train), avg_loss/len(acc_train))))
+        print(str('Test accuracy %i epoch: %f, loss %f' %(i, sum(acc_test)/len(acc_test), avg_loss_test/len(acc_test))))
+        print("---")
+
+
+
+
     #print(L)
-rec_model()
+#rec_model()
+seq_model()
 #linear_model()

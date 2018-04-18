@@ -76,6 +76,9 @@ class LinearModel(Model):
         prediction = self(features)
 
         v_target = Variable(torch.LongTensor([target]))
+        print(prediction)
+        print(v_target)
+        exit()
         if mode == 'train':
             self.optimizer.zero_grad()
             loss = self.criterion(prediction, v_target)

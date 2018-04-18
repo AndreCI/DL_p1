@@ -34,11 +34,13 @@ class Model(torch.nn.Module):
         print('-' * 60)
 
     @staticmethod
-    def load_model(type, opt):
+    def load_model(type, opt, name = 'savedModel_'):
         #TODO: should this be here?
         location = os.path.join(opt.save_dir, type)
         if not os.path.exists(location): raise FileNotFoundError('location not found (%s)' %(location))
         list_files = os.listdir(location)
+        for l in list_files:
+            raise NotImplementedError()
 
         print(list_files)
         print(location)

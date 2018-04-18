@@ -75,7 +75,7 @@ Worked on the pipeline. Class Dataset implemented, alongside with some data opti
 Worked on the models. Debugging linear_model.
 
 #### 18/04
-1 Month before the end!
+1 Month before the end! Added a sequential model, which overfits. Thinking about an autpick model to optimize linear params. Probably a waste of time, as a linear model will never be good?
 
 
 
