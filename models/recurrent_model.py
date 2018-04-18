@@ -14,6 +14,7 @@ class RecurrentModel(Model):
         if criterion == 'CrossEntropy':
             self.criterion = torch.nn.CrossEntropyLoss()
         elif criterion == 'MSE':
+            raise NotImplementedError()
             self.criterion = torch.nn.MSELoss()
         else:
             raise NotImplementedError()

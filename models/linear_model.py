@@ -20,6 +20,7 @@ class LinearModel(Model):
         if criterion == 'CrossEntropy':
             self.criterion = torch.nn.CrossEntropyLoss()
         elif criterion == 'MSE':
+            raise NotImplementedError()
             self.criterion = torch.nn.MSELoss()
         else:
             raise NotImplementedError()
@@ -69,6 +70,7 @@ class LinearModel(Model):
 
 
     def one_step_run(self, example,target, mode='train'):
+        params = list(self.parameters())
         features = Variable(example.view(1, -1))
 
         prediction = self(features)
@@ -85,6 +87,7 @@ class LinearModel(Model):
             return loss, prediction
         else:
             raise NotImplementedError()
+
 
 
     def run(self, dataset, mode='train'):

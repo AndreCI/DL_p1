@@ -72,7 +72,10 @@ Added some utilitary, such as loss evolution visualisation. Moreover, started to
 
 #### 11/04
 Worked on the pipeline. Class Dataset implemented, alongside with some data options (such as shuffle).
-Worked on the models. Debugging linear_model
+Worked on the models. Debugging linear_model.
+
+#### 18/04
+1 Month before the end!
 
 
 

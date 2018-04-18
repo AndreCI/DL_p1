@@ -19,12 +19,12 @@ train_dataset = Dataset(train_̇input, train_̇target, 'train')
 test_dataset = Dataset(test_input, test_target, 'test')
 toy_dataset = Dataset(toy_input, toy_target, 'train')
 
-layers = [(28 * 50, 20, True), ['sigmoid'], (20, 2, True), ['softmax']]
+layers = [(28 * 50, 20, True), ['sigmoid'], (20, 20, True), ['sigmoid'], (20, 2, True), ['softmax']]
 
 linear = LinearModel(layers, optimizer='Adagrad')
 rec = RecurrentModel(hidden_units=30)
 
-def linear_model():
+def linear_model(): #TODO: remove. Used for debug and exploration phase only
     for i in range(100):
         train_dataset.setup_epoch(single_pass=True)
         losses_train, preds_tr = linear.run(train_dataset, mode='train')
@@ -40,7 +40,7 @@ def linear_model():
     display_losses(losses_train, losses_test, linear.type, opt, running_mean_param=50)
     display_accuracy(acc_train, acc_test, linear.type, opt, running_mean_param=20)
 
-def rec_model():
+def rec_model(): #TODO: remove. Used for debug and exploration phase only
     for i in range(10):
         train_dataset.setup_epoch()
         losses_train, preds_tr = rec.run(train_dataset, mode='train')
@@ -58,5 +58,5 @@ def rec_model():
     display_accuracy(acc_train, acc_test, rec.type, opt, running_mean_param=20)
 
     #print(L)
-#rec_model()
-linear_model()
+rec_model()
+#linear_model()
