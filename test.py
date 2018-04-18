@@ -2,7 +2,8 @@
 import torch
 from models.linear_model import LinearModel
 from models.recurrent_model import RecurrentModel
-from models.sequential_autopick_model import SequentialAutopickModel
+from models.sequential_autopick import SequentialAutopick
+from models.convolutional_model import ConvolutionalModel
 import dlc_bci as bci
 import argparse
 from util.configuration import add_arg #TODO:rename
@@ -23,12 +24,26 @@ toy_dataset = Dataset(toy_input, toy_target, 'train')
 layers = [(28 * 50, 20, True), ['sigmoid'], (20, 20, True), ['sigmoid'], (20, 2, True), ['softmax']]
 
 linear = LinearModel(layers, optimizer='Adagrad')
-rec = RecurrentModel(hidden_units=30)
-for i in range(10):
-    print(i)
-    seq = SequentialAutopickModel()
-    print(seq.all_run(train_dataset, test_dataset, 10))
-exit()
+rec = RecurrentModel(hidden_units=50, dropout=0.7, optimizer='SGD')
+convo = ConvolutionalModel()
+
+def convol_model():
+    for i in range(20):
+        train_dataset.setup_epoch(single_pass=True)
+        losses_train, preds_tr = convo.run(train_dataset, mode='train')
+        test_dataset.setup_epoch(single_pass=True)
+        losses_test, preds_te = convo.run(test_dataset, mode='test')
+
+        annoncement = str("Train loss: %f, test loss: %f" % (
+        sum(losses_train) / len(losses_train), sum(losses_test) / len(losses_test)))
+        print(annoncement)
+        acc_train = compute_accuracy(train_dataset, preds_tr, reduce=False)
+        acc_test = compute_accuracy(test_dataset, preds_te, reduce=False)
+        print(str(
+            'Train accuracy: %f, test accuracy %f' % (sum(acc_train) / len(acc_train), sum(acc_test) / len(acc_test))))
+        print("====")
+    display_losses(losses_train, losses_test, linear.type, opt, running_mean_param=50)
+    display_accuracy(acc_train, acc_test, linear.type, opt, running_mean_param=20)
 
 def linear_model(): #TODO: remove. Used for debug and exploration phase only
     for i in range(100):
@@ -47,7 +62,7 @@ def linear_model(): #TODO: remove. Used for debug and exploration phase only
     display_accuracy(acc_train, acc_test, linear.type, opt, running_mean_param=20)
 
 def rec_model(): #TODO: remove. Used for debug and exploration phase only
-    for i in range(10):
+    for i in range(20):
         train_dataset.setup_epoch()
         losses_train, preds_tr = rec.run(train_dataset, mode='train')
         test_dataset.setup_epoch()
@@ -109,10 +124,14 @@ def seq_model():
         print(str('Test accuracy %i epoch: %f, loss %f' %(i, sum(acc_test)/len(acc_test), avg_loss_test/len(acc_test))))
         print("---")
 
-
-
+def seqential():
+    for i in range(10):
+        print(i)
+        seq = SequentialAutopick()
+        print(seq.all_run(train_dataset, test_dataset, 10))
 
     #print(L)
 #rec_model()
-seq_model()
+convol_model()
+#seq_model()
 #linear_model()

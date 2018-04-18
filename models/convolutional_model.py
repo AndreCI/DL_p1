@@ -1,16 +1,11 @@
+import models.model
 import torch
 from torch.autograd import Variable
-from models.model import Model
-import numpy as np
 
-
-class RecurrentModel(Model):
-    '''A rather complex model which uses LSTMs to handle time dependencies.'''
-    def __init__(self, hidden_units, dropout=0.5, criterion = 'CrossEntropy', optimizer = 'Adagrad'):
-        super(RecurrentModel, self).__init__()
-        self._build(hidden_units, dropout)
-        self.type='Recurrent'
-
+class ConvolutionalModel(models.model.Model):
+    def __init__(self, criterion = 'CrossEntropy', optimizer='Adagrad'):
+        super(ConvolutionalModel, self).__init__()
+        self._build()
         if criterion == 'CrossEntropy':
             self.criterion = torch.nn.CrossEntropyLoss()
         elif criterion == 'MSE':
@@ -26,30 +21,30 @@ class RecurrentModel(Model):
         else:
             raise NotImplementedError()
 
-    def _build(self, hidden_units, dropout):
-        self.input_layer = torch.nn.LSTM(input_size=28, hidden_size=hidden_units, num_layers=1)
+    def _build(self):
+        self.input_layer = torch.nn.Conv1d(in_channels=28,
+                                           out_channels=28,
+                                           kernel_size=50)
         self.add_module('input', self.input_layer)
-        self.dropout_layer = torch.nn.Dropout(dropout)
-        self.add_module('dropout', self.dropout_layer)
-        self.decoder = torch.nn.Linear(hidden_units,2, bias=True)
+        self.activation_convo = torch.nn.Sigmoid()
+        self.add_module('acti_convo', self.activation_convo)
+        self.decoder = torch.nn.Linear(28, 2)
         self.add_module('decoder', self.decoder)
-        self.softmax = torch.nn.Softmax()
-        self.add_module('activation', self.softmax)
+        self.output_acti = torch.nn.Softmax()
+        self.add_module('Softmax', self.output_acti)
+
 
     def forward(self, x, train=True):
-        x, (h, c) = self.input_layer(x)
-        x = x[-1].view(-1)
-        if train:
-            x = self.dropout_layer(x)
+        x = self.input_layer(x)
+        x = x.view(-1)
+        x = self.activation_convo(x)
         x = self.decoder(x)
-        x = self.softmax(x)
-        return x.type(torch.FloatTensor).view(-1, 2)
-
+        x = self.output_acti(x)
+        return x.view(1, -1)
 
     def one_step_run(self, example,target, mode='train'):
-        example = Variable(example).t().contiguous()
-        features = (example.view(example.size()[0], 1, example.size()[1]))
-
+        #example = Variable(example).t().contiguous()
+        features = Variable(example.view(1, example.size()[0], example.size()[1]))
         prediction = self(features, mode == 'train')
         #temp = torch.FloatTensor([[target]])
         #target = Variable(temp)

@@ -3,16 +3,18 @@ from collections import OrderedDict
 import copy
 import util.data_util
 
-class SequentialAutopickModel(object):
-    def __init__(self):
-        super(SequentialAutopickModel, self).__init__()
+class SequentialAutopick(object):
+    def __init__(self, activations = [torch.nn.ReLU(), torch.nn.Sigmoid(), torch.nn.Tanh(), torch.nn.Softmax()],
+                 depth = [1, 2, 3],
+                 hidden = [10, 20, 30]):
+        super(SequentialAutopick, self).__init__()
         self.type = 'sequential_autopick'
         self.all_models = []
         self.scores = []
         self.optimizers = []
-        self.activations = [torch.nn.ReLU(), torch.nn.Sigmoid(), torch.nn.Tanh(), torch.nn.Softmax()]
-        self.deep = [1, 2, 3]
-        self.hidden = [10, 20, 30]
+        self.activations = activations
+        self.deep = depth
+        self.hidden = hidden
         self._build()
         self.criterion = torch.nn.CrossEntropyLoss()
 
