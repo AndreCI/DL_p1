@@ -2,6 +2,7 @@
 import torch
 from models.linear_model import LinearModel
 from models.recurrent_model import RecurrentModel
+from models.sequential_autopick_model import SequentialAutopickModel
 import dlc_bci as bci
 import argparse
 from util.configuration import add_arg #TODO:rename
@@ -23,6 +24,11 @@ layers = [(28 * 50, 20, True), ['sigmoid'], (20, 20, True), ['sigmoid'], (20, 2,
 
 linear = LinearModel(layers, optimizer='Adagrad')
 rec = RecurrentModel(hidden_units=30)
+for i in range(10):
+    print(i)
+    seq = SequentialAutopickModel()
+    print(seq.all_run(train_dataset, test_dataset, 10))
+exit()
 
 def linear_model(): #TODO: remove. Used for debug and exploration phase only
     for i in range(100):

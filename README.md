@@ -76,6 +76,7 @@ Worked on the models. Debugging linear_model.
 
 #### 18/04
 1 Month before the end! Added a sequential model, which overfits. Thinking about an autpick model to optimize linear params. Probably a waste of time, as a linear model will never be good?
+Implemented autopick. Ready to run, but I'll work on something else.
 
 
 
