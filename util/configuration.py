@@ -8,19 +8,20 @@ import logging
 import sys
 
 def get_args(parser):
-    #TODO: really useful?
     root_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+
     parser.add_argument('--save_dir', help="directory to save trained models.", default=root_dir + "/models/stored_models/", type=str)
     parser.add_argument('--fig_dir', help="directory to save different figures.", default=root_dir + "/figs/", type=str)
     parser.add_argument('--log_root', help="directory to save the logging journal", default=root_dir + "/logs/", type=str)
     parser.add_argument('--exp_name', help="name of the experience and the log file. This will not overwrite previous logs with the same name.", default='default', type=str)
 
-    parser.add_argument('--model', help="Type of model to use.", default='Convolutional', type=str)
+    parser.add_argument('--model', help="Type of model to use.", default='Linear', type=str)
 
-    parser.add_argument('--weight_decay', help="Value for the L2 penalty. Set to 0 to not use it.", default=0.2, type=float)
-    parser.add_argument('--dropout', help="Probability of the dropout during training. Set to 0 to not use it.", default=0.5, type=float)
+    parser.add_argument('--epoch_number', help="Number of epoch to train.", default=1000, type=int)
+    parser.add_argument('--weight_decay', help="Value for the L2 penalty. Set to 0 to not use it.", default=0.0, type=float)
+    parser.add_argument('--dropout', help="Probability of the dropout during training. Set to 0 to not use it.", default=0.2, type=float)
     parser.add_argument('--lr', help="Learning rate to train the models.", default=1e-3, type=float)
-    parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adagrad', type=str)
+    parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adadelta', type=str)
     parser.add_argument('--momentum', help="Momentum used for the SGD optimizer", default='0.9', type=str)
     parser.add_argument('--criterion', help="Criterion used to evaluate the model.", default='CrossEntropy', type=str)
     return vars(parser.parse_args())

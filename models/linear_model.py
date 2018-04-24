@@ -47,12 +47,15 @@ class LinearModel(Model):
                 else:
                     raise NotImplementedError()
         self.layers = torch.nn.ModuleList(self.layers)
+        self.dropout_layer = torch.nn.Dropout(self.opt['dropout'])
         self._build_criterion()
         self._build_optimizer()
 
-    def forward(self, x):
+    def forward(self, x, train=True):
         for l in self.layers:
             x = l(x)
+            if isinstance(l, torch.nn.Linear):
+                x = self.dropout_layer(x)
         return x.type(torch.FloatTensor)
 
 

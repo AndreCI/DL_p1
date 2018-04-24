@@ -31,14 +31,15 @@ class Model(torch.nn.Module):
         elif self.opt['optimizer'] == 'Adadelta':
             self.optimizer = torch.optim.Adadelta(list(self.parameters()),
                                                   lr=self.opt['lr'],
-                                                  weight_decay=self.opt['weight_decay'])
+                                                  weight_decay=self.opt['weight_decay'],
+                                                  )
         else:
             raise NotImplementedError()
 
     def _build(self):
         raise NotImplementedError()
 
-    def forward(self, x):
+    def forward(self, x, train=True):
         raise NotImplementedError()
 
     def one_step_run(self, *args):
@@ -59,20 +60,26 @@ class Model(torch.nn.Module):
         torch.save(save_dict, save_name)
         log.info('-' * 100)
 
-    def load_model(self, log):
+    def load_model(self, log, epoch_number=0):
         log.info('-' * 100)
         location = os.path.join(self.opt['save_dir'], self.type)
-        if not os.path.exists(location): raise FileNotFoundError('location not found (%s)' %(location))
+        if not os.path.exists(self.opt['save_dir']): os.mkdir(self.opt['save_dir'])
+        if not os.path.exists(location):
+            log.warning('Location not found (%s)' %(location))
+            return 0
         list_files = os.listdir(location)
         max_iter=0
         best_model=None
         for l in list_files:
             current_iter = int(re.search(r'\d+', str(l)).group())
-            if current_iter>max_iter:
+            if current_iter>max_iter and epoch_number==0:
                 max_iter=current_iter
                 best_model=l
+            elif current_iter==epoch_number:
+                best_model=l
         if max_iter==0:
-            raise FileNotFoundError('No model found in location: %s' %location)
+            log.warning('No model found in location: %s' %location)
+            return 0
         best_file = os.path.join(location,best_model)
         data = (torch.load(best_file))
         log.info('[Loaded model at location %s.]' %best_file)
@@ -80,3 +87,4 @@ class Model(torch.nn.Module):
         self.optimizer.load_state_dict(data['optimizer'])
         self.criterion.load_state_dict(data['criterion'])
         log.info('-' * 100)
+        return max_iter

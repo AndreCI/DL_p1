@@ -128,3 +128,5 @@ def generate_toy_data(points_number=1000):
         else:
             target[i] = 0
     return torch.from_numpy(examples).type(torch.FloatTensor), torch.from_numpy(target).type(torch.LongTensor)
+
+def compute_DC(x):

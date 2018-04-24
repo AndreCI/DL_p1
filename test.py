@@ -22,14 +22,14 @@ toy_input, toy_target = generate_toy_data()
 train_dataset = Dataset(train_̇input, train_̇target, 'train')
 test_dataset = Dataset(test_input, test_target, 'test')
 toy_dataset = Dataset(toy_input, toy_target, 'train')
-
 log.info('[Data loaded.]')
 
 model = get_model(opt)
-log.info('[Model loaded.]')
+log.info('[Model build.]')
 
 
-def run_model(model, epoch_number=10):
+def run_model(model):
+    epoch_number = opt['epoch_number']
     final_loss_train = []
     final_loss_test = []
     final_acc_train = []
@@ -56,16 +56,13 @@ def run_model(model, epoch_number=10):
         te = time.time()
         log.info('[Epoch %i/%i done in %.2f s. Approximatly %.2fs. remaining.]' %(i, epoch_number, (te-ts), ((te-ts) * (epoch_number - i))))
     log.info('[Producing accuracy and loss figures.]')
-    display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=5)
-    display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=5)
+    display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=int(epoch_number/10))
+    display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=int(epoch_number/10))
     log.info('[Finished in %.2fs.]' %(time.time() - t0))
 
-model.load_model(log)
-run_model(model, 50)
-model.save_model(50, log)
-
-
-
+#epoch_done = model.load_model(log)
+run_model(model)
+model.save_model(opt['epoch_number'] + epoch_done, log)
 
 
 #####
