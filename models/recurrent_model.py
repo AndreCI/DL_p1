@@ -6,35 +6,25 @@ import numpy as np
 
 class RecurrentModel(Model):
     '''A rather complex model which uses LSTMs to handle time dependencies.'''
-    def __init__(self, hidden_units, dropout=0.5, criterion = 'CrossEntropy', optimizer = 'Adagrad'):
-        super(RecurrentModel, self).__init__()
-        self._build(hidden_units, dropout)
+    def __init__(self, opt, hidden_units):
+        super(RecurrentModel, self).__init__(opt)
+        self.hidden_units = hidden_units
+        self._build()
         self.type='Recurrent'
 
-        if criterion == 'CrossEntropy':
-            self.criterion = torch.nn.CrossEntropyLoss()
-        elif criterion == 'MSE':
-            raise NotImplementedError()
-            self.criterion = torch.nn.MSELoss()
-        else:
-            raise NotImplementedError()
 
-        if optimizer == 'Adagrad':
-            self.optimizer = torch.optim.Adagrad(list(self.parameters()),lr=1e-3)
-        elif optimizer == 'SGD':
-            self.optimizer = torch.optim.SGD(list(self.parameters()), lr=1e-3, momentum=0.9)
-        else:
-            raise NotImplementedError()
-
-    def _build(self, hidden_units, dropout):
-        self.input_layer = torch.nn.LSTM(input_size=28, hidden_size=hidden_units, num_layers=1)
+    def _build(self):
+        self.input_layer = torch.nn.LSTM(input_size=28, hidden_size=self.hidden_units, num_layers=1)
         self.add_module('input', self.input_layer)
-        self.dropout_layer = torch.nn.Dropout(dropout)
+        self.dropout_layer = torch.nn.Dropout(self.opt['dropout'])
         self.add_module('dropout', self.dropout_layer)
-        self.decoder = torch.nn.Linear(hidden_units,2, bias=True)
+        self.decoder = torch.nn.Linear(self.hidden_units, 2, bias=True)
         self.add_module('decoder', self.decoder)
         self.softmax = torch.nn.Softmax()
         self.add_module('activation', self.softmax)
+
+        self._build_criterion()
+        self._build_optimizer()
 
     def forward(self, x, train=True):
         x, (h, c) = self.input_layer(x)

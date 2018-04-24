@@ -2,10 +2,37 @@ import torch
 import os
 
 class Model(torch.nn.Module):
-    def __init__(self):
+    def __init__(self, opt):
         # TODO: define what we want in a model
         super(Model, self).__init__()
         self.type = 'AbstractModelClass'
+        self.opt = opt
+
+    def _build_criterion(self):
+        if self.opt['criterion'] == 'CrossEntropy':
+            self.criterion = torch.nn.CrossEntropyLoss()
+        elif self.opt['criterion'] == 'MSE':
+            raise NotImplementedError()
+            self.criterion = torch.nn.MSELoss()
+        else:
+            raise NotImplementedError()
+
+    def _build_optimizer(self):
+        if self.opt['optimizer'] == 'Adagrad':
+            self.optimizer = torch.optim.Adagrad(list(self.parameters()),
+                                                 lr=self.opt['lr'],
+                                                 weight_decay=self.opt['weight_decay'])
+        elif self.opt['optimizer'] == 'SGD':
+            self.optimizer = torch.optim.SGD(list(self.parameters()),
+                                             lr=self.opt['lr'],
+                                             momentum=self.opt['momentum'],
+                                             weight_decay=self.opt['weight_decay'])
+        elif self.opt['optimizer'] == 'Adadelta':
+            self.optimizer = torch.optim.Adadelta(list(self.parameters()),
+                                                  lr=self.opt['lr'],
+                                                  weight_decay=self.opt['weight_decay'])
+        else:
+            raise NotImplementedError()
 
     def _build(self):
         raise NotImplementedError()

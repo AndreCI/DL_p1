@@ -7,30 +7,15 @@ class LinearModel(Model):
     '''
     A simple model which uses Linear layers to solve the problem.
     '''
-    def __init__(self, layers, criterion='CrossEntropy', optimizer='SGD'):
+    def __init__(self, opt, layers):
         '''
         Construct the model respectively to the parameters layers
         :param layers: a list of tuples, either the dimensions of the dense layers or the name of the activation functions
         '''
-        super(LinearModel, self).__init__()
+        super(LinearModel, self).__init__(opt)
         self.layers = []
         self._build(layers)
         self.type = 'Linear'
-
-        if criterion == 'CrossEntropy':
-            self.criterion = torch.nn.CrossEntropyLoss()
-        elif criterion == 'MSE':
-            raise NotImplementedError()
-            self.criterion = torch.nn.MSELoss()
-        else:
-            raise NotImplementedError()
-
-        if optimizer == 'Adagrad':
-            self.optimizer = torch.optim.Adagrad(list(self.parameters()))
-        elif optimizer == 'SGD':
-            self.optimizer = torch.optim.SGD(list(self.parameters()), lr=0.005, momentum=0.9)
-        else:
-            raise NotImplementedError()
 
     def _build(self, layers):
         for l in layers:
@@ -62,6 +47,8 @@ class LinearModel(Model):
                 else:
                     raise NotImplementedError()
         self.layers = torch.nn.ModuleList(self.layers)
+        self._build_criterion()
+        self._build_optimizer()
 
     def forward(self, x):
         for l in self.layers:
@@ -70,15 +57,11 @@ class LinearModel(Model):
 
 
     def one_step_run(self, example,target, mode='train'):
-        params = list(self.parameters())
         features = Variable(example.view(1, -1))
 
         prediction = self(features)
 
         v_target = Variable(torch.LongTensor([target]))
-        print(prediction)
-        print(v_target)
-        exit()
         if mode == 'train':
             self.optimizer.zero_grad()
             loss = self.criterion(prediction, v_target)

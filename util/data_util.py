@@ -80,6 +80,8 @@ def compute_accuracy(dataset, predictions, reduce=True):
     #print(score/len(results))
 
 def display_losses(train_loss, test_loss, model_type, opt, running_mean_param=1):
+    if running_mean_param > len(train_loss) or running_mean_param > len(test_loss):
+        running_mean_param = 1
     train_loss = running_mean(train_loss, N=running_mean_param)
     test_loss = running_mean(test_loss, N=running_mean_param)
     plt.figure()
@@ -87,13 +89,16 @@ def display_losses(train_loss, test_loss, model_type, opt, running_mean_param=1)
     plt.title(title)
     plt.plot(train_loss)
     plt.plot(test_loss)
-    plt.xlabel('iteration number')
+    plt.xlabel('epoch number')
     plt.ylabel('loss')
+    plt.legend(['Training loss', 'Testing loss'])
     name = str('%s_loss_evolution.png' % model_type)
-    loc = os.path.join(opt.fig_dir, name)
+    loc = os.path.join(opt['fig_dir'], name)
     plt.savefig(loc)
 
 def display_accuracy(train_accuracy, test_accuracy, model_type, opt, running_mean_param=1):
+    if running_mean_param > len(train_accuracy) or running_mean_param > len(test_accuracy):
+        running_mean_param = 1
     train_accuracy = running_mean(train_accuracy, N=running_mean_param)
     test_accuracy = running_mean(test_accuracy, N=running_mean_param)
     plt.figure()
@@ -101,10 +106,11 @@ def display_accuracy(train_accuracy, test_accuracy, model_type, opt, running_mea
     plt.title(title)
     plt.plot(train_accuracy)
     plt.plot(test_accuracy)
-    plt.xlabel('iteration number')
-    plt.ylabel('loss')
+    plt.xlabel('epoch number')
+    plt.ylabel('accuracy')
+    plt.legend(['Training accuracy', 'Testing accuracy'])
     name = str('%s_accuracy_evolution.png' % model_type)
-    loc = os.path.join(opt.fig_dir, name)
+    loc = os.path.join(opt['fig_dir'], name)
     plt.savefig(loc)
 
 

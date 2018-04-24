@@ -79,5 +79,8 @@ Worked on the models. Debugging linear_model.
 Implemented autopick. Ready to run, but I'll work on something else.
 Added convolutional model wrt time. Overfit.
 
+#### 24/04
+Added configuration option, allowing to more easily test different setup.
+Added logs. 
 
 ####

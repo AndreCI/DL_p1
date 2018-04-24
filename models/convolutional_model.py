@@ -3,52 +3,45 @@ import torch
 from torch.autograd import Variable
 
 class ConvolutionalModel(models.model.Model):
-    def __init__(self, criterion = 'CrossEntropy', optimizer='Adagrad'):
-        super(ConvolutionalModel, self).__init__()
+    def __init__(self, opt):
+        super(ConvolutionalModel, self).__init__(opt)
         self._build()
-        if criterion == 'CrossEntropy':
-            self.criterion = torch.nn.CrossEntropyLoss()
-        elif criterion == 'MSE':
-            raise NotImplementedError()
-            self.criterion = torch.nn.MSELoss()
-        else:
-            raise NotImplementedError()
-
-        if optimizer == 'Adagrad':
-            self.optimizer = torch.optim.Adagrad(list(self.parameters()),lr=1e-3)
-        elif optimizer == 'SGD':
-            self.optimizer = torch.optim.SGD(list(self.parameters()), lr=1e-3, momentum=0.9)
-        else:
-            raise NotImplementedError()
+        self.type = 'Convolutinal'
 
     def _build(self):
         self.input_layer = torch.nn.Conv1d(in_channels=28,
                                            out_channels=28,
                                            kernel_size=50)
         self.add_module('input', self.input_layer)
+
         self.activation_convo = torch.nn.Sigmoid()
         self.add_module('acti_convo', self.activation_convo)
+
+        self.dropout = torch.nn.Dropout(self.opt['dropout'])
+        self.add_module('dropout', self.dropout)
+
         self.decoder = torch.nn.Linear(28, 2)
         self.add_module('decoder', self.decoder)
+
         self.output_acti = torch.nn.Softmax()
         self.add_module('Softmax', self.output_acti)
 
+        self._build_criterion()
+        self._build_optimizer()
 
     def forward(self, x, train=True):
         x = self.input_layer(x)
         x = x.view(-1)
         x = self.activation_convo(x)
+        if train:
+            x = self.dropout(x)
         x = self.decoder(x)
         x = self.output_acti(x)
         return x.view(1, -1)
 
     def one_step_run(self, example,target, mode='train'):
-        #example = Variable(example).t().contiguous()
         features = Variable(example.view(1, example.size()[0], example.size()[1]))
         prediction = self(features, mode == 'train')
-        #temp = torch.FloatTensor([[target]])
-        #target = Variable(temp)
-        #print(target)
 
         v_target = Variable(torch.LongTensor([target]))
         if mode == 'train':
