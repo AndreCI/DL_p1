@@ -60,7 +60,9 @@ def run_model(model, epoch_number=10):
     display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=5)
     log.info('[Finished in %.2fs.]' %(time.time() - t0))
 
-run_model(model, 100)
+model.load_model(log)
+run_model(model, 50)
+model.save_model(50, log)
 
 
 

@@ -81,6 +81,6 @@ Added convolutional model wrt time. Overfit.
 
 #### 24/04
 Added configuration option, allowing to more easily test different setup.
-Added logs. 
-
+Added logs.
+Added save/load option
 ####

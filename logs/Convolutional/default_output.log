@@ -1530,3 +1530,184 @@
 04/24/2018 02:07:59 Train loss: 0.697467, test loss: 0.707654
 04/24/2018 02:07:59 Train accuracy: 0.500000, test accuracy 0.440000
 04/24/2018 02:07:59 [Epoch 6/100 done in 0.46 s. Approximatly 42.97s. remaining.]
+04/24/2018 02:22:00 [Program starts.]
+04/24/2018 02:22:00 [Arg used:]{'model': 'Convolutional', 'weight_decay': 0.2, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'momentum': '0.9', 'criterion': 'CrossEntropy', 'dropout': 0.5, 'exp_name': 'default', 'lr': 0.001, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'optimizer': 'Adagrad'}
+04/24/2018 02:22:01 [Data loaded.]
+04/24/2018 02:22:01 [Model loaded.]
+04/24/2018 02:22:01 Train loss: 0.727017, test loss: 0.712660
+04/24/2018 02:22:01 Train accuracy: 0.484177, test accuracy 0.490000
+04/24/2018 02:22:01 [Epoch 0/5 done in 0.40 s. Approximatly 2.02s. remaining.]
+04/24/2018 02:22:01 Train loss: 0.717064, test loss: 0.716851
+04/24/2018 02:22:01 Train accuracy: 0.490506, test accuracy 0.490000
+04/24/2018 02:22:01 [Epoch 1/5 done in 0.37 s. Approximatly 1.50s. remaining.]
+04/24/2018 02:22:02 Train loss: 0.713212, test loss: 0.710592
+04/24/2018 02:22:02 Train accuracy: 0.500000, test accuracy 0.490000
+04/24/2018 02:22:02 [Epoch 2/5 done in 0.38 s. Approximatly 1.13s. remaining.]
+04/24/2018 02:22:02 Train loss: 0.705819, test loss: 0.707159
+04/24/2018 02:22:02 Train accuracy: 0.503165, test accuracy 0.490000
+04/24/2018 02:22:02 [Epoch 3/5 done in 0.34 s. Approximatly 0.69s. remaining.]
+04/24/2018 02:22:02 Train loss: 0.696606, test loss: 0.706173
+04/24/2018 02:22:02 Train accuracy: 0.506329, test accuracy 0.490000
+04/24/2018 02:22:02 [Epoch 4/5 done in 0.34 s. Approximatly 0.34s. remaining.]
+04/24/2018 02:22:02 [Producing accuracy and loss figures.]
+04/24/2018 02:22:03 [Finished in 2.36s.]
+04/24/2018 02:22:03 ------------------------------------------------------------
+04/24/2018 02:22:18 [Program starts.]
+04/24/2018 02:22:18 [Arg used:]{'optimizer': 'Adagrad', 'model': 'Convolutional', 'momentum': '0.9', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'lr': 0.001, 'weight_decay': 0.2, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'exp_name': 'default', 'dropout': 0.5}
+04/24/2018 02:22:18 [Data loaded.]
+04/24/2018 02:22:18 [Model loaded.]
+04/24/2018 02:22:18 Train loss: 0.726323, test loss: 0.702236
+04/24/2018 02:22:18 Train accuracy: 0.487342, test accuracy 0.490000
+04/24/2018 02:22:18 [Epoch 0/5 done in 0.35 s. Approximatly 1.73s. remaining.]
+04/24/2018 02:22:19 Train loss: 0.702167, test loss: 0.705127
+04/24/2018 02:22:19 Train accuracy: 0.518987, test accuracy 0.490000
+04/24/2018 02:22:19 [Epoch 1/5 done in 0.45 s. Approximatly 1.78s. remaining.]
+04/24/2018 02:22:19 Train loss: 0.708470, test loss: 0.704507
+04/24/2018 02:22:19 Train accuracy: 0.474684, test accuracy 0.490000
+04/24/2018 02:22:19 [Epoch 2/5 done in 0.35 s. Approximatly 1.04s. remaining.]
+04/24/2018 02:22:20 Train loss: 0.699863, test loss: 0.707407
+04/24/2018 02:22:20 Train accuracy: 0.531646, test accuracy 0.490000
+04/24/2018 02:22:20 [Epoch 3/5 done in 0.35 s. Approximatly 0.69s. remaining.]
+04/24/2018 02:22:20 Train loss: 0.707206, test loss: 0.698417
+04/24/2018 02:22:20 Train accuracy: 0.541139, test accuracy 0.490000
+04/24/2018 02:22:20 [Epoch 4/5 done in 0.35 s. Approximatly 0.35s. remaining.]
+04/24/2018 02:22:20 [Producing accuracy and loss figures.]
+04/24/2018 02:22:20 [Finished in 2.29s.]
+04/24/2018 02:22:20 ------------------------------------------------------------
+04/24/2018 02:22:20 ------------------------------------------------------------
+04/24/2018 02:22:45 [Program starts.]
+04/24/2018 02:22:45 [Arg used:]{'momentum': '0.9', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'lr': 0.001, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'dropout': 0.5, 'optimizer': 'Adagrad', 'model': 'Convolutional', 'exp_name': 'default', 'weight_decay': 0.2}
+04/24/2018 02:22:46 [Data loaded.]
+04/24/2018 02:22:46 [Model loaded.]
+04/24/2018 02:22:46 Train loss: 0.720502, test loss: 0.696521
+04/24/2018 02:22:46 Train accuracy: 0.474684, test accuracy 0.510000
+04/24/2018 02:22:46 [Epoch 0/5 done in 0.34 s. Approximatly 1.70s. remaining.]
+04/24/2018 02:22:46 Train loss: 0.710765, test loss: 0.700633
+04/24/2018 02:22:46 Train accuracy: 0.487342, test accuracy 0.430000
+04/24/2018 02:22:46 [Epoch 1/5 done in 0.34 s. Approximatly 1.35s. remaining.]
+04/24/2018 02:22:47 Train loss: 0.706367, test loss: 0.704722
+04/24/2018 02:22:47 Train accuracy: 0.515823, test accuracy 0.460000
+04/24/2018 02:22:47 [Epoch 2/5 done in 0.42 s. Approximatly 1.26s. remaining.]
+04/24/2018 02:22:47 Train loss: 0.695988, test loss: 0.697430
+04/24/2018 02:22:47 Train accuracy: 0.547468, test accuracy 0.480000
+04/24/2018 02:22:47 [Epoch 3/5 done in 0.35 s. Approximatly 0.69s. remaining.]
+04/24/2018 02:22:47 Train loss: 0.700123, test loss: 0.695992
+04/24/2018 02:22:47 Train accuracy: 0.515823, test accuracy 0.490000
+04/24/2018 02:22:47 [Epoch 4/5 done in 0.34 s. Approximatly 0.34s. remaining.]
+04/24/2018 02:22:47 [Producing accuracy and loss figures.]
+04/24/2018 02:22:48 [Finished in 2.22s.]
+04/24/2018 02:22:48 ------------------------------------------------------------
+04/24/2018 02:22:48 Saving Model to : /home/andre/Documents/DL_p1/models/stored_models/Convolutinal
+04/24/2018 02:22:48 ------------------------------------------------------------
+04/24/2018 02:23:11 [Program starts.]
+04/24/2018 02:23:11 [Arg used:]{'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'weight_decay': 0.2, 'optimizer': 'Adagrad', 'dropout': 0.5, 'model': 'Convolutional', 'criterion': 'CrossEntropy', 'lr': 0.001, 'exp_name': 'default', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'momentum': '0.9'}
+04/24/2018 02:23:11 [Data loaded.]
+04/24/2018 02:23:11 [Model loaded.]
+04/24/2018 02:23:28 [Program starts.]
+04/24/2018 02:23:28 [Arg used:]{'model': 'Convolutional', 'exp_name': 'default', 'optimizer': 'Adagrad', 'dropout': 0.5, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'momentum': '0.9', 'lr': 0.001, 'criterion': 'CrossEntropy', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'weight_decay': 0.2}
+04/24/2018 02:23:28 [Data loaded.]
+04/24/2018 02:23:28 [Model loaded.]
+04/24/2018 02:23:54 [Program starts.]
+04/24/2018 02:23:54 [Arg used:]{'criterion': 'CrossEntropy', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr': 0.001, 'exp_name': 'default', 'momentum': '0.9', 'dropout': 0.5, 'model': 'Convolutional', 'weight_decay': 0.2, 'optimizer': 'Adagrad', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'log_root': '/home/andre/Documents/DL_p1/logs/'}
+04/24/2018 02:23:54 [Data loaded.]
+04/24/2018 02:23:54 [Model loaded.]
+04/24/2018 02:28:01 [Program starts.]
+04/24/2018 02:28:01 [Arg used:]{'criterion': 'CrossEntropy', 'model': 'Convolutional', 'exp_name': 'default', 'optimizer': 'Adagrad', 'lr': 0.001, 'weight_decay': 0.2, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'momentum': '0.9', 'dropout': 0.5, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+04/24/2018 02:28:01 [Data loaded.]
+04/24/2018 02:28:01 [Model loaded.]
+04/24/2018 02:28:02 Train loss: 0.721748, test loss: 0.692998
+04/24/2018 02:28:02 Train accuracy: 0.443038, test accuracy 0.510000
+04/24/2018 02:28:02 [Epoch 0/5 done in 0.42 s. Approximatly 2.09s. remaining.]
+04/24/2018 02:28:02 Train loss: 0.699911, test loss: 0.693566
+04/24/2018 02:28:02 Train accuracy: 0.462025, test accuracy 0.510000
+04/24/2018 02:28:02 [Epoch 1/5 done in 0.43 s. Approximatly 1.73s. remaining.]
+04/24/2018 02:28:03 Train loss: 0.702166, test loss: 0.699614
+04/24/2018 02:28:03 Train accuracy: 0.509494, test accuracy 0.490000
+04/24/2018 02:28:03 [Epoch 2/5 done in 0.39 s. Approximatly 1.18s. remaining.]
+04/24/2018 02:28:03 Train loss: 0.697499, test loss: 0.701234
+04/24/2018 02:28:03 Train accuracy: 0.496835, test accuracy 0.490000
+04/24/2018 02:28:03 [Epoch 3/5 done in 0.41 s. Approximatly 0.81s. remaining.]
+04/24/2018 02:28:03 Train loss: 0.692800, test loss: 0.703102
+04/24/2018 02:28:03 Train accuracy: 0.515823, test accuracy 0.520000
+04/24/2018 02:28:03 [Epoch 4/5 done in 0.39 s. Approximatly 0.39s. remaining.]
+04/24/2018 02:28:03 [Producing accuracy and loss figures.]
+04/24/2018 02:28:04 [Finished in 2.68s.]
+04/24/2018 02:28:04 ------------------------------------------------------------
+04/24/2018 02:28:04 Saving Model to : /home/andre/Documents/DL_p1/models/stored_models/Convolutinal
+04/24/2018 02:28:04 ------------------------------------------------------------
+04/24/2018 02:28:54 [Program starts.]
+04/24/2018 02:28:54 [Arg used:]{'momentum': '0.9', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr': 0.001, 'weight_decay': 0.2, 'optimizer': 'Adagrad', 'model': 'Convolutional', 'criterion': 'CrossEntropy', 'dropout': 0.5, 'exp_name': 'default', 'log_root': '/home/andre/Documents/DL_p1/logs/'}
+04/24/2018 02:28:55 [Data loaded.]
+04/24/2018 02:28:55 [Model loaded.]
+04/24/2018 02:29:11 [Program starts.]
+04/24/2018 02:29:11 [Arg used:]{'momentum': '0.9', 'optimizer': 'Adagrad', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'weight_decay': 0.2, 'criterion': 'CrossEntropy', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'dropout': 0.5, 'lr': 0.001, 'model': 'Convolutional', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'exp_name': 'default'}
+04/24/2018 02:29:12 [Data loaded.]
+04/24/2018 02:29:12 [Model loaded.]
+04/24/2018 02:29:12 Train loss: 0.706282, test loss: 0.698621
+04/24/2018 02:29:12 Train accuracy: 0.484177, test accuracy 0.490000
+04/24/2018 02:29:12 [Epoch 0/5 done in 0.48 s. Approximatly 2.40s. remaining.]
+04/24/2018 02:29:12 Train loss: 0.705814, test loss: 0.704038
+04/24/2018 02:29:12 Train accuracy: 0.474684, test accuracy 0.490000
+04/24/2018 02:29:12 [Epoch 1/5 done in 0.37 s. Approximatly 1.47s. remaining.]
+04/24/2018 02:29:13 Train loss: 0.705700, test loss: 0.698810
+04/24/2018 02:29:13 Train accuracy: 0.515823, test accuracy 0.490000
+04/24/2018 02:29:13 [Epoch 2/5 done in 0.37 s. Approximatly 1.10s. remaining.]
+04/24/2018 02:29:13 Train loss: 0.699631, test loss: 0.697467
+04/24/2018 02:29:13 Train accuracy: 0.481013, test accuracy 0.490000
+04/24/2018 02:29:13 [Epoch 3/5 done in 0.37 s. Approximatly 0.74s. remaining.]
+04/24/2018 02:29:14 Train loss: 0.694965, test loss: 0.703205
+04/24/2018 02:29:14 Train accuracy: 0.537975, test accuracy 0.490000
+04/24/2018 02:29:14 [Epoch 4/5 done in 0.41 s. Approximatly 0.41s. remaining.]
+04/24/2018 02:29:14 [Producing accuracy and loss figures.]
+04/24/2018 02:29:14 [Finished in 2.49s.]
+04/24/2018 02:29:14 ------------------------------------------------------------
+04/24/2018 02:29:14 Saving Model to : /home/andre/Documents/DL_p1/models/stored_models/Convolutinal
+04/24/2018 02:29:14 ------------------------------------------------------------
+04/24/2018 02:30:59 [Program starts.]
+04/24/2018 02:30:59 [Arg used:]{'exp_name': 'default', 'dropout': 0.5, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'weight_decay': 0.2, 'momentum': '0.9', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'lr': 0.001, 'criterion': 'CrossEntropy', 'optimizer': 'Adagrad', 'model': 'Convolutional'}
+04/24/2018 02:30:59 [Data loaded.]
+04/24/2018 02:30:59 [Model loaded.]
+04/24/2018 02:31:00 Train loss: 0.710383, test loss: 0.705767
+04/24/2018 02:31:00 Train accuracy: 0.509494, test accuracy 0.440000
+04/24/2018 02:31:00 [Epoch 0/5 done in 0.39 s. Approximatly 1.94s. remaining.]
+04/24/2018 02:31:00 Train loss: 0.711355, test loss: 0.698353
+04/24/2018 02:31:00 Train accuracy: 0.490506, test accuracy 0.530000
+04/24/2018 02:31:00 [Epoch 1/5 done in 0.36 s. Approximatly 1.45s. remaining.]
+04/24/2018 02:31:00 Train loss: 0.707855, test loss: 0.699721
+04/24/2018 02:31:00 Train accuracy: 0.462025, test accuracy 0.470000
+04/24/2018 02:31:00 [Epoch 2/5 done in 0.35 s. Approximatly 1.05s. remaining.]
+04/24/2018 02:31:01 Train loss: 0.701815, test loss: 0.693216
+04/24/2018 02:31:01 Train accuracy: 0.515823, test accuracy 0.500000
+04/24/2018 02:31:01 [Epoch 3/5 done in 0.40 s. Approximatly 0.81s. remaining.]
+04/24/2018 02:31:01 Train loss: 0.703438, test loss: 0.691486
+04/24/2018 02:31:01 Train accuracy: 0.474684, test accuracy 0.490000
+04/24/2018 02:31:01 [Epoch 4/5 done in 0.35 s. Approximatly 0.35s. remaining.]
+04/24/2018 02:31:01 [Producing accuracy and loss figures.]
+04/24/2018 02:31:02 [Finished in 2.36s.]
+04/24/2018 02:31:02 ------------------------------------------------------------
+04/24/2018 02:31:02 Saving Model to : /home/andre/Documents/DL_p1/models/stored_models/Convolutinal
+04/24/2018 02:31:02 ------------------------------------------------------------
+04/24/2018 02:31:06 [Program starts.]
+04/24/2018 02:31:06 [Arg used:]{'lr': 0.001, 'exp_name': 'default', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'momentum': '0.9', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'optimizer': 'Adagrad', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'dropout': 0.5, 'weight_decay': 0.2, 'model': 'Convolutional'}
+04/24/2018 02:31:06 [Data loaded.]
+04/24/2018 02:31:06 [Model loaded.]
+04/24/2018 02:31:06 Train loss: 0.707650, test loss: 0.698822
+04/24/2018 02:31:06 Train accuracy: 0.484177, test accuracy 0.440000
+04/24/2018 02:31:06 [Epoch 0/5 done in 0.39 s. Approximatly 1.96s. remaining.]
+04/24/2018 02:31:07 Train loss: 0.690272, test loss: 0.702192
+04/24/2018 02:31:07 Train accuracy: 0.518987, test accuracy 0.420000
+04/24/2018 02:31:07 [Epoch 1/5 done in 0.40 s. Approximatly 1.61s. remaining.]
+04/24/2018 02:31:07 Train loss: 0.694314, test loss: 0.703626
+04/24/2018 02:31:07 Train accuracy: 0.522152, test accuracy 0.460000
+04/24/2018 02:31:07 [Epoch 2/5 done in 0.38 s. Approximatly 1.14s. remaining.]
+04/24/2018 02:31:07 Train loss: 0.690381, test loss: 0.707659
+04/24/2018 02:31:07 Train accuracy: 0.531646, test accuracy 0.500000
+04/24/2018 02:31:07 [Epoch 3/5 done in 0.36 s. Approximatly 0.72s. remaining.]
+04/24/2018 02:31:08 Train loss: 0.697877, test loss: 0.708508
+04/24/2018 02:31:08 Train accuracy: 0.512658, test accuracy 0.470000
+04/24/2018 02:31:08 [Epoch 4/5 done in 0.36 s. Approximatly 0.36s. remaining.]
+04/24/2018 02:31:08 [Producing accuracy and loss figures.]
+04/24/2018 02:31:08 [Finished in 2.31s.]
+04/24/2018 02:31:08 ------------------------------------------------------------
+04/24/2018 02:31:08 Saving Model to : /home/andre/Documents/DL_p1/models/stored_models/Convolutinal
+04/24/2018 02:31:08 ------------------------------------------------------------
