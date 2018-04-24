@@ -37,6 +37,8 @@ Main issue: dataset size. ~300ish data examples is not enough..
 Can we use winners from the BCI competition as inspiration?
 In what format do you want the report? Paper style?
 
+Can we preprocess the data?
+http://www.bbci.de/competition/ii/results/index.html#albany2 Dataset4
 ### Important
 The expected error, if classification is random, is 50%
 
