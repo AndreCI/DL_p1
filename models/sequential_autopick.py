@@ -48,7 +48,7 @@ class SequentialAutopick(object):
                     self.all_models.append(final_net)
         print('Constructed %i models.' %len(self.all_models))
 
-    def all_run(self, train_dataset, val_dataset, epoch_number=10):
+    def all_run(self, train_dataset, val_dataset, epoch_number=1000):
         for j in range(epoch_number):
             for i,model in enumerate(self.all_models):
                 train_dataset.setup_epoch()

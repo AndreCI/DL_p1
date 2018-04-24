@@ -62,8 +62,8 @@ def run_model(model):
     log.info('[Finished in %.2fs.]' %(time.time() - t0))
 
 #epoch_done = model.load_model(log)
-run_model(model)
-model.save_model(opt['epoch_number'] + epoch_done, log)
+#run_model(model)
+#model.save_model(opt['epoch_number'] + epoch_done, log)
 
 
 #####
@@ -116,6 +116,10 @@ def seq_model():
 
 def seqential():
     for i in range(10):
-        print(i)
+        log.info('Starting new test epoch.')
         seq = SequentialAutopick()
-        print(seq.all_run(train_dataset, test_dataset, 10))
+        t0 = time.time()
+        log.info(seq.all_run(train_dataset, test_dataset, 10))
+        log.info(time.time() - t0)
+
+seqential()

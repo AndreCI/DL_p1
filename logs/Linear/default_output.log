@@ -10670,3 +10670,53 @@
 04/24/2018 04:46:17 Train loss: 0.650841, test loss: 0.692760
 04/24/2018 04:46:17 Train accuracy: 0.683544, test accuracy 0.540000
 04/24/2018 04:46:17 [Epoch 5/1000 done in 0.36 s. Approximatly 355.78s. remaining.]
+04/24/2018 05:24:41 [Program starts.]
+04/24/2018 05:24:41 [Arg used:]{'lr': 0.005, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'dropout': 0.0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'remove_DC_level': True, 'weight_decay': 0.0, 'criterion': 'CrossEntropy', 'epoch_number': 1000, 'optimizer': 'Adagrad', 'exp_name': 'default', 'model': 'Linear', 'momentum': '0.9'}
+04/24/2018 05:24:41 [Data loaded.]
+04/24/2018 05:24:41 [Model build.]
+04/24/2018 05:24:41 Starting new test epoch.
+04/24/2018 05:25:37 [Program starts.]
+04/24/2018 05:25:37 [Arg used:]{'dropout': 0.0, 'model': 'Linear', 'exp_name': 'default', 'momentum': '0.9', 'remove_DC_level': True, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'optimizer': 'Adagrad', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'criterion': 'CrossEntropy', 'epoch_number': 1000, 'weight_decay': 0.0, 'lr': 0.005}
+04/24/2018 05:25:38 [Data loaded.]
+04/24/2018 05:25:38 [Model build.]
+04/24/2018 05:25:38 Starting new test epoch.
+04/24/2018 05:27:58 (Sequential(
+  (first): Linear(in_features=1400, out_features=30, bias=True)
+  (first_a): ReLU()
+  (hidden_868): Linear(in_features=30, out_features=30, bias=True)
+  (act_868): Softmax()
+  (output_layer): Linear(in_features=30, out_features=2, bias=True)
+  (output_activation): Softmax()
+), 62)
+04/24/2018 05:27:58 139.17252254486084
+04/24/2018 05:27:58 Starting new test epoch.
+04/24/2018 05:28:34 [Program starts.]
+04/24/2018 05:28:34 [Arg used:]{'momentum': '0.9', 'optimizer': 'Adagrad', 'dropout': 0.0, 'exp_name': 'default', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'model': 'Linear', 'lr': 0.005, 'weight_decay': 0.0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'epoch_number': 1000, 'criterion': 'CrossEntropy', 'remove_DC_level': True, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+04/24/2018 05:28:34 [Data loaded.]
+04/24/2018 05:28:34 [Model build.]
+04/24/2018 05:28:34 Starting new test epoch.
+04/24/2018 05:29:09 [Program starts.]
+04/24/2018 05:29:09 [Arg used:]{'criterion': 'CrossEntropy', 'weight_decay': 0.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'optimizer': 'Adagrad', 'exp_name': 'default', 'model': 'Linear', 'epoch_number': 1000, 'momentum': '0.9', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'remove_DC_level': True, 'lr': 0.005, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'dropout': 0.0}
+04/24/2018 05:29:10 [Data loaded.]
+04/24/2018 05:29:10 [Model build.]
+04/24/2018 05:29:10 Starting new test epoch.
+04/24/2018 05:30:11 [Program starts.]
+04/24/2018 05:30:11 [Arg used:]{'log_root': '/home/andre/Documents/DL_p1/logs/', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'remove_DC_level': True, 'exp_name': 'default', 'optimizer': 'Adagrad', 'dropout': 0.0, 'model': 'Linear', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'lr': 0.005, 'weight_decay': 0.0, 'momentum': '0.9', 'epoch_number': 1000, 'criterion': 'CrossEntropy'}
+04/24/2018 05:30:12 [Data loaded.]
+04/24/2018 05:30:12 [Model build.]
+04/24/2018 05:30:12 Starting new test epoch.
+04/24/2018 05:30:46 [Program starts.]
+04/24/2018 05:30:46 [Arg used:]{'exp_name': 'default', 'lr': 0.005, 'remove_DC_level': True, 'optimizer': 'Adagrad', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'model': 'Linear', 'momentum': '0.9', 'dropout': 0.0, 'weight_decay': 0.0, 'epoch_number': 1000, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'criterion': 'CrossEntropy', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+04/24/2018 05:30:46 [Data loaded.]
+04/24/2018 05:30:46 [Model build.]
+04/24/2018 05:30:46 Starting new test epoch.
+04/24/2018 05:33:08 (Sequential(
+  (first): Linear(in_features=1400, out_features=10, bias=True)
+  (first_a): ReLU()
+  (hidden_4): Linear(in_features=10, out_features=10, bias=True)
+  (act_4): Softmax()
+  (output_layer): Linear(in_features=10, out_features=2, bias=True)
+  (output_activation): Softmax()
+), 63)
+04/24/2018 05:33:08 140.877357006073
+04/24/2018 05:33:08 Starting new test epoch.
