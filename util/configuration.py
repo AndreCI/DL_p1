@@ -10,13 +10,16 @@ import sys
 def get_args(parser):
     root_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
+    #Directory arguments
     parser.add_argument('--save_dir', help="directory to save trained models.", default=root_dir + "/models/stored_models/", type=str)
     parser.add_argument('--fig_dir', help="directory to save different figures.", default=root_dir + "/figs/", type=str)
     parser.add_argument('--log_root', help="directory to save the logging journal", default=root_dir + "/logs/", type=str)
     parser.add_argument('--exp_name', help="name of the experience and the log file. This will not overwrite previous logs with the same name.", default='default', type=str)
 
+    #General arguments
     parser.add_argument('--model', help="Type of model to use.", default='Linear', type=str)
 
+    #Model arguments
     parser.add_argument('--epoch_number', help="Number of epoch to train.", default=1000, type=int)
     parser.add_argument('--weight_decay', help="Value for the L2 penalty. Set to 0 to not use it.", default=0.0, type=float)
     parser.add_argument('--dropout', help="Probability of the dropout during training. Set to 0 to not use it.", default=0.2, type=float)
@@ -24,6 +27,9 @@ def get_args(parser):
     parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adadelta', type=str)
     parser.add_argument('--momentum', help="Momentum used for the SGD optimizer", default='0.9', type=str)
     parser.add_argument('--criterion', help="Criterion used to evaluate the model.", default='CrossEntropy', type=str)
+
+    #Data arguments
+    parser.add_argument('--remove_DC_level', help="Remove the DC bias over each channel in all the datasets.", default=True, type=bool)
     return vars(parser.parse_args())
 
 def get_model(opt):

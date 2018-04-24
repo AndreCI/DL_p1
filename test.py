@@ -19,9 +19,10 @@ train_̇input, train_̇target = bci.load(root='./data', train=True, store_local=
 test_input, test_target = bci.load(root='./data', train=False, store_local=True)
 toy_input, toy_target = generate_toy_data()
 
-train_dataset = Dataset(train_̇input, train_̇target, 'train')
-test_dataset = Dataset(test_input, test_target, 'test')
-toy_dataset = Dataset(toy_input, toy_target, 'train')
+train_dataset = Dataset(train_̇input, train_̇target, 'train', opt['remove_DC_level'])
+test_dataset = Dataset(test_input, test_target, 'test', opt['remove_DC_level'])
+toy_dataset = Dataset(toy_input, toy_target, 'train', remove_DC_level=False)
+
 log.info('[Data loaded.]')
 
 model = get_model(opt)

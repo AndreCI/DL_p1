@@ -7,7 +7,7 @@ import random
 
 class Dataset(object):
     '''A simple class to implement useful methods on data'''
-    def __init__(self, inputs, targets, type='train'):
+    def __init__(self, inputs, targets, type='train', remove_DC_level=True):
         if type != 'train' and type != 'test' and type != 'dev':
             raise AttributeError('A dataset should have the train, test or dev type.')
         self.inputs = inputs
@@ -18,6 +18,21 @@ class Dataset(object):
         self.length = len(inputs)
         self.single_pass = True
         self.counter = -1
+
+        self._DC_leveld = False
+        if remove_DC_level:
+            self.switch_DC_level()
+
+    def _setup_DC_level(self):
+        self.channels_means = self.inputs.mean(2).view(self.inputs.size()[0], self.inputs.size()[1], -1)
+
+    def switch_DC_level(self):
+        if self._DC_leveld:
+            self.inputs += self.channels_means
+        elif not self._DC_leveld:
+            self._setup_DC_level()
+            self.inputs -= self.channels_means
+        self._DC_leveld = not self._DC_leveld
 
     def _shuffle(self):
         permutation = torch.randperm(self.length)
@@ -128,5 +143,3 @@ def generate_toy_data(points_number=1000):
         else:
             target[i] = 0
     return torch.from_numpy(examples).type(torch.FloatTensor), torch.from_numpy(target).type(torch.LongTensor)
-
-def compute_DC(x):

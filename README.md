@@ -82,5 +82,9 @@ Added convolutional model wrt time. Overfit.
 #### 24/04
 Added configuration option, allowing to more easily test different setup.
 Added logs.
-Added save/load option
+Added save/load option.
+
+Next step is to work on the dataset, maybe PCA, remove mean, etc.?
+
+Worked on DC level (i.e. mean). Greatly improve performance of the Linear model (test acc=0.66). Nice.
 ####
