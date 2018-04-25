@@ -7,7 +7,7 @@ import random
 
 class Dataset(object):
     '''A simple class to implement useful methods on data'''
-    def __init__(self, inputs, targets, type='train', remove_DC_level=True):
+    def __init__(self, inputs, targets, type='train', remove_DC_level=True, normalize=True, pca_features=3):
         if type != 'train' and type != 'test' and type != 'dev':
             raise AttributeError('A dataset should have the train, test or dev type.')
         self.inputs = inputs
@@ -18,13 +18,43 @@ class Dataset(object):
         self.length = len(inputs)
         self.single_pass = True
         self.counter = -1
+        self.pca_features = pca_features
+        self.pcas = None
 
         self._DC_leveld = False
         if remove_DC_level:
             self.switch_DC_level()
+        self._normalized = False
+        if normalize:
+            self.switch_normalized()
+        if pca_features > 0:
+            self.switch_PCA(pca_features)
+
+    def _setup_normalize(self):
+        self.channels_maxs, _ = torch.abs(self.inputs).max(2)
+        self.channels_maxs = self.channels_maxs.view(self.inputs.size()[0], self.inputs.size()[1], -1)
 
     def _setup_DC_level(self):
         self.channels_means = self.inputs.mean(2).view(self.inputs.size()[0], self.inputs.size()[1], -1)
+
+    def switch_PCA(self, k=3):
+        X = self.inputs.view(self.inputs.size()[0], -1)
+        X_mean = X.mean(1)
+        X = X - X_mean.view(X.size()[0], -1)
+        U, _, _ = torch.svd(X.t())
+        self.pcas = X.mm(U[:,:k])
+        self.pcas = self.pcas.view(self.pcas.size()[0], self.pcas.size()[1], -1)
+        print(self.pcas.size())
+        print(self.inputs.size())
+        self.inputs = torch.cat((self.inputs, self.pcas), 0)
+
+    def switch_normalized(self):
+        if self._normalized:
+            self.inputs *= self.channels_maxs
+        elif not self._normalized:
+            self._setup_normalize()
+            self.inputs /= self.channels_maxs
+        self._normalized = not self._normalized
 
     def switch_DC_level(self):
         if self._DC_leveld:
@@ -58,7 +88,6 @@ class Dataset(object):
     def next_example(self):
         if not self.single_pass:
             x = random.randint(0, self.length - 1)
-            print(x)
             return self.inputs[x], self.targets[x]
         else:
             if self.counter == -1:

@@ -14,7 +14,7 @@ def get_args(parser):
     parser.add_argument('--save_dir', help="directory to save trained models.", default=root_dir + "/models/stored_models/", type=str)
     parser.add_argument('--fig_dir', help="directory to save different figures.", default=root_dir + "/figs/", type=str)
     parser.add_argument('--log_root', help="directory to save the logging journal", default=root_dir + "/logs/", type=str)
-    parser.add_argument('--exp_name', help="name of the experience and the log file. This will not overwrite previous logs with the same name.", default='default', type=str)
+    parser.add_argument('--exp_name', help="name of the experience and the log file. This will not overwrite previous logs with the same name.", default='normalized_only', type=str)
 
     #General arguments
     parser.add_argument('--model', help="Type of model to use.", default='Linear', type=str)
@@ -30,6 +30,7 @@ def get_args(parser):
 
     #Data arguments
     parser.add_argument('--remove_DC_level', help="Remove the DC bias over each channel in all the datasets.", default=True, type=bool)
+    parser.add_argument('--normalize_data', help="Normalize data in order to have all channels values between -1 and 1.", default=True, type=bool)
     return vars(parser.parse_args())
 
 def get_model(opt):
@@ -65,3 +66,4 @@ def setup_log(opt):
 
     log.info('[Program starts.]')
     return log
+

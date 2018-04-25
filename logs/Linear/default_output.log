@@ -10720,3 +10720,14 @@
 ), 63)
 04/24/2018 05:33:08 140.877357006073
 04/24/2018 05:33:08 Starting new test epoch.
+04/25/2018 11:44:37 [Program starts.]
+04/25/2018 11:44:37 [Arg used:]{'weight_decay': 0.0, 'optimizer': 'Adagrad', 'exp_name': 'default', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'criterion': 'CrossEntropy', 'dropout': 0.0, 'momentum': '0.9', 'lr': 0.005, 'epoch_number': 1000, 'remove_DC_level': True, 'model': 'Linear', 'log_root': '/home/andre/Documents/DL_p1/logs/'}
+04/25/2018 11:45:04 [Program starts.]
+04/25/2018 11:45:04 [Arg used:]{'log_root': '/home/andre/Documents/DL_p1/logs/', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'remove_DC_level': True, 'weight_decay': 0.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'model': 'Linear', 'exp_name': 'default', 'momentum': '0.9', 'dropout': 0.0, 'epoch_number': 1000, 'optimizer': 'Adagrad', 'criterion': 'CrossEntropy', 'lr': 0.005}
+04/25/2018 11:45:49 [Program starts.]
+04/25/2018 11:45:49 [Arg used:]{'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'optimizer': 'Adagrad', 'model': 'Linear', 'criterion': 'CrossEntropy', 'lr': 0.005, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'exp_name': 'default', 'weight_decay': 0.0, 'remove_DC_level': True, 'epoch_number': 1000, 'dropout': 0.0, 'momentum': '0.9'}
+04/25/2018 11:46:14 [Program starts.]
+04/25/2018 11:46:14 [Arg used:]{'log_root': '/home/andre/Documents/DL_p1/logs/', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'exp_name': 'default', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'optimizer': 'Adagrad', 'lr': 0.005, 'dropout': 0.0, 'epoch_number': 1000, 'remove_DC_level': True, 'weight_decay': 0.0, 'momentum': '0.9', 'model': 'Linear', 'criterion': 'CrossEntropy'}
+04/25/2018 11:46:14 [Data loaded.]
+04/25/2018 11:46:14 [Model build.]
+04/25/2018 11:46:14 Starting new test epoch.
