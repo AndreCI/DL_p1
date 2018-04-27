@@ -20,29 +20,40 @@ def get_args(parser):
     parser.add_argument('--model', help="Type of model to use.", default='Linear', type=str)
 
     #Model arguments
-    parser.add_argument('--epoch_number', help="Number of epoch to train.", default=1000, type=int)
+    parser.add_argument('--epoch_number', help="Number of epoch to train.", default=400, type=int)
     parser.add_argument('--weight_decay', help="Value for the L2 penalty. Set to 0 to not use it.", default=0.0, type=float)
     parser.add_argument('--dropout', help="Probability of the dropout during training. Set to 0 to not use it.", default=0.2, type=float)
     parser.add_argument('--lr', help="Learning rate to train the models.", default=1e-3, type=float)
     parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adadelta', type=str)
-    parser.add_argument('--momentum', help="Momentum used for the SGD optimizer", default='0.9', type=str)
+    parser.add_argument('--momentum', help="Momentum used for the SGD optimizer", default=0.9, type=float)
     parser.add_argument('--criterion', help="Criterion used to evaluate the model.", default='CrossEntropy', type=str)
+    parser.add_argument('--hidden_units', help="Number of hidden units used in the model.", default=20, type=int)
+    parser.add_argument('--init_type', help="The type of initalization applied to the hidden states and cells (recurrent model).", default="gaussian", type=str)
 
-    #Data arguments
+    #Data pre processing arguments
     parser.add_argument('--remove_DC_level', help="Remove the DC bias over each channel in all the datasets.", default=True, type=bool)
+    parser.add_argument('--low_pass', help="Value of the low pass filter, if any. Set to None to disable.", default=None, type=float)
+    parser.add_argument('--high_pass', help="Value of the low pass filter, if any. Set to None to disable.", default=None, type=float)
     parser.add_argument('--normalize_data', help="Normalize data in order to have all channels values between -1 and 1.", default=True, type=bool)
+    parser.add_argument('--last_ms', help="Use only the last X miliseconds as features.", default=100, type=int)
+    parser.add_argument('--pca_features', help="Replace input by its principal components. Set to 0 to disable.", default=0, type=int)
     return vars(parser.parse_args())
 
-def get_model(opt):
+def get_model(opt, dataset):
     if opt['model']=='Linear':
-        layers = [(28 * 50, 20, True), ['sigmoid'], (20, 20, True), ['sigmoid'], (20, 2, True), ['softmax']]
+        input_shape = 1
+        for l in dataset.input_size():
+            input_shape *= l
+        layers = [(input_shape, opt['hidden_units'], True), ['sigmoid'],
+                  (opt['hidden_units'], opt['hidden_units'], True), ['sigmoid'],
+                  (opt['hidden_units'], 2, True), ['softmax']]
         linear = LinearModel(opt, layers)
         return linear
     elif opt['model']=='Recurrent':
-        rec = RecurrentModel(opt, hidden_units=5)
+        rec = RecurrentModel(opt, dataset.input_size())
         return rec
     elif opt['model']=='Convolutional':
-        convo = ConvolutionalModel(opt)
+        convo = ConvolutionalModel(opt, dataset.input_size())
         return convo
     else:
         raise NotImplementedError('This model has not been yet implemented.')
@@ -65,5 +76,16 @@ def setup_log(opt):
     log.addHandler(ch)
 
     log.info('[Program starts.]')
+    important_infos = []
+    for key in opt:
+        if type(opt[key]) is bool:
+            if opt[key]:
+                important_infos.append({key: opt[key]})
+        elif type(opt[key]) is int:
+            if opt[key] > 0:
+                important_infos.append({key: opt[key]})
+        elif type(opt[key]) is str and 'dir' not in key:
+            important_infos.append({key: opt[key]})
+    log.info('[Arg used:]' + str(important_infos))
     return log
 

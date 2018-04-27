@@ -89,4 +89,14 @@ Added save/load option.
 Next step is to work on the dataset, maybe PCA, remove mean, etc.?
 
 Worked on DC level (i.e. mean). Greatly improve performance of the Linear model (test acc=0.66). Nice.
+
+#### 27/04
+Added normalization, low pass and high pass filter (not tested yet)
+Added PCA (replaces data), lot of overfitting with DC + Norm
+Soon, test session will be needed to produce results and start to think about how to presents the first results.
+Starting to work on denoise.
+
+Added a way to keep only the last X ms of data.
+Added utilitary to change data shape. I start to think that my low pass and high pass filters are garbage
+Checked up recurrent model, updated it. Added it a way to initalize hidden states and cells states.
 ####

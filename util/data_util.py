@@ -7,7 +7,7 @@ import random
 
 class Dataset(object):
     '''A simple class to implement useful methods on data'''
-    def __init__(self, inputs, targets, type='train', remove_DC_level=True, normalize=True, pca_features=3):
+    def __init__(self, opt, inputs, targets, log, type='train'):
         if type != 'train' and type != 'test' and type != 'dev':
             raise AttributeError('A dataset should have the train, test or dev type.')
         self.inputs = inputs
@@ -18,24 +18,35 @@ class Dataset(object):
         self.length = len(inputs)
         self.single_pass = True
         self.counter = -1
-        self.pca_features = pca_features
         self.pcas = None
 
-        self._DC_leveld = False
-        if remove_DC_level:
-            self.switch_DC_level()
-        self._normalized = False
-        if normalize:
-            self.switch_normalized()
-        if pca_features > 0:
-            self.switch_PCA(pca_features)
+        self.opt=opt
+        self.log=log
 
-    def _setup_normalize(self):
-        self.channels_maxs, _ = torch.abs(self.inputs).max(2)
-        self.channels_maxs = self.channels_maxs.view(self.inputs.size()[0], self.inputs.size()[1], -1)
+        if opt['low_pass'] is not None:
+            self.apply_low_pass(opt['low_pass'])
+        if opt['high_pass'] is not None:
+            self.apply_high_pass(opt['high_pass'])
+        if opt['remove_DC_level']:
+            self.apply_DC_level()
+        if opt['normalize_data']:
+            self.apply_normalization()
+        if opt['last_ms'] > 0:
+            self.switch_last_X_miliseconds(opt['last_ms'])
+        if opt['pca_features'] > 0:
+            self.switch_PCA(opt['pca_features'])
 
-    def _setup_DC_level(self):
-        self.channels_means = self.inputs.mean(2).view(self.inputs.size()[0], self.inputs.size()[1], -1)
+    def apply_low_pass(self, low_pass_value):
+        mask = (self.inputs < low_pass_value).type(torch.FloatTensor)
+        if torch.sum(mask) == self.inputs.size()[0] * self.inputs.size()[1] * self.inputs.size()[2]:
+            self.log.warning('The low pass filter did not filter anything.')
+        self.inputs *= mask
+
+    def apply_high_pass(self, high_pass_value):
+        mask = (self.inputs > high_pass_value).type(torch.FloatTensor)
+        if torch.sum(mask) == self.inputs.size()[0] * self.inputs.size()[1] * self.inputs.size()[2]:
+            self.log.warning('The high pass filter did not filter anything.')
+        self.inputs *= mask
 
     def switch_PCA(self, k=3):
         X = self.inputs.view(self.inputs.size()[0], -1)
@@ -44,25 +55,23 @@ class Dataset(object):
         U, _, _ = torch.svd(X.t())
         self.pcas = X.mm(U[:,:k])
         self.pcas = self.pcas.view(self.pcas.size()[0], self.pcas.size()[1], -1)
-        print(self.pcas.size())
-        print(self.inputs.size())
-        self.inputs = torch.cat((self.inputs, self.pcas), 0)
+        self.inputs = self.pcas.view(self.inputs.size()[0], -1)
+        #self.inputs = torch.cat((self.inputs, self.pcas), 0)
 
-    def switch_normalized(self):
-        if self._normalized:
-            self.inputs *= self.channels_maxs
-        elif not self._normalized:
-            self._setup_normalize()
-            self.inputs /= self.channels_maxs
-        self._normalized = not self._normalized
+    def apply_normalization(self):
+        channels_maxs, _ = torch.abs(self.inputs).max(2)
+        channels_maxs = channels_maxs.view(self.inputs.size()[0], self.inputs.size()[1], -1)
+        self.inputs /= channels_maxs
 
-    def switch_DC_level(self):
-        if self._DC_leveld:
-            self.inputs += self.channels_means
-        elif not self._DC_leveld:
-            self._setup_DC_level()
-            self.inputs -= self.channels_means
-        self._DC_leveld = not self._DC_leveld
+    def apply_DC_level(self):
+        channels_means = self.inputs.mean(2).view(self.inputs.size()[0], self.inputs.size()[1], -1)
+        self.inputs -= channels_means
+
+    def switch_last_X_miliseconds(self, ms_to_keep):
+        self.inputs = self.inputs[:, :, (50-math.floor(ms_to_keep/10)):]
+
+    def input_size(self):
+        return self.inputs[0].size()
 
     def _shuffle(self):
         permutation = torch.randperm(self.length)
@@ -88,19 +97,21 @@ class Dataset(object):
     def next_example(self):
         if not self.single_pass:
             x = random.randint(0, self.length - 1)
-            return self.inputs[x], self.targets[x]
+            return self.inputs[x].clone(), self.targets[x]
         else:
             if self.counter == -1:
                 raise Warning('You should call setup_epoch() before calling next_example()')
                 self.setup_epoch()
             if self.has_next_example():
-                (input, target) = self.inputs[self.counter], self.targets[self.counter]
+                (input, target) = self.inputs[self.counter].clone(), self.targets[self.counter]
                 self.counter += 1
                 return input, target
             else:
                 raise AttributeError("No more example in this dataset.")
 
     def get_targets(self, mode='binary'):
+        raise NotImplementedError()
+        #TODO: fix this
         if mode == 'binary':
             return self.targets
         elif mode == 'multiclass':

@@ -3,15 +3,15 @@ import torch
 from torch.autograd import Variable
 
 class ConvolutionalModel(models.model.Model):
-    def __init__(self, opt):
+    def __init__(self, opt, input_shape):
         super(ConvolutionalModel, self).__init__(opt)
-        self._build()
+        self._build(input_shape)
         self.type = 'Convolutinal'
 
-    def _build(self):
-        self.input_layer = torch.nn.Conv1d(in_channels=28,
+    def _build(self, input_shape):
+        self.input_layer = torch.nn.Conv1d(in_channels=input_shape[0],
                                            out_channels=28,
-                                           kernel_size=50)
+                                           kernel_size=input_shape[1])
         self.add_module('input', self.input_layer)
 
         self.activation_convo = torch.nn.Sigmoid()

@@ -6,15 +6,15 @@ import numpy as np
 
 class RecurrentModel(Model):
     '''A rather complex model which uses LSTMs to handle time dependencies.'''
-    def __init__(self, opt, hidden_units):
+    def __init__(self, opt, input_shape):
         super(RecurrentModel, self).__init__(opt)
-        self.hidden_units = hidden_units
-        self._build()
+        self.hidden_units = opt['hidden_units']
+        self._build(input_shape)
         self.type='Recurrent'
 
 
-    def _build(self):
-        self.input_layer = torch.nn.LSTM(input_size=28, hidden_size=self.hidden_units, num_layers=1)
+    def _build(self, input_shape):
+        self.input_layer = torch.nn.LSTM(input_size=input_shape[0], hidden_size=self.hidden_units, num_layers=1)
         self.add_module('input', self.input_layer)
         self.dropout_layer = torch.nn.Dropout(self.opt['dropout'])
         self.add_module('dropout', self.dropout_layer)
@@ -23,11 +23,21 @@ class RecurrentModel(Model):
         self.softmax = torch.nn.Softmax()
         self.add_module('activation', self.softmax)
 
+        self.hidden_states = Variable(torch.zeros(1, 1, self.hidden_units))
+        self.cells_states = Variable(torch.zeros(1, 1, self.hidden_units))
         self._build_criterion()
         self._build_optimizer()
 
+    def _init_state(self):
+        if self.opt['init_type'] == "zero":
+            return Variable(torch.zeros(1, 1, self.hidden_units))
+        elif self.opt['init_type'] == "gaussian":
+            return Variable(torch.normal(means=torch.zeros(1, 1, self.hidden_units)))
+        else:
+            raise NotImplementedError("This init type has not been implemented yet.")
+
     def forward(self, x, train=True):
-        x, (h, c) = self.input_layer(x)
+        x, (self.h, self.c) = self.input_layer(x, (self._init_state(), self._init_state()))
         x = x[-1].view(-1)
         if train:
             x = self.dropout_layer(x)
