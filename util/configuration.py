@@ -4,6 +4,7 @@ from models.linear_model import LinearModel
 from models.recurrent_model import RecurrentModel
 from models.sequential_autopick import SequentialAutopick
 from models.convolutional_model import ConvolutionalModel
+from models.attentional_recurrent_model import AttentionalRecurrentModel
 import logging
 import sys
 
@@ -17,7 +18,7 @@ def get_args(parser):
     parser.add_argument('--exp_name', help="name of the experience and the log file. This will not overwrite previous logs with the same name.", default='normalized_only', type=str)
 
     #General arguments
-    parser.add_argument('--model', help="Type of model to use.", default='Linear', type=str)
+    parser.add_argument('--model', help="Type of model to use.", default='AttentionRecurrent', type=str)
 
     #Model arguments
     parser.add_argument('--epoch_number', help="Number of epoch to train.", default=400, type=int)
@@ -28,7 +29,7 @@ def get_args(parser):
     parser.add_argument('--momentum', help="Momentum used for the SGD optimizer", default=0.9, type=float)
     parser.add_argument('--criterion', help="Criterion used to evaluate the model.", default='CrossEntropy', type=str)
     parser.add_argument('--hidden_units', help="Number of hidden units used in the model.", default=20, type=int)
-    parser.add_argument('--init_type', help="The type of initalization applied to the hidden states and cells (recurrent model).", default="gaussian", type=str)
+    parser.add_argument('--init_type', help="The type of initalization applied to the hidden states and cells (recurrent model).", default="uniform", type=str)
 
     #Data pre processing arguments
     parser.add_argument('--remove_DC_level', help="Remove the DC bias over each channel in all the datasets.", default=True, type=bool)
@@ -52,6 +53,9 @@ def get_model(opt, dataset):
     elif opt['model']=='Recurrent':
         rec = RecurrentModel(opt, dataset.input_size())
         return rec
+    elif opt['model']=='AttentionRecurrent':
+        arec = AttentionalRecurrentModel(opt, dataset.input_size())
+        return arec
     elif opt['model']=='Convolutional':
         convo = ConvolutionalModel(opt, dataset.input_size())
         return convo

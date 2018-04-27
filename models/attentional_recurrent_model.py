@@ -4,18 +4,24 @@ from models.model import Model
 import numpy as np
 
 
-class RecurrentModel(Model):
+class AttentionalRecurrentModel(Model):
     '''A rather complex model which uses LSTMs to handle time dependencies.'''
     def __init__(self, opt, input_shape):
-        super(RecurrentModel, self).__init__(opt)
+        super(AttentionalRecurrentModel, self).__init__(opt)
         self.hidden_units = opt['hidden_units']
         self._build(input_shape)
-        self.type='Recurrent'
+        self.type='AttentionRecurrent'
 
 
     def _build(self, input_shape):
         self.input_layer = torch.nn.LSTM(input_size=input_shape[0], hidden_size=self.hidden_units, num_layers=1)
         self.add_module('input', self.input_layer)
+
+        self.attention = torch.nn.Linear(self.hidden_units, self.hidden_units)
+        self.add_module('attention', self.attention)
+        self.tanh = torch.nn.Tanh()
+        self.vt = Variable(torch.zeros(self.hidden_units).uniform_(0, 1))
+
         self.dropout_layer = torch.nn.Dropout(self.opt['dropout'])
         self.add_module('dropout', self.dropout_layer)
         self.decoder = torch.nn.Linear(self.hidden_units, 2, bias=True)
@@ -39,7 +45,12 @@ class RecurrentModel(Model):
             raise NotImplementedError("This init type has not been implemented yet.")
 
     def forward(self, x, train=True):
+        print(x)
         x, (self.h, self.c) = self.input_layer(x, (self._init_state(), self._init_state()))
+        print(self.h)
+        jac = self.attention(self.h)
+        print(jac)
+        exit()
         x = x[-1].view(-1)
         if train:
             x = self.dropout_layer(x)

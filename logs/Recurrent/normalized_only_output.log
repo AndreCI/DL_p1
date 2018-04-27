@@ -342,3 +342,1569 @@
 04/27/2018 01:12:48 Train loss: 0.662071, test loss: 0.674979
 04/27/2018 01:12:48 Train accuracy: 0.642405, test accuracy 0.550000
 04/27/2018 01:12:48 [Epoch 64/400 done in 0.90 s. Approximatly 300.74s. remaining.]
+04/27/2018 01:12:48 Train loss: 0.662483, test loss: 0.674889
+04/27/2018 01:12:48 Train accuracy: 0.632911, test accuracy 0.550000
+04/27/2018 01:12:48 [Epoch 65/400 done in 0.92 s. Approximatly 307.35s. remaining.]
+04/27/2018 01:12:49 Train loss: 0.660411, test loss: 0.674791
+04/27/2018 01:12:49 Train accuracy: 0.651899, test accuracy 0.550000
+04/27/2018 01:12:49 [Epoch 66/400 done in 0.87 s. Approximatly 291.44s. remaining.]
+04/27/2018 01:12:50 Train loss: 0.662129, test loss: 0.674852
+04/27/2018 01:12:50 Train accuracy: 0.632911, test accuracy 0.550000
+04/27/2018 01:12:50 [Epoch 67/400 done in 0.89 s. Approximatly 295.61s. remaining.]
+04/27/2018 01:12:51 Train loss: 0.663949, test loss: 0.674714
+04/27/2018 01:12:51 Train accuracy: 0.639241, test accuracy 0.550000
+04/27/2018 01:12:51 [Epoch 68/400 done in 0.88 s. Approximatly 292.15s. remaining.]
+04/27/2018 01:12:52 Train loss: 0.665987, test loss: 0.674100
+04/27/2018 01:12:52 Train accuracy: 0.645570, test accuracy 0.550000
+04/27/2018 01:12:52 [Epoch 69/400 done in 0.85 s. Approximatly 282.38s. remaining.]
+04/27/2018 01:12:53 Train loss: 0.664085, test loss: 0.674354
+04/27/2018 01:12:53 Train accuracy: 0.642405, test accuracy 0.550000
+04/27/2018 01:12:53 [Epoch 70/400 done in 0.83 s. Approximatly 274.95s. remaining.]
+04/27/2018 01:12:54 Train loss: 0.662167, test loss: 0.674759
+04/27/2018 01:12:54 Train accuracy: 0.632911, test accuracy 0.550000
+04/27/2018 01:12:54 [Epoch 71/400 done in 0.90 s. Approximatly 295.87s. remaining.]
+04/27/2018 01:12:55 Train loss: 0.663771, test loss: 0.674210
+04/27/2018 01:12:55 Train accuracy: 0.629747, test accuracy 0.550000
+04/27/2018 01:12:55 [Epoch 72/400 done in 0.87 s. Approximatly 286.17s. remaining.]
+04/27/2018 01:12:55 Train loss: 0.667360, test loss: 0.674361
+04/27/2018 01:12:55 Train accuracy: 0.629747, test accuracy 0.550000
+04/27/2018 01:12:55 [Epoch 73/400 done in 0.85 s. Approximatly 279.07s. remaining.]
+04/27/2018 01:12:56 Train loss: 0.661031, test loss: 0.674272
+04/27/2018 01:12:56 Train accuracy: 0.632911, test accuracy 0.550000
+04/27/2018 01:12:56 [Epoch 74/400 done in 0.84 s. Approximatly 272.65s. remaining.]
+04/27/2018 01:12:57 Train loss: 0.662936, test loss: 0.673263
+04/27/2018 01:12:57 Train accuracy: 0.639241, test accuracy 0.550000
+04/27/2018 01:12:57 [Epoch 75/400 done in 0.84 s. Approximatly 273.29s. remaining.]
+04/27/2018 01:12:58 Train loss: 0.659097, test loss: 0.673828
+04/27/2018 01:12:58 Train accuracy: 0.670886, test accuracy 0.550000
+04/27/2018 01:12:58 [Epoch 76/400 done in 0.86 s. Approximatly 278.47s. remaining.]
+04/27/2018 01:12:59 Train loss: 0.660633, test loss: 0.674471
+04/27/2018 01:12:59 Train accuracy: 0.651899, test accuracy 0.550000
+04/27/2018 01:12:59 [Epoch 77/400 done in 0.89 s. Approximatly 288.87s. remaining.]
+04/27/2018 01:13:00 Train loss: 0.666438, test loss: 0.674060
+04/27/2018 01:13:00 Train accuracy: 0.629747, test accuracy 0.550000
+04/27/2018 01:13:00 [Epoch 78/400 done in 0.86 s. Approximatly 277.74s. remaining.]
+04/27/2018 01:13:01 Train loss: 0.666992, test loss: 0.673292
+04/27/2018 01:13:01 Train accuracy: 0.626582, test accuracy 0.550000
+04/27/2018 01:13:01 [Epoch 79/400 done in 0.88 s. Approximatly 281.34s. remaining.]
+04/27/2018 01:13:01 Train loss: 0.661171, test loss: 0.673029
+04/27/2018 01:13:01 Train accuracy: 0.655063, test accuracy 0.550000
+04/27/2018 01:13:01 [Epoch 80/400 done in 0.88 s. Approximatly 281.62s. remaining.]
+04/27/2018 01:13:02 Train loss: 0.660565, test loss: 0.673407
+04/27/2018 01:13:02 Train accuracy: 0.651899, test accuracy 0.550000
+04/27/2018 01:13:02 [Epoch 81/400 done in 0.88 s. Approximatly 280.52s. remaining.]
+04/27/2018 01:13:03 Train loss: 0.655761, test loss: 0.672729
+04/27/2018 01:13:03 Train accuracy: 0.645570, test accuracy 0.550000
+04/27/2018 01:13:03 [Epoch 82/400 done in 0.87 s. Approximatly 275.37s. remaining.]
+04/27/2018 01:13:04 Train loss: 0.660238, test loss: 0.673192
+04/27/2018 01:13:04 Train accuracy: 0.655063, test accuracy 0.550000
+04/27/2018 01:13:04 [Epoch 83/400 done in 0.89 s. Approximatly 283.19s. remaining.]
+04/27/2018 01:13:05 Train loss: 0.654409, test loss: 0.673540
+04/27/2018 01:13:05 Train accuracy: 0.642405, test accuracy 0.550000
+04/27/2018 01:13:05 [Epoch 84/400 done in 0.88 s. Approximatly 277.67s. remaining.]
+04/27/2018 01:13:06 Train loss: 0.655031, test loss: 0.672195
+04/27/2018 01:13:06 Train accuracy: 0.626582, test accuracy 0.550000
+04/27/2018 01:13:06 [Epoch 85/400 done in 0.90 s. Approximatly 283.54s. remaining.]
+04/27/2018 01:13:07 Train loss: 0.662903, test loss: 0.672534
+04/27/2018 01:13:07 Train accuracy: 0.648734, test accuracy 0.560000
+04/27/2018 01:13:07 [Epoch 86/400 done in 0.88 s. Approximatly 276.69s. remaining.]
+04/27/2018 01:13:08 Train loss: 0.659004, test loss: 0.672638
+04/27/2018 01:13:08 Train accuracy: 0.648734, test accuracy 0.550000
+04/27/2018 01:13:08 [Epoch 87/400 done in 0.87 s. Approximatly 271.74s. remaining.]
+04/27/2018 01:13:08 Train loss: 0.655820, test loss: 0.672716
+04/27/2018 01:13:08 Train accuracy: 0.651899, test accuracy 0.550000
+04/27/2018 01:13:08 [Epoch 88/400 done in 0.81 s. Approximatly 252.90s. remaining.]
+04/27/2018 01:13:09 Train loss: 0.659535, test loss: 0.672461
+04/27/2018 01:13:09 Train accuracy: 0.636076, test accuracy 0.550000
+04/27/2018 01:13:09 [Epoch 89/400 done in 0.87 s. Approximatly 269.52s. remaining.]
+04/27/2018 01:13:10 Train loss: 0.662694, test loss: 0.673506
+04/27/2018 01:13:10 Train accuracy: 0.632911, test accuracy 0.550000
+04/27/2018 01:13:10 [Epoch 90/400 done in 0.89 s. Approximatly 275.99s. remaining.]
+04/27/2018 01:13:11 Train loss: 0.660470, test loss: 0.672204
+04/27/2018 01:13:11 Train accuracy: 0.645570, test accuracy 0.560000
+04/27/2018 01:13:11 [Epoch 91/400 done in 0.88 s. Approximatly 271.43s. remaining.]
+04/27/2018 01:13:12 Train loss: 0.657203, test loss: 0.671944
+04/27/2018 01:13:12 Train accuracy: 0.617089, test accuracy 0.560000
+04/27/2018 01:13:12 [Epoch 92/400 done in 0.88 s. Approximatly 270.85s. remaining.]
+04/27/2018 01:13:13 Train loss: 0.657769, test loss: 0.672154
+04/27/2018 01:13:13 Train accuracy: 0.642405, test accuracy 0.560000
+04/27/2018 01:13:13 [Epoch 93/400 done in 0.87 s. Approximatly 266.45s. remaining.]
+04/27/2018 01:13:14 Train loss: 0.658355, test loss: 0.672404
+04/27/2018 01:13:14 Train accuracy: 0.636076, test accuracy 0.550000
+04/27/2018 01:13:14 [Epoch 94/400 done in 1.01 s. Approximatly 308.00s. remaining.]
+04/27/2018 01:13:15 Train loss: 0.660167, test loss: 0.672502
+04/27/2018 01:13:15 Train accuracy: 0.645570, test accuracy 0.560000
+04/27/2018 01:13:15 [Epoch 95/400 done in 0.85 s. Approximatly 259.50s. remaining.]
+04/27/2018 01:13:16 Train loss: 0.653539, test loss: 0.671664
+04/27/2018 01:13:16 Train accuracy: 0.620253, test accuracy 0.560000
+04/27/2018 01:13:16 [Epoch 96/400 done in 0.88 s. Approximatly 268.56s. remaining.]
+04/27/2018 01:13:16 Train loss: 0.656423, test loss: 0.673040
+04/27/2018 01:13:16 Train accuracy: 0.632911, test accuracy 0.560000
+04/27/2018 01:13:16 [Epoch 97/400 done in 0.87 s. Approximatly 263.77s. remaining.]
+04/27/2018 01:13:17 Train loss: 0.657623, test loss: 0.672484
+04/27/2018 01:13:17 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:13:17 [Epoch 98/400 done in 0.88 s. Approximatly 266.70s. remaining.]
+04/27/2018 01:13:18 Train loss: 0.654401, test loss: 0.673171
+04/27/2018 01:13:18 Train accuracy: 0.645570, test accuracy 0.550000
+04/27/2018 01:13:18 [Epoch 99/400 done in 0.89 s. Approximatly 266.74s. remaining.]
+04/27/2018 01:13:19 Train loss: 0.658335, test loss: 0.671738
+04/27/2018 01:13:19 Train accuracy: 0.642405, test accuracy 0.560000
+04/27/2018 01:13:19 [Epoch 100/400 done in 0.91 s. Approximatly 272.08s. remaining.]
+04/27/2018 01:13:20 Train loss: 0.659275, test loss: 0.671209
+04/27/2018 01:13:20 Train accuracy: 0.632911, test accuracy 0.560000
+04/27/2018 01:13:20 [Epoch 101/400 done in 0.88 s. Approximatly 262.35s. remaining.]
+04/27/2018 01:13:21 Train loss: 0.653219, test loss: 0.671662
+04/27/2018 01:13:21 Train accuracy: 0.645570, test accuracy 0.560000
+04/27/2018 01:13:21 [Epoch 102/400 done in 0.88 s. Approximatly 262.67s. remaining.]
+04/27/2018 01:13:22 Train loss: 0.650833, test loss: 0.672072
+04/27/2018 01:13:22 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:13:22 [Epoch 103/400 done in 0.91 s. Approximatly 270.48s. remaining.]
+04/27/2018 01:13:23 Train loss: 0.655628, test loss: 0.671694
+04/27/2018 01:13:23 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:13:23 [Epoch 104/400 done in 0.86 s. Approximatly 255.84s. remaining.]
+04/27/2018 01:13:24 Train loss: 0.654731, test loss: 0.670943
+04/27/2018 01:13:24 Train accuracy: 0.648734, test accuracy 0.560000
+04/27/2018 01:13:24 [Epoch 105/400 done in 0.93 s. Approximatly 275.21s. remaining.]
+04/27/2018 01:13:24 Train loss: 0.658292, test loss: 0.670159
+04/27/2018 01:13:24 Train accuracy: 0.636076, test accuracy 0.560000
+04/27/2018 01:13:24 [Epoch 106/400 done in 0.87 s. Approximatly 256.84s. remaining.]
+04/27/2018 01:13:25 Train loss: 0.655328, test loss: 0.671190
+04/27/2018 01:13:25 Train accuracy: 0.645570, test accuracy 0.560000
+04/27/2018 01:13:25 [Epoch 107/400 done in 0.87 s. Approximatly 256.05s. remaining.]
+04/27/2018 01:13:26 Train loss: 0.649010, test loss: 0.671492
+04/27/2018 01:13:26 Train accuracy: 0.645570, test accuracy 0.560000
+04/27/2018 01:13:26 [Epoch 108/400 done in 0.88 s. Approximatly 257.25s. remaining.]
+04/27/2018 01:13:27 Train loss: 0.652834, test loss: 0.669756
+04/27/2018 01:13:27 Train accuracy: 0.623418, test accuracy 0.560000
+04/27/2018 01:13:27 [Epoch 109/400 done in 0.91 s. Approximatly 264.13s. remaining.]
+04/27/2018 01:13:28 Train loss: 0.661473, test loss: 0.670476
+04/27/2018 01:13:28 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:13:28 [Epoch 110/400 done in 0.88 s. Approximatly 255.35s. remaining.]
+04/27/2018 01:13:29 Train loss: 0.653359, test loss: 0.670944
+04/27/2018 01:13:29 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:13:29 [Epoch 111/400 done in 0.89 s. Approximatly 258.46s. remaining.]
+04/27/2018 01:13:30 Train loss: 0.656047, test loss: 0.669857
+04/27/2018 01:13:30 Train accuracy: 0.661392, test accuracy 0.560000
+04/27/2018 01:13:30 [Epoch 112/400 done in 0.94 s. Approximatly 269.63s. remaining.]
+04/27/2018 01:13:31 Train loss: 0.653250, test loss: 0.670037
+04/27/2018 01:13:31 Train accuracy: 0.648734, test accuracy 0.560000
+04/27/2018 01:13:31 [Epoch 113/400 done in 1.04 s. Approximatly 297.75s. remaining.]
+04/27/2018 01:13:32 Train loss: 0.654290, test loss: 0.669937
+04/27/2018 01:13:32 Train accuracy: 0.626582, test accuracy 0.560000
+04/27/2018 01:13:32 [Epoch 114/400 done in 1.02 s. Approximatly 293.01s. remaining.]
+04/27/2018 01:13:33 Train loss: 0.649994, test loss: 0.669886
+04/27/2018 01:13:33 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:13:33 [Epoch 115/400 done in 0.98 s. Approximatly 279.88s. remaining.]
+04/27/2018 01:13:34 Train loss: 0.649865, test loss: 0.670259
+04/27/2018 01:13:34 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:13:34 [Epoch 116/400 done in 0.89 s. Approximatly 252.49s. remaining.]
+04/27/2018 01:13:35 Train loss: 0.650139, test loss: 0.669592
+04/27/2018 01:13:35 Train accuracy: 0.651899, test accuracy 0.560000
+04/27/2018 01:13:35 [Epoch 117/400 done in 0.97 s. Approximatly 274.23s. remaining.]
+04/27/2018 01:13:36 Train loss: 0.650721, test loss: 0.669040
+04/27/2018 01:13:36 Train accuracy: 0.645570, test accuracy 0.570000
+04/27/2018 01:13:36 [Epoch 118/400 done in 0.96 s. Approximatly 270.91s. remaining.]
+04/27/2018 01:13:37 Train loss: 0.652116, test loss: 0.669508
+04/27/2018 01:13:37 Train accuracy: 0.642405, test accuracy 0.570000
+04/27/2018 01:13:37 [Epoch 119/400 done in 0.88 s. Approximatly 246.78s. remaining.]
+04/27/2018 01:13:37 Train loss: 0.652097, test loss: 0.670420
+04/27/2018 01:13:37 Train accuracy: 0.655063, test accuracy 0.560000
+04/27/2018 01:13:37 [Epoch 120/400 done in 0.88 s. Approximatly 246.24s. remaining.]
+04/27/2018 01:13:38 Train loss: 0.652834, test loss: 0.668258
+04/27/2018 01:13:38 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:13:38 [Epoch 121/400 done in 0.93 s. Approximatly 259.28s. remaining.]
+04/27/2018 01:13:39 Train loss: 0.652164, test loss: 0.669736
+04/27/2018 01:13:39 Train accuracy: 0.664557, test accuracy 0.560000
+04/27/2018 01:13:39 [Epoch 122/400 done in 0.90 s. Approximatly 250.91s. remaining.]
+04/27/2018 01:13:40 Train loss: 0.655417, test loss: 0.670394
+04/27/2018 01:13:40 Train accuracy: 0.617089, test accuracy 0.560000
+04/27/2018 01:13:40 [Epoch 123/400 done in 0.89 s. Approximatly 246.90s. remaining.]
+04/27/2018 01:13:41 Train loss: 0.648679, test loss: 0.667145
+04/27/2018 01:13:41 Train accuracy: 0.639241, test accuracy 0.570000
+04/27/2018 01:13:41 [Epoch 124/400 done in 0.93 s. Approximatly 255.90s. remaining.]
+04/27/2018 01:13:42 Train loss: 0.652283, test loss: 0.667933
+04/27/2018 01:13:42 Train accuracy: 0.636076, test accuracy 0.570000
+04/27/2018 01:13:42 [Epoch 125/400 done in 0.90 s. Approximatly 246.43s. remaining.]
+04/27/2018 01:13:43 Train loss: 0.651834, test loss: 0.668967
+04/27/2018 01:13:43 Train accuracy: 0.658228, test accuracy 0.570000
+04/27/2018 01:13:43 [Epoch 126/400 done in 0.89 s. Approximatly 242.89s. remaining.]
+04/27/2018 01:13:44 Train loss: 0.650969, test loss: 0.668583
+04/27/2018 01:13:44 Train accuracy: 0.645570, test accuracy 0.570000
+04/27/2018 01:13:44 [Epoch 127/400 done in 0.91 s. Approximatly 248.10s. remaining.]
+04/27/2018 01:13:45 Train loss: 0.650322, test loss: 0.666569
+04/27/2018 01:13:45 Train accuracy: 0.645570, test accuracy 0.560000
+04/27/2018 01:13:45 [Epoch 128/400 done in 0.91 s. Approximatly 248.75s. remaining.]
+04/27/2018 01:13:46 Train loss: 0.651841, test loss: 0.668485
+04/27/2018 01:13:46 Train accuracy: 0.636076, test accuracy 0.570000
+04/27/2018 01:13:46 [Epoch 129/400 done in 1.62 s. Approximatly 439.91s. remaining.]
+04/27/2018 01:13:48 Train loss: 0.646863, test loss: 0.668626
+04/27/2018 01:13:48 Train accuracy: 0.670886, test accuracy 0.560000
+04/27/2018 01:13:48 [Epoch 130/400 done in 1.53 s. Approximatly 412.80s. remaining.]
+04/27/2018 01:13:49 Train loss: 0.649904, test loss: 0.666929
+04/27/2018 01:13:49 Train accuracy: 0.642405, test accuracy 0.570000
+04/27/2018 01:13:49 [Epoch 131/400 done in 1.55 s. Approximatly 415.82s. remaining.]
+04/27/2018 01:13:51 Train loss: 0.648014, test loss: 0.667281
+04/27/2018 01:13:51 Train accuracy: 0.648734, test accuracy 0.560000
+04/27/2018 01:13:51 [Epoch 132/400 done in 1.65 s. Approximatly 441.76s. remaining.]
+04/27/2018 01:13:52 Train loss: 0.646637, test loss: 0.669059
+04/27/2018 01:13:52 Train accuracy: 0.648734, test accuracy 0.570000
+04/27/2018 01:13:52 [Epoch 133/400 done in 0.81 s. Approximatly 215.47s. remaining.]
+04/27/2018 01:13:53 Train loss: 0.651040, test loss: 0.668356
+04/27/2018 01:13:53 Train accuracy: 0.658228, test accuracy 0.570000
+04/27/2018 01:13:53 [Epoch 134/400 done in 0.77 s. Approximatly 204.03s. remaining.]
+04/27/2018 01:13:53 Train loss: 0.646513, test loss: 0.665583
+04/27/2018 01:13:53 Train accuracy: 0.677215, test accuracy 0.570000
+04/27/2018 01:13:53 [Epoch 135/400 done in 0.81 s. Approximatly 213.41s. remaining.]
+04/27/2018 01:13:54 Train loss: 0.649609, test loss: 0.668009
+04/27/2018 01:13:54 Train accuracy: 0.648734, test accuracy 0.570000
+04/27/2018 01:13:54 [Epoch 136/400 done in 0.93 s. Approximatly 246.44s. remaining.]
+04/27/2018 01:13:55 Train loss: 0.643450, test loss: 0.666935
+04/27/2018 01:13:55 Train accuracy: 0.664557, test accuracy 0.570000
+04/27/2018 01:13:55 [Epoch 137/400 done in 0.91 s. Approximatly 239.96s. remaining.]
+04/27/2018 01:13:56 Train loss: 0.652610, test loss: 0.667849
+04/27/2018 01:13:56 Train accuracy: 0.655063, test accuracy 0.570000
+04/27/2018 01:13:56 [Epoch 138/400 done in 0.93 s. Approximatly 243.15s. remaining.]
+04/27/2018 01:13:57 Train loss: 0.640432, test loss: 0.666862
+04/27/2018 01:13:57 Train accuracy: 0.658228, test accuracy 0.570000
+04/27/2018 01:13:57 [Epoch 139/400 done in 0.91 s. Approximatly 236.97s. remaining.]
+04/27/2018 01:13:58 Train loss: 0.649564, test loss: 0.666623
+04/27/2018 01:13:58 Train accuracy: 0.651899, test accuracy 0.570000
+04/27/2018 01:13:58 [Epoch 140/400 done in 0.90 s. Approximatly 234.13s. remaining.]
+04/27/2018 01:13:59 Train loss: 0.646024, test loss: 0.666533
+04/27/2018 01:13:59 Train accuracy: 0.648734, test accuracy 0.570000
+04/27/2018 01:13:59 [Epoch 141/400 done in 0.93 s. Approximatly 239.67s. remaining.]
+04/27/2018 01:14:00 Train loss: 0.648037, test loss: 0.667112
+04/27/2018 01:14:00 Train accuracy: 0.658228, test accuracy 0.570000
+04/27/2018 01:14:00 [Epoch 142/400 done in 0.91 s. Approximatly 236.00s. remaining.]
+04/27/2018 01:14:01 Train loss: 0.646363, test loss: 0.666030
+04/27/2018 01:14:01 Train accuracy: 0.661392, test accuracy 0.580000
+04/27/2018 01:14:01 [Epoch 143/400 done in 0.91 s. Approximatly 235.02s. remaining.]
+04/27/2018 01:14:02 Train loss: 0.651923, test loss: 0.665610
+04/27/2018 01:14:02 Train accuracy: 0.648734, test accuracy 0.570000
+04/27/2018 01:14:02 [Epoch 144/400 done in 0.82 s. Approximatly 211.19s. remaining.]
+04/27/2018 01:14:02 Train loss: 0.649052, test loss: 0.665023
+04/27/2018 01:14:02 Train accuracy: 0.651899, test accuracy 0.580000
+04/27/2018 01:14:02 [Epoch 145/400 done in 0.75 s. Approximatly 191.94s. remaining.]
+04/27/2018 01:14:03 Train loss: 0.637835, test loss: 0.666390
+04/27/2018 01:14:03 Train accuracy: 0.674051, test accuracy 0.570000
+04/27/2018 01:14:03 [Epoch 146/400 done in 0.76 s. Approximatly 193.98s. remaining.]
+04/27/2018 01:14:04 Train loss: 0.642891, test loss: 0.667164
+04/27/2018 01:14:04 Train accuracy: 0.667722, test accuracy 0.560000
+04/27/2018 01:14:04 [Epoch 147/400 done in 0.81 s. Approximatly 204.33s. remaining.]
+04/27/2018 01:14:05 Train loss: 0.649729, test loss: 0.664049
+04/27/2018 01:14:05 Train accuracy: 0.651899, test accuracy 0.570000
+04/27/2018 01:14:05 [Epoch 148/400 done in 0.77 s. Approximatly 193.66s. remaining.]
+04/27/2018 01:14:05 Train loss: 0.645205, test loss: 0.664562
+04/27/2018 01:14:05 Train accuracy: 0.661392, test accuracy 0.570000
+04/27/2018 01:14:05 [Epoch 149/400 done in 0.76 s. Approximatly 191.69s. remaining.]
+04/27/2018 01:14:06 Train loss: 0.646317, test loss: 0.664745
+04/27/2018 01:14:06 Train accuracy: 0.664557, test accuracy 0.570000
+04/27/2018 01:14:06 [Epoch 150/400 done in 0.92 s. Approximatly 229.11s. remaining.]
+04/27/2018 01:14:07 Train loss: 0.645119, test loss: 0.667592
+04/27/2018 01:14:07 Train accuracy: 0.667722, test accuracy 0.570000
+04/27/2018 01:14:07 [Epoch 151/400 done in 0.93 s. Approximatly 230.75s. remaining.]
+04/27/2018 01:14:08 Train loss: 0.645436, test loss: 0.666292
+04/27/2018 01:14:08 Train accuracy: 0.645570, test accuracy 0.570000
+04/27/2018 01:14:08 [Epoch 152/400 done in 0.92 s. Approximatly 228.75s. remaining.]
+04/27/2018 01:14:09 Train loss: 0.642811, test loss: 0.667454
+04/27/2018 01:14:09 Train accuracy: 0.674051, test accuracy 0.580000
+04/27/2018 01:14:09 [Epoch 153/400 done in 0.94 s. Approximatly 232.91s. remaining.]
+04/27/2018 01:14:10 Train loss: 0.641250, test loss: 0.664014
+04/27/2018 01:14:10 Train accuracy: 0.664557, test accuracy 0.580000
+04/27/2018 01:14:10 [Epoch 154/400 done in 0.92 s. Approximatly 225.97s. remaining.]
+04/27/2018 01:14:11 Train loss: 0.638944, test loss: 0.664854
+04/27/2018 01:14:11 Train accuracy: 0.651899, test accuracy 0.560000
+04/27/2018 01:14:11 [Epoch 155/400 done in 0.95 s. Approximatly 233.35s. remaining.]
+04/27/2018 01:14:12 Train loss: 0.644216, test loss: 0.666015
+04/27/2018 01:14:12 Train accuracy: 0.655063, test accuracy 0.570000
+04/27/2018 01:14:12 [Epoch 156/400 done in 0.92 s. Approximatly 224.52s. remaining.]
+04/27/2018 01:14:13 Train loss: 0.642461, test loss: 0.665449
+04/27/2018 01:14:13 Train accuracy: 0.658228, test accuracy 0.570000
+04/27/2018 01:14:13 [Epoch 157/400 done in 0.94 s. Approximatly 228.74s. remaining.]
+04/27/2018 01:14:14 Train loss: 0.644996, test loss: 0.664378
+04/27/2018 01:14:14 Train accuracy: 0.648734, test accuracy 0.570000
+04/27/2018 01:14:14 [Epoch 158/400 done in 0.98 s. Approximatly 237.77s. remaining.]
+04/27/2018 01:14:15 Train loss: 0.638363, test loss: 0.665932
+04/27/2018 01:14:15 Train accuracy: 0.651899, test accuracy 0.580000
+04/27/2018 01:14:15 [Epoch 159/400 done in 0.92 s. Approximatly 222.52s. remaining.]
+04/27/2018 01:14:16 Train loss: 0.645758, test loss: 0.665021
+04/27/2018 01:14:16 Train accuracy: 0.667722, test accuracy 0.580000
+04/27/2018 01:14:16 [Epoch 160/400 done in 0.92 s. Approximatly 220.60s. remaining.]
+04/27/2018 01:14:17 Train loss: 0.644426, test loss: 0.663343
+04/27/2018 01:14:17 Train accuracy: 0.661392, test accuracy 0.560000
+04/27/2018 01:14:17 [Epoch 161/400 done in 0.92 s. Approximatly 218.95s. remaining.]
+04/27/2018 01:14:18 Train loss: 0.636625, test loss: 0.665943
+04/27/2018 01:14:18 Train accuracy: 0.661392, test accuracy 0.570000
+04/27/2018 01:14:18 [Epoch 162/400 done in 0.91 s. Approximatly 217.41s. remaining.]
+04/27/2018 01:14:18 Train loss: 0.645083, test loss: 0.664678
+04/27/2018 01:14:18 Train accuracy: 0.670886, test accuracy 0.570000
+04/27/2018 01:14:18 [Epoch 163/400 done in 0.94 s. Approximatly 221.91s. remaining.]
+04/27/2018 01:14:19 Train loss: 0.642179, test loss: 0.666559
+04/27/2018 01:14:19 Train accuracy: 0.670886, test accuracy 0.560000
+04/27/2018 01:14:19 [Epoch 164/400 done in 0.92 s. Approximatly 216.78s. remaining.]
+04/27/2018 01:14:20 Train loss: 0.640624, test loss: 0.663664
+04/27/2018 01:14:20 Train accuracy: 0.674051, test accuracy 0.560000
+04/27/2018 01:14:20 [Epoch 165/400 done in 0.92 s. Approximatly 217.32s. remaining.]
+04/27/2018 01:14:21 Train loss: 0.641240, test loss: 0.663017
+04/27/2018 01:14:21 Train accuracy: 0.677215, test accuracy 0.560000
+04/27/2018 01:14:21 [Epoch 166/400 done in 0.93 s. Approximatly 216.62s. remaining.]
+04/27/2018 01:14:22 Train loss: 0.644653, test loss: 0.661587
+04/27/2018 01:14:22 Train accuracy: 0.655063, test accuracy 0.570000
+04/27/2018 01:14:22 [Epoch 167/400 done in 0.91 s. Approximatly 211.28s. remaining.]
+04/27/2018 01:14:23 Train loss: 0.638194, test loss: 0.662651
+04/27/2018 01:14:23 Train accuracy: 0.670886, test accuracy 0.590000
+04/27/2018 01:14:23 [Epoch 168/400 done in 0.90 s. Approximatly 208.27s. remaining.]
+04/27/2018 01:14:24 Train loss: 0.638198, test loss: 0.664263
+04/27/2018 01:14:24 Train accuracy: 0.680380, test accuracy 0.570000
+04/27/2018 01:14:24 [Epoch 169/400 done in 0.94 s. Approximatly 216.45s. remaining.]
+04/27/2018 01:14:25 Train loss: 0.646219, test loss: 0.663498
+04/27/2018 01:14:25 Train accuracy: 0.655063, test accuracy 0.570000
+04/27/2018 01:14:25 [Epoch 170/400 done in 0.93 s. Approximatly 213.66s. remaining.]
+04/27/2018 01:14:26 Train loss: 0.638672, test loss: 0.662301
+04/27/2018 01:14:26 Train accuracy: 0.680380, test accuracy 0.570000
+04/27/2018 01:14:26 [Epoch 171/400 done in 0.92 s. Approximatly 210.37s. remaining.]
+04/27/2018 01:14:27 Train loss: 0.636270, test loss: 0.662300
+04/27/2018 01:14:27 Train accuracy: 0.674051, test accuracy 0.570000
+04/27/2018 01:14:27 [Epoch 172/400 done in 0.92 s. Approximatly 208.87s. remaining.]
+04/27/2018 01:14:28 Train loss: 0.637262, test loss: 0.662704
+04/27/2018 01:14:28 Train accuracy: 0.693038, test accuracy 0.560000
+04/27/2018 01:14:28 [Epoch 173/400 done in 0.90 s. Approximatly 204.11s. remaining.]
+04/27/2018 01:14:29 Train loss: 0.635672, test loss: 0.662525
+04/27/2018 01:14:29 Train accuracy: 0.670886, test accuracy 0.560000
+04/27/2018 01:14:29 [Epoch 174/400 done in 0.98 s. Approximatly 222.20s. remaining.]
+04/27/2018 01:14:30 Train loss: 0.644636, test loss: 0.662476
+04/27/2018 01:14:30 Train accuracy: 0.651899, test accuracy 0.560000
+04/27/2018 01:14:30 [Epoch 175/400 done in 1.04 s. Approximatly 234.41s. remaining.]
+04/27/2018 01:14:31 Train loss: 0.636937, test loss: 0.663861
+04/27/2018 01:14:31 Train accuracy: 0.680380, test accuracy 0.590000
+04/27/2018 01:14:31 [Epoch 176/400 done in 1.12 s. Approximatly 250.73s. remaining.]
+04/27/2018 01:14:32 Train loss: 0.644406, test loss: 0.662670
+04/27/2018 01:14:32 Train accuracy: 0.664557, test accuracy 0.600000
+04/27/2018 01:14:32 [Epoch 177/400 done in 0.86 s. Approximatly 191.98s. remaining.]
+04/27/2018 01:14:33 Train loss: 0.634976, test loss: 0.661788
+04/27/2018 01:14:33 Train accuracy: 0.683544, test accuracy 0.580000
+04/27/2018 01:14:33 [Epoch 178/400 done in 0.90 s. Approximatly 199.54s. remaining.]
+04/27/2018 01:14:34 Train loss: 0.639290, test loss: 0.659832
+04/27/2018 01:14:34 Train accuracy: 0.670886, test accuracy 0.590000
+04/27/2018 01:14:34 [Epoch 179/400 done in 0.98 s. Approximatly 216.97s. remaining.]
+04/27/2018 01:14:35 Train loss: 0.645426, test loss: 0.662356
+04/27/2018 01:14:35 Train accuracy: 0.658228, test accuracy 0.570000
+04/27/2018 01:14:35 [Epoch 180/400 done in 0.95 s. Approximatly 208.86s. remaining.]
+04/27/2018 01:14:35 Train loss: 0.637719, test loss: 0.661220
+04/27/2018 01:14:36 Train accuracy: 0.680380, test accuracy 0.570000
+04/27/2018 01:14:36 [Epoch 181/400 done in 1.00 s. Approximatly 218.20s. remaining.]
+04/27/2018 01:14:36 Train loss: 0.638507, test loss: 0.660587
+04/27/2018 01:14:36 Train accuracy: 0.645570, test accuracy 0.570000
+04/27/2018 01:14:37 [Epoch 182/400 done in 0.99 s. Approximatly 216.77s. remaining.]
+04/27/2018 01:14:38 Train loss: 0.636606, test loss: 0.660136
+04/27/2018 01:14:38 Train accuracy: 0.661392, test accuracy 0.590000
+04/27/2018 01:14:38 [Epoch 183/400 done in 1.05 s. Approximatly 227.54s. remaining.]
+04/27/2018 01:28:26 [Program starts.]
+04/27/2018 01:28:26 [Arg used:][{'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'model': 'Recurrent'}, {'optimizer': 'Adagrad'}, {'exp_name': 'normalized_only'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'hidden_units': 20}, {'last_ms': 100}, {'init_type': 'uniform'}, {'epoch_number': 400}, {'remove_DC_level': True}]
+04/27/2018 01:28:27 [Data loaded.]
+04/27/2018 01:28:27 [Model build.]
+04/27/2018 01:28:27 Train loss: 0.693962, test loss: 0.690707
+04/27/2018 01:28:27 Train accuracy: 0.496835, test accuracy 0.560000
+04/27/2018 01:28:27 [Epoch 0/400 done in 0.84 s. Approximatly 335.86s. remaining.]
+04/27/2018 01:28:28 Train loss: 0.690503, test loss: 0.689844
+04/27/2018 01:28:28 Train accuracy: 0.515823, test accuracy 0.540000
+04/27/2018 01:28:28 [Epoch 1/400 done in 0.83 s. Approximatly 332.76s. remaining.]
+04/27/2018 01:28:29 Train loss: 0.689934, test loss: 0.689250
+04/27/2018 01:28:29 Train accuracy: 0.522152, test accuracy 0.530000
+04/27/2018 01:28:29 [Epoch 2/400 done in 0.84 s. Approximatly 334.60s. remaining.]
+04/27/2018 01:28:30 Train loss: 0.692384, test loss: 0.688752
+04/27/2018 01:28:30 Train accuracy: 0.534810, test accuracy 0.530000
+04/27/2018 01:28:30 [Epoch 3/400 done in 0.79 s. Approximatly 311.97s. remaining.]
+04/27/2018 01:28:31 Train loss: 0.686782, test loss: 0.688307
+04/27/2018 01:28:31 Train accuracy: 0.575949, test accuracy 0.570000
+04/27/2018 01:28:31 [Epoch 4/400 done in 0.86 s. Approximatly 338.90s. remaining.]
+04/27/2018 01:28:32 Train loss: 0.688387, test loss: 0.687921
+04/27/2018 01:28:32 Train accuracy: 0.541139, test accuracy 0.570000
+04/27/2018 01:28:32 [Epoch 5/400 done in 0.80 s. Approximatly 317.18s. remaining.]
+04/27/2018 01:28:32 Train loss: 0.685697, test loss: 0.687532
+04/27/2018 01:28:32 Train accuracy: 0.585443, test accuracy 0.560000
+04/27/2018 01:28:32 [Epoch 6/400 done in 0.74 s. Approximatly 291.32s. remaining.]
+04/27/2018 01:28:33 Train loss: 0.686580, test loss: 0.687235
+04/27/2018 01:28:33 Train accuracy: 0.575949, test accuracy 0.570000
+04/27/2018 01:28:33 [Epoch 7/400 done in 0.74 s. Approximatly 291.47s. remaining.]
+04/27/2018 01:28:34 Train loss: 0.687329, test loss: 0.686914
+04/27/2018 01:28:34 Train accuracy: 0.566456, test accuracy 0.570000
+04/27/2018 01:28:34 [Epoch 8/400 done in 0.78 s. Approximatly 306.81s. remaining.]
+04/27/2018 01:28:35 Train loss: 0.685470, test loss: 0.686656
+04/27/2018 01:28:35 Train accuracy: 0.591772, test accuracy 0.560000
+04/27/2018 01:28:35 [Epoch 9/400 done in 0.87 s. Approximatly 340.50s. remaining.]
+04/27/2018 01:28:36 Train loss: 0.683103, test loss: 0.686334
+04/27/2018 01:28:36 Train accuracy: 0.613924, test accuracy 0.560000
+04/27/2018 01:28:36 [Epoch 10/400 done in 1.20 s. Approximatly 466.29s. remaining.]
+04/27/2018 01:28:37 Train loss: 0.687341, test loss: 0.686108
+04/27/2018 01:28:37 Train accuracy: 0.556962, test accuracy 0.590000
+04/27/2018 01:28:37 [Epoch 11/400 done in 0.81 s. Approximatly 313.64s. remaining.]
+04/27/2018 01:28:38 Train loss: 0.685516, test loss: 0.685864
+04/27/2018 01:28:38 Train accuracy: 0.575949, test accuracy 0.590000
+04/27/2018 01:28:38 [Epoch 12/400 done in 0.76 s. Approximatly 295.80s. remaining.]
+04/27/2018 01:28:38 Train loss: 0.681965, test loss: 0.685659
+04/27/2018 01:28:38 Train accuracy: 0.582278, test accuracy 0.590000
+04/27/2018 01:28:38 [Epoch 13/400 done in 0.85 s. Approximatly 330.86s. remaining.]
+04/27/2018 01:28:40 Train loss: 0.682178, test loss: 0.685427
+04/27/2018 01:28:40 Train accuracy: 0.575949, test accuracy 0.590000
+04/27/2018 01:28:40 [Epoch 14/400 done in 1.49 s. Approximatly 574.59s. remaining.]
+04/27/2018 01:28:41 Train loss: 0.686192, test loss: 0.685233
+04/27/2018 01:28:41 Train accuracy: 0.591772, test accuracy 0.590000
+04/27/2018 01:28:41 [Epoch 15/400 done in 0.88 s. Approximatly 340.16s. remaining.]
+04/27/2018 01:28:42 Train loss: 0.679968, test loss: 0.684998
+04/27/2018 01:28:42 Train accuracy: 0.610759, test accuracy 0.580000
+04/27/2018 01:28:42 [Epoch 16/400 done in 1.03 s. Approximatly 396.32s. remaining.]
+04/27/2018 01:28:43 Train loss: 0.681439, test loss: 0.684847
+04/27/2018 01:28:43 Train accuracy: 0.617089, test accuracy 0.580000
+04/27/2018 01:28:43 [Epoch 17/400 done in 1.02 s. Approximatly 391.65s. remaining.]
+04/27/2018 01:28:44 Train loss: 0.680460, test loss: 0.684696
+04/27/2018 01:28:44 Train accuracy: 0.617089, test accuracy 0.580000
+04/27/2018 01:28:44 [Epoch 18/400 done in 0.84 s. Approximatly 321.32s. remaining.]
+04/27/2018 01:28:44 Train loss: 0.677029, test loss: 0.684480
+04/27/2018 01:28:44 Train accuracy: 0.617089, test accuracy 0.570000
+04/27/2018 01:28:44 [Epoch 19/400 done in 0.83 s. Approximatly 316.08s. remaining.]
+04/27/2018 01:28:45 Train loss: 0.679965, test loss: 0.684299
+04/27/2018 01:28:45 Train accuracy: 0.604430, test accuracy 0.570000
+04/27/2018 01:28:45 [Epoch 20/400 done in 0.82 s. Approximatly 313.36s. remaining.]
+04/27/2018 01:28:46 Train loss: 0.682399, test loss: 0.684188
+04/27/2018 01:28:46 Train accuracy: 0.613924, test accuracy 0.580000
+04/27/2018 01:28:46 [Epoch 21/400 done in 0.74 s. Approximatly 279.50s. remaining.]
+04/27/2018 01:28:47 Train loss: 0.679839, test loss: 0.683967
+04/27/2018 01:28:47 Train accuracy: 0.623418, test accuracy 0.580000
+04/27/2018 01:28:47 [Epoch 22/400 done in 0.83 s. Approximatly 314.14s. remaining.]
+04/27/2018 01:28:48 Train loss: 0.680359, test loss: 0.683796
+04/27/2018 01:28:48 Train accuracy: 0.610759, test accuracy 0.570000
+04/27/2018 01:28:48 [Epoch 23/400 done in 0.84 s. Approximatly 316.80s. remaining.]
+04/27/2018 01:28:49 Train loss: 0.680598, test loss: 0.683642
+04/27/2018 01:28:49 Train accuracy: 0.651899, test accuracy 0.570000
+04/27/2018 01:28:49 [Epoch 24/400 done in 0.86 s. Approximatly 321.62s. remaining.]
+04/27/2018 01:28:49 Train loss: 0.680280, test loss: 0.683543
+04/27/2018 01:28:49 Train accuracy: 0.607595, test accuracy 0.570000
+04/27/2018 01:28:49 [Epoch 25/400 done in 0.84 s. Approximatly 314.89s. remaining.]
+04/27/2018 01:28:50 Train loss: 0.678446, test loss: 0.683368
+04/27/2018 01:28:50 Train accuracy: 0.629747, test accuracy 0.570000
+04/27/2018 01:28:50 [Epoch 26/400 done in 0.83 s. Approximatly 310.11s. remaining.]
+04/27/2018 01:28:51 Train loss: 0.676555, test loss: 0.683198
+04/27/2018 01:28:51 Train accuracy: 0.645570, test accuracy 0.580000
+04/27/2018 01:28:51 [Epoch 27/400 done in 0.84 s. Approximatly 313.96s. remaining.]
+04/27/2018 01:28:52 Train loss: 0.680581, test loss: 0.682978
+04/27/2018 01:28:52 Train accuracy: 0.594937, test accuracy 0.570000
+04/27/2018 01:28:52 [Epoch 28/400 done in 0.87 s. Approximatly 324.65s. remaining.]
+04/27/2018 01:28:53 Train loss: 0.678600, test loss: 0.682919
+04/27/2018 01:28:53 Train accuracy: 0.607595, test accuracy 0.580000
+04/27/2018 01:28:53 [Epoch 29/400 done in 0.97 s. Approximatly 361.27s. remaining.]
+04/27/2018 01:28:55 Train loss: 0.682115, test loss: 0.682914
+04/27/2018 01:28:55 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:28:55 [Epoch 30/400 done in 2.17 s. Approximatly 801.14s. remaining.]
+04/27/2018 01:28:56 Train loss: 0.679375, test loss: 0.682681
+04/27/2018 01:28:56 Train accuracy: 0.610759, test accuracy 0.570000
+04/27/2018 01:28:56 [Epoch 31/400 done in 0.97 s. Approximatly 358.04s. remaining.]
+04/27/2018 01:28:57 Train loss: 0.679161, test loss: 0.682608
+04/27/2018 01:28:57 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:28:57 [Epoch 32/400 done in 0.98 s. Approximatly 361.83s. remaining.]
+04/27/2018 01:28:58 Train loss: 0.676376, test loss: 0.682503
+04/27/2018 01:28:58 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:28:58 [Epoch 33/400 done in 0.85 s. Approximatly 310.37s. remaining.]
+04/27/2018 01:28:59 Train loss: 0.678282, test loss: 0.682370
+04/27/2018 01:28:59 Train accuracy: 0.642405, test accuracy 0.570000
+04/27/2018 01:28:59 [Epoch 34/400 done in 0.95 s. Approximatly 349.19s. remaining.]
+04/27/2018 01:29:00 Train loss: 0.679684, test loss: 0.682308
+04/27/2018 01:29:00 Train accuracy: 0.636076, test accuracy 0.570000
+04/27/2018 01:29:00 [Epoch 35/400 done in 1.50 s. Approximatly 549.06s. remaining.]
+04/27/2018 01:29:02 Train loss: 0.676895, test loss: 0.682221
+04/27/2018 01:29:02 Train accuracy: 0.620253, test accuracy 0.570000
+04/27/2018 01:29:02 [Epoch 36/400 done in 1.35 s. Approximatly 491.39s. remaining.]
+04/27/2018 01:29:03 Train loss: 0.679908, test loss: 0.681975
+04/27/2018 01:29:03 Train accuracy: 0.617089, test accuracy 0.570000
+04/27/2018 01:29:03 [Epoch 37/400 done in 1.67 s. Approximatly 604.95s. remaining.]
+04/27/2018 01:29:05 Train loss: 0.673159, test loss: 0.681959
+04/27/2018 01:29:05 Train accuracy: 0.617089, test accuracy 0.570000
+04/27/2018 01:29:05 [Epoch 38/400 done in 1.53 s. Approximatly 553.77s. remaining.]
+04/27/2018 01:29:06 Train loss: 0.675327, test loss: 0.681728
+04/27/2018 01:29:06 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:29:06 [Epoch 39/400 done in 1.46 s. Approximatly 528.31s. remaining.]
+04/27/2018 01:29:07 Train loss: 0.678566, test loss: 0.681660
+04/27/2018 01:29:07 Train accuracy: 0.620253, test accuracy 0.570000
+04/27/2018 01:29:07 [Epoch 40/400 done in 1.14 s. Approximatly 410.67s. remaining.]
+04/27/2018 01:29:08 Train loss: 0.676005, test loss: 0.681618
+04/27/2018 01:29:08 Train accuracy: 0.623418, test accuracy 0.570000
+04/27/2018 01:29:08 [Epoch 41/400 done in 0.86 s. Approximatly 309.49s. remaining.]
+04/27/2018 01:29:09 Train loss: 0.674275, test loss: 0.681463
+04/27/2018 01:29:09 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:29:09 [Epoch 42/400 done in 0.76 s. Approximatly 272.66s. remaining.]
+04/27/2018 01:29:10 Train loss: 0.677570, test loss: 0.681326
+04/27/2018 01:29:10 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:29:10 [Epoch 43/400 done in 0.83 s. Approximatly 295.86s. remaining.]
+04/27/2018 01:29:11 Train loss: 0.676348, test loss: 0.681196
+04/27/2018 01:29:11 Train accuracy: 0.645570, test accuracy 0.570000
+04/27/2018 01:29:11 [Epoch 44/400 done in 0.83 s. Approximatly 295.92s. remaining.]
+04/27/2018 01:29:12 Train loss: 0.677605, test loss: 0.681149
+04/27/2018 01:29:12 Train accuracy: 0.620253, test accuracy 0.570000
+04/27/2018 01:29:12 [Epoch 45/400 done in 0.84 s. Approximatly 297.82s. remaining.]
+04/27/2018 01:29:12 Train loss: 0.676692, test loss: 0.681050
+04/27/2018 01:29:12 Train accuracy: 0.613924, test accuracy 0.570000
+04/27/2018 01:29:12 [Epoch 46/400 done in 0.83 s. Approximatly 294.26s. remaining.]
+04/27/2018 01:29:13 Train loss: 0.673628, test loss: 0.680830
+04/27/2018 01:29:13 Train accuracy: 0.620253, test accuracy 0.570000
+04/27/2018 01:29:13 [Epoch 47/400 done in 0.85 s. Approximatly 300.29s. remaining.]
+04/27/2018 01:29:14 Train loss: 0.673826, test loss: 0.680792
+04/27/2018 01:29:14 Train accuracy: 0.617089, test accuracy 0.570000
+04/27/2018 01:29:14 [Epoch 48/400 done in 0.83 s. Approximatly 290.74s. remaining.]
+04/27/2018 01:29:15 Train loss: 0.676399, test loss: 0.680722
+04/27/2018 01:29:15 Train accuracy: 0.610759, test accuracy 0.570000
+04/27/2018 01:29:15 [Epoch 49/400 done in 0.83 s. Approximatly 289.62s. remaining.]
+04/27/2018 01:29:16 Train loss: 0.672336, test loss: 0.680657
+04/27/2018 01:29:16 Train accuracy: 0.632911, test accuracy 0.570000
+04/27/2018 01:29:16 [Epoch 50/400 done in 0.84 s. Approximatly 293.82s. remaining.]
+04/27/2018 01:29:17 Train loss: 0.677800, test loss: 0.680444
+04/27/2018 01:29:17 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:29:17 [Epoch 51/400 done in 0.85 s. Approximatly 297.26s. remaining.]
+04/27/2018 01:29:17 Train loss: 0.674602, test loss: 0.680435
+04/27/2018 01:29:17 Train accuracy: 0.632911, test accuracy 0.570000
+04/27/2018 01:29:17 [Epoch 52/400 done in 0.82 s. Approximatly 286.30s. remaining.]
+04/27/2018 01:29:18 Train loss: 0.674352, test loss: 0.680192
+04/27/2018 01:29:18 Train accuracy: 0.629747, test accuracy 0.570000
+04/27/2018 01:29:18 [Epoch 53/400 done in 0.76 s. Approximatly 262.78s. remaining.]
+04/27/2018 01:29:19 Train loss: 0.675219, test loss: 0.680224
+04/27/2018 01:29:19 Train accuracy: 0.636076, test accuracy 0.570000
+04/27/2018 01:29:19 [Epoch 54/400 done in 0.75 s. Approximatly 260.40s. remaining.]
+04/27/2018 01:29:20 Train loss: 0.673297, test loss: 0.680109
+04/27/2018 01:29:20 Train accuracy: 0.617089, test accuracy 0.570000
+04/27/2018 01:29:20 [Epoch 55/400 done in 0.75 s. Approximatly 259.07s. remaining.]
+04/27/2018 01:29:20 Train loss: 0.671991, test loss: 0.679997
+04/27/2018 01:29:20 Train accuracy: 0.636076, test accuracy 0.570000
+04/27/2018 01:29:20 [Epoch 56/400 done in 0.73 s. Approximatly 249.78s. remaining.]
+04/27/2018 01:29:21 Train loss: 0.674567, test loss: 0.679855
+04/27/2018 01:29:21 Train accuracy: 0.629747, test accuracy 0.570000
+04/27/2018 01:29:21 [Epoch 57/400 done in 0.73 s. Approximatly 250.48s. remaining.]
+04/27/2018 01:29:22 Train loss: 0.669895, test loss: 0.679995
+04/27/2018 01:29:22 Train accuracy: 0.642405, test accuracy 0.570000
+04/27/2018 01:29:22 [Epoch 58/400 done in 0.83 s. Approximatly 284.94s. remaining.]
+04/27/2018 01:29:23 Train loss: 0.670082, test loss: 0.679672
+04/27/2018 01:29:23 Train accuracy: 0.629747, test accuracy 0.570000
+04/27/2018 01:29:23 [Epoch 59/400 done in 0.83 s. Approximatly 283.69s. remaining.]
+04/27/2018 01:29:24 Train loss: 0.673626, test loss: 0.679542
+04/27/2018 01:29:24 Train accuracy: 0.613924, test accuracy 0.570000
+04/27/2018 01:29:24 [Epoch 60/400 done in 0.83 s. Approximatly 281.97s. remaining.]
+04/27/2018 01:29:24 Train loss: 0.675377, test loss: 0.679470
+04/27/2018 01:29:24 Train accuracy: 0.623418, test accuracy 0.570000
+04/27/2018 01:29:24 [Epoch 61/400 done in 0.82 s. Approximatly 278.07s. remaining.]
+04/27/2018 01:29:25 Train loss: 0.673501, test loss: 0.679370
+04/27/2018 01:29:25 Train accuracy: 0.639241, test accuracy 0.570000
+04/27/2018 01:29:25 [Epoch 62/400 done in 0.89 s. Approximatly 301.35s. remaining.]
+04/27/2018 01:29:26 Train loss: 0.672294, test loss: 0.679289
+04/27/2018 01:29:26 Train accuracy: 0.642405, test accuracy 0.570000
+04/27/2018 01:29:26 [Epoch 63/400 done in 0.91 s. Approximatly 306.12s. remaining.]
+04/27/2018 01:29:27 Train loss: 0.673623, test loss: 0.679176
+04/27/2018 01:29:27 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:29:27 [Epoch 64/400 done in 0.90 s. Approximatly 302.51s. remaining.]
+04/27/2018 01:29:28 Train loss: 0.672426, test loss: 0.679084
+04/27/2018 01:29:28 Train accuracy: 0.626582, test accuracy 0.570000
+04/27/2018 01:29:28 [Epoch 65/400 done in 0.98 s. Approximatly 327.09s. remaining.]
+04/27/2018 01:29:29 Train loss: 0.673077, test loss: 0.679269
+04/27/2018 01:29:29 Train accuracy: 0.632911, test accuracy 0.560000
+04/27/2018 01:29:29 [Epoch 66/400 done in 1.14 s. Approximatly 381.31s. remaining.]
+04/27/2018 01:29:31 Train loss: 0.670650, test loss: 0.678961
+04/27/2018 01:29:31 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:29:31 [Epoch 67/400 done in 1.45 s. Approximatly 484.34s. remaining.]
+04/27/2018 01:29:33 Train loss: 0.670174, test loss: 0.678789
+04/27/2018 01:29:33 Train accuracy: 0.620253, test accuracy 0.560000
+04/27/2018 01:29:33 [Epoch 68/400 done in 1.80 s. Approximatly 597.15s. remaining.]
+04/27/2018 01:29:34 Train loss: 0.670757, test loss: 0.678665
+04/27/2018 01:29:34 Train accuracy: 0.626582, test accuracy 0.560000
+04/27/2018 01:29:34 [Epoch 69/400 done in 1.46 s. Approximatly 481.84s. remaining.]
+04/27/2018 01:29:35 Train loss: 0.668771, test loss: 0.678500
+04/27/2018 01:29:35 Train accuracy: 0.658228, test accuracy 0.560000
+04/27/2018 01:29:35 [Epoch 70/400 done in 1.01 s. Approximatly 331.99s. remaining.]
+04/27/2018 01:29:36 Train loss: 0.670546, test loss: 0.678537
+04/27/2018 01:29:36 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:29:36 [Epoch 71/400 done in 1.18 s. Approximatly 389.11s. remaining.]
+04/27/2018 01:29:38 Train loss: 0.673050, test loss: 0.678458
+04/27/2018 01:29:38 Train accuracy: 0.636076, test accuracy 0.560000
+04/27/2018 01:29:38 [Epoch 72/400 done in 1.39 s. Approximatly 456.86s. remaining.]
+04/27/2018 01:29:39 Train loss: 0.669374, test loss: 0.678114
+04/27/2018 01:29:39 Train accuracy: 0.645570, test accuracy 0.560000
+04/27/2018 01:29:39 [Epoch 73/400 done in 1.23 s. Approximatly 403.71s. remaining.]
+04/27/2018 01:29:40 Train loss: 0.669720, test loss: 0.678249
+04/27/2018 01:29:40 Train accuracy: 0.629747, test accuracy 0.560000
+04/27/2018 01:29:40 [Epoch 74/400 done in 1.24 s. Approximatly 403.56s. remaining.]
+04/27/2018 01:29:41 Train loss: 0.667814, test loss: 0.678123
+04/27/2018 01:29:41 Train accuracy: 0.636076, test accuracy 0.560000
+04/27/2018 01:29:41 [Epoch 75/400 done in 0.96 s. Approximatly 310.89s. remaining.]
+04/27/2018 01:29:42 Train loss: 0.672425, test loss: 0.678005
+04/27/2018 01:29:42 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:29:42 [Epoch 76/400 done in 0.81 s. Approximatly 263.59s. remaining.]
+04/27/2018 01:29:43 Train loss: 0.666264, test loss: 0.677928
+04/27/2018 01:29:43 Train accuracy: 0.645570, test accuracy 0.560000
+04/27/2018 01:29:43 [Epoch 77/400 done in 0.96 s. Approximatly 309.66s. remaining.]
+04/27/2018 01:29:44 Train loss: 0.668404, test loss: 0.677891
+04/27/2018 01:29:44 Train accuracy: 0.629747, test accuracy 0.560000
+04/27/2018 01:29:44 [Epoch 78/400 done in 1.01 s. Approximatly 323.72s. remaining.]
+04/27/2018 01:29:45 Train loss: 0.669833, test loss: 0.677788
+04/27/2018 01:29:45 Train accuracy: 0.639241, test accuracy 0.560000
+04/27/2018 01:29:45 [Epoch 79/400 done in 0.91 s. Approximatly 292.31s. remaining.]
+04/27/2018 01:29:46 Train loss: 0.668344, test loss: 0.677795
+04/27/2018 01:29:46 Train accuracy: 0.623418, test accuracy 0.560000
+04/27/2018 01:29:46 [Epoch 80/400 done in 1.16 s. Approximatly 371.80s. remaining.]
+04/27/2018 01:29:47 Train loss: 0.670977, test loss: 0.677602
+04/27/2018 01:29:47 Train accuracy: 0.629747, test accuracy 0.560000
+04/27/2018 01:29:47 [Epoch 81/400 done in 1.13 s. Approximatly 362.02s. remaining.]
+04/27/2018 01:29:48 Train loss: 0.668587, test loss: 0.677153
+04/27/2018 01:29:48 Train accuracy: 0.636076, test accuracy 0.560000
+04/27/2018 01:29:48 [Epoch 82/400 done in 1.09 s. Approximatly 347.69s. remaining.]
+04/27/2018 01:29:49 Train loss: 0.668996, test loss: 0.677368
+04/27/2018 01:29:49 Train accuracy: 0.617089, test accuracy 0.560000
+04/27/2018 01:29:49 [Epoch 83/400 done in 1.18 s. Approximatly 374.24s. remaining.]
+04/27/2018 01:29:50 Train loss: 0.668277, test loss: 0.677308
+04/27/2018 01:29:50 Train accuracy: 0.636076, test accuracy 0.560000
+04/27/2018 01:29:50 [Epoch 84/400 done in 1.06 s. Approximatly 334.50s. remaining.]
+04/27/2018 01:29:52 Train loss: 0.668609, test loss: 0.677091
+04/27/2018 01:29:52 Train accuracy: 0.632911, test accuracy 0.560000
+04/27/2018 01:29:52 [Epoch 85/400 done in 1.64 s. Approximatly 517.79s. remaining.]
+04/27/2018 01:29:53 Train loss: 0.669706, test loss: 0.677140
+04/27/2018 01:29:53 Train accuracy: 0.629747, test accuracy 0.560000
+04/27/2018 01:29:53 [Epoch 86/400 done in 0.92 s. Approximatly 288.19s. remaining.]
+04/27/2018 01:29:54 Train loss: 0.664751, test loss: 0.676869
+04/27/2018 01:29:54 Train accuracy: 0.632911, test accuracy 0.560000
+04/27/2018 01:29:54 [Epoch 87/400 done in 0.94 s. Approximatly 294.04s. remaining.]
+04/27/2018 01:29:55 Train loss: 0.666320, test loss: 0.676832
+04/27/2018 01:29:55 Train accuracy: 0.632911, test accuracy 0.560000
+04/27/2018 01:29:55 [Epoch 88/400 done in 1.06 s. Approximatly 331.37s. remaining.]
+04/27/2018 01:29:56 Train loss: 0.669910, test loss: 0.676932
+04/27/2018 01:29:56 Train accuracy: 0.629747, test accuracy 0.560000
+04/27/2018 01:29:56 [Epoch 89/400 done in 0.94 s. Approximatly 292.46s. remaining.]
+04/27/2018 01:29:57 Train loss: 0.667916, test loss: 0.676867
+04/27/2018 01:29:57 Train accuracy: 0.651899, test accuracy 0.570000
+04/27/2018 01:29:57 [Epoch 90/400 done in 1.64 s. Approximatly 509.31s. remaining.]
+04/27/2018 01:29:58 Train loss: 0.667963, test loss: 0.676225
+04/27/2018 01:29:58 Train accuracy: 0.623418, test accuracy 0.570000
+04/27/2018 01:29:58 [Epoch 91/400 done in 0.91 s. Approximatly 280.31s. remaining.]
+04/27/2018 01:29:59 Train loss: 0.665448, test loss: 0.676769
+04/27/2018 01:29:59 Train accuracy: 0.645570, test accuracy 0.570000
+04/27/2018 01:29:59 [Epoch 92/400 done in 0.87 s. Approximatly 267.45s. remaining.]
+04/27/2018 01:30:00 Train loss: 0.663715, test loss: 0.676368
+04/27/2018 01:30:00 Train accuracy: 0.645570, test accuracy 0.570000
+04/27/2018 01:30:00 [Epoch 93/400 done in 0.73 s. Approximatly 225.60s. remaining.]
+04/27/2018 01:30:01 Train loss: 0.663787, test loss: 0.676371
+04/27/2018 01:30:01 Train accuracy: 0.629747, test accuracy 0.580000
+04/27/2018 01:30:01 [Epoch 94/400 done in 0.73 s. Approximatly 224.42s. remaining.]
+04/27/2018 01:30:02 Train loss: 0.666667, test loss: 0.676087
+04/27/2018 01:30:02 Train accuracy: 0.642405, test accuracy 0.570000
+04/27/2018 01:30:02 [Epoch 95/400 done in 0.79 s. Approximatly 240.15s. remaining.]
+04/27/2018 01:30:02 Train loss: 0.663077, test loss: 0.676070
+04/27/2018 01:30:02 Train accuracy: 0.636076, test accuracy 0.570000
+04/27/2018 01:30:02 [Epoch 96/400 done in 0.74 s. Approximatly 224.26s. remaining.]
+04/27/2018 01:30:03 Train loss: 0.665683, test loss: 0.675886
+04/27/2018 01:30:03 Train accuracy: 0.648734, test accuracy 0.570000
+04/27/2018 01:30:03 [Epoch 97/400 done in 1.22 s. Approximatly 370.08s. remaining.]
+04/27/2018 01:30:05 Train loss: 0.664645, test loss: 0.676245
+04/27/2018 01:30:05 Train accuracy: 0.645570, test accuracy 0.580000
+04/27/2018 01:30:05 [Epoch 98/400 done in 1.21 s. Approximatly 364.58s. remaining.]
+04/27/2018 01:30:06 Train loss: 0.661965, test loss: 0.675531
+04/27/2018 01:30:06 Train accuracy: 0.645570, test accuracy 0.580000
+04/27/2018 01:30:06 [Epoch 99/400 done in 0.95 s. Approximatly 286.65s. remaining.]
+04/27/2018 01:30:07 Train loss: 0.668370, test loss: 0.675610
+04/27/2018 01:30:07 Train accuracy: 0.642405, test accuracy 0.580000
+04/27/2018 01:30:07 [Epoch 100/400 done in 0.93 s. Approximatly 277.97s. remaining.]
+04/27/2018 01:30:08 Train loss: 0.664599, test loss: 0.675741
+04/27/2018 01:30:08 Train accuracy: 0.636076, test accuracy 0.570000
+04/27/2018 01:30:08 [Epoch 101/400 done in 1.49 s. Approximatly 446.32s. remaining.]
+04/27/2018 01:30:10 Train loss: 0.663933, test loss: 0.675609
+04/27/2018 01:30:10 Train accuracy: 0.645570, test accuracy 0.580000
+04/27/2018 01:30:10 [Epoch 102/400 done in 1.45 s. Approximatly 432.65s. remaining.]
+04/27/2018 01:30:11 Train loss: 0.662321, test loss: 0.675485
+04/27/2018 01:30:11 Train accuracy: 0.636076, test accuracy 0.580000
+04/27/2018 01:30:11 [Epoch 103/400 done in 1.49 s. Approximatly 442.78s. remaining.]
+04/27/2018 01:30:12 Train loss: 0.664147, test loss: 0.675099
+04/27/2018 01:30:12 Train accuracy: 0.632911, test accuracy 0.570000
+04/27/2018 01:30:12 [Epoch 104/400 done in 1.04 s. Approximatly 306.75s. remaining.]
+04/27/2018 01:30:13 Train loss: 0.667381, test loss: 0.674905
+04/27/2018 01:30:13 Train accuracy: 0.645570, test accuracy 0.580000
+04/27/2018 01:30:13 [Epoch 105/400 done in 1.13 s. Approximatly 332.65s. remaining.]
+04/27/2018 01:30:14 Train loss: 0.668373, test loss: 0.674781
+04/27/2018 01:30:14 Train accuracy: 0.639241, test accuracy 0.580000
+04/27/2018 01:30:14 [Epoch 106/400 done in 1.14 s. Approximatly 334.83s. remaining.]
+04/27/2018 01:30:15 Train loss: 0.663943, test loss: 0.674751
+04/27/2018 01:30:15 Train accuracy: 0.651899, test accuracy 0.580000
+04/27/2018 01:30:15 [Epoch 107/400 done in 0.98 s. Approximatly 287.98s. remaining.]
+04/27/2018 01:30:16 Train loss: 0.664480, test loss: 0.674910
+04/27/2018 01:30:16 Train accuracy: 0.642405, test accuracy 0.580000
+04/27/2018 01:30:16 [Epoch 108/400 done in 1.16 s. Approximatly 337.59s. remaining.]
+04/27/2018 01:30:18 Train loss: 0.664435, test loss: 0.674714
+04/27/2018 01:30:18 Train accuracy: 0.632911, test accuracy 0.580000
+04/27/2018 01:30:18 [Epoch 109/400 done in 1.16 s. Approximatly 336.52s. remaining.]
+04/27/2018 01:30:18 Train loss: 0.661287, test loss: 0.674352
+04/27/2018 01:30:18 Train accuracy: 0.639241, test accuracy 0.580000
+04/27/2018 01:30:18 [Epoch 110/400 done in 0.86 s. Approximatly 248.33s. remaining.]
+04/27/2018 01:30:19 Train loss: 0.663906, test loss: 0.674346
+04/27/2018 01:30:19 Train accuracy: 0.658228, test accuracy 0.580000
+04/27/2018 01:30:19 [Epoch 111/400 done in 0.74 s. Approximatly 213.65s. remaining.]
+04/27/2018 01:30:20 Train loss: 0.662047, test loss: 0.673920
+04/27/2018 01:30:20 Train accuracy: 0.645570, test accuracy 0.580000
+04/27/2018 01:30:20 [Epoch 112/400 done in 0.84 s. Approximatly 241.21s. remaining.]
+04/27/2018 01:30:21 Train loss: 0.662362, test loss: 0.674124
+04/27/2018 01:30:21 Train accuracy: 0.626582, test accuracy 0.580000
+04/27/2018 01:30:21 [Epoch 113/400 done in 1.15 s. Approximatly 329.14s. remaining.]
+04/27/2018 01:30:22 Train loss: 0.664948, test loss: 0.673819
+04/27/2018 01:30:22 Train accuracy: 0.632911, test accuracy 0.580000
+04/27/2018 01:30:22 [Epoch 114/400 done in 0.90 s. Approximatly 258.80s. remaining.]
+04/27/2018 01:30:23 Train loss: 0.661851, test loss: 0.673889
+04/27/2018 01:30:23 Train accuracy: 0.623418, test accuracy 0.590000
+04/27/2018 01:30:23 [Epoch 115/400 done in 0.89 s. Approximatly 254.49s. remaining.]
+04/27/2018 01:30:24 Train loss: 0.659130, test loss: 0.673843
+04/27/2018 01:30:24 Train accuracy: 0.639241, test accuracy 0.580000
+04/27/2018 01:30:24 [Epoch 116/400 done in 0.86 s. Approximatly 243.68s. remaining.]
+04/27/2018 01:30:25 Train loss: 0.660245, test loss: 0.673785
+04/27/2018 01:30:25 Train accuracy: 0.639241, test accuracy 0.580000
+04/27/2018 01:30:25 [Epoch 117/400 done in 1.11 s. Approximatly 313.35s. remaining.]
+04/27/2018 01:30:26 Train loss: 0.665319, test loss: 0.673549
+04/27/2018 01:30:26 Train accuracy: 0.661392, test accuracy 0.590000
+04/27/2018 01:30:26 [Epoch 118/400 done in 0.89 s. Approximatly 252.14s. remaining.]
+04/27/2018 01:30:27 Train loss: 0.655429, test loss: 0.673638
+04/27/2018 01:30:27 Train accuracy: 0.642405, test accuracy 0.590000
+04/27/2018 01:30:27 [Epoch 119/400 done in 0.93 s. Approximatly 262.03s. remaining.]
+04/27/2018 01:30:28 Train loss: 0.661984, test loss: 0.673535
+04/27/2018 01:30:28 Train accuracy: 0.648734, test accuracy 0.580000
+04/27/2018 01:30:28 [Epoch 120/400 done in 0.82 s. Approximatly 230.40s. remaining.]
+04/27/2018 01:30:28 Train loss: 0.660193, test loss: 0.673324
+04/27/2018 01:30:28 Train accuracy: 0.655063, test accuracy 0.590000
+04/27/2018 01:30:28 [Epoch 121/400 done in 0.83 s. Approximatly 231.18s. remaining.]
+04/27/2018 01:30:29 Train loss: 0.660904, test loss: 0.673144
+04/27/2018 01:30:29 Train accuracy: 0.645570, test accuracy 0.590000
+04/27/2018 01:30:29 [Epoch 122/400 done in 0.95 s. Approximatly 263.76s. remaining.]
+04/27/2018 01:30:30 Train loss: 0.665769, test loss: 0.673086
+04/27/2018 01:30:30 Train accuracy: 0.648734, test accuracy 0.580000
+04/27/2018 01:30:30 [Epoch 123/400 done in 1.00 s. Approximatly 277.77s. remaining.]
+04/27/2018 01:30:31 Train loss: 0.661376, test loss: 0.672974
+04/27/2018 01:30:31 Train accuracy: 0.642405, test accuracy 0.580000
+04/27/2018 01:30:31 [Epoch 124/400 done in 0.96 s. Approximatly 265.16s. remaining.]
+04/27/2018 01:30:32 Train loss: 0.661590, test loss: 0.672956
+04/27/2018 01:30:32 Train accuracy: 0.651899, test accuracy 0.590000
+04/27/2018 01:30:32 [Epoch 125/400 done in 1.04 s. Approximatly 287.11s. remaining.]
+04/27/2018 01:30:33 Train loss: 0.662651, test loss: 0.672147
+04/27/2018 01:30:33 Train accuracy: 0.651899, test accuracy 0.590000
+04/27/2018 01:30:33 [Epoch 126/400 done in 1.09 s. Approximatly 298.32s. remaining.]
+04/27/2018 01:30:34 Train loss: 0.660617, test loss: 0.672482
+04/27/2018 01:30:34 Train accuracy: 0.642405, test accuracy 0.580000
+04/27/2018 01:30:34 [Epoch 127/400 done in 1.02 s. Approximatly 279.40s. remaining.]
+04/27/2018 01:30:35 Train loss: 0.654259, test loss: 0.672479
+04/27/2018 01:30:35 Train accuracy: 0.642405, test accuracy 0.580000
+04/27/2018 01:30:35 [Epoch 128/400 done in 0.88 s. Approximatly 239.22s. remaining.]
+04/27/2018 01:30:36 Train loss: 0.654693, test loss: 0.672448
+04/27/2018 01:30:36 Train accuracy: 0.658228, test accuracy 0.580000
+04/27/2018 01:30:36 [Epoch 129/400 done in 0.84 s. Approximatly 226.73s. remaining.]
+04/27/2018 01:30:37 Train loss: 0.659215, test loss: 0.672396
+04/27/2018 01:30:37 Train accuracy: 0.639241, test accuracy 0.580000
+04/27/2018 01:30:37 [Epoch 130/400 done in 0.87 s. Approximatly 236.23s. remaining.]
+04/27/2018 01:30:38 Train loss: 0.661153, test loss: 0.671743
+04/27/2018 01:30:38 Train accuracy: 0.648734, test accuracy 0.590000
+04/27/2018 01:30:38 [Epoch 131/400 done in 0.83 s. Approximatly 223.17s. remaining.]
+04/27/2018 01:30:39 Train loss: 0.659280, test loss: 0.671828
+04/27/2018 01:30:39 Train accuracy: 0.645570, test accuracy 0.580000
+04/27/2018 01:30:39 [Epoch 132/400 done in 0.82 s. Approximatly 219.54s. remaining.]
+04/27/2018 01:30:40 Train loss: 0.662710, test loss: 0.671963
+04/27/2018 01:30:40 Train accuracy: 0.636076, test accuracy 0.580000
+04/27/2018 01:30:40 [Epoch 133/400 done in 0.81 s. Approximatly 214.99s. remaining.]
+04/27/2018 01:30:40 Train loss: 0.657459, test loss: 0.671680
+04/27/2018 01:30:40 Train accuracy: 0.648734, test accuracy 0.580000
+04/27/2018 01:30:40 [Epoch 134/400 done in 0.83 s. Approximatly 221.71s. remaining.]
+04/27/2018 01:30:41 Train loss: 0.654739, test loss: 0.671330
+04/27/2018 01:30:41 Train accuracy: 0.667722, test accuracy 0.580000
+04/27/2018 01:30:41 [Epoch 135/400 done in 0.88 s. Approximatly 231.94s. remaining.]
+04/27/2018 01:30:42 Train loss: 0.656856, test loss: 0.671636
+04/27/2018 01:30:42 Train accuracy: 0.645570, test accuracy 0.590000
+04/27/2018 01:30:42 [Epoch 136/400 done in 0.85 s. Approximatly 224.34s. remaining.]
+04/27/2018 01:30:43 Train loss: 0.658541, test loss: 0.671012
+04/27/2018 01:30:43 Train accuracy: 0.661392, test accuracy 0.590000
+04/27/2018 01:30:43 [Epoch 137/400 done in 0.88 s. Approximatly 230.63s. remaining.]
+04/27/2018 01:30:44 Train loss: 0.661086, test loss: 0.671227
+04/27/2018 01:30:44 Train accuracy: 0.645570, test accuracy 0.590000
+04/27/2018 01:30:44 [Epoch 138/400 done in 1.00 s. Approximatly 261.44s. remaining.]
+04/27/2018 01:30:45 Train loss: 0.658150, test loss: 0.670488
+04/27/2018 01:30:45 Train accuracy: 0.648734, test accuracy 0.580000
+04/27/2018 01:30:45 [Epoch 139/400 done in 1.12 s. Approximatly 292.76s. remaining.]
+04/27/2018 01:30:46 Train loss: 0.655116, test loss: 0.670269
+04/27/2018 01:30:46 Train accuracy: 0.651899, test accuracy 0.580000
+04/27/2018 01:30:46 [Epoch 140/400 done in 0.86 s. Approximatly 222.41s. remaining.]
+04/27/2018 01:30:47 Train loss: 0.658028, test loss: 0.669451
+04/27/2018 01:30:47 Train accuracy: 0.655063, test accuracy 0.590000
+04/27/2018 01:30:47 [Epoch 141/400 done in 1.16 s. Approximatly 301.37s. remaining.]
+04/27/2018 01:30:48 Train loss: 0.663274, test loss: 0.670428
+04/27/2018 01:30:48 Train accuracy: 0.648734, test accuracy 0.590000
+04/27/2018 01:30:48 [Epoch 142/400 done in 1.11 s. Approximatly 286.20s. remaining.]
+04/27/2018 01:30:49 Train loss: 0.659414, test loss: 0.670716
+04/27/2018 01:30:49 Train accuracy: 0.645570, test accuracy 0.590000
+04/27/2018 01:30:49 [Epoch 143/400 done in 0.87 s. Approximatly 223.19s. remaining.]
+04/27/2018 01:30:50 Train loss: 0.658769, test loss: 0.670227
+04/27/2018 01:30:50 Train accuracy: 0.661392, test accuracy 0.580000
+04/27/2018 01:30:50 [Epoch 144/400 done in 0.89 s. Approximatly 227.10s. remaining.]
+04/27/2018 01:30:51 Train loss: 0.654108, test loss: 0.670686
+04/27/2018 01:30:51 Train accuracy: 0.645570, test accuracy 0.580000
+04/27/2018 01:30:51 [Epoch 145/400 done in 0.95 s. Approximatly 242.57s. remaining.]
+04/27/2018 01:30:52 Train loss: 0.657649, test loss: 0.669559
+04/27/2018 01:30:52 Train accuracy: 0.645570, test accuracy 0.590000
+04/27/2018 01:30:52 [Epoch 146/400 done in 1.21 s. Approximatly 308.05s. remaining.]
+04/27/2018 01:30:53 Train loss: 0.655262, test loss: 0.670388
+04/27/2018 01:30:53 Train accuracy: 0.674051, test accuracy 0.580000
+04/27/2018 01:30:53 [Epoch 147/400 done in 0.91 s. Approximatly 230.09s. remaining.]
+04/27/2018 01:30:54 Train loss: 0.657019, test loss: 0.668815
+04/27/2018 01:30:54 Train accuracy: 0.658228, test accuracy 0.610000
+04/27/2018 01:30:54 [Epoch 148/400 done in 0.92 s. Approximatly 230.96s. remaining.]
+04/27/2018 01:30:55 Train loss: 0.659570, test loss: 0.669670
+04/27/2018 01:30:55 Train accuracy: 0.648734, test accuracy 0.580000
+04/27/2018 01:30:55 [Epoch 149/400 done in 1.22 s. Approximatly 306.30s. remaining.]
+04/27/2018 01:30:57 Train loss: 0.660482, test loss: 0.669029
+04/27/2018 01:30:57 Train accuracy: 0.658228, test accuracy 0.580000
+04/27/2018 01:30:57 [Epoch 150/400 done in 1.37 s. Approximatly 343.61s. remaining.]
+04/27/2018 01:30:57 Train loss: 0.654997, test loss: 0.669136
+04/27/2018 01:30:57 Train accuracy: 0.655063, test accuracy 0.590000
+04/27/2018 01:30:57 [Epoch 151/400 done in 0.92 s. Approximatly 228.00s. remaining.]
+04/27/2018 01:30:58 Train loss: 0.657047, test loss: 0.668810
+04/27/2018 01:30:58 Train accuracy: 0.655063, test accuracy 0.590000
+04/27/2018 01:30:58 [Epoch 152/400 done in 0.90 s. Approximatly 224.36s. remaining.]
+04/27/2018 01:30:59 Train loss: 0.656321, test loss: 0.669434
+04/27/2018 01:30:59 Train accuracy: 0.655063, test accuracy 0.590000
+04/27/2018 01:30:59 [Epoch 153/400 done in 0.90 s. Approximatly 221.13s. remaining.]
+04/27/2018 01:31:00 Train loss: 0.653983, test loss: 0.668434
+04/27/2018 01:31:00 Train accuracy: 0.664557, test accuracy 0.610000
+04/27/2018 01:31:00 [Epoch 154/400 done in 0.84 s. Approximatly 206.64s. remaining.]
+04/27/2018 01:31:01 Train loss: 0.650293, test loss: 0.669283
+04/27/2018 01:31:01 Train accuracy: 0.661392, test accuracy 0.600000
+04/27/2018 01:31:01 [Epoch 155/400 done in 0.85 s. Approximatly 208.91s. remaining.]
+04/27/2018 01:31:02 Train loss: 0.653910, test loss: 0.668661
+04/27/2018 01:31:02 Train accuracy: 0.658228, test accuracy 0.610000
+04/27/2018 01:31:02 [Epoch 156/400 done in 0.97 s. Approximatly 237.25s. remaining.]
+04/27/2018 01:31:03 Train loss: 0.654851, test loss: 0.667726
+04/27/2018 01:31:03 Train accuracy: 0.661392, test accuracy 0.600000
+04/27/2018 01:31:03 [Epoch 157/400 done in 0.93 s. Approximatly 224.89s. remaining.]
+04/27/2018 01:31:04 Train loss: 0.655415, test loss: 0.667972
+04/27/2018 01:31:04 Train accuracy: 0.670886, test accuracy 0.610000
+04/27/2018 01:31:04 [Epoch 158/400 done in 1.01 s. Approximatly 243.76s. remaining.]
+04/27/2018 01:31:05 Train loss: 0.656392, test loss: 0.667913
+04/27/2018 01:31:05 Train accuracy: 0.642405, test accuracy 0.580000
+04/27/2018 01:31:05 [Epoch 159/400 done in 0.87 s. Approximatly 209.16s. remaining.]
+04/27/2018 01:31:06 Train loss: 0.651424, test loss: 0.667786
+04/27/2018 01:31:06 Train accuracy: 0.664557, test accuracy 0.590000
+04/27/2018 01:31:06 [Epoch 160/400 done in 0.86 s. Approximatly 205.25s. remaining.]
+04/27/2018 01:31:06 Train loss: 0.652686, test loss: 0.667586
+04/27/2018 01:31:06 Train accuracy: 0.655063, test accuracy 0.590000
+04/27/2018 01:31:06 [Epoch 161/400 done in 0.87 s. Approximatly 208.68s. remaining.]
+04/27/2018 01:31:07 Train loss: 0.654950, test loss: 0.667372
+04/27/2018 01:31:07 Train accuracy: 0.655063, test accuracy 0.580000
+04/27/2018 01:31:07 [Epoch 162/400 done in 0.86 s. Approximatly 205.28s. remaining.]
+04/27/2018 01:31:08 Train loss: 0.654789, test loss: 0.666970
+04/27/2018 01:31:08 Train accuracy: 0.667722, test accuracy 0.590000
+04/27/2018 01:31:08 [Epoch 163/400 done in 0.85 s. Approximatly 202.05s. remaining.]
+04/27/2018 01:31:09 Train loss: 0.649673, test loss: 0.667269
+04/27/2018 01:31:09 Train accuracy: 0.670886, test accuracy 0.570000
+04/27/2018 01:31:09 [Epoch 164/400 done in 0.88 s. Approximatly 208.69s. remaining.]
+04/27/2018 01:31:10 Train loss: 0.649802, test loss: 0.667783
+04/27/2018 01:31:10 Train accuracy: 0.661392, test accuracy 0.580000
+04/27/2018 01:31:10 [Epoch 165/400 done in 0.87 s. Approximatly 204.86s. remaining.]
+04/27/2018 01:31:11 Train loss: 0.650431, test loss: 0.667540
+04/27/2018 01:31:11 Train accuracy: 0.642405, test accuracy 0.570000
+04/27/2018 01:31:11 [Epoch 166/400 done in 0.93 s. Approximatly 218.47s. remaining.]
+04/27/2018 01:31:12 Train loss: 0.653799, test loss: 0.667740
+04/27/2018 01:31:12 Train accuracy: 0.667722, test accuracy 0.590000
+04/27/2018 01:31:12 [Epoch 167/400 done in 0.94 s. Approximatly 218.47s. remaining.]
+04/27/2018 01:31:13 Train loss: 0.652171, test loss: 0.667079
+04/27/2018 01:31:13 Train accuracy: 0.661392, test accuracy 0.590000
+04/27/2018 01:31:13 [Epoch 168/400 done in 0.90 s. Approximatly 208.87s. remaining.]
+04/27/2018 01:31:14 Train loss: 0.649028, test loss: 0.667019
+04/27/2018 01:31:14 Train accuracy: 0.664557, test accuracy 0.610000
+04/27/2018 01:31:14 [Epoch 169/400 done in 1.29 s. Approximatly 297.51s. remaining.]
+04/27/2018 01:31:15 Train loss: 0.650164, test loss: 0.664885
+04/27/2018 01:31:15 Train accuracy: 0.670886, test accuracy 0.610000
+04/27/2018 01:31:15 [Epoch 170/400 done in 0.82 s. Approximatly 188.41s. remaining.]
+04/27/2018 01:31:16 Train loss: 0.647397, test loss: 0.665319
+04/27/2018 01:31:16 Train accuracy: 0.680380, test accuracy 0.590000
+04/27/2018 01:31:16 [Epoch 171/400 done in 0.84 s. Approximatly 191.75s. remaining.]
+04/27/2018 01:31:17 Train loss: 0.656060, test loss: 0.666135
+04/27/2018 01:31:17 Train accuracy: 0.655063, test accuracy 0.610000
+04/27/2018 01:31:17 [Epoch 172/400 done in 0.90 s. Approximatly 206.17s. remaining.]
+04/27/2018 01:31:18 Train loss: 0.646695, test loss: 0.664957
+04/27/2018 01:31:18 Train accuracy: 0.655063, test accuracy 0.590000
+04/27/2018 01:31:18 [Epoch 173/400 done in 0.95 s. Approximatly 215.71s. remaining.]
+04/27/2018 01:31:19 Train loss: 0.646308, test loss: 0.665052
+04/27/2018 01:31:19 Train accuracy: 0.648734, test accuracy 0.610000
+04/27/2018 01:31:19 [Epoch 174/400 done in 1.01 s. Approximatly 227.46s. remaining.]
+04/27/2018 01:31:20 Train loss: 0.650212, test loss: 0.666579
+04/27/2018 01:31:20 Train accuracy: 0.674051, test accuracy 0.610000
+04/27/2018 01:31:20 [Epoch 175/400 done in 1.06 s. Approximatly 237.93s. remaining.]
+04/27/2018 01:31:21 Train loss: 0.649433, test loss: 0.663695
+04/27/2018 01:31:21 Train accuracy: 0.667722, test accuracy 0.600000
+04/27/2018 01:31:21 [Epoch 176/400 done in 1.07 s. Approximatly 240.03s. remaining.]
+04/27/2018 01:31:22 Train loss: 0.644990, test loss: 0.664637
+04/27/2018 01:31:22 Train accuracy: 0.664557, test accuracy 0.600000
+04/27/2018 01:31:22 [Epoch 177/400 done in 1.12 s. Approximatly 249.90s. remaining.]
+04/27/2018 01:31:23 Train loss: 0.651645, test loss: 0.664995
+04/27/2018 01:31:23 Train accuracy: 0.667722, test accuracy 0.590000
+04/27/2018 01:31:23 [Epoch 178/400 done in 0.96 s. Approximatly 212.17s. remaining.]
+04/27/2018 01:31:24 Train loss: 0.652614, test loss: 0.663461
+04/27/2018 01:31:24 Train accuracy: 0.670886, test accuracy 0.590000
+04/27/2018 01:31:24 [Epoch 179/400 done in 1.08 s. Approximatly 238.09s. remaining.]
+04/27/2018 01:31:25 Train loss: 0.648077, test loss: 0.665038
+04/27/2018 01:31:25 Train accuracy: 0.670886, test accuracy 0.590000
+04/27/2018 01:31:25 [Epoch 180/400 done in 1.21 s. Approximatly 266.64s. remaining.]
+04/27/2018 01:31:26 Train loss: 0.649010, test loss: 0.663390
+04/27/2018 01:31:26 Train accuracy: 0.667722, test accuracy 0.600000
+04/27/2018 01:31:26 [Epoch 181/400 done in 1.31 s. Approximatly 286.81s. remaining.]
+04/27/2018 01:31:27 Train loss: 0.645290, test loss: 0.663997
+04/27/2018 01:31:27 Train accuracy: 0.674051, test accuracy 0.610000
+04/27/2018 01:31:27 [Epoch 182/400 done in 1.15 s. Approximatly 251.58s. remaining.]
+04/27/2018 01:31:29 Train loss: 0.648825, test loss: 0.663574
+04/27/2018 01:31:29 Train accuracy: 0.677215, test accuracy 0.620000
+04/27/2018 01:31:29 [Epoch 183/400 done in 1.10 s. Approximatly 239.06s. remaining.]
+04/27/2018 01:31:30 Train loss: 0.646787, test loss: 0.664007
+04/27/2018 01:31:30 Train accuracy: 0.667722, test accuracy 0.600000
+04/27/2018 01:31:30 [Epoch 184/400 done in 0.96 s. Approximatly 208.21s. remaining.]
+04/27/2018 01:31:31 Train loss: 0.646910, test loss: 0.663963
+04/27/2018 01:31:31 Train accuracy: 0.667722, test accuracy 0.600000
+04/27/2018 01:31:31 [Epoch 185/400 done in 1.06 s. Approximatly 227.12s. remaining.]
+04/27/2018 01:31:32 Train loss: 0.646101, test loss: 0.664238
+04/27/2018 01:31:32 Train accuracy: 0.661392, test accuracy 0.600000
+04/27/2018 01:31:32 [Epoch 186/400 done in 1.13 s. Approximatly 242.76s. remaining.]
+04/27/2018 01:31:33 Train loss: 0.644150, test loss: 0.663560
+04/27/2018 01:31:33 Train accuracy: 0.664557, test accuracy 0.600000
+04/27/2018 01:31:33 [Epoch 187/400 done in 0.91 s. Approximatly 194.50s. remaining.]
+04/27/2018 01:31:34 Train loss: 0.644584, test loss: 0.662724
+04/27/2018 01:31:34 Train accuracy: 0.677215, test accuracy 0.600000
+04/27/2018 01:31:34 [Epoch 188/400 done in 1.00 s. Approximatly 212.03s. remaining.]
+04/27/2018 01:31:35 Train loss: 0.647663, test loss: 0.662320
+04/27/2018 01:31:35 Train accuracy: 0.664557, test accuracy 0.600000
+04/27/2018 01:31:35 [Epoch 189/400 done in 0.85 s. Approximatly 179.66s. remaining.]
+04/27/2018 01:31:35 Train loss: 0.646630, test loss: 0.661459
+04/27/2018 01:31:35 Train accuracy: 0.677215, test accuracy 0.610000
+04/27/2018 01:31:35 [Epoch 190/400 done in 0.92 s. Approximatly 192.38s. remaining.]
+04/27/2018 01:31:37 Train loss: 0.645988, test loss: 0.662305
+04/27/2018 01:31:37 Train accuracy: 0.677215, test accuracy 0.600000
+04/27/2018 01:31:37 [Epoch 191/400 done in 1.08 s. Approximatly 225.93s. remaining.]
+04/27/2018 01:31:37 Train loss: 0.644550, test loss: 0.661492
+04/27/2018 01:31:37 Train accuracy: 0.680380, test accuracy 0.590000
+04/27/2018 01:31:37 [Epoch 192/400 done in 0.98 s. Approximatly 204.72s. remaining.]
+04/27/2018 01:31:38 Train loss: 0.642451, test loss: 0.662478
+04/27/2018 01:31:38 Train accuracy: 0.683544, test accuracy 0.600000
+04/27/2018 01:31:38 [Epoch 193/400 done in 0.86 s. Approximatly 177.36s. remaining.]
+04/27/2018 01:31:39 Train loss: 0.643197, test loss: 0.662933
+04/27/2018 01:31:39 Train accuracy: 0.693038, test accuracy 0.600000
+04/27/2018 01:31:39 [Epoch 194/400 done in 0.83 s. Approximatly 171.24s. remaining.]
+04/27/2018 01:31:40 Train loss: 0.641439, test loss: 0.659976
+04/27/2018 01:31:40 Train accuracy: 0.699367, test accuracy 0.610000
+04/27/2018 01:31:40 [Epoch 195/400 done in 0.91 s. Approximatly 187.50s. remaining.]
+04/27/2018 01:31:41 Train loss: 0.646543, test loss: 0.662451
+04/27/2018 01:31:41 Train accuracy: 0.689873, test accuracy 0.600000
+04/27/2018 01:31:41 [Epoch 196/400 done in 0.85 s. Approximatly 174.39s. remaining.]
+04/27/2018 01:31:42 Train loss: 0.643790, test loss: 0.661548
+04/27/2018 01:31:42 Train accuracy: 0.677215, test accuracy 0.590000
+04/27/2018 01:31:42 [Epoch 197/400 done in 0.88 s. Approximatly 179.31s. remaining.]
+04/27/2018 01:31:43 Train loss: 0.644745, test loss: 0.661032
+04/27/2018 01:31:43 Train accuracy: 0.674051, test accuracy 0.600000
+04/27/2018 01:31:43 [Epoch 198/400 done in 1.00 s. Approximatly 202.56s. remaining.]
+04/27/2018 01:31:44 Train loss: 0.642664, test loss: 0.662070
+04/27/2018 01:31:44 Train accuracy: 0.683544, test accuracy 0.600000
+04/27/2018 01:31:44 [Epoch 199/400 done in 0.94 s. Approximatly 189.61s. remaining.]
+04/27/2018 01:31:45 Train loss: 0.638036, test loss: 0.659256
+04/27/2018 01:31:45 Train accuracy: 0.677215, test accuracy 0.610000
+04/27/2018 01:31:45 [Epoch 200/400 done in 0.93 s. Approximatly 185.54s. remaining.]
+04/27/2018 01:31:46 Train loss: 0.638959, test loss: 0.661113
+04/27/2018 01:31:46 Train accuracy: 0.699367, test accuracy 0.600000
+04/27/2018 01:31:46 [Epoch 201/400 done in 0.87 s. Approximatly 173.13s. remaining.]
+04/27/2018 01:31:47 Train loss: 0.641348, test loss: 0.662369
+04/27/2018 01:31:47 Train accuracy: 0.677215, test accuracy 0.600000
+04/27/2018 01:31:47 [Epoch 202/400 done in 1.37 s. Approximatly 271.51s. remaining.]
+04/27/2018 01:31:48 Train loss: 0.640783, test loss: 0.662328
+04/27/2018 01:31:48 Train accuracy: 0.667722, test accuracy 0.600000
+04/27/2018 01:31:48 [Epoch 203/400 done in 1.05 s. Approximatly 206.41s. remaining.]
+04/27/2018 01:31:49 Train loss: 0.641007, test loss: 0.660363
+04/27/2018 01:31:49 Train accuracy: 0.693038, test accuracy 0.610000
+04/27/2018 01:31:49 [Epoch 204/400 done in 0.92 s. Approximatly 180.81s. remaining.]
+04/27/2018 01:31:50 Train loss: 0.642834, test loss: 0.660762
+04/27/2018 01:31:50 Train accuracy: 0.689873, test accuracy 0.610000
+04/27/2018 01:31:50 [Epoch 205/400 done in 0.86 s. Approximatly 168.16s. remaining.]
+04/27/2018 01:31:51 Train loss: 0.644469, test loss: 0.659033
+04/27/2018 01:31:51 Train accuracy: 0.677215, test accuracy 0.610000
+04/27/2018 01:31:51 [Epoch 206/400 done in 0.93 s. Approximatly 179.49s. remaining.]
+04/27/2018 01:31:52 Train loss: 0.639248, test loss: 0.659076
+04/27/2018 01:31:52 Train accuracy: 0.689873, test accuracy 0.620000
+04/27/2018 01:31:52 [Epoch 207/400 done in 0.93 s. Approximatly 179.48s. remaining.]
+04/27/2018 01:31:53 Train loss: 0.638055, test loss: 0.659504
+04/27/2018 01:31:53 Train accuracy: 0.686709, test accuracy 0.610000
+04/27/2018 01:31:53 [Epoch 208/400 done in 0.88 s. Approximatly 169.53s. remaining.]
+04/27/2018 01:31:53 Train loss: 0.637096, test loss: 0.660779
+04/27/2018 01:31:53 Train accuracy: 0.693038, test accuracy 0.600000
+04/27/2018 01:31:53 [Epoch 209/400 done in 0.88 s. Approximatly 167.54s. remaining.]
+04/27/2018 01:31:54 Train loss: 0.638932, test loss: 0.658080
+04/27/2018 01:31:54 Train accuracy: 0.689873, test accuracy 0.600000
+04/27/2018 01:31:54 [Epoch 210/400 done in 0.76 s. Approximatly 144.75s. remaining.]
+04/27/2018 01:31:55 Train loss: 0.634649, test loss: 0.658870
+04/27/2018 01:31:55 Train accuracy: 0.686709, test accuracy 0.590000
+04/27/2018 01:31:55 [Epoch 211/400 done in 0.77 s. Approximatly 146.10s. remaining.]
+04/27/2018 01:31:56 Train loss: 0.641584, test loss: 0.659970
+04/27/2018 01:31:56 Train accuracy: 0.699367, test accuracy 0.610000
+04/27/2018 01:31:56 [Epoch 212/400 done in 0.83 s. Approximatly 156.72s. remaining.]
+04/27/2018 01:31:57 Train loss: 0.639329, test loss: 0.659070
+04/27/2018 01:31:57 Train accuracy: 0.696203, test accuracy 0.590000
+04/27/2018 01:31:57 [Epoch 213/400 done in 1.08 s. Approximatly 201.70s. remaining.]
+04/27/2018 01:31:58 Train loss: 0.637794, test loss: 0.660560
+04/27/2018 01:31:58 Train accuracy: 0.670886, test accuracy 0.600000
+04/27/2018 01:31:58 [Epoch 214/400 done in 0.95 s. Approximatly 177.61s. remaining.]
+04/27/2018 01:31:59 Train loss: 0.639687, test loss: 0.658444
+04/27/2018 01:31:59 Train accuracy: 0.683544, test accuracy 0.600000
+04/27/2018 01:31:59 [Epoch 215/400 done in 0.97 s. Approximatly 178.73s. remaining.]
+04/27/2018 01:32:00 Train loss: 0.638269, test loss: 0.659252
+04/27/2018 01:32:00 Train accuracy: 0.680380, test accuracy 0.620000
+04/27/2018 01:32:00 [Epoch 216/400 done in 0.97 s. Approximatly 179.16s. remaining.]
+04/27/2018 01:32:01 Train loss: 0.636786, test loss: 0.656302
+04/27/2018 01:32:01 Train accuracy: 0.689873, test accuracy 0.610000
+04/27/2018 01:32:01 [Epoch 217/400 done in 1.33 s. Approximatly 243.93s. remaining.]
+04/27/2018 01:32:02 Train loss: 0.638555, test loss: 0.659381
+04/27/2018 01:32:02 Train accuracy: 0.699367, test accuracy 0.610000
+04/27/2018 01:32:02 [Epoch 218/400 done in 1.19 s. Approximatly 217.01s. remaining.]
+04/27/2018 01:32:03 Train loss: 0.636346, test loss: 0.659678
+04/27/2018 01:32:03 Train accuracy: 0.696203, test accuracy 0.600000
+04/27/2018 01:32:03 [Epoch 219/400 done in 0.94 s. Approximatly 170.39s. remaining.]
+04/27/2018 01:32:04 Train loss: 0.636969, test loss: 0.657689
+04/27/2018 01:32:04 Train accuracy: 0.689873, test accuracy 0.600000
+04/27/2018 01:32:04 [Epoch 220/400 done in 0.97 s. Approximatly 173.89s. remaining.]
+04/27/2018 01:32:05 Train loss: 0.630289, test loss: 0.656621
+04/27/2018 01:32:05 Train accuracy: 0.702532, test accuracy 0.600000
+04/27/2018 01:32:05 [Epoch 221/400 done in 1.03 s. Approximatly 184.21s. remaining.]
+04/27/2018 01:32:06 Train loss: 0.631097, test loss: 0.659581
+04/27/2018 01:32:06 Train accuracy: 0.708861, test accuracy 0.620000
+04/27/2018 01:32:06 [Epoch 222/400 done in 0.87 s. Approximatly 155.44s. remaining.]
+04/27/2018 01:32:07 Train loss: 0.632637, test loss: 0.657124
+04/27/2018 01:32:07 Train accuracy: 0.683544, test accuracy 0.630000
+04/27/2018 01:32:07 [Epoch 223/400 done in 0.96 s. Approximatly 169.98s. remaining.]
+04/27/2018 01:32:08 Train loss: 0.634165, test loss: 0.657543
+04/27/2018 01:32:08 Train accuracy: 0.680380, test accuracy 0.610000
+04/27/2018 01:32:08 [Epoch 224/400 done in 1.00 s. Approximatly 175.78s. remaining.]
+04/27/2018 01:32:09 Train loss: 0.635752, test loss: 0.657330
+04/27/2018 01:32:09 Train accuracy: 0.693038, test accuracy 0.610000
+04/27/2018 01:32:09 [Epoch 225/400 done in 1.02 s. Approximatly 178.93s. remaining.]
+04/27/2018 01:32:10 Train loss: 0.635474, test loss: 0.658766
+04/27/2018 01:32:10 Train accuracy: 0.674051, test accuracy 0.600000
+04/27/2018 01:32:10 [Epoch 226/400 done in 0.76 s. Approximatly 132.93s. remaining.]
+04/27/2018 01:32:11 Train loss: 0.636247, test loss: 0.653532
+04/27/2018 01:32:11 Train accuracy: 0.699367, test accuracy 0.620000
+04/27/2018 01:32:11 [Epoch 227/400 done in 0.84 s. Approximatly 145.34s. remaining.]
+04/27/2018 01:32:11 Train loss: 0.634368, test loss: 0.653684
+04/27/2018 01:32:11 Train accuracy: 0.683544, test accuracy 0.630000
+04/27/2018 01:32:11 [Epoch 228/400 done in 0.78 s. Approximatly 133.85s. remaining.]
+04/27/2018 01:32:12 Train loss: 0.633251, test loss: 0.656324
+04/27/2018 01:32:12 Train accuracy: 0.693038, test accuracy 0.610000
+04/27/2018 01:32:12 [Epoch 229/400 done in 0.74 s. Approximatly 126.09s. remaining.]
+04/27/2018 01:32:13 Train loss: 0.634377, test loss: 0.657142
+04/27/2018 01:32:13 Train accuracy: 0.705696, test accuracy 0.590000
+04/27/2018 01:32:13 [Epoch 230/400 done in 0.73 s. Approximatly 124.73s. remaining.]
+04/27/2018 01:32:14 Train loss: 0.632200, test loss: 0.656504
+04/27/2018 01:32:14 Train accuracy: 0.712025, test accuracy 0.610000
+04/27/2018 01:32:14 [Epoch 231/400 done in 0.76 s. Approximatly 128.40s. remaining.]
+04/27/2018 01:32:14 Train loss: 0.632952, test loss: 0.654791
+04/27/2018 01:32:14 Train accuracy: 0.689873, test accuracy 0.620000
+04/27/2018 01:32:14 [Epoch 232/400 done in 0.76 s. Approximatly 126.95s. remaining.]
+04/27/2018 01:32:15 Train loss: 0.634191, test loss: 0.657080
+04/27/2018 01:32:15 Train accuracy: 0.702532, test accuracy 0.610000
+04/27/2018 01:32:15 [Epoch 233/400 done in 0.78 s. Approximatly 129.56s. remaining.]
+04/27/2018 01:32:16 Train loss: 0.628608, test loss: 0.657386
+04/27/2018 01:32:16 Train accuracy: 0.712025, test accuracy 0.590000
+04/27/2018 01:32:16 [Epoch 234/400 done in 0.78 s. Approximatly 129.56s. remaining.]
+04/27/2018 01:32:17 Train loss: 0.634404, test loss: 0.654542
+04/27/2018 01:32:17 Train accuracy: 0.699367, test accuracy 0.600000
+04/27/2018 01:32:17 [Epoch 235/400 done in 0.86 s. Approximatly 142.08s. remaining.]
+04/27/2018 01:32:18 Train loss: 0.635657, test loss: 0.652982
+04/27/2018 01:32:18 Train accuracy: 0.696203, test accuracy 0.600000
+04/27/2018 01:32:18 [Epoch 236/400 done in 1.02 s. Approximatly 168.07s. remaining.]
+04/27/2018 01:32:19 Train loss: 0.631210, test loss: 0.657696
+04/27/2018 01:32:19 Train accuracy: 0.702532, test accuracy 0.610000
+04/27/2018 01:32:19 [Epoch 237/400 done in 1.00 s. Approximatly 162.25s. remaining.]
+04/27/2018 01:32:20 Train loss: 0.631091, test loss: 0.656380
+04/27/2018 01:32:20 Train accuracy: 0.708861, test accuracy 0.600000
+04/27/2018 01:32:20 [Epoch 238/400 done in 0.96 s. Approximatly 154.81s. remaining.]
+04/27/2018 01:32:21 Train loss: 0.629317, test loss: 0.654840
+04/27/2018 01:32:21 Train accuracy: 0.683544, test accuracy 0.620000
+04/27/2018 01:32:21 [Epoch 239/400 done in 0.90 s. Approximatly 144.85s. remaining.]
+04/27/2018 01:32:22 Train loss: 0.633773, test loss: 0.654838
+04/27/2018 01:32:22 Train accuracy: 0.686709, test accuracy 0.610000
+04/27/2018 01:32:22 [Epoch 240/400 done in 1.13 s. Approximatly 180.77s. remaining.]
+04/27/2018 01:32:23 Train loss: 0.628450, test loss: 0.657276
+04/27/2018 01:32:23 Train accuracy: 0.702532, test accuracy 0.600000
+04/27/2018 01:32:23 [Epoch 241/400 done in 1.01 s. Approximatly 161.35s. remaining.]
+04/27/2018 01:32:24 Train loss: 0.631013, test loss: 0.653008
+04/27/2018 01:32:24 Train accuracy: 0.702532, test accuracy 0.640000
+04/27/2018 01:32:24 [Epoch 242/400 done in 0.99 s. Approximatly 156.46s. remaining.]
+04/27/2018 01:32:25 Train loss: 0.626791, test loss: 0.652699
+04/27/2018 01:32:25 Train accuracy: 0.693038, test accuracy 0.660000
+04/27/2018 01:32:25 [Epoch 243/400 done in 0.88 s. Approximatly 138.15s. remaining.]
+04/27/2018 01:32:26 Train loss: 0.625432, test loss: 0.655758
+04/27/2018 01:32:26 Train accuracy: 0.693038, test accuracy 0.610000
+04/27/2018 01:32:26 [Epoch 244/400 done in 1.07 s. Approximatly 166.92s. remaining.]
+04/27/2018 01:32:27 Train loss: 0.629582, test loss: 0.656546
+04/27/2018 01:32:27 Train accuracy: 0.699367, test accuracy 0.590000
+04/27/2018 01:32:27 [Epoch 245/400 done in 0.86 s. Approximatly 133.94s. remaining.]
+04/27/2018 01:32:28 Train loss: 0.632285, test loss: 0.652852
+04/27/2018 01:32:28 Train accuracy: 0.699367, test accuracy 0.630000
+04/27/2018 01:32:28 [Epoch 246/400 done in 0.85 s. Approximatly 131.26s. remaining.]
+04/27/2018 01:32:28 Train loss: 0.626548, test loss: 0.650633
+04/27/2018 01:32:28 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:32:28 [Epoch 247/400 done in 0.86 s. Approximatly 132.01s. remaining.]
+04/27/2018 01:32:29 Train loss: 0.628080, test loss: 0.653256
+04/27/2018 01:32:29 Train accuracy: 0.693038, test accuracy 0.630000
+04/27/2018 01:32:29 [Epoch 248/400 done in 1.03 s. Approximatly 156.05s. remaining.]
+04/27/2018 01:32:30 Train loss: 0.626426, test loss: 0.649721
+04/27/2018 01:32:30 Train accuracy: 0.705696, test accuracy 0.640000
+04/27/2018 01:32:30 [Epoch 249/400 done in 0.84 s. Approximatly 126.14s. remaining.]
+04/27/2018 01:32:31 Train loss: 0.629673, test loss: 0.651002
+04/27/2018 01:32:31 Train accuracy: 0.705696, test accuracy 0.620000
+04/27/2018 01:32:31 [Epoch 250/400 done in 0.83 s. Approximatly 125.12s. remaining.]
+04/27/2018 01:32:32 Train loss: 0.625590, test loss: 0.656922
+04/27/2018 01:32:32 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:32:32 [Epoch 251/400 done in 0.87 s. Approximatly 129.82s. remaining.]
+04/27/2018 01:32:33 Train loss: 0.634546, test loss: 0.651787
+04/27/2018 01:32:33 Train accuracy: 0.702532, test accuracy 0.620000
+04/27/2018 01:32:33 [Epoch 252/400 done in 0.84 s. Approximatly 123.60s. remaining.]
+04/27/2018 01:32:34 Train loss: 0.625158, test loss: 0.651630
+04/27/2018 01:32:34 Train accuracy: 0.696203, test accuracy 0.620000
+04/27/2018 01:32:34 [Epoch 253/400 done in 1.11 s. Approximatly 162.47s. remaining.]
+04/27/2018 01:32:35 Train loss: 0.628101, test loss: 0.651416
+04/27/2018 01:32:35 Train accuracy: 0.712025, test accuracy 0.630000
+04/27/2018 01:32:35 [Epoch 254/400 done in 0.93 s. Approximatly 135.19s. remaining.]
+04/27/2018 01:32:36 Train loss: 0.624852, test loss: 0.654060
+04/27/2018 01:32:36 Train accuracy: 0.683544, test accuracy 0.620000
+04/27/2018 01:32:36 [Epoch 255/400 done in 0.85 s. Approximatly 123.33s. remaining.]
+04/27/2018 01:32:37 Train loss: 0.633038, test loss: 0.656539
+04/27/2018 01:32:37 Train accuracy: 0.708861, test accuracy 0.620000
+04/27/2018 01:32:37 [Epoch 256/400 done in 0.90 s. Approximatly 129.31s. remaining.]
+04/27/2018 01:32:37 Train loss: 0.623432, test loss: 0.654885
+04/27/2018 01:32:37 Train accuracy: 0.705696, test accuracy 0.630000
+04/27/2018 01:32:37 [Epoch 257/400 done in 0.89 s. Approximatly 126.80s. remaining.]
+04/27/2018 01:32:38 Train loss: 0.624695, test loss: 0.649552
+04/27/2018 01:32:38 Train accuracy: 0.696203, test accuracy 0.620000
+04/27/2018 01:32:38 [Epoch 258/400 done in 0.91 s. Approximatly 129.74s. remaining.]
+04/27/2018 01:32:39 Train loss: 0.626343, test loss: 0.654635
+04/27/2018 01:32:39 Train accuracy: 0.696203, test accuracy 0.620000
+04/27/2018 01:32:39 [Epoch 259/400 done in 1.03 s. Approximatly 145.88s. remaining.]
+04/27/2018 01:32:40 Train loss: 0.626146, test loss: 0.654037
+04/27/2018 01:32:40 Train accuracy: 0.696203, test accuracy 0.640000
+04/27/2018 01:32:40 [Epoch 260/400 done in 0.85 s. Approximatly 118.90s. remaining.]
+04/27/2018 01:32:41 Train loss: 0.626265, test loss: 0.655653
+04/27/2018 01:32:41 Train accuracy: 0.674051, test accuracy 0.590000
+04/27/2018 01:32:41 [Epoch 261/400 done in 0.82 s. Approximatly 114.39s. remaining.]
+04/27/2018 01:32:42 Train loss: 0.624202, test loss: 0.653210
+04/27/2018 01:32:42 Train accuracy: 0.696203, test accuracy 0.610000
+04/27/2018 01:32:42 [Epoch 262/400 done in 0.84 s. Approximatly 115.38s. remaining.]
+04/27/2018 01:32:43 Train loss: 0.632552, test loss: 0.655922
+04/27/2018 01:32:43 Train accuracy: 0.693038, test accuracy 0.610000
+04/27/2018 01:32:43 [Epoch 263/400 done in 0.78 s. Approximatly 106.51s. remaining.]
+04/27/2018 01:32:43 Train loss: 0.629702, test loss: 0.652310
+04/27/2018 01:32:43 Train accuracy: 0.683544, test accuracy 0.640000
+04/27/2018 01:32:43 [Epoch 264/400 done in 0.80 s. Approximatly 108.90s. remaining.]
+04/27/2018 01:32:44 Train loss: 0.626687, test loss: 0.656237
+04/27/2018 01:32:44 Train accuracy: 0.683544, test accuracy 0.640000
+04/27/2018 01:32:44 [Epoch 265/400 done in 0.82 s. Approximatly 111.35s. remaining.]
+04/27/2018 01:32:45 Train loss: 0.624365, test loss: 0.655176
+04/27/2018 01:32:45 Train accuracy: 0.699367, test accuracy 0.610000
+04/27/2018 01:32:45 [Epoch 266/400 done in 0.82 s. Approximatly 110.38s. remaining.]
+04/27/2018 01:32:46 Train loss: 0.625187, test loss: 0.654621
+04/27/2018 01:32:46 Train accuracy: 0.689873, test accuracy 0.620000
+04/27/2018 01:32:46 [Epoch 267/400 done in 0.82 s. Approximatly 108.82s. remaining.]
+04/27/2018 01:32:47 Train loss: 0.625142, test loss: 0.653495
+04/27/2018 01:32:47 Train accuracy: 0.693038, test accuracy 0.600000
+04/27/2018 01:32:47 [Epoch 268/400 done in 0.86 s. Approximatly 113.45s. remaining.]
+04/27/2018 01:32:48 Train loss: 0.627112, test loss: 0.647892
+04/27/2018 01:32:48 Train accuracy: 0.680380, test accuracy 0.660000
+04/27/2018 01:32:48 [Epoch 269/400 done in 0.73 s. Approximatly 95.05s. remaining.]
+04/27/2018 01:32:48 Train loss: 0.620423, test loss: 0.648917
+04/27/2018 01:32:48 Train accuracy: 0.696203, test accuracy 0.620000
+04/27/2018 01:32:48 [Epoch 270/400 done in 0.73 s. Approximatly 94.46s. remaining.]
+04/27/2018 01:32:49 Train loss: 0.629207, test loss: 0.648840
+04/27/2018 01:32:49 Train accuracy: 0.683544, test accuracy 0.650000
+04/27/2018 01:32:49 [Epoch 271/400 done in 0.74 s. Approximatly 95.76s. remaining.]
+04/27/2018 01:32:50 Train loss: 0.623421, test loss: 0.643822
+04/27/2018 01:32:50 Train accuracy: 0.696203, test accuracy 0.660000
+04/27/2018 01:32:50 [Epoch 272/400 done in 0.73 s. Approximatly 93.06s. remaining.]
+04/27/2018 01:32:50 Train loss: 0.623106, test loss: 0.650018
+04/27/2018 01:32:50 Train accuracy: 0.693038, test accuracy 0.640000
+04/27/2018 01:32:50 [Epoch 273/400 done in 0.73 s. Approximatly 92.16s. remaining.]
+04/27/2018 01:32:51 Train loss: 0.629732, test loss: 0.654211
+04/27/2018 01:32:51 Train accuracy: 0.674051, test accuracy 0.630000
+04/27/2018 01:32:51 [Epoch 274/400 done in 0.72 s. Approximatly 90.56s. remaining.]
+04/27/2018 01:32:52 Train loss: 0.619024, test loss: 0.654896
+04/27/2018 01:32:52 Train accuracy: 0.696203, test accuracy 0.620000
+04/27/2018 01:32:52 [Epoch 275/400 done in 0.77 s. Approximatly 96.69s. remaining.]
+04/27/2018 01:32:53 Train loss: 0.623477, test loss: 0.649835
+04/27/2018 01:32:53 Train accuracy: 0.699367, test accuracy 0.620000
+04/27/2018 01:32:53 [Epoch 276/400 done in 0.72 s. Approximatly 89.74s. remaining.]
+04/27/2018 01:32:53 Train loss: 0.624009, test loss: 0.651444
+04/27/2018 01:32:53 Train accuracy: 0.699367, test accuracy 0.630000
+04/27/2018 01:32:53 [Epoch 277/400 done in 0.74 s. Approximatly 91.16s. remaining.]
+04/27/2018 01:32:54 Train loss: 0.621989, test loss: 0.654269
+04/27/2018 01:32:54 Train accuracy: 0.699367, test accuracy 0.620000
+04/27/2018 01:32:54 [Epoch 278/400 done in 0.73 s. Approximatly 89.64s. remaining.]
+04/27/2018 01:32:55 Train loss: 0.621385, test loss: 0.651700
+04/27/2018 01:32:55 Train accuracy: 0.686709, test accuracy 0.630000
+04/27/2018 01:32:55 [Epoch 279/400 done in 0.74 s. Approximatly 89.60s. remaining.]
+04/27/2018 01:32:56 Train loss: 0.617910, test loss: 0.652430
+04/27/2018 01:32:56 Train accuracy: 0.708861, test accuracy 0.620000
+04/27/2018 01:32:56 [Epoch 280/400 done in 0.89 s. Approximatly 107.27s. remaining.]
+04/27/2018 01:32:57 Train loss: 0.621915, test loss: 0.649248
+04/27/2018 01:32:57 Train accuracy: 0.674051, test accuracy 0.630000
+04/27/2018 01:32:57 [Epoch 281/400 done in 1.53 s. Approximatly 181.96s. remaining.]
+04/27/2018 01:32:58 Train loss: 0.614295, test loss: 0.650182
+04/27/2018 01:32:58 Train accuracy: 0.708861, test accuracy 0.630000
+04/27/2018 01:32:58 [Epoch 282/400 done in 0.78 s. Approximatly 92.46s. remaining.]
+04/27/2018 01:32:59 Train loss: 0.619725, test loss: 0.646813
+04/27/2018 01:32:59 Train accuracy: 0.708861, test accuracy 0.660000
+04/27/2018 01:32:59 [Epoch 283/400 done in 0.79 s. Approximatly 92.28s. remaining.]
+04/27/2018 01:33:00 Train loss: 0.619121, test loss: 0.653206
+04/27/2018 01:33:00 Train accuracy: 0.705696, test accuracy 0.620000
+04/27/2018 01:33:00 [Epoch 284/400 done in 0.98 s. Approximatly 114.16s. remaining.]
+04/27/2018 01:33:01 Train loss: 0.620612, test loss: 0.644624
+04/27/2018 01:33:01 Train accuracy: 0.705696, test accuracy 0.630000
+04/27/2018 01:33:01 [Epoch 285/400 done in 0.90 s. Approximatly 103.59s. remaining.]
+04/27/2018 01:33:02 Train loss: 0.617855, test loss: 0.648143
+04/27/2018 01:33:02 Train accuracy: 0.683544, test accuracy 0.640000
+04/27/2018 01:33:02 [Epoch 286/400 done in 1.04 s. Approximatly 118.54s. remaining.]
+04/27/2018 01:33:03 Train loss: 0.613233, test loss: 0.646134
+04/27/2018 01:33:03 Train accuracy: 0.696203, test accuracy 0.630000
+04/27/2018 01:33:03 [Epoch 287/400 done in 0.89 s. Approximatly 100.73s. remaining.]
+04/27/2018 01:33:04 Train loss: 0.620404, test loss: 0.651206
+04/27/2018 01:33:04 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:33:04 [Epoch 288/400 done in 1.06 s. Approximatly 118.59s. remaining.]
+04/27/2018 01:33:05 Train loss: 0.623355, test loss: 0.657538
+04/27/2018 01:33:05 Train accuracy: 0.680380, test accuracy 0.620000
+04/27/2018 01:33:05 [Epoch 289/400 done in 0.79 s. Approximatly 87.66s. remaining.]
+04/27/2018 01:33:05 Train loss: 0.620795, test loss: 0.650353
+04/27/2018 01:33:05 Train accuracy: 0.705696, test accuracy 0.620000
+04/27/2018 01:33:05 [Epoch 290/400 done in 0.84 s. Approximatly 92.16s. remaining.]
+04/27/2018 01:33:06 Train loss: 0.617462, test loss: 0.647951
+04/27/2018 01:33:06 Train accuracy: 0.696203, test accuracy 0.650000
+04/27/2018 01:33:06 [Epoch 291/400 done in 0.90 s. Approximatly 98.05s. remaining.]
+04/27/2018 01:33:07 Train loss: 0.619572, test loss: 0.645548
+04/27/2018 01:33:07 Train accuracy: 0.699367, test accuracy 0.660000
+04/27/2018 01:33:07 [Epoch 292/400 done in 0.88 s. Approximatly 94.76s. remaining.]
+04/27/2018 01:33:08 Train loss: 0.620235, test loss: 0.643951
+04/27/2018 01:33:08 Train accuracy: 0.699367, test accuracy 0.660000
+04/27/2018 01:33:08 [Epoch 293/400 done in 0.87 s. Approximatly 93.07s. remaining.]
+04/27/2018 01:33:09 Train loss: 0.615891, test loss: 0.644375
+04/27/2018 01:33:09 Train accuracy: 0.689873, test accuracy 0.670000
+04/27/2018 01:33:09 [Epoch 294/400 done in 0.88 s. Approximatly 93.06s. remaining.]
+04/27/2018 01:33:10 Train loss: 0.613908, test loss: 0.649228
+04/27/2018 01:33:10 Train accuracy: 0.718354, test accuracy 0.630000
+04/27/2018 01:33:10 [Epoch 295/400 done in 0.83 s. Approximatly 87.58s. remaining.]
+04/27/2018 01:33:11 Train loss: 0.618839, test loss: 0.651108
+04/27/2018 01:33:11 Train accuracy: 0.674051, test accuracy 0.640000
+04/27/2018 01:33:11 [Epoch 296/400 done in 0.83 s. Approximatly 86.11s. remaining.]
+04/27/2018 01:33:11 Train loss: 0.616252, test loss: 0.645893
+04/27/2018 01:33:11 Train accuracy: 0.705696, test accuracy 0.650000
+04/27/2018 01:33:11 [Epoch 297/400 done in 0.83 s. Approximatly 85.38s. remaining.]
+04/27/2018 01:33:12 Train loss: 0.620511, test loss: 0.656947
+04/27/2018 01:33:12 Train accuracy: 0.708861, test accuracy 0.620000
+04/27/2018 01:33:12 [Epoch 298/400 done in 0.83 s. Approximatly 84.47s. remaining.]
+04/27/2018 01:33:13 Train loss: 0.611188, test loss: 0.648831
+04/27/2018 01:33:13 Train accuracy: 0.699367, test accuracy 0.630000
+04/27/2018 01:33:13 [Epoch 299/400 done in 0.84 s. Approximatly 84.62s. remaining.]
+04/27/2018 01:33:14 Train loss: 0.613214, test loss: 0.651197
+04/27/2018 01:33:14 Train accuracy: 0.705696, test accuracy 0.630000
+04/27/2018 01:33:14 [Epoch 300/400 done in 0.85 s. Approximatly 84.71s. remaining.]
+04/27/2018 01:33:15 Train loss: 0.613506, test loss: 0.647517
+04/27/2018 01:33:15 Train accuracy: 0.705696, test accuracy 0.630000
+04/27/2018 01:33:15 [Epoch 301/400 done in 1.00 s. Approximatly 99.48s. remaining.]
+04/27/2018 01:33:16 Train loss: 0.609911, test loss: 0.645128
+04/27/2018 01:33:16 Train accuracy: 0.708861, test accuracy 0.610000
+04/27/2018 01:33:16 [Epoch 302/400 done in 0.96 s. Approximatly 94.23s. remaining.]
+04/27/2018 01:33:17 Train loss: 0.622065, test loss: 0.649495
+04/27/2018 01:33:17 Train accuracy: 0.696203, test accuracy 0.660000
+04/27/2018 01:33:17 [Epoch 303/400 done in 0.87 s. Approximatly 84.66s. remaining.]
+04/27/2018 01:33:18 Train loss: 0.623614, test loss: 0.642264
+04/27/2018 01:33:18 Train accuracy: 0.693038, test accuracy 0.660000
+04/27/2018 01:33:18 [Epoch 304/400 done in 0.82 s. Approximatly 79.01s. remaining.]
+04/27/2018 01:33:19 Train loss: 0.620854, test loss: 0.652322
+04/27/2018 01:33:19 Train accuracy: 0.683544, test accuracy 0.620000
+04/27/2018 01:33:19 [Epoch 305/400 done in 0.96 s. Approximatly 91.66s. remaining.]
+04/27/2018 01:33:20 Train loss: 0.617386, test loss: 0.647728
+04/27/2018 01:33:20 Train accuracy: 0.693038, test accuracy 0.660000
+04/27/2018 01:33:20 [Epoch 306/400 done in 1.02 s. Approximatly 96.29s. remaining.]
+04/27/2018 01:33:21 Train loss: 0.619670, test loss: 0.649500
+04/27/2018 01:33:21 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:33:21 [Epoch 307/400 done in 1.27 s. Approximatly 118.13s. remaining.]
+04/27/2018 01:33:22 Train loss: 0.613089, test loss: 0.648519
+04/27/2018 01:33:22 Train accuracy: 0.712025, test accuracy 0.630000
+04/27/2018 01:33:22 [Epoch 308/400 done in 0.99 s. Approximatly 91.34s. remaining.]
+04/27/2018 01:33:23 Train loss: 0.615796, test loss: 0.650012
+04/27/2018 01:33:23 Train accuracy: 0.696203, test accuracy 0.660000
+04/27/2018 01:33:23 [Epoch 309/400 done in 1.06 s. Approximatly 96.34s. remaining.]
+04/27/2018 01:33:24 Train loss: 0.614081, test loss: 0.649941
+04/27/2018 01:33:24 Train accuracy: 0.702532, test accuracy 0.680000
+04/27/2018 01:33:24 [Epoch 310/400 done in 0.76 s. Approximatly 68.05s. remaining.]
+04/27/2018 01:33:24 Train loss: 0.620108, test loss: 0.648299
+04/27/2018 01:33:24 Train accuracy: 0.693038, test accuracy 0.630000
+04/27/2018 01:33:24 [Epoch 311/400 done in 0.82 s. Approximatly 73.30s. remaining.]
+04/27/2018 01:33:25 Train loss: 0.616716, test loss: 0.645734
+04/27/2018 01:33:25 Train accuracy: 0.693038, test accuracy 0.640000
+04/27/2018 01:33:25 [Epoch 312/400 done in 0.83 s. Approximatly 72.97s. remaining.]
+04/27/2018 01:33:26 Train loss: 0.606849, test loss: 0.645117
+04/27/2018 01:33:26 Train accuracy: 0.715190, test accuracy 0.650000
+04/27/2018 01:33:26 [Epoch 313/400 done in 0.83 s. Approximatly 72.20s. remaining.]
+04/27/2018 01:33:27 Train loss: 0.613986, test loss: 0.647600
+04/27/2018 01:33:27 Train accuracy: 0.699367, test accuracy 0.620000
+04/27/2018 01:33:27 [Epoch 314/400 done in 0.86 s. Approximatly 73.72s. remaining.]
+04/27/2018 01:33:28 Train loss: 0.610990, test loss: 0.651178
+04/27/2018 01:33:28 Train accuracy: 0.705696, test accuracy 0.630000
+04/27/2018 01:33:28 [Epoch 315/400 done in 0.94 s. Approximatly 80.04s. remaining.]
+04/27/2018 01:33:29 Train loss: 0.615063, test loss: 0.645394
+04/27/2018 01:33:29 Train accuracy: 0.708861, test accuracy 0.640000
+04/27/2018 01:33:29 [Epoch 316/400 done in 0.79 s. Approximatly 66.19s. remaining.]
+04/27/2018 01:33:30 Train loss: 0.618095, test loss: 0.647880
+04/27/2018 01:33:30 Train accuracy: 0.696203, test accuracy 0.630000
+04/27/2018 01:33:30 [Epoch 317/400 done in 0.80 s. Approximatly 66.47s. remaining.]
+04/27/2018 01:33:30 Train loss: 0.615446, test loss: 0.653126
+04/27/2018 01:33:30 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:33:30 [Epoch 318/400 done in 0.87 s. Approximatly 71.19s. remaining.]
+04/27/2018 01:33:31 Train loss: 0.611389, test loss: 0.646278
+04/27/2018 01:33:31 Train accuracy: 0.705696, test accuracy 0.650000
+04/27/2018 01:33:31 [Epoch 319/400 done in 0.82 s. Approximatly 66.66s. remaining.]
+04/27/2018 01:33:32 Train loss: 0.609697, test loss: 0.653983
+04/27/2018 01:33:32 Train accuracy: 0.715190, test accuracy 0.620000
+04/27/2018 01:33:32 [Epoch 320/400 done in 0.85 s. Approximatly 68.05s. remaining.]
+04/27/2018 01:33:33 Train loss: 0.613098, test loss: 0.644861
+04/27/2018 01:33:33 Train accuracy: 0.718354, test accuracy 0.660000
+04/27/2018 01:33:33 [Epoch 321/400 done in 0.83 s. Approximatly 65.56s. remaining.]
+04/27/2018 01:33:34 Train loss: 0.613666, test loss: 0.647266
+04/27/2018 01:33:34 Train accuracy: 0.699367, test accuracy 0.620000
+04/27/2018 01:33:34 [Epoch 322/400 done in 0.83 s. Approximatly 65.05s. remaining.]
+04/27/2018 01:33:35 Train loss: 0.611966, test loss: 0.648020
+04/27/2018 01:33:35 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:33:35 [Epoch 323/400 done in 0.83 s. Approximatly 64.16s. remaining.]
+04/27/2018 01:33:35 Train loss: 0.614472, test loss: 0.638019
+04/27/2018 01:33:35 Train accuracy: 0.696203, test accuracy 0.670000
+04/27/2018 01:33:35 [Epoch 324/400 done in 0.82 s. Approximatly 62.69s. remaining.]
+04/27/2018 01:33:36 Train loss: 0.611478, test loss: 0.645073
+04/27/2018 01:33:36 Train accuracy: 0.712025, test accuracy 0.640000
+04/27/2018 01:33:36 [Epoch 325/400 done in 0.83 s. Approximatly 61.90s. remaining.]
+04/27/2018 01:33:37 Train loss: 0.612108, test loss: 0.645137
+04/27/2018 01:33:37 Train accuracy: 0.702532, test accuracy 0.660000
+04/27/2018 01:33:37 [Epoch 326/400 done in 0.86 s. Approximatly 63.39s. remaining.]
+04/27/2018 01:33:38 Train loss: 0.618172, test loss: 0.649087
+04/27/2018 01:33:38 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:33:38 [Epoch 327/400 done in 0.84 s. Approximatly 61.00s. remaining.]
+04/27/2018 01:33:39 Train loss: 0.608908, test loss: 0.653852
+04/27/2018 01:33:39 Train accuracy: 0.705696, test accuracy 0.640000
+04/27/2018 01:33:39 [Epoch 328/400 done in 0.72 s. Approximatly 51.96s. remaining.]
+04/27/2018 01:33:39 Train loss: 0.615940, test loss: 0.650998
+04/27/2018 01:33:39 Train accuracy: 0.705696, test accuracy 0.640000
+04/27/2018 01:33:39 [Epoch 329/400 done in 0.73 s. Approximatly 51.78s. remaining.]
+04/27/2018 01:33:40 Train loss: 0.617095, test loss: 0.646395
+04/27/2018 01:33:40 Train accuracy: 0.696203, test accuracy 0.650000
+04/27/2018 01:33:40 [Epoch 330/400 done in 0.72 s. Approximatly 50.71s. remaining.]
+04/27/2018 01:33:41 Train loss: 0.610995, test loss: 0.645769
+04/27/2018 01:33:41 Train accuracy: 0.693038, test accuracy 0.630000
+04/27/2018 01:33:41 [Epoch 331/400 done in 0.72 s. Approximatly 49.99s. remaining.]
+04/27/2018 01:33:42 Train loss: 0.607700, test loss: 0.649413
+04/27/2018 01:33:42 Train accuracy: 0.715190, test accuracy 0.630000
+04/27/2018 01:33:42 [Epoch 332/400 done in 0.77 s. Approximatly 52.40s. remaining.]
+04/27/2018 01:33:42 Train loss: 0.610138, test loss: 0.646523
+04/27/2018 01:33:42 Train accuracy: 0.712025, test accuracy 0.650000
+04/27/2018 01:33:42 [Epoch 333/400 done in 0.73 s. Approximatly 48.84s. remaining.]
+04/27/2018 01:33:43 Train loss: 0.611152, test loss: 0.645110
+04/27/2018 01:33:43 Train accuracy: 0.705696, test accuracy 0.620000
+04/27/2018 01:33:43 [Epoch 334/400 done in 0.73 s. Approximatly 48.34s. remaining.]
+04/27/2018 01:33:44 Train loss: 0.611927, test loss: 0.644051
+04/27/2018 01:33:44 Train accuracy: 0.689873, test accuracy 0.680000
+04/27/2018 01:33:44 [Epoch 335/400 done in 0.73 s. Approximatly 47.73s. remaining.]
+04/27/2018 01:33:45 Train loss: 0.616129, test loss: 0.640701
+04/27/2018 01:33:45 Train accuracy: 0.689873, test accuracy 0.650000
+04/27/2018 01:33:45 [Epoch 336/400 done in 0.73 s. Approximatly 46.91s. remaining.]
+04/27/2018 01:33:45 Train loss: 0.610353, test loss: 0.644911
+04/27/2018 01:33:45 Train accuracy: 0.699367, test accuracy 0.630000
+04/27/2018 01:33:45 [Epoch 337/400 done in 0.72 s. Approximatly 45.47s. remaining.]
+04/27/2018 01:33:46 Train loss: 0.608473, test loss: 0.657659
+04/27/2018 01:33:46 Train accuracy: 0.696203, test accuracy 0.610000
+04/27/2018 01:33:46 [Epoch 338/400 done in 0.73 s. Approximatly 45.05s. remaining.]
+04/27/2018 01:33:47 Train loss: 0.606674, test loss: 0.650886
+04/27/2018 01:33:47 Train accuracy: 0.712025, test accuracy 0.640000
+04/27/2018 01:33:47 [Epoch 339/400 done in 0.77 s. Approximatly 46.86s. remaining.]
+04/27/2018 01:33:47 Train loss: 0.610645, test loss: 0.648198
+04/27/2018 01:33:47 Train accuracy: 0.686709, test accuracy 0.640000
+04/27/2018 01:33:47 [Epoch 340/400 done in 0.73 s. Approximatly 43.58s. remaining.]
+04/27/2018 01:33:48 Train loss: 0.610626, test loss: 0.646433
+04/27/2018 01:33:48 Train accuracy: 0.699367, test accuracy 0.660000
+04/27/2018 01:33:48 [Epoch 341/400 done in 0.74 s. Approximatly 43.48s. remaining.]
+04/27/2018 01:33:49 Train loss: 0.616204, test loss: 0.649327
+04/27/2018 01:33:49 Train accuracy: 0.708861, test accuracy 0.610000
+04/27/2018 01:33:49 [Epoch 342/400 done in 0.73 s. Approximatly 42.21s. remaining.]
+04/27/2018 01:33:50 Train loss: 0.610746, test loss: 0.639545
+04/27/2018 01:33:50 Train accuracy: 0.693038, test accuracy 0.650000
+04/27/2018 01:33:50 [Epoch 343/400 done in 0.73 s. Approximatly 41.61s. remaining.]
+04/27/2018 01:33:50 Train loss: 0.611616, test loss: 0.642680
+04/27/2018 01:33:50 Train accuracy: 0.702532, test accuracy 0.650000
+04/27/2018 01:33:50 [Epoch 344/400 done in 0.72 s. Approximatly 40.58s. remaining.]
+04/27/2018 01:33:51 Train loss: 0.609495, test loss: 0.646445
+04/27/2018 01:33:51 Train accuracy: 0.693038, test accuracy 0.650000
+04/27/2018 01:33:51 [Epoch 345/400 done in 0.82 s. Approximatly 45.22s. remaining.]
+04/27/2018 01:33:52 Train loss: 0.610118, test loss: 0.648890
+04/27/2018 01:33:52 Train accuracy: 0.693038, test accuracy 0.620000
+04/27/2018 01:33:52 [Epoch 346/400 done in 0.77 s. Approximatly 41.52s. remaining.]
+04/27/2018 01:33:53 Train loss: 0.608323, test loss: 0.643589
+04/27/2018 01:33:53 Train accuracy: 0.718354, test accuracy 0.640000
+04/27/2018 01:33:53 [Epoch 347/400 done in 0.82 s. Approximatly 43.48s. remaining.]
+04/27/2018 01:33:54 Train loss: 0.613381, test loss: 0.653927
+04/27/2018 01:33:54 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:33:54 [Epoch 348/400 done in 0.83 s. Approximatly 43.17s. remaining.]
+04/27/2018 01:33:54 Train loss: 0.606689, test loss: 0.652185
+04/27/2018 01:33:54 Train accuracy: 0.702532, test accuracy 0.640000
+04/27/2018 01:33:54 [Epoch 349/400 done in 0.72 s. Approximatly 36.89s. remaining.]
+04/27/2018 01:33:55 Train loss: 0.607633, test loss: 0.646074
+04/27/2018 01:33:55 Train accuracy: 0.696203, test accuracy 0.620000
+04/27/2018 01:33:55 [Epoch 350/400 done in 0.72 s. Approximatly 36.10s. remaining.]
+04/27/2018 01:33:56 Train loss: 0.612940, test loss: 0.637194
+04/27/2018 01:33:56 Train accuracy: 0.689873, test accuracy 0.650000
+04/27/2018 01:33:56 [Epoch 351/400 done in 0.73 s. Approximatly 35.83s. remaining.]
+04/27/2018 01:33:57 Train loss: 0.611308, test loss: 0.645188
+04/27/2018 01:33:57 Train accuracy: 0.699367, test accuracy 0.640000
+04/27/2018 01:33:57 [Epoch 352/400 done in 0.84 s. Approximatly 40.11s. remaining.]
+04/27/2018 01:33:57 Train loss: 0.607240, test loss: 0.651789
+04/27/2018 01:33:57 Train accuracy: 0.699367, test accuracy 0.650000
+04/27/2018 01:33:57 [Epoch 353/400 done in 0.84 s. Approximatly 39.37s. remaining.]
+04/27/2018 01:33:58 Train loss: 0.601756, test loss: 0.641081
+04/27/2018 01:33:58 Train accuracy: 0.693038, test accuracy 0.640000
+04/27/2018 01:33:58 [Epoch 354/400 done in 0.84 s. Approximatly 38.44s. remaining.]
+04/27/2018 01:33:59 Train loss: 0.609561, test loss: 0.654623
+04/27/2018 01:33:59 Train accuracy: 0.705696, test accuracy 0.620000
+04/27/2018 01:33:59 [Epoch 355/400 done in 0.83 s. Approximatly 37.29s. remaining.]
+04/27/2018 01:34:00 Train loss: 0.618383, test loss: 0.645540
+04/27/2018 01:34:00 Train accuracy: 0.686709, test accuracy 0.640000
+04/27/2018 01:34:00 [Epoch 356/400 done in 0.82 s. Approximatly 36.17s. remaining.]
+04/27/2018 01:34:01 Train loss: 0.613603, test loss: 0.641884
+04/27/2018 01:34:01 Train accuracy: 0.693038, test accuracy 0.650000
+04/27/2018 01:34:01 [Epoch 357/400 done in 0.82 s. Approximatly 35.34s. remaining.]
+04/27/2018 01:34:02 Train loss: 0.610084, test loss: 0.651094
+04/27/2018 01:34:02 Train accuracy: 0.699367, test accuracy 0.620000
+04/27/2018 01:34:02 [Epoch 358/400 done in 0.86 s. Approximatly 36.22s. remaining.]
+04/27/2018 01:34:02 Train loss: 0.611382, test loss: 0.649221
+04/27/2018 01:34:02 Train accuracy: 0.715190, test accuracy 0.650000
+04/27/2018 01:34:02 [Epoch 359/400 done in 0.82 s. Approximatly 33.60s. remaining.]
+04/27/2018 01:34:03 Train loss: 0.612148, test loss: 0.640256
+04/27/2018 01:34:03 Train accuracy: 0.702532, test accuracy 0.650000
+04/27/2018 01:34:03 [Epoch 360/400 done in 0.83 s. Approximatly 33.14s. remaining.]
+04/27/2018 01:34:04 Train loss: 0.614078, test loss: 0.638680
+04/27/2018 01:34:04 Train accuracy: 0.699367, test accuracy 0.660000
+04/27/2018 01:34:04 [Epoch 361/400 done in 0.82 s. Approximatly 31.90s. remaining.]
+04/27/2018 01:34:05 Train loss: 0.609155, test loss: 0.653653
+04/27/2018 01:34:05 Train accuracy: 0.712025, test accuracy 0.630000
+04/27/2018 01:34:05 [Epoch 362/400 done in 0.83 s. Approximatly 31.55s. remaining.]
+04/27/2018 01:34:06 Train loss: 0.609109, test loss: 0.645908
+04/27/2018 01:34:06 Train accuracy: 0.712025, test accuracy 0.620000
+04/27/2018 01:34:06 [Epoch 363/400 done in 0.82 s. Approximatly 30.19s. remaining.]
+04/27/2018 01:34:07 Train loss: 0.608114, test loss: 0.634891
+04/27/2018 01:34:07 Train accuracy: 0.693038, test accuracy 0.650000
+04/27/2018 01:34:07 [Epoch 364/400 done in 0.84 s. Approximatly 30.13s. remaining.]
+04/27/2018 01:34:07 Train loss: 0.597537, test loss: 0.636839
+04/27/2018 01:34:07 Train accuracy: 0.727848, test accuracy 0.660000
+04/27/2018 01:34:07 [Epoch 365/400 done in 0.83 s. Approximatly 28.91s. remaining.]
+04/27/2018 01:34:08 Train loss: 0.606397, test loss: 0.644202
+04/27/2018 01:34:08 Train accuracy: 0.708861, test accuracy 0.650000
+04/27/2018 01:34:08 [Epoch 366/400 done in 0.82 s. Approximatly 27.94s. remaining.]
+04/27/2018 01:34:09 Train loss: 0.608557, test loss: 0.642737
+04/27/2018 01:34:09 Train accuracy: 0.693038, test accuracy 0.650000
+04/27/2018 01:34:09 [Epoch 367/400 done in 0.72 s. Approximatly 23.82s. remaining.]
+04/27/2018 01:34:10 Train loss: 0.609218, test loss: 0.650300
+04/27/2018 01:34:10 Train accuracy: 0.718354, test accuracy 0.640000
+04/27/2018 01:34:10 [Epoch 368/400 done in 0.78 s. Approximatly 25.12s. remaining.]
+04/27/2018 01:34:10 Train loss: 0.607327, test loss: 0.648581
+04/27/2018 01:34:10 Train accuracy: 0.715190, test accuracy 0.610000
+04/27/2018 01:34:10 [Epoch 369/400 done in 0.73 s. Approximatly 22.53s. remaining.]
+04/27/2018 01:34:11 Train loss: 0.598876, test loss: 0.649207
+04/27/2018 01:34:11 Train accuracy: 0.718354, test accuracy 0.620000
+04/27/2018 01:34:11 [Epoch 370/400 done in 0.73 s. Approximatly 21.84s. remaining.]
+04/27/2018 01:34:12 Train loss: 0.607831, test loss: 0.643866
+04/27/2018 01:34:12 Train accuracy: 0.718354, test accuracy 0.610000
+04/27/2018 01:34:12 [Epoch 371/400 done in 0.93 s. Approximatly 27.05s. remaining.]
+04/27/2018 01:34:13 Train loss: 0.611210, test loss: 0.647520
+04/27/2018 01:34:13 Train accuracy: 0.693038, test accuracy 0.650000
+04/27/2018 01:34:13 [Epoch 372/400 done in 0.96 s. Approximatly 26.80s. remaining.]
+04/27/2018 01:34:14 Train loss: 0.607901, test loss: 0.651608
+04/27/2018 01:34:14 Train accuracy: 0.689873, test accuracy 0.630000
+04/27/2018 01:34:14 [Epoch 373/400 done in 0.96 s. Approximatly 25.96s. remaining.]
+04/27/2018 01:34:15 Train loss: 0.607608, test loss: 0.635430
+04/27/2018 01:34:15 Train accuracy: 0.715190, test accuracy 0.660000
+04/27/2018 01:34:15 [Epoch 374/400 done in 1.08 s. Approximatly 28.08s. remaining.]
+04/27/2018 01:34:16 Train loss: 0.604229, test loss: 0.646283
+04/27/2018 01:34:16 Train accuracy: 0.696203, test accuracy 0.630000
+04/27/2018 01:34:16 [Epoch 375/400 done in 0.90 s. Approximatly 22.58s. remaining.]
+04/27/2018 01:34:17 Train loss: 0.608310, test loss: 0.645508
+04/27/2018 01:34:17 Train accuracy: 0.702532, test accuracy 0.640000
+04/27/2018 01:34:17 [Epoch 376/400 done in 0.94 s. Approximatly 22.49s. remaining.]
+04/27/2018 01:34:18 Train loss: 0.611392, test loss: 0.640527
+04/27/2018 01:34:18 Train accuracy: 0.705696, test accuracy 0.640000
+04/27/2018 01:34:18 [Epoch 377/400 done in 1.00 s. Approximatly 23.06s. remaining.]
+04/27/2018 01:34:19 Train loss: 0.593978, test loss: 0.649365
+04/27/2018 01:34:19 Train accuracy: 0.721519, test accuracy 0.610000
+04/27/2018 01:34:19 [Epoch 378/400 done in 0.99 s. Approximatly 21.74s. remaining.]
+04/27/2018 01:34:20 Train loss: 0.602017, test loss: 0.632782
+04/27/2018 01:34:20 Train accuracy: 0.712025, test accuracy 0.670000
+04/27/2018 01:34:20 [Epoch 379/400 done in 0.96 s. Approximatly 20.10s. remaining.]
+04/27/2018 01:34:21 Train loss: 0.604399, test loss: 0.647796
+04/27/2018 01:34:21 Train accuracy: 0.718354, test accuracy 0.630000
+04/27/2018 01:34:21 [Epoch 380/400 done in 1.10 s. Approximatly 22.01s. remaining.]
+04/27/2018 01:34:22 Train loss: 0.610325, test loss: 0.640792
+04/27/2018 01:34:22 Train accuracy: 0.702532, test accuracy 0.670000
+04/27/2018 01:34:22 [Epoch 381/400 done in 0.98 s. Approximatly 18.69s. remaining.]
+04/27/2018 01:34:23 Train loss: 0.606260, test loss: 0.644997
+04/27/2018 01:34:23 Train accuracy: 0.689873, test accuracy 0.650000
+04/27/2018 01:34:23 [Epoch 382/400 done in 0.83 s. Approximatly 14.98s. remaining.]
+04/27/2018 01:34:24 Train loss: 0.607465, test loss: 0.648657
+04/27/2018 01:34:24 Train accuracy: 0.693038, test accuracy 0.650000
+04/27/2018 01:34:24 [Epoch 383/400 done in 0.84 s. Approximatly 14.28s. remaining.]
+04/27/2018 01:34:25 Train loss: 0.608411, test loss: 0.649581
+04/27/2018 01:34:25 Train accuracy: 0.721519, test accuracy 0.660000
+04/27/2018 01:34:25 [Epoch 384/400 done in 1.05 s. Approximatly 16.81s. remaining.]
+04/27/2018 01:34:26 Train loss: 0.600902, test loss: 0.640863
+04/27/2018 01:34:26 Train accuracy: 0.712025, test accuracy 0.630000
+04/27/2018 01:34:26 [Epoch 385/400 done in 0.83 s. Approximatly 12.51s. remaining.]
+04/27/2018 01:34:26 Train loss: 0.604387, test loss: 0.642187
+04/27/2018 01:34:26 Train accuracy: 0.712025, test accuracy 0.650000
+04/27/2018 01:34:26 [Epoch 386/400 done in 0.86 s. Approximatly 12.10s. remaining.]
+04/27/2018 01:34:27 Train loss: 0.609984, test loss: 0.639159
+04/27/2018 01:34:27 Train accuracy: 0.721519, test accuracy 0.640000
+04/27/2018 01:34:27 [Epoch 387/400 done in 0.82 s. Approximatly 10.72s. remaining.]
+04/27/2018 01:34:28 Train loss: 0.611563, test loss: 0.637419
+04/27/2018 01:34:28 Train accuracy: 0.715190, test accuracy 0.640000
+04/27/2018 01:34:28 [Epoch 388/400 done in 0.83 s. Approximatly 9.96s. remaining.]
+04/27/2018 01:34:29 Train loss: 0.603898, test loss: 0.642985
+04/27/2018 01:34:29 Train accuracy: 0.708861, test accuracy 0.650000
+04/27/2018 01:34:29 [Epoch 389/400 done in 0.83 s. Approximatly 9.10s. remaining.]
+04/27/2018 01:34:30 Train loss: 0.602075, test loss: 0.636421
+04/27/2018 01:34:30 Train accuracy: 0.702532, test accuracy 0.660000
+04/27/2018 01:34:30 [Epoch 390/400 done in 0.98 s. Approximatly 9.79s. remaining.]
+04/27/2018 01:34:31 Train loss: 0.595136, test loss: 0.639450
+04/27/2018 01:34:31 Train accuracy: 0.712025, test accuracy 0.650000
+04/27/2018 01:34:31 [Epoch 391/400 done in 0.98 s. Approximatly 8.86s. remaining.]
+04/27/2018 01:34:32 Train loss: 0.606545, test loss: 0.643327
+04/27/2018 01:34:32 Train accuracy: 0.693038, test accuracy 0.640000
+04/27/2018 01:34:32 [Epoch 392/400 done in 1.14 s. Approximatly 9.10s. remaining.]
+04/27/2018 01:34:33 Train loss: 0.611951, test loss: 0.645334
+04/27/2018 01:34:33 Train accuracy: 0.702532, test accuracy 0.650000
+04/27/2018 01:34:33 [Epoch 393/400 done in 1.34 s. Approximatly 9.38s. remaining.]
+04/27/2018 01:34:34 Train loss: 0.606879, test loss: 0.645260
+04/27/2018 01:34:34 Train accuracy: 0.705696, test accuracy 0.640000
+04/27/2018 01:34:34 [Epoch 394/400 done in 0.94 s. Approximatly 5.67s. remaining.]
+04/27/2018 01:34:35 Train loss: 0.598470, test loss: 0.643550
+04/27/2018 01:34:35 Train accuracy: 0.724684, test accuracy 0.640000
+04/27/2018 01:34:35 [Epoch 395/400 done in 0.99 s. Approximatly 4.93s. remaining.]
+04/27/2018 01:34:37 Train loss: 0.603511, test loss: 0.640251
+04/27/2018 01:34:37 Train accuracy: 0.712025, test accuracy 0.630000
+04/27/2018 01:34:37 [Epoch 396/400 done in 1.46 s. Approximatly 5.82s. remaining.]
+04/27/2018 01:34:38 Train loss: 0.605617, test loss: 0.641450
+04/27/2018 01:34:38 Train accuracy: 0.702532, test accuracy 0.680000
+04/27/2018 01:34:38 [Epoch 397/400 done in 0.91 s. Approximatly 2.74s. remaining.]
+04/27/2018 01:34:39 Train loss: 0.603935, test loss: 0.633731
+04/27/2018 01:34:39 Train accuracy: 0.712025, test accuracy 0.670000
+04/27/2018 01:34:39 [Epoch 398/400 done in 1.17 s. Approximatly 2.35s. remaining.]
+04/27/2018 01:34:40 Train loss: 0.607300, test loss: 0.638694
+04/27/2018 01:34:40 Train accuracy: 0.699367, test accuracy 0.640000
+04/27/2018 01:34:40 [Epoch 399/400 done in 1.05 s. Approximatly 1.05s. remaining.]
+04/27/2018 01:34:40 [Producing accuracy and loss figures.]
+04/27/2018 01:34:40 [Finished in 373.80s.]
+04/27/2018 01:34:40 ----------------------------------------------------------------------------------------------------
+04/27/2018 01:34:40 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Recurrent/savedModel_E400.pt.]
+04/27/2018 01:34:40 ----------------------------------------------------------------------------------------------------
