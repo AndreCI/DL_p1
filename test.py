@@ -75,7 +75,7 @@ def run_model(model):
 #epoch_done = model.load_model(log)
 epoch_done = 0
 run_model(model)
-model.save_model(opt['epoch_number'] + epoch_done, log)
+#model.save_model(opt['epoch_number'] + epoch_done, log)
 
 exit()
 #model.save_model(opt['epoch_number'] + epoch_done, log)

@@ -99,4 +99,8 @@ Starting to work on denoise.
 Added a way to keep only the last X ms of data.
 Added utilitary to change data shape. I start to think that my low pass and high pass filters are garbage
 Checked up recurrent model, updated it. Added it a way to initalize hidden states and cells states.
+
+#### 1/05
+Added a lot of preprocessing options. New record: 73% accuracy! Fixed high pass and low pass filters, added cannalwise PCA. Added options for optimizer.
+
 ####

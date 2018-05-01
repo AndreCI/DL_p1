@@ -22,6 +22,7 @@ class Model(torch.nn.Module):
         if self.opt['optimizer'] == 'Adagrad':
             self.optimizer = torch.optim.Adagrad(list(self.parameters()),
                                                  lr=self.opt['lr'],
+                                                 lr_decay=self.opt['lr_decay'],
                                                  weight_decay=self.opt['weight_decay'])
         elif self.opt['optimizer'] == 'SGD':
             self.optimizer = torch.optim.SGD(list(self.parameters()),
@@ -31,6 +32,8 @@ class Model(torch.nn.Module):
         elif self.opt['optimizer'] == 'Adadelta':
             self.optimizer = torch.optim.Adadelta(list(self.parameters()),
                                                   lr=self.opt['lr'],
+                                                  rho=self.opt['rho'],
+                                                  eps=self.opt['eps'],
                                                   weight_decay=self.opt['weight_decay'],
                                                   )
         else:
