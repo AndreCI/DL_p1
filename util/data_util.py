@@ -1,6 +1,7 @@
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
+from matplotlib import cm
 import os
 import math
 import random
@@ -133,6 +134,35 @@ class Dataset(object):
             else:
                 raise AttributeError("No more example in this dataset.")
 
+    def display_data(self, example_number):
+        example = self.inputs[example_number]
+        target = self.targets[example_number]
+        if not os.path.exists(self.opt['fig_dir']): os.mkdir(self.opt['fig_dir'])
+        save_dir = os.path.join(self.opt['fig_dir'], 'examples')
+        if not os.path.exists(save_dir): os.mkdir(save_dir)
+        example = example.numpy()
+        fig = plt.figure(figsize=(40, 20))
+        s = str("Display of example %i. Target is %i" % (i, int(target)))
+        plt.title(s)
+        ax = fig.add_subplot(121, projection="3d")
+        x_axes = np.arange(np.shape(example)[0])
+        y_axes = np.arange(np.shape(example)[1])
+        X, Y = np.meshgrid(y_axes, x_axes)
+        ax.plot_surface(X, Y, example, cmap=cm.coolwarm)
+        ax.set_xlabel('time')
+        ax.set_ylabel('channel')
+        ax = fig.add_subplot(122, projection="3d")
+        x_axes = np.arange(np.shape(example)[1])
+        y_axes = np.arange(np.shape(example)[0])
+        X, Y = np.meshgrid(y_axes, x_axes)
+        ax.plot_surface(X, Y, np.transpose(example), cmap=cm.coolwarm)
+        ax.set_ylabel('time')
+        ax.set_xlabel('channel')
+        s = str('%i_test_%i.png' % (int(target), example_number))
+        path = os.path.join(save_dir, s)
+        plt.savefig(fname=path)
+        fig.clf()
+
     def get_targets(self, mode='binary'):
         raise NotImplementedError()
         #TODO: fix this
@@ -195,7 +225,6 @@ def display_accuracy(train_accuracy, test_accuracy, model_type, opt, running_mea
     name = str('%s_accuracy_%s.png' % (model_type, opt['exp_name']))
     loc = os.path.join(opt['fig_dir'], name)
     plt.savefig(loc)
-
 
 def running_mean(x, N):
     cumsum = np.cumsum(np.insert(x, 0, 0))

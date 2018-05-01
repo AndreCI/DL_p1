@@ -46,6 +46,7 @@ def run_model(model):
     final_loss_test = []
     final_acc_train = []
     final_acc_test = []
+    best_test_acc = (0, 0)
     t0 = time.time()
     for i in range(epoch_number):
         ts = time.time()
@@ -65,8 +66,11 @@ def run_model(model):
         final_loss_test.append(sum(losses_test) / len(losses_test))
         final_acc_train.append(sum(acc_train) / len(acc_train))
         final_acc_test.append(sum(acc_test) / len(acc_test))
+        if final_acc_test[-1] > best_test_acc[0]:
+            best_test_acc = (final_acc_test[-1], i)
         te = time.time()
         log.info('[Epoch %i/%i done in %.3f s. Approximatly %.3fs. remaining.]' %(i, epoch_number, (te-ts), ((te-ts) * (epoch_number - i))))
+    log.info('First best test accuracy: %.3f at epoch %i' %(best_test_acc[0], best_test_acc[1]))
     log.info('[Producing accuracy and loss figures.]')
     display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=int(epoch_number/10))
     display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=int(epoch_number/10))

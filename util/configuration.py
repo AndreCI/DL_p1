@@ -16,7 +16,7 @@ def get_args(parser):
     parser.add_argument('--fig_dir', help="directory to save different figures.", default=root_dir + "/figs/", type=str)
     parser.add_argument('--log_root', help="directory to save the logging journal", default=root_dir + "/logs/", type=str)
     parser.add_argument('--exp_name', help="name of the experience and the log file. This will not overwrite previous logs with the same name.",
-                        default='DC-Norm-L200ms', type=str)
+                        default='DC-Norm-4PCA', type=str)
 
     #General arguments
     parser.add_argument('--model', help="Type of model to use.", default='Sequential', type=str)
@@ -33,7 +33,7 @@ def get_args(parser):
     #Optimizer arguments
     parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adagrad', type=str)
     parser.add_argument('--weight_decay', help="Value for the L2 penalty. Set to 0 to not use it.", default=1e-3, type=float)
-    parser.add_argument('--lr', help="Learning rate to train the models.", default=1e-3, type=float)
+    parser.add_argument('--lr', help="Learning rate to train the models.", default=0.005, type=float)
     parser.add_argument('--lr_decay', help="Learning rate decay, if available for the optimizer", default=0.0, type=float)
     parser.add_argument('--momentum', help="Momentum used for the SGD optimizer", default=0.9, type=float)
     parser.add_argument('--rho', help="coefficient used for computing a running average of squared gradients in Adadelta", default=0.9, type=float)
@@ -50,11 +50,11 @@ def get_args(parser):
                         help="Value of the low pass filter, if any. Set to None to disable.", default=None, type=float)
     parser.add_argument('--normalize_data',
                         help="Normalize data in order to have all channels values between -1 and 1.", default=True, type=bool)
-    parser.add_argument('--last_ms', help="Use only the last X miliseconds as features. Set to 0 to disable", default=200, type=int)
+    parser.add_argument('--last_ms', help="Use only the last X miliseconds as features. Set to 0 to disable", default=0, type=int)
     parser.add_argument('--pca_features',
-                        help="Replace input by its principal components. Set to 0 to disable.", default=0, type=int)
+                        help="Replace input by its principal components. Set to 0 to disable.", default=4, type=int)
     parser.add_argument('--cannalwise_pca_features',
-                        help="Replace input by the principal components of each cannal. Set to 0 to disable.", default=3, type=int)
+                        help="Replace input by the principal components of each cannal. Set to 0 to disable.", default=0, type=int)
 
     return vars(parser.parse_args())
 

@@ -54,7 +54,7 @@ class LinearModel(Model):
     def forward(self, x, train=True):
         for l in self.layers:
             x = l(x)
-            if isinstance(l, torch.nn.Linear):
+            if isinstance(l, torch.nn.Linear) and train:
                 x = self.dropout_layer(x)
         return x.type(torch.FloatTensor)
 
@@ -62,7 +62,7 @@ class LinearModel(Model):
     def one_step_run(self, example,target, mode='train'):
         features = Variable(example.view(1, -1))
 
-        prediction = self(features)
+        prediction = self(features, mode=="train")
 
         v_target = Variable(torch.LongTensor([target]))
         if mode == 'train':
