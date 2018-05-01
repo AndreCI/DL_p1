@@ -11,16 +11,27 @@ from util.data_util import *
 import logging
 import sys
 import time
+import math
 
 opt = get_args(argparse.ArgumentParser())
 log = setup_log(opt)
 
-train_̇input, train_̇target = bci.load(root='./data', train=True, store_local=True)
-test_input, test_target = bci.load(root='./data', train=False, store_local=True)
-toy_input, toy_target = generate_toy_data()
+train_̇input, train_̇target = bci.load(root='./data', train=True, store_local=True, one_khz=opt['one_khz'])
+test_input, test_target = bci.load(root='./data', train=False, store_local=True, one_khz=opt['one_khz'])
+
+split = math.floor(test_input.size()[0] * opt['validation_set_ratio'])
+if split != 0:
+    validation_input = test_input[:split]
+    validation_target = test_target[:split]
+    test_input = test_input[split:]
+    test_target = test_target[split:]
+    validation_dataset = Dataset(opt, validation_input, validation_target, 'val')
 
 train_dataset = Dataset(opt, train_̇input, train_̇target, log, 'train')
 test_dataset = Dataset(opt, test_input, test_target, log, 'test')
+
+
+#toy_input, toy_target = generate_toy_data()
 #toy_dataset = Dataset(toy_input, toy_target, 'train', remove_DC_level=False, normalize=False)
 
 log.info('[Data loaded.]')
@@ -43,23 +54,23 @@ def run_model(model):
         test_dataset.setup_epoch(single_pass=True)
         losses_test, preds_te = model.run(test_dataset, mode='test')
 
-        annoncement = str("Train loss: %f, test loss: %f" % (
+        annoncement = str("Train loss: %.3f, test loss: %.3f" % (
             sum(losses_train) / len(losses_train), sum(losses_test) / len(losses_test)))
         log.info(annoncement)
         acc_train = compute_accuracy(train_dataset, preds_tr, reduce=False)
         acc_test = compute_accuracy(test_dataset, preds_te, reduce=False)
         log.info(str(
-            'Train accuracy: %f, test accuracy %f' % (sum(acc_train) / len(acc_train), sum(acc_test) / len(acc_test))))
+            'Train accuracy: %.3f, test accuracy %.3f' % (sum(acc_train) / len(acc_train), sum(acc_test) / len(acc_test))))
         final_loss_train.append(sum(losses_train) / len(losses_train))
         final_loss_test.append(sum(losses_test) / len(losses_test))
         final_acc_train.append(sum(acc_train) / len(acc_train))
         final_acc_test.append(sum(acc_test) / len(acc_test))
         te = time.time()
-        log.info('[Epoch %i/%i done in %.2f s. Approximatly %.2fs. remaining.]' %(i, epoch_number, (te-ts), ((te-ts) * (epoch_number - i))))
+        log.info('[Epoch %i/%i done in %.3f s. Approximatly %.3fs. remaining.]' %(i, epoch_number, (te-ts), ((te-ts) * (epoch_number - i))))
     log.info('[Producing accuracy and loss figures.]')
     display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=int(epoch_number/10))
     display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=int(epoch_number/10))
-    log.info('[Finished in %.2fs.]' %(time.time() - t0))
+    log.info('[Finished in %.3fs.]' %(time.time() - t0))
 
 #epoch_done = model.load_model(log)
 epoch_done = 0
@@ -67,6 +78,9 @@ run_model(model)
 model.save_model(opt['epoch_number'] + epoch_done, log)
 
 exit()
+#model.save_model(opt['epoch_number'] + epoch_done, log)
+
+#exit()
 
 #####
 #TODO:REMOVE
@@ -121,7 +135,7 @@ def seqential():
         log.info('Starting new test epoch.')
         seq = SequentialAutopick()
         t0 = time.time()
-        log.info(seq.all_run(train_dataset, test_dataset, 10))
+        log.info(seq.all_run(train_dataset, test_dataset, 400))
         log.info(time.time() - t0)
 
 seqential()

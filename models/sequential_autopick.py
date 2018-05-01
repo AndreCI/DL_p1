@@ -62,7 +62,7 @@ class SequentialAutopick(object):
                     avg_loss += loss
                     loss.backward()
                     self.optimizers[i].step()
-                print("model %i/%i went though epoch %i" %(i, len(self.all_models), j))
+                print("model %i/%i went though epoch %i/%i" %(i, len(self.all_models), j, epoch_number))
 
         for i,model in enumerate(self.all_models):
             val_dataset.setup_epoch()

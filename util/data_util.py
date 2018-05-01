@@ -4,12 +4,14 @@ import matplotlib.pyplot as plt
 import os
 import math
 import random
+from sklearn import decomposition
+from scipy.signal import lfilter, butter
 
 class Dataset(object):
     '''A simple class to implement useful methods on data'''
     def __init__(self, opt, inputs, targets, log, type='train'):
-        if type != 'train' and type != 'test' and type != 'dev':
-            raise AttributeError('A dataset should have the train, test or dev type.')
+        if type != 'train' and type != 'test' and type != 'val':
+            raise AttributeError('A dataset should have the train, test or val type.')
         self.inputs = inputs
         self.targets = targets
         self.type = type
@@ -35,18 +37,28 @@ class Dataset(object):
             self.switch_last_X_miliseconds(opt['last_ms'])
         if opt['pca_features'] > 0:
             self.switch_PCA(opt['pca_features'])
+        if opt['cannalwise_pca_features'] > 0:
+            self.switch_PCA_cannals(opt['cannalwise_pca_features'])
 
     def apply_low_pass(self, low_pass_value):
-        mask = (self.inputs < low_pass_value).type(torch.FloatTensor)
-        if torch.sum(mask) == self.inputs.size()[0] * self.inputs.size()[1] * self.inputs.size()[2]:
-            self.log.warning('The low pass filter did not filter anything.')
-        self.inputs *= mask
+        fs = 1000 if self.opt['one_khz'] else 100
+        cutoff = low_pass_value
+        for j in range(self.inputs.size()[0]):
+            for i in range(self.inputs.size()[1]):
+                signal = self.inputs[j, :, i]
+                B, A = butter(1, cutoff / (fs / 2), btype='low')  # 1st order Butterworth low-pass
+                filtered_signal = lfilter(B, A, signal, axis=0)
+                self.inputs[j,:,i] = torch.FloatTensor(filtered_signal)
 
     def apply_high_pass(self, high_pass_value):
-        mask = (self.inputs > high_pass_value).type(torch.FloatTensor)
-        if torch.sum(mask) == self.inputs.size()[0] * self.inputs.size()[1] * self.inputs.size()[2]:
-            self.log.warning('The high pass filter did not filter anything.')
-        self.inputs *= mask
+        fs = 1000 if self.opt['one_khz'] else 100
+        cutoff = high_pass_value
+        for j in range(self.inputs.size()[0]):
+            for i in range(self.inputs.size()[1]):
+                signal = self.inputs[j, :, i]
+                B, A = butter(1, cutoff / (fs / 2), btype='high')  # 1st order Butterworth low-pass
+                filtered_signal = lfilter(B, A, signal, axis=0)
+                self.inputs[j,:,i] = torch.FloatTensor(filtered_signal)
 
     def switch_PCA(self, k=3):
         X = self.inputs.view(self.inputs.size()[0], -1)
@@ -56,7 +68,19 @@ class Dataset(object):
         self.pcas = X.mm(U[:,:k])
         self.pcas = self.pcas.view(self.pcas.size()[0], self.pcas.size()[1], -1)
         self.inputs = self.pcas.view(self.inputs.size()[0], -1)
-        #self.inputs = torch.cat((self.inputs, self.pcas), 0)
+
+    def switch_PCA_cannals(self, k=3):
+        self.inputs = self.inputs.contiguous()
+        extracted_features = torch.zeros((self.inputs.size()[0], self.inputs.size()[1], k))
+        for i in range(28):
+            pca = decomposition.PCA(n_components=k)
+            current_data = self.inputs[:, i, :].contiguous()
+            current_feature = (torch.FloatTensor(pca.fit_transform(current_data)).contiguous()).view(self.inputs.size()[0], -1, k)
+            if i == 0:
+                extracted_features = current_feature
+            else:
+                extracted_features = torch.cat([extracted_features, current_feature], dim=1)
+        self.inputs = extracted_features
 
     def apply_normalization(self):
         channels_maxs, _ = torch.abs(self.inputs).max(2)

@@ -1,0 +1,15 @@
+04/27/2018 02:11:05 [Program starts.]
+04/27/2018 02:11:05 [Arg used:][{'model': 'Sequential'}, {'optimizer': 'Adadelta'}, {'criterion': 'CrossEntropy'}, {'epoch_number': 400}, {'normalize_data': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'exp_name': 'allseqgridsearch'}, {'remove_DC_level': True}, {'init_type': 'uniform'}, {'hidden_units': 20}]
+04/27/2018 02:11:06 [Data loaded.]
+04/27/2018 02:11:06 [Model build.]
+04/27/2018 02:11:06 Starting new test epoch.
+04/27/2018 03:17:36 (Sequential(
+  (first): Linear(in_features=1400, out_features=10, bias=True)
+  (first_a): ReLU()
+  (hidden_4): Linear(in_features=10, out_features=10, bias=True)
+  (act_4): Softmax()
+  (output_layer): Linear(in_features=10, out_features=2, bias=True)
+  (output_activation): Softmax()
+), 71)
+04/27/2018 03:17:36 3988.6626269817352
+04/27/2018 03:17:36 Starting new test epoch.

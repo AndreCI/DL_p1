@@ -1,6 +1,7 @@
 import models.model
 import torch
 from torch.autograd import Variable
+from collections import OrderedDict
 
 class ConvolutionalModel(models.model.Model):
     def __init__(self, opt, input_shape):
@@ -10,17 +11,29 @@ class ConvolutionalModel(models.model.Model):
 
     def _build(self, input_shape):
         self.input_layer = torch.nn.Conv1d(in_channels=input_shape[0],
-                                           out_channels=28,
+                                           out_channels=self.opt['hidden_units'],
                                            kernel_size=input_shape[1])
         self.add_module('input', self.input_layer)
 
         self.activation_convo = torch.nn.Sigmoid()
+        self.activation_hidden = torch.nn.Tanh()
         self.add_module('acti_convo', self.activation_convo)
 
         self.dropout = torch.nn.Dropout(self.opt['dropout'])
         self.add_module('dropout', self.dropout)
-
-        self.decoder = torch.nn.Linear(28, 2)
+        linears = []
+        for i in range(self.opt['depth']):
+            new_layer = torch.nn.Linear(self.opt['hidden_units'], self.opt['hidden_units'])
+            name = str('linear_%i' %i)
+            new_activation = self.activation_hidden
+            linears.append((name, new_layer))
+            name = str('activ_%i' %i)
+            linears.append((name, new_activation))
+            new_dropout_layer = torch.nn.Dropout(self.opt['dropout'])
+            name = str('dropout_%i' %i)
+            linears.append((name, new_dropout_layer))
+        self.hidden_layers = torch.nn.Sequential(OrderedDict(linears))
+        self.decoder = torch.nn.Linear(self.opt['hidden_units'], 2)
         self.add_module('decoder', self.decoder)
 
         self.output_acti = torch.nn.Softmax()
@@ -35,6 +48,8 @@ class ConvolutionalModel(models.model.Model):
         x = self.activation_convo(x)
         if train:
             x = self.dropout(x)
+        if self.opt['depth'] != 0:
+            x = self.hidden_layers(x)
         x = self.decoder(x)
         x = self.output_acti(x)
         return x.view(1, -1)

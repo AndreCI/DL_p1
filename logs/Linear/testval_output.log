@@ -1,0 +1,44 @@
+05/01/2018 01:57:16 [Program starts.]
+05/01/2018 01:57:16 [Arg used:][{'last_ms': 100}, {'cannalwise_pca_features': 3}, {'normalize_data': True}, {'exp_name': 'testval'}, {'init_type': 'uniform'}, {'optimizer': 'Adagrad'}, {'epoch_number': 1000}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'model': 'Linear'}, {'hidden_units': 10}, {'criterion': 'CrossEntropy'}]
+05/01/2018 01:57:29 [Program starts.]
+05/01/2018 01:57:29 [Arg used:][{'hidden_units': 10}, {'remove_DC_level': True}, {'optimizer': 'Adagrad'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'last_ms': 100}, {'model': 'Linear'}, {'criterion': 'CrossEntropy'}, {'init_type': 'uniform'}, {'exp_name': 'testval'}, {'cannalwise_pca_features': 3}, {'epoch_number': 1000}]
+05/01/2018 01:58:02 [Program starts.]
+05/01/2018 01:58:02 [Arg used:][{'remove_DC_level': True}, {'exp_name': 'testval'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'cannalwise_pca_features': 3}, {'model': 'Linear'}, {'last_ms': 100}, {'optimizer': 'Adagrad'}, {'epoch_number': 1000}, {'init_type': 'uniform'}, {'criterion': 'CrossEntropy'}, {'hidden_units': 10}]
+05/01/2018 01:58:32 [Program starts.]
+05/01/2018 01:58:32 [Arg used:][{'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'exp_name': 'testval'}, {'optimizer': 'Adagrad'}, {'remove_DC_level': True}, {'model': 'Linear'}, {'last_ms': 100}, {'criterion': 'CrossEntropy'}, {'epoch_number': 1000}, {'normalize_data': True}, {'hidden_units': 10}, {'cannalwise_pca_features': 3}, {'init_type': 'uniform'}]
+05/01/2018 02:03:11 [Program starts.]
+05/01/2018 02:03:11 [Arg used:][{'last_ms': 100}, {'remove_DC_level': True}, {'cannalwise_pca_features': 3}, {'model': 'Linear'}, {'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'exp_name': 'testval'}, {'optimizer': 'Adagrad'}, {'hidden_units': 10}, {'epoch_number': 1000}, {'init_type': 'uniform'}]
+05/01/2018 02:03:41 [Program starts.]
+05/01/2018 02:03:41 [Arg used:][{'optimizer': 'Adagrad'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'last_ms': 100}, {'cannalwise_pca_features': 3}, {'criterion': 'CrossEntropy'}, {'init_type': 'uniform'}, {'model': 'Linear'}, {'normalize_data': True}, {'epoch_number': 1000}, {'exp_name': 'testval'}, {'remove_DC_level': True}, {'hidden_units': 10}]
+05/01/2018 02:03:41 [Data loaded.]
+05/01/2018 02:03:41 [Model build.]
+05/01/2018 02:03:41 Train loss: 0.686, test loss: 0.692
+05/01/2018 02:03:41 Train accuracy: 0.573, test accuracy 0.530
+05/01/2018 02:03:41 [Epoch 0/1000 done in 0.149 s. Approximatly 148.762s. remaining.]
+05/01/2018 02:03:42 Train loss: 0.678, test loss: 0.690
+05/01/2018 02:03:42 Train accuracy: 0.585, test accuracy 0.540
+05/01/2018 02:03:42 [Epoch 1/1000 done in 0.160 s. Approximatly 159.924s. remaining.]
+05/01/2018 02:03:42 Train loss: 0.675, test loss: 0.688
+05/01/2018 02:03:42 Train accuracy: 0.598, test accuracy 0.540
+05/01/2018 02:03:42 [Epoch 2/1000 done in 0.153 s. Approximatly 153.125s. remaining.]
+05/01/2018 02:03:42 Train loss: 0.672, test loss: 0.686
+05/01/2018 02:03:42 Train accuracy: 0.598, test accuracy 0.560
+05/01/2018 02:03:42 [Epoch 3/1000 done in 0.167 s. Approximatly 166.969s. remaining.]
+05/01/2018 02:03:42 Train loss: 0.670, test loss: 0.685
+05/01/2018 02:03:42 Train accuracy: 0.604, test accuracy 0.570
+05/01/2018 02:03:42 [Epoch 4/1000 done in 0.148 s. Approximatly 147.676s. remaining.]
+05/01/2018 02:03:42 Train loss: 0.668, test loss: 0.683
+05/01/2018 02:03:42 Train accuracy: 0.614, test accuracy 0.590
+05/01/2018 02:03:42 [Epoch 5/1000 done in 0.179 s. Approximatly 178.080s. remaining.]
+05/01/2018 02:03:42 Train loss: 0.666, test loss: 0.682
+05/01/2018 02:03:42 Train accuracy: 0.630, test accuracy 0.610
+05/01/2018 02:03:42 [Epoch 6/1000 done in 0.175 s. Approximatly 173.724s. remaining.]
+05/01/2018 02:03:43 Train loss: 0.664, test loss: 0.681
+05/01/2018 02:03:43 Train accuracy: 0.636, test accuracy 0.620
+05/01/2018 02:03:43 [Epoch 7/1000 done in 0.222 s. Approximatly 220.061s. remaining.]
+05/01/2018 02:03:43 Train loss: 0.662, test loss: 0.680
+05/01/2018 02:03:43 Train accuracy: 0.639, test accuracy 0.610
+05/01/2018 02:03:43 [Epoch 8/1000 done in 0.155 s. Approximatly 153.675s. remaining.]
+05/01/2018 02:03:43 Train loss: 0.661, test loss: 0.679
+05/01/2018 02:03:43 Train accuracy: 0.636, test accuracy 0.600
+05/01/2018 02:03:43 [Epoch 9/1000 done in 0.215 s. Approximatly 213.044s. remaining.]

@@ -7,6 +7,7 @@ import numpy as np
 class AttentionalRecurrentModel(Model):
     '''A rather complex model which uses LSTMs to handle time dependencies.'''
     def __init__(self, opt, input_shape):
+        raise NotImplementedError()
         super(AttentionalRecurrentModel, self).__init__(opt)
         self.hidden_units = opt['hidden_units']
         self._build(input_shape)
@@ -47,11 +48,14 @@ class AttentionalRecurrentModel(Model):
     def forward(self, x, train=True):
         print(x)
         x, (self.h, self.c) = self.input_layer(x, (self._init_state(), self._init_state()))
-        print(self.h)
+        print("ere",self.h)
+        print("x:",x)
         jac = self.attention(self.h)
         print(jac)
-        exit()
+
         x = x[-1].view(-1)
+        print(x)
+        exit()
         if train:
             x = self.dropout_layer(x)
         x = self.decoder(x)
