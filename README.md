@@ -9,22 +9,24 @@ The goal of this project is to implement a neural network to predict the lateral
     - [x] data handler
     - [x] data visualisation
     - [ ] data checking
-    - [ ] PCA?
-    - [ ] data preparation (train, val, dev)
+    - [x] PCA
+    - [x] data preparation (train, val, dev)
 
 - [ ] Models Implementations
     - [x] simple first model (linear predictor)
+    - [x] convolutional model
+    - [x] LSTM model
     - [ ] brainstorm others ideas
-        - [ ] channel level/time step level CNN
+        - [x] channel level/time step level CNN
         - [ ] LSTMs with attention?
-        - [ ] adding dense layer on one of the axis (input reprensentation)
+        - [ ] adding dense layer on one of the axis (input representation)
         - [ ] More simple stuff: SVM?
         - [ ] Deep FFNN with lot of dropout
 
 
-- [ ] Testing & others
-    - [ ] loss evolutions curves
-    - [ ] logging
+- [x] Testing & others
+    - [x] loss evolutions curves
+    - [x] logging
 
 ### Brainstorming
 Data set is composed of 316 examples of size 28 * 50. Each example has 28 channels, sample during 0.5 sec.
@@ -101,6 +103,7 @@ Added utilitary to change data shape. I start to think that my low pass and high
 Checked up recurrent model, updated it. Added it a way to initalize hidden states and cells states.
 
 #### 1/05
-Added a lot of preprocessing options. New record: 73% accuracy! Fixed high pass and low pass filters, added cannalwise PCA. Added options for optimizer.
+Added a lot of preprocessing options. New record: 73% accuracy! Fixed high pass and low pass filters, added cannalwise PCA. Added options for optimizers.
+
 
 ####
