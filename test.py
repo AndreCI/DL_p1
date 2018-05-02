@@ -1,4 +1,3 @@
-
 import torch
 from models.linear_model import LinearModel
 from models.recurrent_model import RecurrentModel
@@ -8,8 +7,6 @@ import dlc_bci as bci
 import argparse
 from util.configuration import get_args, get_model, setup_log
 from util.data_util import *
-import logging
-import sys
 import time
 import math
 
@@ -30,9 +27,8 @@ if split != 0:
 train_dataset = Dataset(opt, train_̇input, train_̇target, log, 'train')
 test_dataset = Dataset(opt, test_input, test_target, log, 'test')
 
-
-#toy_input, toy_target = generate_toy_data()
-#toy_dataset = Dataset(toy_input, toy_target, 'train', remove_DC_level=False, normalize=False)
+# toy_input, toy_target = generate_toy_data()
+# toy_dataset = Dataset(toy_input, toy_target, 'train', remove_DC_level=False, normalize=False)
 
 log.info('[Data loaded.]')
 
@@ -61,7 +57,8 @@ def run_model(model):
         acc_train = compute_accuracy(train_dataset, preds_tr, reduce=False)
         acc_test = compute_accuracy(test_dataset, preds_te, reduce=False)
         log.info(str(
-            'Train accuracy: %.3f, test accuracy %.3f' % (sum(acc_train) / len(acc_train), sum(acc_test) / len(acc_test))))
+            'Train accuracy: %.3f, test accuracy %.3f' % (
+            sum(acc_train) / len(acc_train), sum(acc_test) / len(acc_test))))
         final_loss_train.append(sum(losses_train) / len(losses_train))
         final_loss_test.append(sum(losses_test) / len(losses_test))
         final_acc_train.append(sum(acc_train) / len(acc_train))
@@ -69,28 +66,32 @@ def run_model(model):
         if final_acc_test[-1] > best_test_acc[0]:
             best_test_acc = (final_acc_test[-1], i)
         te = time.time()
-        log.info('[Epoch %i/%i done in %.3f s. Approximatly %.3fs. remaining.]' %(i, epoch_number, (te-ts), ((te-ts) * (epoch_number - i))))
-    log.info('First best test accuracy: %.3f at epoch %i' %(best_test_acc[0], best_test_acc[1]))
+        log.info('[Epoch %i/%i done in %.3f s. Approximatly %.3fs. remaining.]' % (
+        i, epoch_number, (te - ts), ((te - ts) * (epoch_number - i))))
+    log.info('First best test accuracy: %.3f at epoch %i' % (best_test_acc[0], best_test_acc[1]))
     log.info('[Producing accuracy and loss figures.]')
-    display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=int(epoch_number/10))
-    display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=int(epoch_number/10))
-    log.info('[Finished in %.3fs.]' %(time.time() - t0))
+    display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=int(epoch_number / 10))
+    display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=int(epoch_number / 10))
+    log.info('[Finished in %.3fs.]' % (time.time() - t0))
 
-#epoch_done = model.load_model(log)
+
+# epoch_done = model.load_model(log)
 epoch_done = 0
 run_model(model)
-#model.save_model(opt['epoch_number'] + epoch_done, log)
+# model.save_model(opt['epoch_number'] + epoch_done, log)
 
 exit()
-#model.save_model(opt['epoch_number'] + epoch_done, log)
 
-#exit()
+
+# model.save_model(opt['epoch_number'] + epoch_done, log)
+
+# exit()
 
 #####
-#TODO:REMOVE
+# TODO:REMOVE
 def seq_model():
     model = torch.nn.Sequential(
-        torch.nn.Linear(28*50, 20),
+        torch.nn.Linear(28 * 50, 20),
         torch.nn.ReLU(),
         torch.nn.Linear(20, 20),
         torch.nn.Sigmoid(),
@@ -117,7 +118,7 @@ def seq_model():
             avg_loss += loss
             loss.backward()
             optimizer.step()
-            max_score, pred_class = (torch.max(result.data, 1))#.numpy()[0]
+            max_score, pred_class = (torch.max(result.data, 1))  # .numpy()[0]
             predictions.append(pred_class.numpy()[0])
         while test_dataset.has_next_example():
             ex, target = test_dataset.next_example()
@@ -126,13 +127,16 @@ def seq_model():
             loss = criterion(result, new_target)
             max_score, pred_class = (torch.max(result.data, 1))  # .numpy()[0]
             predictions_test.append(pred_class.numpy()[0])
-            avg_loss_test+=loss
+            avg_loss_test += loss
 
         acc_train = compute_accuracy(train_dataset, predictions, reduce=False)
         acc_test = compute_accuracy(test_dataset, predictions_test, reduce=False)
-        print(str('Train accuracy %i epoch : %f, loss %f' %(i, sum(acc_train)/len(acc_train), avg_loss/len(acc_train))))
-        print(str('Test accuracy %i epoch: %f, loss %f' %(i, sum(acc_test)/len(acc_test), avg_loss_test/len(acc_test))))
+        print(str(
+            'Train accuracy %i epoch : %f, loss %f' % (i, sum(acc_train) / len(acc_train), avg_loss / len(acc_train))))
+        print(str(
+            'Test accuracy %i epoch: %f, loss %f' % (i, sum(acc_test) / len(acc_test), avg_loss_test / len(acc_test))))
         print("---")
+
 
 def seqential():
     for i in range(10):
@@ -141,5 +145,6 @@ def seqential():
         t0 = time.time()
         log.info(seq.all_run(train_dataset, test_dataset, 400))
         log.info(time.time() - t0)
+
 
 seqential()

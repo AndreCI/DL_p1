@@ -1,6 +1,7 @@
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 import os
 import math
@@ -142,12 +143,13 @@ class Dataset(object):
         if not os.path.exists(save_dir): os.mkdir(save_dir)
         example = example.numpy()
         fig = plt.figure(figsize=(40, 20))
-        s = str("Display of example %i. Target is %i" % (i, int(target)))
+        s = str("Display of example %i. Target is %i" % (example_number, int(target)))
         plt.title(s)
         ax = fig.add_subplot(121, projection="3d")
         x_axes = np.arange(np.shape(example)[0])
         y_axes = np.arange(np.shape(example)[1])
         X, Y = np.meshgrid(y_axes, x_axes)
+
         ax.plot_surface(X, Y, example, cmap=cm.coolwarm)
         ax.set_xlabel('time')
         ax.set_ylabel('channel')

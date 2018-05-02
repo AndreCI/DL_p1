@@ -105,5 +105,7 @@ Checked up recurrent model, updated it. Added it a way to initalize hidden state
 #### 1/05
 Added a lot of preprocessing options. New record: 73% accuracy! Fixed high pass and low pass filters, added cannalwise PCA. Added options for optimizers.
 
-
+#### 2/05
+Need to specify model.train() and model.test()
+Worked on recurrent model, quite promising?
 ####

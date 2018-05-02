@@ -72,6 +72,12 @@ class ConvolutionalModel(models.model.Model):
             raise NotImplementedError()
 
     def run(self, dataset, mode='train'):
+        if mode == 'train':
+            self.train()
+        elif mode == 'test':
+            self.eval()
+        else:
+            raise AttributeError('The mode %s is not recognized. Please use train or test' %mode)
         total_loss = 0.0
         i = 0
         losses = []

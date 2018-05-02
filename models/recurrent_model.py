@@ -1,3 +1,4 @@
+from collections import OrderedDict
 import torch
 from torch.autograd import Variable
 from models.model import Model
@@ -14,17 +15,41 @@ class RecurrentModel(Model):
 
 
     def _build(self, input_shape):
-        self.input_layer = torch.nn.LSTM(input_size=input_shape[0], hidden_size=self.hidden_units, num_layers=1)
+        if self.opt['recurrent_cell_type'] =='LSTM':
+            self.input_layer = torch.nn.LSTM(input_size=input_shape[0],
+                                             hidden_size=self.hidden_units,
+                                             num_layers=1,
+                                             dropout=self.opt['dropout'])
+        elif self.opt['recurrent_cell_type'] =='GRU':
+            self.input_layer = torch.nn.GRU(input_size=input_shape[0],
+                                            hidden_size=self.hidden_units,
+                                            num_layers=1,
+                                            dropout=self.opt['dropout'])
+        else:
+            raise AttributeError('This cell type (%s) is not recognized. Please use LSTM or GRU.' %self.opt['recurrent_cell_type'])
         self.add_module('input', self.input_layer)
-        self.dropout_layer = torch.nn.Dropout(self.opt['dropout'])
-        self.add_module('dropout', self.dropout_layer)
+        self.activation_hidden = torch.nn.Sigmoid()
+        linears = []
+        for i in range(self.opt['depth']):
+            new_layer = torch.nn.Linear(self.opt['hidden_units'], self.opt['hidden_units'])
+            name = str('linear_%i' % i)
+            new_activation = self.activation_hidden
+            linears.append((name, new_layer))
+            name = str('activ_%i' % i)
+            linears.append((name, new_activation))
+            new_dropout_layer = torch.nn.Dropout(self.opt['dropout'])
+            name = str('dropout_%i' % i)
+            linears.append((name, new_dropout_layer))
+        self.hidden_layers = torch.nn.Sequential(OrderedDict(linears))
+
         self.decoder = torch.nn.Linear(self.hidden_units, 2, bias=True)
         self.add_module('decoder', self.decoder)
         self.softmax = torch.nn.Softmax()
         self.add_module('activation', self.softmax)
 
-        self.hidden_states = Variable(torch.zeros(1, 1, self.hidden_units))
-        self.cells_states = Variable(torch.zeros(1, 1, self.hidden_units))
+
+        #self.hidden_states = Variable(torch.zeros(1, 1, self.hidden_units))
+        #self.cells_states = Variable(torch.zeros(1, 1, self.hidden_units))
         self._build_criterion()
         self._build_optimizer()
 
@@ -36,13 +61,16 @@ class RecurrentModel(Model):
         elif self.opt['init_type'] == "uniform":
             return Variable(torch.zeros(1, 1, self.hidden_units).uniform_(0, 1))
         else:
-            raise NotImplementedError("This init type has not been implemented yet.")
+            raise NotImplementedError("This init type (%s) has not been implemented yet." %self.opt['init_type'])
 
     def forward(self, x, train=True):
-        x, (self.h, self.c) = self.input_layer(x, (self._init_state(), self._init_state()))
+        if self.opt['recurrent_cell_type'] == 'LSTM':
+            x, (self.h, self.c) = self.input_layer(x, (self._init_state(), self._init_state()))
+        elif self.opt['recurrent_cell_type'] == 'GRU':
+            x, self.h = self.input_layer(x, self._init_state())
         x = x[-1].view(-1)
-        if train:
-            x = self.dropout_layer(x)
+        if self.opt['depth'] != 0:
+            x = self.hidden_layers(x)
         x = self.decoder(x)
         x = self.softmax(x)
         return x.type(torch.FloatTensor).view(-1, 2)
@@ -53,9 +81,6 @@ class RecurrentModel(Model):
         features = (example.view(example.size()[0], 1, example.size()[1]))
 
         prediction = self(features, mode == 'train')
-        #temp = torch.FloatTensor([[target]])
-        #target = Variable(temp)
-        #print(target)
 
         v_target = Variable(torch.LongTensor([target]))
         if mode == 'train':
@@ -71,6 +96,12 @@ class RecurrentModel(Model):
             raise NotImplementedError()
 
     def run(self, dataset, mode='train'):
+        if mode == 'train':
+            self.train()
+        elif mode == 'test':
+            self.eval()
+        else:
+            raise AttributeError('The mode %s is not recognized. Please use train or test' %mode)
         total_loss = 0.0
         i = 0
         losses = []
@@ -84,6 +115,4 @@ class RecurrentModel(Model):
             predictions.append(pred_class)
             losses.append(loss)
             total_loss+= loss
-            #if i % 10 == 0:
-                #print("total_loss:",total_loss/i)
         return losses, predictions
