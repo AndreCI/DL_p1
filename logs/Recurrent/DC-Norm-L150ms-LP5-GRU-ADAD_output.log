@@ -3008,3 +3008,16 @@
 05/02/2018 11:19:27 First best test accuracy: 0.810 at epoch 199
 05/02/2018 11:19:27 [Producing accuracy and loss figures.]
 05/02/2018 11:19:27 [Finished in 1564.593s.]
+05/03/2018 01:50:52 [Program starts.]
+05/03/2018 01:50:52 [Arg used:][{'last_ms': 150}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'optimizer': 'Adadelta'}, {'model': 'Recurrent'}, {'criterion': 'CrossEntropy'}, {'remove_DC_level': True}, {'recurrent_cell_type': 'GRU'}, {'exp_name': 'DC-Norm-L150ms-LP5-GRU-ADAD'}, {'hidden_units': 28}, {'epoch_number': 1000}, {'init_type': 'uniform'}, {'normalize_data': True}, {'low_pass': 5}, {'depth': 1}]
+05/03/2018 01:50:55 [Data loaded.]
+05/03/2018 01:50:55 [Model build.]
+05/03/2018 01:50:56 Train loss: 0.701, test loss: 0.689
+05/03/2018 01:50:56 Train accuracy: 0.491, test accuracy 0.560
+05/03/2018 01:50:56 [Epoch 0/1000 done in 1.624 s. Approximatly 1624.280s. remaining.]
+05/03/2018 01:50:58 Train loss: 0.668, test loss: 0.701
+05/03/2018 01:50:58 Train accuracy: 0.623, test accuracy 0.560
+05/03/2018 01:50:58 [Epoch 1/1000 done in 1.781 s. Approximatly 1779.615s. remaining.]
+05/03/2018 01:51:00 Train loss: 0.636, test loss: 0.665
+05/03/2018 01:51:00 Train accuracy: 0.649, test accuracy 0.600
+05/03/2018 01:51:00 [Epoch 2/1000 done in 1.754 s. Approximatly 1750.414s. remaining.]
