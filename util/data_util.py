@@ -7,7 +7,7 @@ import os
 import math
 import random
 from sklearn import decomposition
-from scipy.signal import lfilter, butter
+from scipy.signal import lfilter, butter, iirnotch
 
 class Dataset(object):
     '''A simple class to implement useful methods on data'''
@@ -31,6 +31,8 @@ class Dataset(object):
             self.apply_low_pass(opt['low_pass'])
         if opt['high_pass'] is not None:
             self.apply_high_pass(opt['high_pass'])
+        if opt['notch_filter'] is not None:
+            self.apply_notch_filter(opt['notch_filter'])
         if opt['remove_DC_level']:
             self.apply_DC_level()
         if opt['normalize_data']:
@@ -41,6 +43,17 @@ class Dataset(object):
             self.switch_PCA(opt['pca_features'])
         if opt['cannalwise_pca_features'] > 0:
             self.switch_PCA_cannals(opt['cannalwise_pca_features'])
+
+    def apply_notch_filter(self, f0):
+        fs = 1000 if self.opt['one_khz'] else 100
+        Q = 30
+        w0 = f0/(fs/2)
+        for j in range(self.inputs.size()[0]):
+            for i in range(self.inputs.size()[1]):
+                signal = self.inputs[j, :, i]
+                B, A = iirnotch(w0, Q)
+                filtered_signal = lfilter(B, A, signal, axis=0)
+                self.inputs[j, : , i] = torch.FloatTensor(filtered_signal)
 
     def apply_low_pass(self, low_pass_value):
         fs = 1000 if self.opt['one_khz'] else 100

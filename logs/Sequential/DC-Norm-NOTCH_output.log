@@ -1,0 +1,6 @@
+05/09/2018 09:30:18 [Program starts.]
+05/09/2018 09:30:18 [Arg used:][{'model': 'Sequential'}, {'normalize_data': True}, {'recurrent_cell_type': 'GRU'}, {'remove_DC_level': True}, {'hidden_units': 28}, {'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'init_type': 'uniform'}, {'exp_name': 'DC-Norm-NOTCH'}, {'notch_filter': 50}, {'last_ms': 150}, {'optimizer': 'Adadelta'}, {'criterion': 'CrossEntropy'}, {'depth': 1}]
+05/09/2018 09:30:55 [Program starts.]
+05/09/2018 09:30:55 [Arg used:][{'init_type': 'uniform'}, {'epoch_number': 1000}, {'hidden_units': 28}, {'model': 'Sequential'}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'last_ms': 150}, {'criterion': 'CrossEntropy'}, {'depth': 1}, {'optimizer': 'Adadelta'}, {'exp_name': 'DC-Norm-NOTCH'}, {'normalize_data': True}, {'recurrent_cell_type': 'GRU'}]
+05/09/2018 09:35:03 [Program starts.]
+05/09/2018 09:35:03 [Arg used:][{'exp_name': 'DC-Norm-NOTCH'}, {'init_type': 'uniform'}, {'hidden_units': 28}, {'high_pass': 2}, {'recurrent_cell_type': 'GRU'}, {'optimizer': 'Adadelta'}, {'depth': 1}, {'last_ms': 150}, {'epoch_number': 1000}, {'criterion': 'CrossEntropy'}, {'low_pass': 45}, {'model': 'Sequential'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'remove_DC_level': True}]

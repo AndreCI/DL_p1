@@ -1,0 +1,10 @@
+05/13/2018 10:24:12 [Program starts.]
+05/13/2018 10:24:12 [Arg used:][{'remove_DC_level': True}, {'init_type': 'xavier_normal'}, {'hidden_units': 28}, {'model': 'Convolutional'}, {'criterion': 'CrossEntropy'}, {'exp_name': 'convo_testing'}, {'normalize_data': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'verbose': 'low'}, {'recurrent_cell_type': 'GRU'}, {'optimizer': 'Adadelta'}, {'last_ms': 200}]
+05/13/2018 10:24:12 [Data loaded.]
+05/13/2018 10:24:12 [Model build.]
+05/13/2018 10:30:10 First best test accuracy: 0.720 at epoch 776
+05/13/2018 10:30:10 ----------------------------------------------------------------------------------------------------
+05/13/2018 10:30:10 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_E1000.pt.]
+05/13/2018 10:30:10 ----------------------------------------------------------------------------------------------------
+05/13/2018 10:30:10 [Producing accuracy and loss figures.]
+05/13/2018 10:30:10 [Finished in 357.929s.]

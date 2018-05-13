@@ -39,6 +39,22 @@ class Model(torch.nn.Module):
         else:
             raise NotImplementedError()
 
+    def _initialize_param(self, param):
+        if self.opt['init_type'] == None:
+            pass
+        elif self.opt['init_type'] == 'kaiming_uniform':
+            torch.nn.init.kaiming_uniform(param)
+        elif self.opt['init_type'] == 'kaiming_normal':
+            torch.nn.init.kaiming_normal( torch.nn.init.param)
+        elif self.opt['init_type'] == 'uniform':
+            torch.nn.init.uniform(param)
+        elif self.opt['init_type'] == 'xavier_uniform':
+            torch.nn.init.xavier_uniform(param)
+        elif self.opt['init_type'] == 'xavier_normal':
+            torch.nn.init.xavier_normal(param)
+        else:
+            raise NotImplementedError()
+
     def _build(self):
         raise NotImplementedError()
 

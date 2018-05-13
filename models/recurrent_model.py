@@ -40,6 +40,7 @@ class RecurrentModel(Model):
             new_dropout_layer = torch.nn.Dropout(self.opt['dropout'])
             name = str('dropout_%i' % i)
             linears.append((name, new_dropout_layer))
+            self._initialize_param(new_layer.weight)
         self.hidden_layers = torch.nn.Sequential(OrderedDict(linears))
 
         self.decoder = torch.nn.Linear(self.hidden_units, 2, bias=True)
@@ -52,6 +53,8 @@ class RecurrentModel(Model):
         #self.cells_states = Variable(torch.zeros(1, 1, self.hidden_units))
         self._build_criterion()
         self._build_optimizer()
+        self._initialize_param(self.input_layer.all_weights)
+        self._initialize_param(self.decoder.weight)
 
     def _init_state(self):
         if self.opt['init_type'] == "zero":

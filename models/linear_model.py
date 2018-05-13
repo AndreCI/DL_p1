@@ -27,6 +27,7 @@ class LinearModel(Model):
                 torch.nn.init.xavier_normal(current_dense.weight.data)
                 self.layers.append(current_dense)
                 self.add_module('dense',current_dense)
+                self._initialize_param(current_dense.weight)
             elif len(l) == 1:
                 if l[0] == 'sigmoid':
                     current_activation = torch.nn.Sigmoid()

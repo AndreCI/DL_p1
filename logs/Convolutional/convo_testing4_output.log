@@ -1,0 +1,7 @@
+05/13/2018 11:45:19 [Program starts.]
+05/13/2018 11:45:19 [Arg used:][{'epoch_number': 1000}, {'verbose': 'low'}, {'init_type': 'xavier_uniform'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'hidden_units': 28}, {'model': 'Convolutional'}, {'last_ms': 200}, {'normalize_data': True}, {'recurrent_cell_type': 'GRU'}, {'criterion': 'CrossEntropy'}, {'exp_name': 'convo_testing4'}, {'optimizer': 'Adagrad'}, {'remove_DC_level': True}]
+05/13/2018 11:45:19 [Data loaded.]
+05/13/2018 11:45:19 [Model build.]
+05/13/2018 11:49:11 First best test accuracy: 0.560 at epoch 83
+05/13/2018 11:49:11 [Producing accuracy and loss figures.]
+05/13/2018 11:49:11 [Finished in 231.687s.]

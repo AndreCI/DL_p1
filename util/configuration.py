@@ -19,32 +19,33 @@ def get_args(parser):
                         type=str)
     parser.add_argument('--exp_name',
                         help="name of the experience and the log file. This will not overwrite previous logs with the same name.",
-                        default='DC-Norm-L150ms-LP5-GRU-ADAD', type=str)
+                        default='convo_testing4', type=str)
 
     # General arguments
     parser.add_argument('--model', help="Type of model to use.", default='Sequential', type=str)
     parser.add_argument('--validation_set_ratio',
                         help="fraction of the test set to be converted into a validation set.", default=0.0, type=float)
+    parser.add_argument('--verbose', help="Degree of verbose, i.e. how much info to display and log", default='low', type=str)
 
     # Model arguments
     parser.add_argument('--epoch_number', help="Number of epoch to train.", default=1000, type=int)
     parser.add_argument('--dropout', help="Probability of the dropout during training. Set to 0 to not use it.",
-                        default=0.4, type=float)
+                        default=0.6, type=float)
     parser.add_argument('--criterion', help="Criterion used to evaluate the model.", default='CrossEntropy', type=str)
     parser.add_argument('--hidden_units', help="Number of hidden units used in the model.", default=28, type=int)
     parser.add_argument('--init_type',
                         help="The type of initalization applied to the hidden states and cells (recurrent model).",
-                        default="uniform", type=str)
+                        default="xavier_uniform", type=str)
     parser.add_argument('--depth', help="Depth of the different models, if applicable (convolutional & recurrent).",
-                        default=1, type=int)
+                        default=0, type=int)
     parser.add_argument('--recurrent_cell_type', help="Type of recurrent cell to use in recurrent model. LSTM or GRU.",
                         default='GRU', type=str)
 
     # Optimizer arguments
-    parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adadelta', type=str)
+    parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adagrad', type=str)
     parser.add_argument('--weight_decay', help="Value for the L2 penalty. Set to 0 to not use it.", default=1e-3,
                         type=float)
-    parser.add_argument('--lr', help="Learning rate to train the models.", default=1.0, type=float)
+    parser.add_argument('--lr', help="Learning rate to train the models.", default=0.001, type=float)
     parser.add_argument('--lr_decay', help="Learning rate decay, if available for the optimizer", default=0.001,
                         type=float)
     parser.add_argument('--momentum', help="Momentum used for the SGD optimizer", default=0.9, type=float)
@@ -61,14 +62,16 @@ def get_args(parser):
     parser.add_argument('--remove_DC_level',
                         help="Remove the DC bias over each channel in all the datasets.", default=True, type=bool)
     parser.add_argument('--low_pass',
-                        help="Value of the low pass filter, if any. Set to None to disable.", default=5, type=float)
-    parser.add_argument('--high_pass',
                         help="Value of the low pass filter, if any. Set to None to disable.", default=None, type=float)
+    parser.add_argument('--high_pass',
+                        help="Value of the high pass filter, if any. Set to None to disable.", default=None, type=float)
+    parser.add_argument('--notch_filter',
+                        help="Frequencies to reject with the notch filter, if any. Set to None to disable.", default=None, type=float)
     parser.add_argument('--normalize_data',
                         help="Normalize data in order to have all channels values between -1 and 1.", default=True,
                         type=bool)
     parser.add_argument('--last_ms', help="Use only the last X miliseconds as features. Set to 0 to disable",
-                        default=150, type=int)
+                        default=200, type=int)
     parser.add_argument('--pca_features',
                         help="Replace input by its principal components. Set to 0 to disable.", default=0, type=int)
     parser.add_argument('--cannalwise_pca_features',

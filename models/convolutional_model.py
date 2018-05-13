@@ -32,6 +32,8 @@ class ConvolutionalModel(models.model.Model):
             new_dropout_layer = torch.nn.Dropout(self.opt['dropout'])
             name = str('dropout_%i' %i)
             linears.append((name, new_dropout_layer))
+            self._initialize_param(new_layer.weight)
+            #self._initialize_param(new_layer.bias)
         self.hidden_layers = torch.nn.Sequential(OrderedDict(linears))
         self.decoder = torch.nn.Linear(self.opt['hidden_units'], 2)
         self.add_module('decoder', self.decoder)
@@ -41,6 +43,10 @@ class ConvolutionalModel(models.model.Model):
 
         self._build_criterion()
         self._build_optimizer()
+        self._initialize_param(self.input_layer.weight)
+        #self._initialize_param(self.input_layer.bias)
+        self._initialize_param(self.decoder.weight)
+        #self._initialize_param(self.decoder.bias)
 
     def forward(self, x, train=True):
         x = self.input_layer(x)

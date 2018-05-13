@@ -1,0 +1,2 @@
+05/09/2018 11:06:33 [Program starts.]
+05/09/2018 11:06:33 [Arg used:][{'remove_DC_level': True}, {'depth': 1}, {'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'last_ms': 200}, {'high_pass': 5}, {'init_type': 'uniform'}, {'optimizer': 'Adagrad'}, {'model': 'Convolutional'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'hidden_units': 28}, {'exp_name': 'DC-Norm-LP2-HP45'}, {'recurrent_cell_type': 'GRU'}, {'epoch_number': 1000}]
