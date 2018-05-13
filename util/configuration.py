@@ -19,12 +19,12 @@ def get_args(parser):
                         type=str)
     parser.add_argument('--exp_name',
                         help="name of the experience and the log file. This will not overwrite previous logs with the same name.",
-                        default='convo_testing4', type=str)
+                        default='convo_testing5', type=str)
 
     # General arguments
     parser.add_argument('--model', help="Type of model to use.", default='Sequential', type=str)
     parser.add_argument('--validation_set_ratio',
-                        help="fraction of the test set to be converted into a validation set.", default=0.0, type=float)
+                        help="fraction of the test set to be converted into a validation set.", default=0.2, type=float)
     parser.add_argument('--verbose', help="Degree of verbose, i.e. how much info to display and log", default='low', type=str)
 
     # Model arguments
@@ -54,6 +54,8 @@ def get_args(parser):
                         default=0.9, type=float)
     parser.add_argument('--eps', help="term added to the denominator to improve numerical stability in Adadelta",
                         default=1e-6, type=float)
+    parser.add_argument('--patience', help='Number of epochs without improvements that the early stopping tolerate. '
+                                           'Set to 0 to disable.', default=100, type=int)
 
     # Data pre processing arguments
     parser.add_argument('--one_khz',
@@ -71,12 +73,13 @@ def get_args(parser):
                         help="Normalize data in order to have all channels values between -1 and 1.", default=True,
                         type=bool)
     parser.add_argument('--last_ms', help="Use only the last X miliseconds as features. Set to 0 to disable",
-                        default=200, type=int)
+                        default=0, type=int)
     parser.add_argument('--pca_features',
                         help="Replace input by its principal components. Set to 0 to disable.", default=0, type=int)
     parser.add_argument('--cannalwise_pca_features',
                         help="Replace input by the principal components of each cannal. Set to 0 to disable.",
                         default=0, type=int)
+
 
     return vars(parser.parse_args())
 

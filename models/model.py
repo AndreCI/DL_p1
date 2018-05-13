@@ -71,7 +71,7 @@ class Model(torch.nn.Module):
         save_dict = dict(
             {'model': self.state_dict(), 'optimizer': self.optimizer.state_dict(), 'criterion': self.criterion.state_dict()})
         log.info('-' * 100)
-        save_name = 'savedModel_E%d.pt' % (epoch)
+        save_name = 'savedModel_E%s.pt' % (epoch)
         location = os.path.join(self.opt['save_dir'], self.type)
         if not os.path.exists(location): os.mkdir(location)
         save_name = os.path.join(location, save_name)

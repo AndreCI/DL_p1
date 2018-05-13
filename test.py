@@ -10,6 +10,7 @@ from util.data_util import *
 from run import run_model
 import time
 import math
+import numpy as np
 
 opt = get_args(argparse.ArgumentParser())
 log = setup_log(opt)
@@ -33,12 +34,41 @@ test_dataset = Dataset(opt, test_input, test_target, log, 'test')
 
 log.info('[Data loaded.]')
 
-model = get_model(opt, train_dataset)
-log.info('[Model build.]')
-
-# epoch_done = model.load_model(log)
-epoch_done = 0
-run_model(model, train_dataset, test_dataset, opt, log)
+dropout = np.arange(0, 0.6, 0.1)
+hidden_units = [28]
+inits = ['xavier_uniform', 'xavier_normal', 'uniform']
+depths = [0]
+optimizers = [('Adagrad', 0.001), (['Adadelta', 1.0])]
+weight_decays = np.arange(0, 0.2, 0.1)
+low_passes = np.arange(0, 100, 20)
+high_passes = np.arange(0, 10, 5)
+normalize = [True, False]
+last_ms = [0, 200, 100]
+best_acc = 0
+best_mod = None
+for d in dropout:
+    opt['dropout'] = d
+    for h in hidden_units:
+        opt['hidden_units'] = h
+        for i in inits:
+            opt['init_type'] = i
+            for dep in depths:
+                opt['depth'] = dep
+                for o in optimizers:
+                    opt['optimizer'] = o[0]
+                    opt['lr'] = o[1]
+                    for w in weight_decays:
+                        opt['weight_decay'] = w
+                        opt['exp_name'] = str('CONVO_' + str(d) + '_' + str(h) + '_' + str(i) + '_' + str(dep) + '_' + str(o) + '_' + str(w))
+                        model = get_model(opt, train_dataset)
+                        log.info('*' * 60)
+                        log.info('new model with parameters:')
+                        log.info(opt)
+                        accuracy = run_model(model, train_dataset, validation_dataset, opt, log)
+                        if accuracy > best_acc:
+                            best_acc = accuracy
+                            best_mod = model
+                        log.info('best model: %.3f' %best_acc)
 # model.save_model(opt['epoch_number'] + epoch_done, log)
 
 exit()

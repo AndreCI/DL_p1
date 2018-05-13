@@ -5,3 +5,9 @@
 05/13/2018 11:49:11 First best test accuracy: 0.560 at epoch 83
 05/13/2018 11:49:11 [Producing accuracy and loss figures.]
 05/13/2018 11:49:11 [Finished in 231.687s.]
+05/13/2018 03:24:25 [Program starts.]
+05/13/2018 03:24:25 [Arg used:][{'optimizer': 'Adagrad'}, {'normalize_data': True}, {'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'recurrent_cell_type': 'GRU'}, {'model': 'Convolutional'}, {'verbose': 'low'}, {'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'last_ms': 200}, {'exp_name': 'convo_testing4'}, {'hidden_units': 28}, {'remove_DC_level': True}]
+05/13/2018 03:24:26 [Data loaded.]
+05/13/2018 03:24:26 ************************************************************
+05/13/2018 03:24:26 new model with parameters:
+05/13/2018 03:24:26 {'optimizer': 'Adagrad', 'one_khz': False, 'normalize_data': True, 'notch_filter': None, 'epoch_number': 1000, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'rho': 0.9, 'cannalwise_pca_features': 0, 'dropout': 0.0, 'model': 'Convolutional', 'high_pass': None, 'lr_decay': 0.001, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'eps': 1e-06, 'low_pass': None, 'verbose': 'low', 'criterion': 'CrossEntropy', 'validation_set_ratio': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'init_type': 'xavier_uniform', 'last_ms': 200, 'depth': 0, 'lr': 0.001, 'pca_features': 0, 'exp_name': 'convo_testing4', 'hidden_units': 28, 'remove_DC_level': True, 'weight_decay': 0.0}

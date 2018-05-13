@@ -9,6 +9,8 @@ def run_model(model, train_dataset, test_dataset, opt, log):
     final_acc_test = []
     best_test_acc = (0, 0)
     t0 = time.time()
+    wait_early = 0
+    best_test_loss = 0
     for i in range(epoch_number):
         ts = time.time()
         train_dataset.setup_epoch(single_pass=True)
@@ -28,6 +30,17 @@ def run_model(model, train_dataset, test_dataset, opt, log):
         final_loss_test.append(sum(losses_test) / len(losses_test))
         final_acc_train.append(sum(acc_train) / len(acc_train))
         final_acc_test.append(sum(acc_test) / len(acc_test))
+        test_loss = sum(losses_test) / len(losses_test)
+        end_epoch = i
+        if test_loss < best_test_loss:
+            best_test_loss = test_loss
+            wait_early = 1
+        elif wait_early > opt['patience']:
+            end_epoch = i
+            log.info('Early stopping at epoch %i, test loss is %f' %(i, test_loss))
+            break
+        else:
+            wait_early +=1
         if final_acc_test[-1] > best_test_acc[0]:
             best_test_acc = (final_acc_test[-1], i)
         te = time.time()
@@ -36,10 +49,10 @@ def run_model(model, train_dataset, test_dataset, opt, log):
             i, epoch_number, (te - ts), ((te - ts) * (epoch_number - i))))
     log.info('First best test accuracy: %.3f at epoch %i' % (best_test_acc[0], best_test_acc[1]))
     if best_test_acc[0] > 0.70:
-        model.save_model(opt['epoch_number'], log)
+        model.save_model(str(str(opt['epoch_number']) + str(best_test_acc[0])), log)
     if opt['verbose'] is 'high' or 'medium':
         log.info('[Producing accuracy and loss figures.]')
-    display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=int(epoch_number / 10))
-    display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=int(epoch_number / 10))
+    #display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=int( end_epoch/ 10))
+    #display_accuracy(final_acc_train, final_acc_test, model.type, opt, running_mean_param=int(end_epoch / 10))
     log.info('[Finished in %.3fs.]' % (time.time() - t0))
     return best_test_acc[0]
