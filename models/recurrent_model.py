@@ -53,7 +53,9 @@ class RecurrentModel(Model):
         #self.cells_states = Variable(torch.zeros(1, 1, self.hidden_units))
         self._build_criterion()
         self._build_optimizer()
-        self._initialize_param(self.input_layer.all_weights)
+        for w in self.input_layer.all_weights[0]:
+            if w.dim() >= 2:
+                self._initialize_param(w)
         self._initialize_param(self.decoder.weight)
 
     def _init_state(self):
@@ -63,6 +65,9 @@ class RecurrentModel(Model):
             return Variable(torch.normal(means=torch.zeros(1, 1, self.hidden_units)))
         elif self.opt['init_type'] == "uniform":
             return Variable(torch.zeros(1, 1, self.hidden_units).uniform_(0, 1))
+        elif self.opt['init_type'] == 'xavier_uniform' or self.opt['init_type'] == 'xavier_normal':
+            v = Variable(torch.zeros(1, 1, self.hidden_units))
+            self._initialize_param(v)
         else:
             raise NotImplementedError("This init type (%s) has not been implemented yet." %self.opt['init_type'])
 

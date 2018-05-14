@@ -1,0 +1,96 @@
+05/14/2018 03:06:14 [Program starts.]
+05/14/2018 03:06:14 [Arg used:][{'init_type': 'xavier_uniform'}, {'patience': 100}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'optimizer': 'Adagrad'}, {'normalize_data': True}, {'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'epoch_number': 1000}, {'model': 'Recurrent'}, {'hidden_units': 28}, {'remove_DC_level': True}, {'exp_name': 'rec_testing_N1'}]
+05/14/2018 03:06:14 [Data loaded.]
+05/14/2018 03:06:52 [Program starts.]
+05/14/2018 03:06:52 [Arg used:][{'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'patience': 100}, {'remove_DC_level': True}, {'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'exp_name': 'rec_testing_N1'}, {'epoch_number': 1000}, {'model': 'Recurrent'}, {'init_type': 'xavier_uniform'}, {'optimizer': 'Adagrad'}, {'hidden_units': 28}]
+05/14/2018 03:06:52 [Data loaded.]
+05/14/2018 03:09:12 [Program starts.]
+05/14/2018 03:09:12 [Arg used:][{'recurrent_cell_type': 'GRU'}, {'hidden_units': 28}, {'model': 'Recurrent'}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'exp_name': 'rec_testing_N1'}, {'optimizer': 'Adagrad'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'remove_DC_level': True}, {'normalize_data': True}, {'verbose': 'low'}, {'criterion': 'CrossEntropy'}, {'patience': 100}]
+05/14/2018 03:09:12 [Data loaded.]
+05/14/2018 03:09:39 [Program starts.]
+05/14/2018 03:09:39 [Arg used:][{'remove_DC_level': True}, {'verbose': 'low'}, {'patience': 100}, {'optimizer': 'Adagrad'}, {'epoch_number': 1000}, {'recurrent_cell_type': 'GRU'}, {'model': 'Recurrent'}, {'normalize_data': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'hidden_units': 28}, {'init_type': 'xavier_uniform'}, {'exp_name': 'rec_testing_N1'}]
+05/14/2018 03:09:39 [Data loaded.]
+05/14/2018 03:09:54 [Program starts.]
+05/14/2018 03:09:54 [Arg used:][{'criterion': 'CrossEntropy'}, {'hidden_units': 28}, {'init_type': 'xavier_uniform'}, {'normalize_data': True}, {'remove_DC_level': True}, {'optimizer': 'Adagrad'}, {'verbose': 'low'}, {'recurrent_cell_type': 'GRU'}, {'exp_name': 'rec_testing_N1'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'patience': 100}, {'model': 'Recurrent'}, {'epoch_number': 1000}]
+05/14/2018 03:09:54 [Data loaded.]
+05/14/2018 03:10:31 [Program starts.]
+05/14/2018 03:10:31 [Arg used:][{'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'optimizer': 'Adagrad'}, {'init_type': 'xavier_uniform'}, {'epoch_number': 1000}, {'model': 'Recurrent'}, {'exp_name': 'rec_testing_N1'}, {'verbose': 'low'}, {'remove_DC_level': True}, {'criterion': 'CrossEntropy'}, {'hidden_units': 28}, {'normalize_data': True}]
+05/14/2018 03:10:31 [Data loaded.]
+05/14/2018 03:10:38 [Program starts.]
+05/14/2018 03:10:38 [Arg used:][{'hidden_units': 28}, {'remove_DC_level': True}, {'verbose': 'low'}, {'init_type': 'xavier_uniform'}, {'exp_name': 'rec_testing_N1'}, {'epoch_number': 1000}, {'recurrent_cell_type': 'GRU'}, {'normalize_data': True}, {'patience': 100}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'model': 'Recurrent'}, {'optimizer': 'Adagrad'}]
+05/14/2018 03:10:39 [Data loaded.]
+05/14/2018 03:10:50 [Program starts.]
+05/14/2018 03:10:50 [Arg used:][{'verbose': 'low'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'remove_DC_level': True}, {'optimizer': 'Adagrad'}, {'hidden_units': 28}, {'exp_name': 'rec_testing_N1'}, {'patience': 100}, {'model': 'Recurrent'}, {'recurrent_cell_type': 'GRU'}]
+05/14/2018 03:10:50 [Data loaded.]
+05/14/2018 03:11:45 [Program starts.]
+05/14/2018 03:11:45 [Arg used:][{'exp_name': 'rec_testing_N1'}, {'patience': 100}, {'optimizer': 'Adagrad'}, {'criterion': 'CrossEntropy'}, {'recurrent_cell_type': 'GRU'}, {'normalize_data': True}, {'init_type': 'xavier_uniform'}, {'hidden_units': 28}, {'model': 'Recurrent'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'remove_DC_level': True}, {'verbose': 'low'}]
+05/14/2018 03:11:45 [Data loaded.]
+05/14/2018 03:11:45 ************************************************************
+05/14/2018 03:11:45 new model with parameters:
+05/14/2018 03:11:45 {'momentum': 0.9, 'last_ms': 0, 'exp_name': "CONVO_0.0_5_xavier_uniform_0_['Adadelta', 1.0]_0.0", 'pca_features': 0, 'patience': 100, 'depth': 0, 'notch_filter': None, 'optimizer': 'Adadelta', 'low_pass': None, 'criterion': 'CrossEntropy', 'recurrent_cell_type': 'GRU', 'normalize_data': True, 'cannalwise_pca_features': 0, 'weight_decay': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'one_khz': False, 'init_type': 'xavier_uniform', 'validation_set_ratio': 0.5, 'eps': 1e-06, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'hidden_units': 5, 'model': 'Recurrent', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'epoch_number': 1000, 'remove_DC_level': True, 'rho': 0.9, 'high_pass': None, 'dropout': 0.0, 'lr_decay': 0.001, 'verbose': 'low', 'lr': 1.0}
+05/14/2018 03:13:49 [Program starts.]
+05/14/2018 03:13:49 [Arg used:][{'verbose': 'low'}, {'hidden_units': 28}, {'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'remove_DC_level': True}, {'epoch_number': 1000}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'optimizer': 'Adagrad'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'exp_name': 'rec_testing_N1'}, {'model': 'Recurrent'}, {'init_type': 'xavier_uniform'}]
+05/14/2018 03:13:49 [Data loaded.]
+05/14/2018 03:13:49 ************************************************************
+05/14/2018 03:13:49 new model with parameters:
+05/14/2018 03:13:49 {'pca_features': 0, 'verbose': 'low', 'hidden_units': 5, 'dropout': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'normalize_data': True, 'weight_decay': 0.0, 'criterion': 'CrossEntropy', 'remove_DC_level': True, 'notch_filter': None, 'depth': 0, 'cannalwise_pca_features': 0, 'eps': 1e-06, 'last_ms': 0, 'epoch_number': 1000, 'low_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'patience': 100, 'optimizer': 'Adadelta', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'exp_name': "CONVO_0.0_5_xavier_uniform_0_['Adadelta', 1.0]_0.0", 'validation_set_ratio': 0.5, 'high_pass': None, 'lr': 1.0, 'model': 'Recurrent', 'init_type': 'xavier_uniform', 'lr_decay': 0.001, 'rho': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+05/14/2018 03:20:31 Early stopping at epoch 101, test loss is 0.555970
+05/14/2018 03:20:31 First best test accuracy: 0.800 at epoch 3
+05/14/2018 03:20:31 ----------------------------------------------------------------------------------------------------
+05/14/2018 03:20:31 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Recurrent/savedModel_E10000.8.pt.]
+05/14/2018 03:20:31 ----------------------------------------------------------------------------------------------------
+05/14/2018 03:20:31 [Producing accuracy and loss figures.]
+05/14/2018 03:20:31 [Finished in 402.490s.]
+05/14/2018 03:20:31 best model: 0.800
+05/14/2018 03:20:31 ************************************************************
+05/14/2018 03:20:31 new model with parameters:
+05/14/2018 03:20:31 {'pca_features': 0, 'verbose': 'low', 'hidden_units': 5, 'dropout': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'normalize_data': True, 'weight_decay': 0.1, 'criterion': 'CrossEntropy', 'remove_DC_level': True, 'notch_filter': None, 'depth': 0, 'cannalwise_pca_features': 0, 'eps': 1e-06, 'last_ms': 0, 'epoch_number': 1000, 'low_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'patience': 100, 'optimizer': 'Adadelta', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'exp_name': "CONVO_0.0_5_xavier_uniform_0_['Adadelta', 1.0]_0.1", 'validation_set_ratio': 0.5, 'high_pass': None, 'lr': 1.0, 'model': 'Recurrent', 'init_type': 'xavier_uniform', 'lr_decay': 0.001, 'rho': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+05/14/2018 03:28:19 Early stopping at epoch 101, test loss is 0.699874
+05/14/2018 03:28:19 First best test accuracy: 0.560 at epoch 6
+05/14/2018 03:28:19 [Producing accuracy and loss figures.]
+05/14/2018 03:28:19 [Finished in 468.057s.]
+05/14/2018 03:28:19 best model: 0.800
+05/14/2018 03:28:19 ************************************************************
+05/14/2018 03:28:19 new model with parameters:
+05/14/2018 03:28:19 {'pca_features': 0, 'verbose': 'low', 'hidden_units': 5, 'dropout': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'normalize_data': True, 'weight_decay': 0.2, 'criterion': 'CrossEntropy', 'remove_DC_level': True, 'notch_filter': None, 'depth': 0, 'cannalwise_pca_features': 0, 'eps': 1e-06, 'last_ms': 0, 'epoch_number': 1000, 'low_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'patience': 100, 'optimizer': 'Adadelta', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'exp_name': "CONVO_0.0_5_xavier_uniform_0_['Adadelta', 1.0]_0.2", 'validation_set_ratio': 0.5, 'high_pass': None, 'lr': 1.0, 'model': 'Recurrent', 'init_type': 'xavier_uniform', 'lr_decay': 0.001, 'rho': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+05/14/2018 03:36:14 Early stopping at epoch 101, test loss is 0.692274
+05/14/2018 03:36:14 First best test accuracy: 0.560 at epoch 7
+05/14/2018 03:36:14 [Producing accuracy and loss figures.]
+05/14/2018 03:36:14 [Finished in 474.318s.]
+05/14/2018 03:36:14 best model: 0.800
+05/14/2018 03:36:14 ************************************************************
+05/14/2018 03:36:14 new model with parameters:
+05/14/2018 03:36:14 {'pca_features': 0, 'verbose': 'low', 'hidden_units': 5, 'dropout': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'normalize_data': True, 'weight_decay': 0.0, 'criterion': 'CrossEntropy', 'remove_DC_level': True, 'notch_filter': None, 'depth': 1, 'cannalwise_pca_features': 0, 'eps': 1e-06, 'last_ms': 0, 'epoch_number': 1000, 'low_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'patience': 100, 'optimizer': 'Adadelta', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'exp_name': "CONVO_0.0_5_xavier_uniform_1_['Adadelta', 1.0]_0.0", 'validation_set_ratio': 0.5, 'high_pass': None, 'lr': 1.0, 'model': 'Recurrent', 'init_type': 'xavier_uniform', 'lr_decay': 0.001, 'rho': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+05/14/2018 03:43:05 Early stopping at epoch 101, test loss is 0.575354
+05/14/2018 03:43:05 First best test accuracy: 0.820 at epoch 26
+05/14/2018 03:43:05 ----------------------------------------------------------------------------------------------------
+05/14/2018 03:43:05 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Recurrent/savedModel_E10000.82.pt.]
+05/14/2018 03:43:05 ----------------------------------------------------------------------------------------------------
+05/14/2018 03:43:05 [Producing accuracy and loss figures.]
+05/14/2018 03:43:05 [Finished in 411.145s.]
+05/14/2018 03:43:05 best model: 0.820
+05/14/2018 03:43:05 ************************************************************
+05/14/2018 03:43:05 new model with parameters:
+05/14/2018 03:43:05 {'pca_features': 0, 'verbose': 'low', 'hidden_units': 5, 'dropout': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'normalize_data': True, 'weight_decay': 0.1, 'criterion': 'CrossEntropy', 'remove_DC_level': True, 'notch_filter': None, 'depth': 1, 'cannalwise_pca_features': 0, 'eps': 1e-06, 'last_ms': 0, 'epoch_number': 1000, 'low_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'patience': 100, 'optimizer': 'Adadelta', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'exp_name': "CONVO_0.0_5_xavier_uniform_1_['Adadelta', 1.0]_0.1", 'validation_set_ratio': 0.5, 'high_pass': None, 'lr': 1.0, 'model': 'Recurrent', 'init_type': 'xavier_uniform', 'lr_decay': 0.001, 'rho': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+05/14/2018 03:51:05 Early stopping at epoch 101, test loss is 0.695009
+05/14/2018 03:51:05 First best test accuracy: 0.560 at epoch 0
+05/14/2018 03:51:05 [Producing accuracy and loss figures.]
+05/14/2018 03:51:05 [Finished in 480.174s.]
+05/14/2018 03:51:05 best model: 0.820
+05/14/2018 03:51:05 ************************************************************
+05/14/2018 03:51:05 new model with parameters:
+05/14/2018 03:51:05 {'pca_features': 0, 'verbose': 'low', 'hidden_units': 5, 'dropout': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'normalize_data': True, 'weight_decay': 0.2, 'criterion': 'CrossEntropy', 'remove_DC_level': True, 'notch_filter': None, 'depth': 1, 'cannalwise_pca_features': 0, 'eps': 1e-06, 'last_ms': 0, 'epoch_number': 1000, 'low_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'patience': 100, 'optimizer': 'Adadelta', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'exp_name': "CONVO_0.0_5_xavier_uniform_1_['Adadelta', 1.0]_0.2", 'validation_set_ratio': 0.5, 'high_pass': None, 'lr': 1.0, 'model': 'Recurrent', 'init_type': 'xavier_uniform', 'lr_decay': 0.001, 'rho': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+05/14/2018 03:59:24 Early stopping at epoch 101, test loss is 0.685967
+05/14/2018 03:59:24 First best test accuracy: 0.560 at epoch 0
+05/14/2018 03:59:24 [Producing accuracy and loss figures.]
+05/14/2018 03:59:24 [Finished in 498.582s.]
+05/14/2018 03:59:24 best model: 0.820
+05/14/2018 03:59:24 ************************************************************
+05/14/2018 03:59:24 new model with parameters:
+05/14/2018 03:59:24 {'pca_features': 0, 'verbose': 'low', 'hidden_units': 5, 'dropout': 0.0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'normalize_data': True, 'weight_decay': 0.0, 'criterion': 'CrossEntropy', 'remove_DC_level': True, 'notch_filter': None, 'depth': 0, 'cannalwise_pca_features': 0, 'eps': 1e-06, 'last_ms': 0, 'epoch_number': 1000, 'low_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'patience': 100, 'optimizer': 'Adadelta', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'exp_name': "CONVO_0.0_5_xavier_normal_0_['Adadelta', 1.0]_0.0", 'validation_set_ratio': 0.5, 'high_pass': None, 'lr': 1.0, 'model': 'Recurrent', 'init_type': 'xavier_normal', 'lr_decay': 0.001, 'rho': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/'}
+05/14/2018 04:00:48 [Program starts.]
+05/14/2018 04:00:48 [Arg used:][{'epoch_number': 1000}, {'verbose': 'low'}, {'hidden_units': 28}, {'remove_DC_level': True}, {'exp_name': 'rec_testing_N1'}, {'init_type': 'xavier_uniform'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'optimizer': 'Adagrad'}, {'patience': 100}, {'recurrent_cell_type': 'GRU'}, {'criterion': 'CrossEntropy'}, {'normalize_data': True}, {'model': 'Recurrent'}]
+05/14/2018 04:00:48 [Data loaded.]
+05/14/2018 04:00:48 ************************************************************
+05/14/2018 04:00:48 new model with parameters:
+05/14/2018 04:00:48 {'epoch_number': 1000, 'verbose': 'low', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'lr': 1.0, 'hidden_units': 5, 'remove_DC_level': True, 'notch_filter': None, 'one_khz': False, 'exp_name': "CONVO_0.0_5_xavier_uniform_0_['Adadelta', 1.0]_0.0", 'eps': 1e-06, 'rho': 0.9, 'momentum': 0.9, 'validation_set_ratio': 0.5, 'init_type': 'xavier_uniform', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'depth': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'optimizer': 'Adadelta', 'patience': 100, 'recurrent_cell_type': 'GRU', 'low_pass': None, 'criterion': 'CrossEntropy', 'last_ms': 0, 'weight_decay': 0.0, 'normalize_data': True, 'lr_decay': 0.001, 'cannalwise_pca_features': 0, 'dropout': 0.0, 'model': 'Recurrent', 'pca_features': 0}

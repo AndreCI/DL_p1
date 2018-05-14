@@ -7,7 +7,7 @@ import dlc_bci as bci
 import argparse
 from util.configuration import get_args, get_model, setup_log
 from util.data_util import *
-from run import run_model
+from run import run_model, test_model
 import time
 import math
 import numpy as np
@@ -20,10 +20,7 @@ test_input, test_target = bci.load(root='./data', train=False, store_local=True,
 
 split = math.floor(test_input.size()[0] * opt['validation_set_ratio'])
 if split != 0:
-    validation_input = test_input[:split]
-    validation_target = test_target[:split]
-    test_input = test_input[split:]
-    test_target = test_target[split:]
+    test_input, test_target, validation_input, validation_target = split_test_set(test_input, test_target, split)
     validation_dataset = Dataset(opt, validation_input, validation_target, 'val')
 
 train_dataset = Dataset(opt, train_̇input, train_̇target, log, 'train')
@@ -35,42 +32,59 @@ test_dataset = Dataset(opt, test_input, test_target, log, 'test')
 log.info('[Data loaded.]')
 
 dropout = np.arange(0, 0.6, 0.1)
-hidden_units = [28]
-inits = ['xavier_uniform', 'xavier_normal', 'uniform']
-depths = [0]
-optimizers = [('Adagrad', 0.001), (['Adadelta', 1.0])]
-weight_decays = np.arange(0, 0.2, 0.1)
+hidden_units = [5, 20]
+inits = ['xavier_uniform', 'xavier_normal']
+depths = [0, 1]
+optimizers = [(['Adadelta', 1.0])]
+weight_decays = np.arange(0, 0.3, 0.1)
+
 low_passes = np.arange(0, 100, 20)
 high_passes = np.arange(0, 10, 5)
 normalize = [True, False]
 last_ms = [0, 200, 100]
 best_acc = 0
 best_mod = None
-for d in dropout:
-    opt['dropout'] = d
-    for h in hidden_units:
-        opt['hidden_units'] = h
-        for i in inits:
-            opt['init_type'] = i
-            for dep in depths:
-                opt['depth'] = dep
-                for o in optimizers:
-                    opt['optimizer'] = o[0]
-                    opt['lr'] = o[1]
-                    for w in weight_decays:
-                        opt['weight_decay'] = w
-                        opt['exp_name'] = str('CONVO_' + str(d) + '_' + str(h) + '_' + str(i) + '_' + str(dep) + '_' + str(o) + '_' + str(w))
-                        model = get_model(opt, train_dataset)
-                        log.info('*' * 60)
-                        log.info('new model with parameters:')
-                        log.info(opt)
-                        accuracy = run_model(model, train_dataset, validation_dataset, opt, log)
-                        if accuracy > best_acc:
-                            best_acc = accuracy
-                            best_mod = model
-                        log.info('best model: %.3f' %best_acc)
+models_saved = []
+rhos = [0.9, 0.8, 0.95]
+epss = [1e-6, 1e-5]
+for rho in rhos:
+    opt['rho'] = rho
+    for eps in epss:
+        opt['eps'] = eps
+        for d in dropout:
+            opt['dropout'] = d
+            for h in hidden_units:
+                opt['hidden_units'] = h
+                for i in inits:
+                    opt['init_type'] = i
+                    for dep in depths:
+                        opt['depth'] = dep
+                        for o in optimizers:
+                            opt['optimizer'] = o[0]
+                            opt['lr'] = o[1]
+                            for w in weight_decays:
+                                opt['weight_decay'] = w
+                                opt['exp_name'] = str('CONVO_' + str(d) + '_' + str(h) + '_' + str(i) + '_' + str(dep) + '_' + str(o) + '_' + str(w))
+                                model = get_model(opt, train_dataset)
+                                log.info('*' * 60)
+                                log.info('new model with parameters:')
+                                log.info(opt)
+                                accuracy = run_model(model, train_dataset, validation_dataset, opt, log)
+                                if accuracy >= best_acc:
+                                    best_acc = accuracy
+                                    best_mod = model
+                                    models_saved.append(model)
+                                if accuracy > 0.8:
+                                    model.save_model(log, str('model_' + opt['exp_name']))
+                                log.info('best model: %.3f' %best_acc)
 # model.save_model(opt['epoch_number'] + epoch_done, log)
-
+i = 0
+for model in models_saved:
+    i+=1
+    acc = test_model(model, test_dataset, opt, log)
+    print(acc)
+    if acc > 0.8:
+        model.save_model(log, 'valtestedmodel_%i_%.3f' %(i,acc))
 exit()
 
 

@@ -19,12 +19,12 @@ def get_args(parser):
                         type=str)
     parser.add_argument('--exp_name',
                         help="name of the experience and the log file. This will not overwrite previous logs with the same name.",
-                        default='convo_testing5', type=str)
+                        default='rec_testing_N1', type=str)
 
     # General arguments
     parser.add_argument('--model', help="Type of model to use.", default='Sequential', type=str)
     parser.add_argument('--validation_set_ratio',
-                        help="fraction of the test set to be converted into a validation set.", default=0.2, type=float)
+                        help="fraction of the test set to be converted into a validation set.", default=0.5, type=float)
     parser.add_argument('--verbose', help="Degree of verbose, i.e. how much info to display and log", default='low', type=str)
 
     # Model arguments
