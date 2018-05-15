@@ -85,6 +85,13 @@ class LinearModel(Model):
         losses = []
         predictions = []
         i = 0
+        if mode == 'train':
+            self.train()
+        elif mode == 'test':
+            self.eval()
+        else:
+            raise AttributeError('The mode %s is not recognized. Please use train or test' %mode)
+
         while dataset.has_next_example():
             i+=1
             input, target = dataset.next_example()

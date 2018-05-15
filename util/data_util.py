@@ -256,9 +256,9 @@ def generate_toy_data(points_number=1000):
             target[i] = 0
     return torch.from_numpy(examples).type(torch.FloatTensor), torch.from_numpy(target).type(torch.LongTensor)
 
-def split_test_set(test_input, test_target, split):
-    validation_input = test_input[:split]
-    validation_target = test_target[:split]
-    test_input = test_input[split:]
-    test_target = test_target[split:]
-    return test_input, test_target, validation_input, validation_target
+def split_trainset(train_inputs, train_targets, split):
+    validation_input = train_inputs[:split]
+    validation_target = train_targets[:split]
+    train_inputs = train_inputs[split:]
+    train_targets = train_targets[split:]
+    return train_inputs, train_targets, validation_input, validation_target

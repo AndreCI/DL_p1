@@ -1,6 +1,6 @@
 import time
 from util.data_util import compute_accuracy, display_accuracy, display_losses
-
+import os
 def run_model(model, train_dataset, test_dataset, opt, log):
     epoch_number = opt['epoch_number']
     final_loss_train = []
@@ -83,8 +83,11 @@ def test_model(model, test_dataset, opt, log):
             log.info('[Epoch %i/%i done in %.3f s. Approximatly %.3fs. remaining.]' % (
             i, epoch_number, (te - ts), ((te - ts) * (epoch_number - i))))
     log.info('First best test accuracy: %.3f at epoch %i' % (best_test_acc[0], best_test_acc[1]))
-    if best_test_acc[0] > 0.70:
-        model.save_model(str(str(opt['epoch_number']) + str(best_test_acc[0])), log)
+    if best_test_acc[0] > 0.72:
+        id = time.time()
+        name = str(str(best_test_acc[0]) + str(id))
+        model.save_params(name, log)
+        model.save_model(name, log)
     if opt['verbose'] is 'high' or 'medium':
         log.info('[Producing accuracy and loss figures.]')
     #display_losses(final_loss_train, final_loss_test, model.type, opt, running_mean_param=int( end_epoch/ 10))

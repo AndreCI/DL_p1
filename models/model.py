@@ -1,6 +1,7 @@
 import torch
 import os
 import re
+import json
 
 class Model(torch.nn.Module):
     def __init__(self, opt):
@@ -67,11 +68,11 @@ class Model(torch.nn.Module):
     def run(self, dataset, mode='train'):
         raise NotImplementedError()
 
-    def save_model(self, epoch, log):
+    def save_model(self, name, log):
         save_dict = dict(
             {'model': self.state_dict(), 'optimizer': self.optimizer.state_dict(), 'criterion': self.criterion.state_dict()})
         log.info('-' * 100)
-        save_name = 'savedModel_E%s.pt' % (epoch)
+        save_name = 'savedModel_%s.pt' % (name)
         location = os.path.join(self.opt['save_dir'], self.type)
         if not os.path.exists(location): os.mkdir(location)
         save_name = os.path.join(location, save_name)
@@ -79,7 +80,53 @@ class Model(torch.nn.Module):
         torch.save(save_dict, save_name)
         log.info('-' * 100)
 
-    def load_model(self, log, epoch_number=0):
+    def save_params(self, name, log):
+        data = self.opt
+        save_name = 'paramModel_%s.json' % name
+        location = os.path.join(self.opt['save_dir'], self.type)
+        if not os.path.exists(location): os.mkdir(location)
+        save_name = os.path.join(location, save_name)
+        with open(save_name, 'w', encoding='utf-8') as f:
+            json.dump(data, f)
+        log.info('[Saving Model at location %s.]' %save_name)
+        log.info('-' * 100)
+
+    def load_params(self, name, log):
+        save_name = 'paramModel_%s.json' % name
+        location = os.path.join(self.opt['save_dir'], self.type)
+        if not os.path.exists(location): os.mkdir(location)
+        save_name = os.path.join(location, save_name)
+        with open(save_name, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        log.info('[Saving Model at location %s.]' % save_name)
+        log.info('-' * 100)
+        return data
+
+    def load_model_from_id(self, name, log):
+        log.info('-' * 100)
+        location = os.path.join(self.opt['save_dir'], self.type)
+        if not os.path.exists(self.opt['save_dir']): os.mkdir(self.opt['save_dir'])
+        if not os.path.exists(location):
+            log.warning('Location not found (%s)' % (location))
+            return 0
+        file=None
+        list_files = os.listdir(location)
+        for l in list_files:
+            if name in l:
+                file = l
+        if file is None:
+            log.warning('No model found in location: %s' % location)
+            return False
+        file = os.path.join(location, file)
+        data = torch.load(file)
+        log.info('[Loaded model at location %s.]' % file)
+        self.load_state_dict(data['model'])
+        self.optimizer.load_state_dict(data['optimizer'])
+        self.criterion.load_state_dict(data['criterion'])
+        log.info('-' * 100)
+        return True
+
+    def load_model_from_epoch(self, log, epoch_number=0):
         log.info('-' * 100)
         location = os.path.join(self.opt['save_dir'], self.type)
         if not os.path.exists(self.opt['save_dir']): os.mkdir(self.opt['save_dir'])
@@ -90,6 +137,7 @@ class Model(torch.nn.Module):
         max_iter=0
         best_model=None
         for l in list_files:
+            print(l)
             current_iter = int(re.search(r'\d+', str(l)).group())
             if current_iter>max_iter and epoch_number==0:
                 max_iter=current_iter

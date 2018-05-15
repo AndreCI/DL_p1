@@ -24,15 +24,15 @@ def get_args(parser):
     # General arguments
     parser.add_argument('--model', help="Type of model to use.", default='Sequential', type=str)
     parser.add_argument('--validation_set_ratio',
-                        help="fraction of the test set to be converted into a validation set.", default=0.5, type=float)
+                        help="fraction of the test set to be converted into a validation set.", default=0.25, type=float)
     parser.add_argument('--verbose', help="Degree of verbose, i.e. how much info to display and log", default='low', type=str)
 
     # Model arguments
     parser.add_argument('--epoch_number', help="Number of epoch to train.", default=1000, type=int)
     parser.add_argument('--dropout', help="Probability of the dropout during training. Set to 0 to not use it.",
-                        default=0.6, type=float)
+                        default=0.0, type=float)
     parser.add_argument('--criterion', help="Criterion used to evaluate the model.", default='CrossEntropy', type=str)
-    parser.add_argument('--hidden_units', help="Number of hidden units used in the model.", default=28, type=int)
+    parser.add_argument('--hidden_units', help="Number of hidden units used in the model.", default=5, type=int)
     parser.add_argument('--init_type',
                         help="The type of initalization applied to the hidden states and cells (recurrent model).",
                         default="xavier_uniform", type=str)
@@ -42,10 +42,10 @@ def get_args(parser):
                         default='GRU', type=str)
 
     # Optimizer arguments
-    parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adagrad', type=str)
-    parser.add_argument('--weight_decay', help="Value for the L2 penalty. Set to 0 to not use it.", default=1e-3,
+    parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adadelta', type=str)
+    parser.add_argument('--weight_decay', help="Value for the L2 penalty. Set to 0 to not use it.", default=0.0,
                         type=float)
-    parser.add_argument('--lr', help="Learning rate to train the models.", default=0.001, type=float)
+    parser.add_argument('--lr', help="Learning rate to train the models.", default=1.0, type=float)
     parser.add_argument('--lr_decay', help="Learning rate decay, if available for the optimizer", default=0.001,
                         type=float)
     parser.add_argument('--momentum', help="Momentum used for the SGD optimizer", default=0.9, type=float)

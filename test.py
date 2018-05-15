@@ -20,7 +20,7 @@ test_input, test_target = bci.load(root='./data', train=False, store_local=True,
 
 split = math.floor(test_input.size()[0] * opt['validation_set_ratio'])
 if split != 0:
-    test_input, test_target, validation_input, validation_target = split_test_set(test_input, test_target, split)
+    train_̇input, train_̇target, validation_input, validation_target = split_trainset(train_̇input, train_̇target, split)
     validation_dataset = Dataset(opt, validation_input, validation_target, 'val')
 
 train_dataset = Dataset(opt, train_̇input, train_̇target, log, 'train')
@@ -31,12 +31,13 @@ test_dataset = Dataset(opt, test_input, test_target, log, 'test')
 
 log.info('[Data loaded.]')
 
-dropout = np.arange(0, 0.6, 0.1)
-hidden_units = [5, 20]
+
+dropout = np.arange(0, 0.3, 0.1)
+hidden_units = [5, 7, 10]
 inits = ['xavier_uniform', 'xavier_normal']
-depths = [0, 1]
+depths = [0]
 optimizers = [(['Adadelta', 1.0])]
-weight_decays = np.arange(0, 0.3, 0.1)
+weight_decays = [0]
 
 low_passes = np.arange(0, 100, 20)
 high_passes = np.arange(0, 10, 5)
@@ -45,8 +46,8 @@ last_ms = [0, 200, 100]
 best_acc = 0
 best_mod = None
 models_saved = []
-rhos = [0.9, 0.8, 0.95]
-epss = [1e-6, 1e-5]
+rhos = [0.9]
+epss = [1e-6]
 for rho in rhos:
     opt['rho'] = rho
     for eps in epss:
@@ -71,26 +72,20 @@ for rho in rhos:
                                 log.info(opt)
                                 accuracy = run_model(model, train_dataset, validation_dataset, opt, log)
                                 if accuracy >= best_acc:
+                                    test_acc = test_model(model, test_dataset, opt, log)
+                                    log.info("best model on test set has an accuracy of %.3f." %accuracy)
                                     best_acc = accuracy
                                     best_mod = model
                                     models_saved.append(model)
-                                if accuracy > 0.8:
-                                    model.save_model(log, str('model_' + opt['exp_name']))
                                 log.info('best model: %.3f' %best_acc)
 # model.save_model(opt['epoch_number'] + epoch_done, log)
-i = 0
-for model in models_saved:
-    i+=1
-    acc = test_model(model, test_dataset, opt, log)
-    print(acc)
-    if acc > 0.8:
-        model.save_model(log, 'valtestedmodel_%i_%.3f' %(i,acc))
 exit()
 
 
 # model.save_model(opt['epoch_number'] + epoch_done, log)
 
 # exit()
+
 
 #####
 # TODO:REMOVE
