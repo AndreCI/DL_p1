@@ -6,7 +6,7 @@ import numpy as np
 
 
 class RecurrentModel(Model):
-    '''A rather complex model which uses LSTMs to handle time dependencies.'''
+    '''A rather complex model which uses LSTMs or GRUs to handle time dependencies.'''
     def __init__(self, opt, input_shape):
         super(RecurrentModel, self).__init__(opt)
         self.hidden_units = opt['hidden_units']
@@ -15,6 +15,10 @@ class RecurrentModel(Model):
 
 
     def _build(self, input_shape):
+        '''
+        Build the model with a recurrent input layer, followed by a multiple dense layers to decode the input
+        :param input_shape: the shape of the expected input
+        '''
         if self.opt['recurrent_cell_type'] =='LSTM':
             self.input_layer = torch.nn.LSTM(input_size=input_shape[0],
                                              hidden_size=self.hidden_units,
@@ -28,7 +32,12 @@ class RecurrentModel(Model):
         else:
             raise AttributeError('This cell type (%s) is not recognized. Please use LSTM or GRU.' %self.opt['recurrent_cell_type'])
         self.add_module('input', self.input_layer)
-        self.activation_hidden = torch.nn.Sigmoid()
+        if self.opt["activation_type"] == "ELU":
+            self.activation_hidden = torch.nn.ELU()  # ELU? Or something else? ELU seems good
+        elif self.opt["activation_type"] == "RELU":
+            self.activation_hidden = torch.nn.ReLU()
+        elif self.opt["activation_type"] == "sigmoid":
+            self.activation_hidden = torch.nn.Sigmoid()
         linears = []
         for i in range(self.opt['depth']):
             new_layer = torch.nn.Linear(self.opt['hidden_units'], self.opt['hidden_units'])
@@ -48,9 +57,6 @@ class RecurrentModel(Model):
         self.softmax = torch.nn.Softmax()
         self.add_module('activation', self.softmax)
 
-
-        #self.hidden_states = Variable(torch.zeros(1, 1, self.hidden_units))
-        #self.cells_states = Variable(torch.zeros(1, 1, self.hidden_units))
         self._build_criterion()
         self._build_optimizer()
         for w in self.input_layer.all_weights[0]:
@@ -59,6 +65,10 @@ class RecurrentModel(Model):
         self._initialize_param(self.decoder.weight)
 
     def _init_state(self):
+        '''
+        Utility function to setup up the state of a recurrent unit
+        :return: a variable on size [1, 1, #hidden_units] initialized with the hyper parameter 'init_type'
+        '''
         if self.opt['init_type'] == "zero":
             return Variable(torch.zeros(1, 1, self.hidden_units))
         elif self.opt['init_type'] == "gaussian":
@@ -68,6 +78,7 @@ class RecurrentModel(Model):
         elif self.opt['init_type'] == 'xavier_uniform' or self.opt['init_type'] == 'xavier_normal':
             v = Variable(torch.zeros(1, 1, self.hidden_units))
             self._initialize_param(v)
+            return v
         else:
             raise NotImplementedError("This init type (%s) has not been implemented yet." %self.opt['init_type'])
 
@@ -119,8 +130,20 @@ class RecurrentModel(Model):
             input, target = dataset.next_example()
             loss, pred = self.one_step_run(input, target, mode=mode)
             loss = loss.data.numpy()[0]
-            max_score, pred_class = (torch.max(pred.data, 1))  #.numpy()[0]
+            max_score, pred_class = (torch.max(pred.data, 1))
             predictions.append(pred_class)
             losses.append(loss)
-            total_loss+= loss
+            total_loss += loss
         return losses, predictions
+
+    def reset(self):
+        self.input_layer.reset_parameters()
+        for w in self.input_layer.all_weights[0]:
+            if w.dim() >= 2:
+                self._initialize_param(w)
+        for m in self.hidden_layers.modules():
+            if isinstance(m, torch.nn.Linear):
+                m.reset_parameters()
+                self._initialize_param(m.weight)
+        self.decoder.reset_parameters()
+        self._initialize_param(self.decoder.weight)

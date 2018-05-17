@@ -1,0 +1,5 @@
+05/17/2018 01:40:55 [Program starts.]
+05/17/2018 01:40:55 [Arg used:][{'k_fold': 2}, {'epoch_number': 1000}, {'exp_name': 'linear_testing_I1'}, {'activation_type': 'ELU'}, {'criterion': 'CrossEntropy'}, {'model': 'Sequential'}, {'recurrent_cell_type': 'GRU'}, {'optimizer': 'Adadelta'}, {'remove_DC_level': True}, {'verbose': 'low'}, {'patience': 100}, {'hidden_units': 5}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'init_type': 'xavier_uniform'}, {'normalize_data': True}]
+05/17/2018 01:40:56 [Data loaded.]
+05/17/2018 01:40:56 New model for k_fold. 0/1 models done.
+05/17/2018 01:40:56 Current option used:

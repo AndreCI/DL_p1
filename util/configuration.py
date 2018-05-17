@@ -4,6 +4,7 @@ import sys
 
 from models.attentional_recurrent_model import AttentionalRecurrentModel
 from models.convolutional_model import ConvolutionalModel
+from models.biconvolutional_model import BiConvolutionalModel
 from models.linear_model import LinearModel
 from models.recurrent_model import RecurrentModel
 
@@ -19,12 +20,13 @@ def get_args(parser):
                         type=str)
     parser.add_argument('--exp_name',
                         help="name of the experience and the log file. This will not overwrite previous logs with the same name.",
-                        default='rec_testing_N1', type=str)
+                        default='rec_testing_O1', type=str)
+    parser.add_argument('--produce_figures', help="If true, a figure will be produces at each training/val/test session.", default=False, type=bool)
 
     # General arguments
-    parser.add_argument('--model', help="Type of model to use.", default='Sequential', type=str)
-    parser.add_argument('--validation_set_ratio',
-                        help="fraction of the test set to be converted into a validation set.", default=0.25, type=float)
+    parser.add_argument('--model', help="Type of model to use.", default='Linear', type=str)
+    parser.add_argument('--k_fold',
+                        help="Number of fold for cross validation. The validation set will be taken from the train set.", default=4, type=float)
     parser.add_argument('--verbose', help="Degree of verbose, i.e. how much info to display and log", default='low', type=str)
 
     # Model arguments
@@ -40,6 +42,7 @@ def get_args(parser):
                         default=0, type=int)
     parser.add_argument('--recurrent_cell_type', help="Type of recurrent cell to use in recurrent model. LSTM or GRU.",
                         default='GRU', type=str)
+    parser.add_argument('--activation_type', help="Type of activation function to use at the end of a layer. Only for Rec and Convo input layer.", default="ELU", type=str)
 
     # Optimizer arguments
     parser.add_argument('--optimizer', help="Optimizer used to train the model.", default='Adadelta', type=str)
@@ -84,10 +87,16 @@ def get_args(parser):
     return vars(parser.parse_args())
 
 
-def get_model(opt, dataset):
+def get_model(opt, input_size):
+    '''
+    Setup the model, accordingly to the option
+    :param opt: the option, which contains info to generate the network
+    :param input_size: the size of the inputs which the model will expect,
+    :return: a full constructed model
+    '''
     if opt['model'] == 'Linear':
         input_shape = 1
-        for l in dataset.input_size():
+        for l in input_size:
             input_shape *= l
         layers = [(input_shape, opt['hidden_units'], True), ['relu'],
                   (opt['hidden_units'], opt['hidden_units'], True), ['softmax'],
@@ -95,14 +104,18 @@ def get_model(opt, dataset):
         linear = LinearModel(opt, layers)
         return linear
     elif opt['model'] == 'Recurrent':
-        rec = RecurrentModel(opt, dataset.input_size())
+        rec = RecurrentModel(opt, input_size)
         return rec
     elif opt['model'] == 'AttentionRecurrent':
-        arec = AttentionalRecurrentModel(opt, dataset.input_size())
+        raise NotImplementedError('AttentionalRecurrent model is not finished yet.')
+        arec = AttentionalRecurrentModel(opt, input_size)
         return arec
     elif opt['model'] == 'Convolutional':
-        convo = ConvolutionalModel(opt, dataset.input_size())
+        convo = ConvolutionalModel(opt, input_size)
         return convo
+    elif opt['model'] == 'BiConvolutional':
+        biconvo = BiConvolutionalModel(opt, input_size)
+        return biconvo
     elif opt['model'] == 'Sequential':
         return None
     else:
@@ -110,6 +123,11 @@ def get_model(opt, dataset):
 
 
 def setup_log(opt):
+    '''
+    Setup log, i.e. the format, the directory to write, etc.
+    :param opt: the option
+    :return: a log object
+    '''
     log = logging.getLogger(__name__)
     log.setLevel(logging.DEBUG)
     if not os.path.exists(opt['log_root']): os.mkdir(opt['log_root'])

@@ -1,0 +1,116 @@
+05/16/2018 10:06:26 [Program starts.]
+05/16/2018 10:06:26 [Arg used:][{'verbose': 'low'}, {'remove_DC_level': True}, {'init_type': 'xavier_uniform'}, {'patience': 100}, {'model': 'Convolutional'}, {'criterion': 'CrossEntropy'}, {'k_fold': 4}, {'normalize_data': True}, {'epoch_number': 1000}, {'optimizer': 'Adadelta'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'recurrent_cell_type': 'GRU'}, {'hidden_units': 5}, {'exp_name': 'convo_testing_E7'}]
+05/16/2018 10:06:49 [Program starts.]
+05/16/2018 10:06:49 [Arg used:][{'hidden_units': 5}, {'epoch_number': 1000}, {'patience': 100}, {'recurrent_cell_type': 'GRU'}, {'exp_name': 'convo_testing_E7'}, {'k_fold': 4}, {'optimizer': 'Adadelta'}, {'verbose': 'low'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'model': 'Convolutional'}, {'remove_DC_level': True}, {'init_type': 'xavier_uniform'}, {'normalize_data': True}]
+05/16/2018 10:07:36 [Program starts.]
+05/16/2018 10:07:36 [Arg used:][{'verbose': 'low'}, {'exp_name': 'convo_testing_E7'}, {'normalize_data': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'optimizer': 'Adadelta'}, {'patience': 100}, {'remove_DC_level': True}, {'criterion': 'CrossEntropy'}, {'recurrent_cell_type': 'GRU'}, {'init_type': 'xavier_uniform'}, {'k_fold': 4}, {'epoch_number': 1000}, {'model': 'Convolutional'}, {'hidden_units': 5}]
+05/16/2018 10:12:06 [Program starts.]
+05/16/2018 10:12:06 [Arg used:][{'exp_name': 'convo_testing_E7'}, {'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'optimizer': 'Adadelta'}, {'remove_DC_level': True}, {'patience': 100}, {'k_fold': 4}, {'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'model': 'Convolutional'}, {'epoch_number': 1000}, {'hidden_units': 5}, {'normalize_data': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}]
+05/16/2018 10:12:52 [Program starts.]
+05/16/2018 10:12:52 [Arg used:][{'remove_DC_level': True}, {'hidden_units': 5}, {'exp_name': 'convo_testing_E7'}, {'verbose': 'low'}, {'criterion': 'CrossEntropy'}, {'optimizer': 'Adadelta'}, {'init_type': 'xavier_uniform'}, {'model': 'Convolutional'}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'k_fold': 4}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'epoch_number': 1000}]
+05/16/2018 10:12:59 [Program starts.]
+05/16/2018 10:12:59 [Arg used:][{'k_fold': 4}, {'criterion': 'CrossEntropy'}, {'epoch_number': 1000}, {'hidden_units': 5}, {'init_type': 'xavier_uniform'}, {'remove_DC_level': True}, {'normalize_data': True}, {'verbose': 'low'}, {'exp_name': 'convo_testing_E7'}, {'recurrent_cell_type': 'GRU'}, {'model': 'Convolutional'}, {'optimizer': 'Adadelta'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'patience': 100}]
+05/16/2018 10:13:05 [Program starts.]
+05/16/2018 10:13:05 [Arg used:][{'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'k_fold': 4}, {'remove_DC_level': True}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'patience': 100}, {'model': 'Convolutional'}, {'exp_name': 'convo_testing_E7'}, {'optimizer': 'Adadelta'}, {'verbose': 'low'}, {'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'hidden_units': 5}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 10:17:31 [Program starts.]
+05/16/2018 10:17:31 [Arg used:][{'init_type': 'xavier_uniform'}, {'criterion': 'CrossEntropy'}, {'epoch_number': 1000}, {'model': 'Convolutional'}, {'verbose': 'low'}, {'normalize_data': True}, {'exp_name': 'convo_testing_E7'}, {'optimizer': 'Adadelta'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'remove_DC_level': True}, {'hidden_units': 5}, {'k_fold': 4}]
+05/16/2018 10:17:54 [Program starts.]
+05/16/2018 10:17:54 [Arg used:][{'optimizer': 'Adadelta'}, {'model': 'Convolutional'}, {'init_type': 'xavier_uniform'}, {'k_fold': 4}, {'epoch_number': 1000}, {'hidden_units': 5}, {'exp_name': 'convo_testing_E7'}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'verbose': 'low'}, {'criterion': 'CrossEntropy'}, {'patience': 100}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 10:18:13 [Program starts.]
+05/16/2018 10:18:13 [Arg used:][{'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'model': 'Convolutional'}, {'remove_DC_level': True}, {'hidden_units': 5}, {'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'patience': 100}, {'k_fold': 4}, {'recurrent_cell_type': 'GRU'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'normalize_data': True}, {'init_type': 'xavier_uniform'}, {'exp_name': 'convo_testing_E7'}]
+05/16/2018 10:18:26 [Program starts.]
+05/16/2018 10:18:26 [Arg used:][{'optimizer': 'Adadelta'}, {'hidden_units': 5}, {'init_type': 'xavier_uniform'}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'recurrent_cell_type': 'GRU'}, {'k_fold': 4}, {'epoch_number': 1000}, {'exp_name': 'convo_testing_E7'}, {'model': 'Convolutional'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'normalize_data': True}, {'patience': 100}]
+05/16/2018 10:18:57 [Program starts.]
+05/16/2018 10:18:57 [Arg used:][{'exp_name': 'convo_testing_E7'}, {'k_fold': 4}, {'remove_DC_level': True}, {'hidden_units': 5}, {'patience': 100}, {'normalize_data': True}, {'init_type': 'xavier_uniform'}, {'optimizer': 'Adadelta'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'recurrent_cell_type': 'GRU'}, {'model': 'Convolutional'}, {'epoch_number': 1000}]
+05/16/2018 10:19:14 [Program starts.]
+05/16/2018 10:19:14 [Arg used:][{'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'exp_name': 'convo_testing_E7'}, {'patience': 100}, {'model': 'Convolutional'}, {'remove_DC_level': True}, {'recurrent_cell_type': 'GRU'}, {'criterion': 'CrossEntropy'}, {'k_fold': 4}, {'optimizer': 'Adadelta'}, {'normalize_data': True}, {'hidden_units': 5}, {'verbose': 'low'}]
+05/16/2018 10:20:00 [Program starts.]
+05/16/2018 10:20:00 [Arg used:][{'optimizer': 'Adadelta'}, {'patience': 100}, {'normalize_data': True}, {'verbose': 'low'}, {'recurrent_cell_type': 'GRU'}, {'epoch_number': 1000}, {'k_fold': 4}, {'remove_DC_level': True}, {'hidden_units': 5}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'exp_name': 'convo_testing_E7'}, {'init_type': 'xavier_uniform'}, {'model': 'Convolutional'}]
+05/16/2018 10:20:13 [Program starts.]
+05/16/2018 10:20:13 [Arg used:][{'normalize_data': True}, {'k_fold': 4}, {'remove_DC_level': True}, {'recurrent_cell_type': 'GRU'}, {'hidden_units': 5}, {'optimizer': 'Adadelta'}, {'model': 'Convolutional'}, {'patience': 100}, {'exp_name': 'convo_testing_E7'}, {'epoch_number': 1000}, {'verbose': 'low'}, {'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}]
+05/16/2018 10:20:29 [Program starts.]
+05/16/2018 10:20:29 [Arg used:][{'epoch_number': 1000}, {'hidden_units': 5}, {'k_fold': 4}, {'exp_name': 'convo_testing_E7'}, {'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'normalize_data': True}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'patience': 100}, {'init_type': 'xavier_uniform'}, {'model': 'Convolutional'}, {'criterion': 'CrossEntropy'}, {'optimizer': 'Adadelta'}]
+05/16/2018 10:20:30 [Data loaded.]
+05/16/2018 10:20:56 [Program starts.]
+05/16/2018 10:20:56 [Arg used:][{'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'init_type': 'xavier_uniform'}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'hidden_units': 5}, {'k_fold': 4}, {'criterion': 'CrossEntropy'}, {'model': 'Convolutional'}, {'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'exp_name': 'convo_testing_E7'}, {'verbose': 'low'}, {'remove_DC_level': True}]
+05/16/2018 10:20:57 [Data loaded.]
+05/16/2018 10:21:42 [Program starts.]
+05/16/2018 10:21:42 [Arg used:][{'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'remove_DC_level': True}, {'exp_name': 'convo_testing_E7'}, {'optimizer': 'Adadelta'}, {'k_fold': 4}, {'hidden_units': 5}, {'model': 'Convolutional'}, {'criterion': 'CrossEntropy'}, {'normalize_data': True}, {'patience': 100}]
+05/16/2018 10:21:43 [Data loaded.]
+05/16/2018 10:22:02 [Program starts.]
+05/16/2018 10:22:02 [Arg used:][{'criterion': 'CrossEntropy'}, {'model': 'Convolutional'}, {'exp_name': 'convo_testing_E7'}, {'patience': 100}, {'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'remove_DC_level': True}, {'verbose': 'low'}, {'optimizer': 'Adadelta'}, {'init_type': 'xavier_uniform'}, {'recurrent_cell_type': 'GRU'}, {'hidden_units': 5}, {'k_fold': 4}]
+05/16/2018 10:22:02 [Data loaded.]
+05/16/2018 10:22:20 Early stopping at epoch 101, test loss is 0.725682
+05/16/2018 10:22:20 First best validation accuracy: 0.610 at epoch 45
+05/16/2018 10:22:20 [Finished in 17.449s.]
+05/16/2018 10:23:09 [Program starts.]
+05/16/2018 10:23:09 [Arg used:][{'exp_name': 'convo_testing_E7'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'k_fold': 4}, {'patience': 100}, {'epoch_number': 1000}, {'optimizer': 'Adadelta'}, {'init_type': 'xavier_uniform'}, {'remove_DC_level': True}, {'model': 'Convolutional'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'hidden_units': 5}, {'recurrent_cell_type': 'GRU'}, {'normalize_data': True}]
+05/16/2018 10:23:09 [Data loaded.]
+05/16/2018 10:24:24 [Program starts.]
+05/16/2018 10:24:24 [Arg used:][{'exp_name': 'convo_testing_E7'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'model': 'Convolutional'}, {'patience': 100}, {'k_fold': 4}, {'optimizer': 'Adadelta'}, {'recurrent_cell_type': 'GRU'}, {'init_type': 'xavier_uniform'}, {'remove_DC_level': True}, {'hidden_units': 5}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'normalize_data': True}]
+05/16/2018 10:24:25 [Data loaded.]
+05/16/2018 10:25:32 [Program starts.]
+05/16/2018 10:25:32 [Arg used:][{'verbose': 'low'}, {'patience': 100}, {'hidden_units': 5}, {'recurrent_cell_type': 'GRU'}, {'remove_DC_level': True}, {'optimizer': 'Adadelta'}, {'k_fold': 4}, {'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'exp_name': 'convo_testing_E7'}, {'criterion': 'CrossEntropy'}, {'normalize_data': True}, {'init_type': 'xavier_uniform'}, {'model': 'Convolutional'}]
+05/16/2018 10:25:33 [Data loaded.]
+05/16/2018 10:26:15 [Program starts.]
+05/16/2018 10:26:15 [Arg used:][{'recurrent_cell_type': 'GRU'}, {'normalize_data': True}, {'verbose': 'low'}, {'remove_DC_level': True}, {'optimizer': 'Adadelta'}, {'patience': 100}, {'exp_name': 'convo_testing_E7'}, {'hidden_units': 5}, {'k_fold': 4}, {'init_type': 'xavier_uniform'}, {'model': 'Convolutional'}, {'epoch_number': 1000}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}]
+05/16/2018 10:26:15 [Data loaded.]
+05/16/2018 10:26:34 [Program starts.]
+05/16/2018 10:26:34 [Arg used:][{'patience': 100}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'k_fold': 4}, {'epoch_number': 1000}, {'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'criterion': 'CrossEntropy'}, {'optimizer': 'Adadelta'}, {'exp_name': 'convo_testing_E7'}, {'init_type': 'xavier_uniform'}, {'normalize_data': True}, {'remove_DC_level': True}, {'model': 'Convolutional'}, {'hidden_units': 5}]
+05/16/2018 10:26:34 [Data loaded.]
+05/16/2018 10:27:13 [Program starts.]
+05/16/2018 10:27:13 [Arg used:][{'hidden_units': 5}, {'k_fold': 4}, {'remove_DC_level': True}, {'optimizer': 'Adadelta'}, {'model': 'Convolutional'}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'init_type': 'xavier_uniform'}, {'exp_name': 'convo_testing_E7'}, {'patience': 100}, {'normalize_data': True}, {'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'epoch_number': 1000}]
+05/16/2018 10:27:13 [Data loaded.]
+05/16/2018 10:27:28 [Program starts.]
+05/16/2018 10:27:28 [Arg used:][{'patience': 100}, {'init_type': 'xavier_uniform'}, {'exp_name': 'convo_testing_E7'}, {'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'k_fold': 4}, {'recurrent_cell_type': 'GRU'}, {'model': 'Convolutional'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'optimizer': 'Adadelta'}, {'remove_DC_level': True}, {'verbose': 'low'}, {'hidden_units': 5}, {'epoch_number': 1000}]
+05/16/2018 10:27:29 [Data loaded.]
+05/16/2018 10:27:40 [Program starts.]
+05/16/2018 10:27:40 [Arg used:][{'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'optimizer': 'Adadelta'}, {'normalize_data': True}, {'exp_name': 'convo_testing_E7'}, {'hidden_units': 5}, {'model': 'Convolutional'}, {'recurrent_cell_type': 'GRU'}, {'criterion': 'CrossEntropy'}, {'remove_DC_level': True}, {'verbose': 'low'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'patience': 100}, {'k_fold': 4}]
+05/16/2018 10:27:40 [Data loaded.]
+05/16/2018 10:28:04 [Program starts.]
+05/16/2018 10:28:04 [Arg used:][{'patience': 100}, {'epoch_number': 1000}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'optimizer': 'Adadelta'}, {'exp_name': 'convo_testing_E7'}, {'model': 'Convolutional'}, {'hidden_units': 5}, {'k_fold': 4}, {'normalize_data': True}]
+05/16/2018 10:28:13 [Program starts.]
+05/16/2018 10:28:13 [Arg used:][{'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'epoch_number': 1000}, {'k_fold': 4}, {'optimizer': 'Adadelta'}, {'hidden_units': 5}, {'model': 'Convolutional'}, {'normalize_data': True}, {'init_type': 'xavier_uniform'}, {'remove_DC_level': True}, {'verbose': 'low'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'exp_name': 'convo_testing_E7'}]
+05/16/2018 10:28:13 [Data loaded.]
+05/16/2018 10:28:36 Early stopping at epoch 101, test loss is 0.738085
+05/16/2018 10:28:36 First best validation accuracy: 0.633 at epoch 10
+05/16/2018 10:28:36 [Finished in 22.566s.]
+05/16/2018 10:29:17 Early stopping at epoch 101, test loss is 0.313283
+05/16/2018 10:29:17 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:29:17 [Finished in 40.697s.]
+05/16/2018 10:29:55 Early stopping at epoch 101, test loss is 0.325926
+05/16/2018 10:29:55 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:29:55 [Finished in 38.194s.]
+05/16/2018 10:30:28 [Program starts.]
+05/16/2018 10:30:28 [Arg used:][{'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'hidden_units': 5}, {'normalize_data': True}, {'verbose': 'low'}, {'remove_DC_level': True}, {'model': 'Convolutional'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'patience': 100}, {'criterion': 'CrossEntropy'}, {'k_fold': 4}, {'recurrent_cell_type': 'GRU'}, {'exp_name': 'convo_testing_E7'}, {'optimizer': 'Adadelta'}]
+05/16/2018 10:30:28 [Data loaded.]
+05/16/2018 10:30:50 Early stopping at epoch 101, test loss is 0.708551
+05/16/2018 10:30:50 First best validation accuracy: 0.646 at epoch 11
+05/16/2018 10:30:50 [Finished in 21.506s.]
+05/16/2018 10:31:21 Early stopping at epoch 101, test loss is 0.313309
+05/16/2018 10:31:21 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:31:21 [Finished in 31.544s.]
+05/16/2018 10:31:56 Early stopping at epoch 101, test loss is 0.325929
+05/16/2018 10:31:56 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:31:56 [Finished in 34.840s.]
+05/16/2018 10:32:22 [Program starts.]
+05/16/2018 10:32:22 [Arg used:][{'k_fold': 4}, {'verbose': 'low'}, {'patience': 100}, {'exp_name': 'convo_testing_E7'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'criterion': 'CrossEntropy'}, {'recurrent_cell_type': 'GRU'}, {'model': 'Convolutional'}, {'remove_DC_level': True}, {'optimizer': 'Adadelta'}, {'init_type': 'xavier_uniform'}, {'epoch_number': 1000}, {'hidden_units': 5}]
+05/16/2018 10:32:23 [Data loaded.]
+05/16/2018 10:32:45 Early stopping at epoch 101, test loss is 0.729338
+05/16/2018 10:32:45 First best validation accuracy: 0.658 at epoch 14
+05/16/2018 10:32:45 [Finished in 22.553s.]
+05/16/2018 10:33:20 Early stopping at epoch 101, test loss is 0.313315
+05/16/2018 10:33:20 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:33:20 [Finished in 34.554s.]
+05/16/2018 10:33:54 Early stopping at epoch 101, test loss is 0.325926
+05/16/2018 10:33:54 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:33:54 [Finished in 34.454s.]
+05/16/2018 10:36:38 [Program starts.]
+05/16/2018 10:36:38 [Arg used:][{'k_fold': 4}, {'patience': 100}, {'verbose': 'low'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'remove_DC_level': True}, {'exp_name': 'convo_testing_E7'}, {'hidden_units': 5}, {'model': 'Convolutional'}, {'init_type': 'xavier_uniform'}, {'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'normalize_data': True}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 10:36:38 [Data loaded.]
+05/16/2018 10:37:01 Early stopping at epoch 101, test loss is 0.738511
+05/16/2018 10:37:01 First best validation accuracy: 0.620 at epoch 13
+05/16/2018 10:37:01 [Finished in 23.188s.]
+05/16/2018 10:37:23 Early stopping at epoch 101, test loss is 0.414131
+05/16/2018 10:37:23 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:37:23 [Finished in 21.573s.]

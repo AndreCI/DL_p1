@@ -1,0 +1,3 @@
+05/16/2018 10:37:43 [Program starts.]
+05/16/2018 10:37:43 [Arg used:][{'verbose': 'low'}, {'k_fold': 4}, {'epoch_number': 1000}, {'exp_name': 'convo_testing_E7'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'optimizer': 'Adadelta'}, {'model': 'BiConvolutional'}, {'remove_DC_level': True}, {'normalize_data': True}, {'patience': 100}, {'hidden_units': 5}, {'init_type': 'xavier_uniform'}, {'criterion': 'CrossEntropy'}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 10:37:43 [Data loaded.]

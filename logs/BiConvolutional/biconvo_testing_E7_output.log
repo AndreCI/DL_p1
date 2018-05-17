@@ -1,0 +1,273 @@
+05/16/2018 10:38:01 [Program starts.]
+05/16/2018 10:38:01 [Arg used:][{'epoch_number': 1000}, {'model': 'BiConvolutional'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'verbose': 'low'}, {'normalize_data': True}, {'optimizer': 'Adadelta'}, {'criterion': 'CrossEntropy'}, {'remove_DC_level': True}, {'recurrent_cell_type': 'GRU'}, {'hidden_units': 5}, {'exp_name': 'biconvo_testing_E7'}, {'patience': 100}, {'init_type': 'xavier_uniform'}, {'k_fold': 4}]
+05/16/2018 10:38:01 [Data loaded.]
+05/16/2018 10:38:20 [Program starts.]
+05/16/2018 10:38:20 [Arg used:][{'patience': 100}, {'optimizer': 'Adadelta'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'k_fold': 4}, {'criterion': 'CrossEntropy'}, {'model': 'BiConvolutional'}, {'init_type': 'xavier_uniform'}, {'epoch_number': 1000}, {'normalize_data': True}, {'verbose': 'low'}, {'hidden_units': 5}, {'recurrent_cell_type': 'GRU'}, {'remove_DC_level': True}, {'exp_name': 'biconvo_testing_E7'}]
+05/16/2018 10:38:21 [Data loaded.]
+05/16/2018 10:38:50 [Program starts.]
+05/16/2018 10:38:50 [Arg used:][{'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'recurrent_cell_type': 'GRU'}, {'k_fold': 4}, {'model': 'BiConvolutional'}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'hidden_units': 5}, {'verbose': 'low'}, {'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'patience': 100}, {'normalize_data': True}, {'exp_name': 'biconvo_testing_E7'}]
+05/16/2018 10:38:51 [Data loaded.]
+05/16/2018 10:39:15 [Program starts.]
+05/16/2018 10:39:15 [Arg used:][{'optimizer': 'Adadelta'}, {'model': 'BiConvolutional'}, {'epoch_number': 1000}, {'hidden_units': 5}, {'remove_DC_level': True}, {'criterion': 'CrossEntropy'}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'init_type': 'xavier_uniform'}, {'verbose': 'low'}, {'k_fold': 4}, {'exp_name': 'biconvo_testing_E7'}, {'normalize_data': True}]
+05/16/2018 10:39:15 [Data loaded.]
+05/16/2018 10:39:21 [Program starts.]
+05/16/2018 10:39:21 [Arg used:][{'hidden_units': 5}, {'init_type': 'xavier_uniform'}, {'epoch_number': 1000}, {'normalize_data': True}, {'remove_DC_level': True}, {'optimizer': 'Adadelta'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'exp_name': 'biconvo_testing_E7'}, {'model': 'BiConvolutional'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'k_fold': 4}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}]
+05/16/2018 10:39:22 [Data loaded.]
+05/16/2018 10:39:47 [Program starts.]
+05/16/2018 10:39:47 [Arg used:][{'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'model': 'BiConvolutional'}, {'k_fold': 4}, {'verbose': 'low'}, {'exp_name': 'biconvo_testing_E7'}, {'hidden_units': 5}, {'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'remove_DC_level': True}, {'normalize_data': True}, {'patience': 100}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 10:39:47 [Data loaded.]
+05/16/2018 10:40:39 [Program starts.]
+05/16/2018 10:40:39 [Arg used:][{'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'exp_name': 'biconvo_testing_E7'}, {'normalize_data': True}, {'optimizer': 'Adadelta'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'remove_DC_level': True}, {'recurrent_cell_type': 'GRU'}, {'epoch_number': 1000}, {'verbose': 'low'}, {'hidden_units': 5}, {'k_fold': 4}, {'patience': 100}, {'model': 'BiConvolutional'}]
+05/16/2018 10:40:40 [Data loaded.]
+05/16/2018 10:40:55 [Program starts.]
+05/16/2018 10:40:55 [Arg used:][{'exp_name': 'biconvo_testing_E7'}, {'patience': 100}, {'hidden_units': 5}, {'recurrent_cell_type': 'GRU'}, {'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'verbose': 'low'}, {'remove_DC_level': True}, {'model': 'BiConvolutional'}, {'k_fold': 4}, {'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}]
+05/16/2018 10:40:56 [Data loaded.]
+05/16/2018 10:41:09 [Program starts.]
+05/16/2018 10:41:09 [Arg used:][{'model': 'BiConvolutional'}, {'k_fold': 4}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'exp_name': 'biconvo_testing_E7'}, {'hidden_units': 5}, {'normalize_data': True}, {'patience': 100}, {'criterion': 'CrossEntropy'}, {'remove_DC_level': True}, {'init_type': 'xavier_uniform'}, {'verbose': 'low'}, {'optimizer': 'Adadelta'}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 10:41:09 [Data loaded.]
+05/16/2018 10:41:27 [Program starts.]
+05/16/2018 10:41:27 [Arg used:][{'k_fold': 4}, {'criterion': 'CrossEntropy'}, {'recurrent_cell_type': 'GRU'}, {'hidden_units': 5}, {'patience': 100}, {'optimizer': 'Adadelta'}, {'model': 'BiConvolutional'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'remove_DC_level': True}, {'init_type': 'xavier_uniform'}, {'exp_name': 'biconvo_testing_E7'}, {'verbose': 'low'}, {'epoch_number': 1000}, {'normalize_data': True}]
+05/16/2018 10:41:27 [Data loaded.]
+05/16/2018 10:42:12 [Program starts.]
+05/16/2018 10:42:12 [Arg used:][{'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'remove_DC_level': True}, {'k_fold': 4}, {'optimizer': 'Adadelta'}, {'init_type': 'xavier_uniform'}, {'exp_name': 'biconvo_testing_E7'}, {'hidden_units': 5}, {'patience': 100}, {'model': 'BiConvolutional'}, {'normalize_data': True}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 10:42:12 [Data loaded.]
+05/16/2018 10:42:42 Early stopping at epoch 101, test loss is 0.728181
+05/16/2018 10:42:42 First best validation accuracy: 0.620 at epoch 16
+05/16/2018 10:42:42 [Finished in 29.421s.]
+05/16/2018 10:43:10 Early stopping at epoch 101, test loss is 0.353645
+05/16/2018 10:43:10 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:43:10 [Finished in 28.091s.]
+05/16/2018 10:43:38 Early stopping at epoch 101, test loss is 0.326025
+05/16/2018 10:43:38 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:43:38 [Finished in 28.329s.]
+05/16/2018 10:44:06 Early stopping at epoch 101, test loss is 0.313302
+05/16/2018 10:44:06 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:44:06 [Finished in 28.167s.]
+05/16/2018 10:44:34 Early stopping at epoch 101, test loss is 0.753593
+05/16/2018 10:44:34 First best validation accuracy: 0.608 at epoch 9
+05/16/2018 10:44:34 [Finished in 28.085s.]
+05/16/2018 10:45:02 Early stopping at epoch 101, test loss is 0.386264
+05/16/2018 10:45:02 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:45:02 [Finished in 27.897s.]
+05/16/2018 10:45:30 Early stopping at epoch 101, test loss is 0.337838
+05/16/2018 10:45:30 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:45:30 [Finished in 27.876s.]
+05/16/2018 10:45:57 Early stopping at epoch 101, test loss is 0.316282
+05/16/2018 10:45:57 First best validation accuracy: 1.000 at epoch 1
+05/16/2018 10:45:57 [Finished in 27.259s.]
+05/16/2018 10:46:32 Early stopping at epoch 101, test loss is 0.697448
+05/16/2018 10:46:32 First best validation accuracy: 0.633 at epoch 20
+05/16/2018 10:46:32 [Finished in 34.621s.]
+05/16/2018 10:47:07 Early stopping at epoch 101, test loss is 0.363301
+05/16/2018 10:47:07 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:47:07 [Finished in 35.404s.]
+05/16/2018 10:47:42 Early stopping at epoch 101, test loss is 0.326165
+05/16/2018 10:47:42 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:47:42 [Finished in 35.108s.]
+05/16/2018 10:48:17 Early stopping at epoch 101, test loss is 0.325938
+05/16/2018 10:48:17 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:48:17 [Finished in 34.492s.]
+05/16/2018 10:48:52 Early stopping at epoch 101, test loss is 0.729762
+05/16/2018 10:48:52 First best validation accuracy: 0.658 at epoch 7
+05/16/2018 10:48:52 [Finished in 34.608s.]
+05/16/2018 10:49:28 Early stopping at epoch 101, test loss is 0.359160
+05/16/2018 10:49:28 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:49:28 [Finished in 36.361s.]
+05/16/2018 10:50:04 Early stopping at epoch 101, test loss is 0.326016
+05/16/2018 10:50:04 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:50:04 [Finished in 35.715s.]
+05/16/2018 10:50:39 Early stopping at epoch 101, test loss is 0.313274
+05/16/2018 10:50:39 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:50:39 [Finished in 34.955s.]
+05/16/2018 10:51:39 Early stopping at epoch 101, test loss is 0.713467
+05/16/2018 10:51:39 First best validation accuracy: 0.633 at epoch 13
+05/16/2018 10:51:39 [Finished in 60.360s.]
+05/16/2018 10:52:40 Early stopping at epoch 101, test loss is 0.389189
+05/16/2018 10:52:40 First best validation accuracy: 0.975 at epoch 0
+05/16/2018 10:52:40 [Finished in 61.216s.]
+05/16/2018 10:53:42 Early stopping at epoch 101, test loss is 0.326607
+05/16/2018 10:53:42 First best validation accuracy: 0.987 at epoch 1
+05/16/2018 10:53:42 [Finished in 61.857s.]
+05/16/2018 10:54:44 Early stopping at epoch 101, test loss is 0.327956
+05/16/2018 10:54:44 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:54:44 [Finished in 62.289s.]
+05/16/2018 10:55:47 Early stopping at epoch 101, test loss is 0.682174
+05/16/2018 10:55:47 First best validation accuracy: 0.646 at epoch 61
+05/16/2018 10:55:47 [Finished in 63.110s.]
+05/16/2018 10:56:48 Early stopping at epoch 101, test loss is 0.401268
+05/16/2018 10:56:48 First best validation accuracy: 0.975 at epoch 2
+05/16/2018 10:56:48 [Finished in 60.438s.]
+05/16/2018 10:57:50 Early stopping at epoch 101, test loss is 0.342945
+05/16/2018 10:57:50 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:57:50 [Finished in 61.584s.]
+05/16/2018 10:58:53 Early stopping at epoch 101, test loss is 0.326406
+05/16/2018 10:58:53 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 10:58:53 [Finished in 63.841s.]
+05/16/2018 10:59:23 Early stopping at epoch 101, test loss is 0.750810
+05/16/2018 10:59:23 First best validation accuracy: 0.620 at epoch 9
+05/16/2018 10:59:23 [Finished in 29.250s.]
+05/16/2018 10:59:52 Early stopping at epoch 101, test loss is 0.422300
+05/16/2018 10:59:52 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 10:59:52 [Finished in 29.270s.]
+05/16/2018 11:00:21 Early stopping at epoch 101, test loss is 0.326371
+05/16/2018 11:00:21 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 11:00:21 [Finished in 28.888s.]
+05/16/2018 11:00:50 Early stopping at epoch 101, test loss is 0.316332
+05/16/2018 11:00:50 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 11:00:50 [Finished in 29.355s.]
+05/16/2018 11:01:20 Early stopping at epoch 101, test loss is 0.774504
+05/16/2018 11:01:20 First best validation accuracy: 0.608 at epoch 13
+05/16/2018 11:01:20 [Finished in 29.995s.]
+05/16/2018 11:01:50 Early stopping at epoch 101, test loss is 0.434957
+05/16/2018 11:01:50 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 11:01:50 [Finished in 29.663s.]
+05/16/2018 11:02:19 Early stopping at epoch 101, test loss is 0.327694
+05/16/2018 11:02:19 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 11:02:19 [Finished in 28.753s.]
+05/16/2018 11:02:49 Early stopping at epoch 101, test loss is 0.314132
+05/16/2018 11:02:49 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 11:02:49 [Finished in 30.331s.]
+05/16/2018 11:03:26 Early stopping at epoch 101, test loss is 0.685348
+05/16/2018 11:03:26 First best validation accuracy: 0.658 at epoch 42
+05/16/2018 11:03:26 [Finished in 37.195s.]
+05/16/2018 11:04:03 Early stopping at epoch 101, test loss is 0.390335
+05/16/2018 11:04:03 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 11:04:03 [Finished in 36.431s.]
+05/16/2018 11:04:39 Early stopping at epoch 101, test loss is 0.325953
+05/16/2018 11:04:39 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 11:04:39 [Finished in 36.121s.]
+05/16/2018 11:05:16 Early stopping at epoch 101, test loss is 0.326824
+05/16/2018 11:05:16 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 11:05:16 [Finished in 37.137s.]
+05/16/2018 11:05:53 Early stopping at epoch 101, test loss is 0.731843
+05/16/2018 11:05:53 First best validation accuracy: 0.671 at epoch 15
+05/16/2018 11:05:53 [Finished in 36.801s.]
+05/16/2018 11:06:29 Early stopping at epoch 101, test loss is 0.367159
+05/16/2018 11:06:29 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 11:06:29 [Finished in 36.294s.]
+05/16/2018 11:07:10 Early stopping at epoch 101, test loss is 0.331577
+05/16/2018 11:07:10 First best validation accuracy: 0.987 at epoch 0
+05/16/2018 11:07:10 [Finished in 41.387s.]
+05/16/2018 11:07:47 Early stopping at epoch 101, test loss is 0.313446
+05/16/2018 11:07:47 First best validation accuracy: 1.000 at epoch 0
+05/16/2018 11:07:47 [Finished in 37.139s.]
+05/16/2018 11:17:51 [Program starts.]
+05/16/2018 11:17:51 [Arg used:][{'hidden_units': 5}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'criterion': 'CrossEntropy'}, {'normalize_data': True}, {'optimizer': 'Adadelta'}, {'patience': 100}, {'k_fold': 4}, {'verbose': 'low'}, {'model': 'BiConvolutional'}, {'exp_name': 'biconvo_testing_E7'}, {'recurrent_cell_type': 'GRU'}, {'remove_DC_level': True}]
+05/16/2018 11:17:52 [Data loaded.]
+05/16/2018 11:18:26 Early stopping at epoch 101, test loss is 0.723867
+05/16/2018 11:18:26 First best validation accuracy: 0.646 at epoch 17
+05/16/2018 11:18:26 [Finished in 34.607s.]
+05/16/2018 11:19:05 Early stopping at epoch 101, test loss is 0.646577
+05/16/2018 11:19:05 First best validation accuracy: 0.684 at epoch 10
+05/16/2018 11:19:05 [Finished in 38.685s.]
+05/16/2018 11:19:41 Early stopping at epoch 101, test loss is 0.699714
+05/16/2018 11:19:41 First best validation accuracy: 0.722 at epoch 6
+05/16/2018 11:19:41 [Finished in 35.939s.]
+05/16/2018 11:20:13 Early stopping at epoch 101, test loss is 0.685065
+05/16/2018 11:20:13 First best validation accuracy: 0.658 at epoch 57
+05/16/2018 11:20:13 [Finished in 32.188s.]
+05/16/2018 11:20:42 Early stopping at epoch 101, test loss is 0.728806
+05/16/2018 11:20:42 First best validation accuracy: 0.633 at epoch 16
+05/16/2018 11:20:42 [Finished in 28.539s.]
+05/16/2018 11:21:11 Early stopping at epoch 101, test loss is 0.633863
+05/16/2018 11:21:11 First best validation accuracy: 0.684 at epoch 11
+05/16/2018 11:21:11 [Finished in 28.875s.]
+05/16/2018 11:21:40 Early stopping at epoch 101, test loss is 0.675585
+05/16/2018 11:21:40 First best validation accuracy: 0.722 at epoch 4
+05/16/2018 11:21:40 [Finished in 29.263s.]
+05/16/2018 11:22:09 Early stopping at epoch 101, test loss is 0.650923
+05/16/2018 11:22:09 First best validation accuracy: 0.684 at epoch 23
+05/16/2018 11:22:09 [Finished in 28.957s.]
+05/16/2018 11:22:45 Early stopping at epoch 101, test loss is 0.675412
+05/16/2018 11:22:45 First best validation accuracy: 0.646 at epoch 26
+05/16/2018 11:22:45 [Finished in 35.760s.]
+05/16/2018 11:23:20 Early stopping at epoch 101, test loss is 0.667157
+05/16/2018 11:23:20 First best validation accuracy: 0.709 at epoch 6
+05/16/2018 11:23:20 [Finished in 35.558s.]
+05/16/2018 11:23:56 Early stopping at epoch 101, test loss is 0.642573
+05/16/2018 11:23:56 First best validation accuracy: 0.696 at epoch 5
+05/16/2018 11:23:56 [Finished in 36.179s.]
+05/16/2018 11:24:33 Early stopping at epoch 101, test loss is 0.664137
+05/16/2018 11:24:33 First best validation accuracy: 0.658 at epoch 36
+05/16/2018 11:24:33 [Finished in 37.118s.]
+05/16/2018 11:25:10 Early stopping at epoch 101, test loss is 0.711414
+05/16/2018 11:25:10 First best validation accuracy: 0.633 at epoch 20
+05/16/2018 11:25:10 [Finished in 36.649s.]
+05/16/2018 11:25:46 Early stopping at epoch 101, test loss is 0.647262
+05/16/2018 11:25:46 First best validation accuracy: 0.709 at epoch 13
+05/16/2018 11:25:46 [Finished in 35.454s.]
+05/16/2018 11:26:22 Early stopping at epoch 101, test loss is 0.657471
+05/16/2018 11:26:22 First best validation accuracy: 0.722 at epoch 2
+05/16/2018 11:26:22 [Finished in 36.527s.]
+05/16/2018 11:26:59 Early stopping at epoch 101, test loss is 0.665527
+05/16/2018 11:26:59 First best validation accuracy: 0.696 at epoch 18
+05/16/2018 11:26:59 [Finished in 37.358s.]
+05/16/2018 11:28:01 Early stopping at epoch 101, test loss is 0.711302
+05/16/2018 11:28:01 First best validation accuracy: 0.633 at epoch 71
+05/16/2018 11:28:01 [Finished in 61.361s.]
+05/16/2018 11:29:01 Early stopping at epoch 101, test loss is 0.643596
+05/16/2018 11:29:01 First best validation accuracy: 0.747 at epoch 4
+05/16/2018 11:29:01 [Finished in 60.609s.]
+05/16/2018 11:30:18 [Program starts.]
+05/16/2018 11:30:18 [Arg used:][{'normalize_data': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'hidden_units': 5}, {'k_fold': 4}, {'verbose': 'low'}, {'patience': 100}, {'epoch_number': 1000}, {'optimizer': 'Adadelta'}, {'remove_DC_level': True}, {'criterion': 'CrossEntropy'}, {'model': 'BiConvolutional'}, {'recurrent_cell_type': 'GRU'}, {'exp_name': 'biconvo_testing_E7'}, {'init_type': 'xavier_uniform'}]
+05/16/2018 11:30:18 [Data loaded.]
+05/16/2018 11:30:55 Early stopping at epoch 101, test loss is 0.689950
+05/16/2018 11:30:55 First best validation accuracy: 0.671 at epoch 15
+05/16/2018 11:30:55 [Finished in 36.725s.]
+05/16/2018 11:31:38 Early stopping at epoch 101, test loss is 0.671353
+05/16/2018 11:31:38 First best validation accuracy: 0.734 at epoch 10
+05/16/2018 11:31:38 [Finished in 42.893s.]
+05/16/2018 11:32:17 Early stopping at epoch 101, test loss is 0.681397
+05/16/2018 11:32:17 First best validation accuracy: 0.684 at epoch 3
+05/16/2018 11:32:17 [Finished in 39.240s.]
+05/16/2018 11:32:56 Early stopping at epoch 101, test loss is 0.715296
+05/16/2018 11:32:56 First best validation accuracy: 0.620 at epoch 11
+05/16/2018 11:32:56 [Finished in 38.597s.]
+05/16/2018 11:33:34 Early stopping at epoch 101, test loss is 0.706276
+05/16/2018 11:33:34 First best validation accuracy: 0.646 at epoch 11
+05/16/2018 11:33:34 [Finished in 38.020s.]
+05/16/2018 11:34:15 Early stopping at epoch 101, test loss is 0.634573
+05/16/2018 11:34:15 First best validation accuracy: 0.734 at epoch 11
+05/16/2018 11:34:15 [Finished in 41.374s.]
+05/16/2018 11:34:55 Early stopping at epoch 101, test loss is 0.629792
+05/16/2018 11:34:55 First best validation accuracy: 0.709 at epoch 16
+05/16/2018 11:34:55 [Finished in 39.887s.]
+05/16/2018 11:35:35 Early stopping at epoch 101, test loss is 0.714060
+05/16/2018 11:35:35 First best validation accuracy: 0.646 at epoch 12
+05/16/2018 11:35:35 [Finished in 39.949s.]
+05/16/2018 11:37:10 Early stopping at epoch 101, test loss is 0.734177
+05/16/2018 11:37:10 First best validation accuracy: 0.608 at epoch 8
+05/16/2018 11:37:10 [Finished in 95.216s.]
+05/16/2018 11:38:30 Early stopping at epoch 101, test loss is 0.599223
+05/16/2018 11:38:30 First best validation accuracy: 0.734 at epoch 41
+05/16/2018 11:38:30 [Finished in 80.359s.]
+05/16/2018 11:39:46 Early stopping at epoch 101, test loss is 0.668118
+05/16/2018 11:39:46 First best validation accuracy: 0.709 at epoch 7
+05/16/2018 11:39:46 [Finished in 75.484s.]
+05/16/2018 11:41:03 Early stopping at epoch 101, test loss is 0.728071
+05/16/2018 11:41:03 First best validation accuracy: 0.633 at epoch 13
+05/16/2018 11:41:03 [Finished in 77.060s.]
+05/16/2018 11:42:22 Early stopping at epoch 101, test loss is 0.706494
+05/16/2018 11:42:22 First best validation accuracy: 0.633 at epoch 12
+05/16/2018 11:42:22 [Finished in 78.697s.]
+05/16/2018 11:43:28 Early stopping at epoch 101, test loss is 0.654522
+05/16/2018 11:43:28 First best validation accuracy: 0.722 at epoch 8
+05/16/2018 11:43:28 [Finished in 66.525s.]
+05/16/2018 11:44:34 Early stopping at epoch 101, test loss is 0.672824
+05/16/2018 11:44:34 First best validation accuracy: 0.709 at epoch 4
+05/16/2018 11:44:34 [Finished in 65.799s.]
+05/16/2018 11:45:40 Early stopping at epoch 101, test loss is 0.707926
+05/16/2018 11:45:40 First best validation accuracy: 0.658 at epoch 13
+05/16/2018 11:45:40 [Finished in 65.691s.]
+05/16/2018 11:46:18 Early stopping at epoch 101, test loss is 0.768285
+05/16/2018 11:46:18 First best validation accuracy: 0.646 at epoch 17
+05/16/2018 11:46:18 [Finished in 38.211s.]
+05/16/2018 11:47:05 Early stopping at epoch 101, test loss is 0.657502
+05/16/2018 11:47:05 First best validation accuracy: 0.696 at epoch 11
+05/16/2018 11:47:05 [Finished in 47.309s.]
+05/16/2018 11:47:47 Early stopping at epoch 101, test loss is 0.674798
+05/16/2018 11:47:47 First best validation accuracy: 0.747 at epoch 9
+05/16/2018 11:47:47 [Finished in 42.160s.]
+05/16/2018 11:57:43 Early stopping at epoch 101, test loss is 0.679575
+05/16/2018 11:57:43 First best validation accuracy: 0.646 at epoch 92
+05/16/2018 11:57:43 [Finished in 595.959s.]

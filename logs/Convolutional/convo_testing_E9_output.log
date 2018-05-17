@@ -1,0 +1,1155 @@
+05/16/2018 03:30:00 [Program starts.]
+05/16/2018 03:30:00 [Arg used:][{'hidden_units': 5}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'model': 'Convolutional'}, {'activation_type': 'ELU'}, {'init_type': 'xavier_uniform'}, {'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'exp_name': 'convo_testing_E9'}, {'normalize_data': True}, {'patience': 100}, {'recurrent_cell_type': 'GRU'}, {'k_fold': 2}, {'remove_DC_level': True}]
+05/16/2018 03:30:01 [Data loaded.]
+05/16/2018 03:30:01 New model for k_fold. 0/96 models done.
+05/16/2018 03:30:15 Early stopping at epoch 101, test loss is 0.736234
+05/16/2018 03:30:15 First best validation accuracy: 0.576 at epoch 15
+05/16/2018 03:30:15 [Finished in 14.261s.]
+05/16/2018 03:30:30 Early stopping at epoch 101, test loss is 0.687632
+05/16/2018 03:30:30 First best validation accuracy: 0.614 at epoch 11
+05/16/2018 03:30:30 [Finished in 15.101s.]
+05/16/2018 03:30:30 New model for k_fold. 1/96 models done.
+05/16/2018 03:30:50 Early stopping at epoch 101, test loss is 0.747081
+05/16/2018 03:30:50 First best validation accuracy: 0.589 at epoch 20
+05/16/2018 03:30:50 [Finished in 19.767s.]
+05/16/2018 03:31:06 Early stopping at epoch 101, test loss is 0.706497
+05/16/2018 03:31:06 First best validation accuracy: 0.608 at epoch 7
+05/16/2018 03:31:06 [Finished in 16.091s.]
+05/16/2018 03:31:06 New model for k_fold. 2/96 models done.
+05/16/2018 03:31:25 Early stopping at epoch 101, test loss is 0.720177
+05/16/2018 03:31:25 First best validation accuracy: 0.614 at epoch 30
+05/16/2018 03:31:25 [Finished in 19.424s.]
+05/16/2018 03:31:45 Early stopping at epoch 101, test loss is 0.646653
+05/16/2018 03:31:45 First best validation accuracy: 0.684 at epoch 62
+05/16/2018 03:31:45 [Finished in 19.984s.]
+05/16/2018 03:31:45 New model for k_fold. 3/96 models done.
+05/16/2018 03:31:58 Early stopping at epoch 101, test loss is 0.805419
+05/16/2018 03:31:58 First best validation accuracy: 0.519 at epoch 2
+05/16/2018 03:31:58 [Finished in 12.950s.]
+05/16/2018 03:32:16 Early stopping at epoch 101, test loss is 0.667829
+05/16/2018 03:32:16 First best validation accuracy: 0.627 at epoch 82
+05/16/2018 03:32:16 [Finished in 17.367s.]
+05/16/2018 03:32:16 New model for k_fold. 4/96 models done.
+05/16/2018 03:32:33 Early stopping at epoch 101, test loss is 0.749837
+05/16/2018 03:32:33 First best validation accuracy: 0.525 at epoch 57
+05/16/2018 03:32:33 [Finished in 17.193s.]
+05/16/2018 03:32:49 Early stopping at epoch 101, test loss is 0.694013
+05/16/2018 03:32:49 First best validation accuracy: 0.570 at epoch 79
+05/16/2018 03:32:49 [Finished in 16.042s.]
+05/16/2018 03:32:49 New model for k_fold. 5/96 models done.
+05/16/2018 03:33:03 Early stopping at epoch 101, test loss is 0.727963
+05/16/2018 03:33:03 First best validation accuracy: 0.513 at epoch 82
+05/16/2018 03:33:03 [Finished in 13.527s.]
+05/16/2018 03:33:18 Early stopping at epoch 101, test loss is 0.712370
+05/16/2018 03:33:18 First best validation accuracy: 0.513 at epoch 57
+05/16/2018 03:33:18 [Finished in 15.116s.]
+05/16/2018 03:33:18 New model for k_fold. 6/96 models done.
+05/16/2018 03:33:38 Early stopping at epoch 101, test loss is 0.734337
+05/16/2018 03:33:38 First best validation accuracy: 0.582 at epoch 18
+05/16/2018 03:33:38 [Finished in 20.513s.]
+05/16/2018 03:33:58 Early stopping at epoch 101, test loss is 0.694955
+05/16/2018 03:33:58 First best validation accuracy: 0.646 at epoch 20
+05/16/2018 03:33:58 [Finished in 19.858s.]
+05/16/2018 03:33:58 New model for k_fold. 7/96 models done.
+05/16/2018 03:34:25 Early stopping at epoch 101, test loss is 0.763107
+05/16/2018 03:34:25 First best validation accuracy: 0.563 at epoch 27
+05/16/2018 03:34:25 [Finished in 26.987s.]
+05/16/2018 03:34:54 Early stopping at epoch 101, test loss is 0.671729
+05/16/2018 03:34:54 First best validation accuracy: 0.658 at epoch 13
+05/16/2018 03:34:54 [Finished in 28.653s.]
+05/16/2018 03:34:54 New model for k_fold. 8/96 models done.
+05/16/2018 03:35:22 Early stopping at epoch 101, test loss is 0.790992
+05/16/2018 03:35:22 First best validation accuracy: 0.519 at epoch 7
+05/16/2018 03:35:22 [Finished in 28.028s.]
+05/16/2018 03:35:52 Early stopping at epoch 101, test loss is 0.673772
+05/16/2018 03:35:52 First best validation accuracy: 0.665 at epoch 7
+05/16/2018 03:35:52 [Finished in 30.157s.]
+05/16/2018 03:35:52 New model for k_fold. 9/96 models done.
+05/16/2018 03:36:18 Early stopping at epoch 101, test loss is 0.783292
+05/16/2018 03:36:18 First best validation accuracy: 0.494 at epoch 21
+05/16/2018 03:36:18 [Finished in 26.485s.]
+05/16/2018 03:36:42 Early stopping at epoch 101, test loss is 0.664393
+05/16/2018 03:36:42 First best validation accuracy: 0.633 at epoch 97
+05/16/2018 03:36:42 [Finished in 23.672s.]
+05/16/2018 03:36:42 New model for k_fold. 10/96 models done.
+05/16/2018 03:37:08 Early stopping at epoch 101, test loss is 0.738410
+05/16/2018 03:37:08 First best validation accuracy: 0.538 at epoch 57
+05/16/2018 03:37:08 [Finished in 25.785s.]
+05/16/2018 03:37:34 Early stopping at epoch 101, test loss is 0.683893
+05/16/2018 03:37:34 First best validation accuracy: 0.601 at epoch 64
+05/16/2018 03:37:34 [Finished in 26.320s.]
+05/16/2018 03:37:34 New model for k_fold. 11/96 models done.
+05/16/2018 03:38:00 Early stopping at epoch 101, test loss is 0.703719
+05/16/2018 03:38:00 First best validation accuracy: 0.595 at epoch 85
+05/16/2018 03:38:00 [Finished in 25.509s.]
+05/16/2018 03:38:26 Early stopping at epoch 101, test loss is 0.693043
+05/16/2018 03:38:26 First best validation accuracy: 0.589 at epoch 68
+05/16/2018 03:38:26 [Finished in 26.223s.]
+05/16/2018 03:38:26 New model for k_fold. 12/96 models done.
+05/16/2018 03:38:51 Early stopping at epoch 101, test loss is 0.728389
+05/16/2018 03:38:51 First best validation accuracy: 0.608 at epoch 27
+05/16/2018 03:38:51 [Finished in 25.396s.]
+05/16/2018 03:39:17 Early stopping at epoch 101, test loss is 0.691361
+05/16/2018 03:39:17 First best validation accuracy: 0.620 at epoch 17
+05/16/2018 03:39:17 [Finished in 25.821s.]
+05/16/2018 03:39:17 New model for k_fold. 13/96 models done.
+05/16/2018 03:39:44 Early stopping at epoch 101, test loss is 0.813020
+05/16/2018 03:39:44 First best validation accuracy: 0.513 at epoch 5
+05/16/2018 03:39:44 [Finished in 26.641s.]
+05/16/2018 03:40:09 Early stopping at epoch 101, test loss is 0.730302
+05/16/2018 03:40:09 First best validation accuracy: 0.608 at epoch 7
+05/16/2018 03:40:09 [Finished in 25.553s.]
+05/16/2018 03:40:09 New model for k_fold. 14/96 models done.
+05/16/2018 03:40:34 Early stopping at epoch 101, test loss is 0.731574
+05/16/2018 03:40:34 First best validation accuracy: 0.582 at epoch 43
+05/16/2018 03:40:34 [Finished in 24.667s.]
+05/16/2018 03:40:59 Early stopping at epoch 101, test loss is 0.650038
+05/16/2018 03:40:59 First best validation accuracy: 0.677 at epoch 16
+05/16/2018 03:40:59 [Finished in 25.291s.]
+05/16/2018 03:40:59 New model for k_fold. 15/96 models done.
+05/16/2018 03:41:21 Early stopping at epoch 101, test loss is 0.821699
+05/16/2018 03:41:21 First best validation accuracy: 0.487 at epoch 2
+05/16/2018 03:41:21 [Finished in 21.581s.]
+05/16/2018 03:41:43 Early stopping at epoch 101, test loss is 0.683007
+05/16/2018 03:41:43 First best validation accuracy: 0.595 at epoch 94
+05/16/2018 03:41:43 [Finished in 22.037s.]
+05/16/2018 03:41:43 New model for k_fold. 16/96 models done.
+05/16/2018 03:42:05 Early stopping at epoch 101, test loss is 0.793839
+05/16/2018 03:42:05 First best validation accuracy: 0.525 at epoch 1
+05/16/2018 03:42:05 [Finished in 22.501s.]
+05/16/2018 03:42:27 Early stopping at epoch 101, test loss is 0.686554
+05/16/2018 03:42:27 First best validation accuracy: 0.557 at epoch 71
+05/16/2018 03:42:27 [Finished in 21.073s.]
+05/16/2018 03:42:27 New model for k_fold. 17/96 models done.
+05/16/2018 03:42:44 Early stopping at epoch 101, test loss is 0.723093
+05/16/2018 03:42:44 First best validation accuracy: 0.551 at epoch 61
+05/16/2018 03:42:44 [Finished in 17.869s.]
+05/16/2018 03:43:06 Early stopping at epoch 101, test loss is 0.690915
+05/16/2018 03:43:06 First best validation accuracy: 0.519 at epoch 68
+05/16/2018 03:43:06 [Finished in 21.721s.]
+05/16/2018 03:43:06 New model for k_fold. 18/96 models done.
+05/16/2018 03:43:40 Early stopping at epoch 101, test loss is 0.717430
+05/16/2018 03:43:40 First best validation accuracy: 0.620 at epoch 74
+05/16/2018 03:43:40 [Finished in 33.683s.]
+05/16/2018 03:44:15 Early stopping at epoch 101, test loss is 0.694968
+05/16/2018 03:44:15 First best validation accuracy: 0.639 at epoch 6
+05/16/2018 03:44:15 [Finished in 34.748s.]
+05/16/2018 03:44:15 New model for k_fold. 19/96 models done.
+05/16/2018 03:44:47 Early stopping at epoch 101, test loss is 0.796368
+05/16/2018 03:44:47 First best validation accuracy: 0.544 at epoch 4
+05/16/2018 03:44:47 [Finished in 32.427s.]
+05/16/2018 03:45:18 Early stopping at epoch 101, test loss is 0.693435
+05/16/2018 03:45:18 First best validation accuracy: 0.639 at epoch 10
+05/16/2018 03:45:18 [Finished in 30.476s.]
+05/16/2018 03:45:18 New model for k_fold. 20/96 models done.
+05/16/2018 03:45:50 Early stopping at epoch 101, test loss is 0.757846
+05/16/2018 03:45:50 First best validation accuracy: 0.551 at epoch 38
+05/16/2018 03:45:50 [Finished in 32.082s.]
+05/16/2018 03:46:22 Early stopping at epoch 101, test loss is 0.675502
+05/16/2018 03:46:22 First best validation accuracy: 0.652 at epoch 11
+05/16/2018 03:46:22 [Finished in 32.106s.]
+05/16/2018 03:46:22 New model for k_fold. 21/96 models done.
+05/16/2018 03:46:53 Early stopping at epoch 101, test loss is 0.761839
+05/16/2018 03:46:53 First best validation accuracy: 0.570 at epoch 4
+05/16/2018 03:46:53 [Finished in 31.669s.]
+05/16/2018 03:47:24 Early stopping at epoch 101, test loss is 0.691398
+05/16/2018 03:47:24 First best validation accuracy: 0.589 at epoch 100
+05/16/2018 03:47:24 [Finished in 30.093s.]
+05/16/2018 03:47:24 New model for k_fold. 22/96 models done.
+05/16/2018 03:47:52 Early stopping at epoch 101, test loss is 0.738393
+05/16/2018 03:47:52 First best validation accuracy: 0.544 at epoch 49
+05/16/2018 03:47:52 [Finished in 28.606s.]
+05/16/2018 03:48:19 Early stopping at epoch 101, test loss is 0.698570
+05/16/2018 03:48:19 First best validation accuracy: 0.519 at epoch 98
+05/16/2018 03:48:19 [Finished in 26.975s.]
+05/16/2018 03:48:19 New model for k_fold. 23/96 models done.
+05/16/2018 03:48:46 Early stopping at epoch 101, test loss is 0.726452
+05/16/2018 03:48:46 First best validation accuracy: 0.538 at epoch 5
+05/16/2018 03:48:46 [Finished in 27.331s.]
+05/16/2018 03:49:17 Early stopping at epoch 101, test loss is 0.696512
+05/16/2018 03:49:17 First best validation accuracy: 0.525 at epoch 55
+05/16/2018 03:49:17 [Finished in 30.392s.]
+05/16/2018 03:49:17 New model for k_fold. 24/96 models done.
+05/16/2018 03:50:01 Early stopping at epoch 101, test loss is 0.806571
+05/16/2018 03:50:01 First best validation accuracy: 0.570 at epoch 4
+05/16/2018 03:50:01 [Finished in 44.230s.]
+05/16/2018 03:50:39 Early stopping at epoch 101, test loss is 0.686727
+05/16/2018 03:50:39 First best validation accuracy: 0.665 at epoch 6
+05/16/2018 03:50:39 [Finished in 38.326s.]
+05/16/2018 03:50:39 New model for k_fold. 25/96 models done.
+05/16/2018 03:51:20 Early stopping at epoch 101, test loss is 0.730438
+05/16/2018 03:51:20 First best validation accuracy: 0.595 at epoch 15
+05/16/2018 03:51:20 [Finished in 40.818s.]
+05/16/2018 03:52:02 Early stopping at epoch 101, test loss is 0.762634
+05/16/2018 03:52:02 First best validation accuracy: 0.627 at epoch 2
+05/16/2018 03:52:02 [Finished in 41.785s.]
+05/16/2018 03:52:02 New model for k_fold. 26/96 models done.
+05/16/2018 03:52:41 Early stopping at epoch 101, test loss is 0.820825
+05/16/2018 03:52:41 First best validation accuracy: 0.525 at epoch 6
+05/16/2018 03:52:41 [Finished in 39.384s.]
+05/16/2018 03:53:24 Early stopping at epoch 101, test loss is 0.660111
+05/16/2018 03:53:24 First best validation accuracy: 0.652 at epoch 21
+05/16/2018 03:53:24 [Finished in 42.271s.]
+05/16/2018 03:53:24 New model for k_fold. 27/96 models done.
+05/16/2018 03:53:59 Early stopping at epoch 101, test loss is 0.772895
+05/16/2018 03:53:59 First best validation accuracy: 0.532 at epoch 18
+05/16/2018 03:53:59 [Finished in 35.396s.]
+05/16/2018 03:54:36 Early stopping at epoch 101, test loss is 0.657954
+05/16/2018 03:54:36 First best validation accuracy: 0.639 at epoch 46
+05/16/2018 03:54:36 [Finished in 36.546s.]
+05/16/2018 03:54:36 New model for k_fold. 28/96 models done.
+05/16/2018 03:55:07 Early stopping at epoch 101, test loss is 0.846825
+05/16/2018 03:55:07 First best validation accuracy: 0.456 at epoch 0
+05/16/2018 03:55:07 [Finished in 31.208s.]
+05/16/2018 03:55:27 Early stopping at epoch 101, test loss is 0.687132
+05/16/2018 03:55:27 First best validation accuracy: 0.608 at epoch 33
+05/16/2018 03:55:27 [Finished in 19.895s.]
+05/16/2018 03:55:27 New model for k_fold. 29/96 models done.
+05/16/2018 03:55:46 Early stopping at epoch 101, test loss is 0.766672
+05/16/2018 03:55:46 First best validation accuracy: 0.525 at epoch 3
+05/16/2018 03:55:46 [Finished in 19.085s.]
+05/16/2018 03:56:05 Early stopping at epoch 101, test loss is 0.687094
+05/16/2018 03:56:05 First best validation accuracy: 0.614 at epoch 73
+05/16/2018 03:56:05 [Finished in 19.460s.]
+05/16/2018 03:56:05 New model for k_fold. 30/96 models done.
+05/16/2018 03:56:45 Early stopping at epoch 101, test loss is 0.719126
+05/16/2018 03:56:45 First best validation accuracy: 0.595 at epoch 55
+05/16/2018 03:56:45 [Finished in 39.912s.]
+05/16/2018 03:57:28 Early stopping at epoch 101, test loss is 0.697642
+05/16/2018 03:57:28 First best validation accuracy: 0.608 at epoch 1
+05/16/2018 03:57:28 [Finished in 42.366s.]
+05/16/2018 03:57:28 New model for k_fold. 31/96 models done.
+05/16/2018 03:58:08 Early stopping at epoch 101, test loss is 0.778752
+05/16/2018 03:58:08 First best validation accuracy: 0.551 at epoch 11
+05/16/2018 03:58:08 [Finished in 40.332s.]
+05/16/2018 03:58:52 Early stopping at epoch 101, test loss is 0.736991
+05/16/2018 03:58:52 First best validation accuracy: 0.589 at epoch 5
+05/16/2018 03:58:52 [Finished in 44.089s.]
+05/16/2018 03:58:52 New model for k_fold. 32/96 models done.
+05/16/2018 03:59:37 Early stopping at epoch 101, test loss is 0.769289
+05/16/2018 03:59:37 First best validation accuracy: 0.570 at epoch 14
+05/16/2018 03:59:37 [Finished in 44.669s.]
+05/16/2018 04:00:11 Early stopping at epoch 101, test loss is 0.657265
+05/16/2018 04:00:11 First best validation accuracy: 0.665 at epoch 12
+05/16/2018 04:00:11 [Finished in 34.571s.]
+05/16/2018 04:00:11 New model for k_fold. 33/96 models done.
+05/16/2018 04:00:39 Early stopping at epoch 101, test loss is 0.726003
+05/16/2018 04:00:39 First best validation accuracy: 0.557 at epoch 18
+05/16/2018 04:00:39 [Finished in 27.523s.]
+05/16/2018 04:01:06 Early stopping at epoch 101, test loss is 0.651751
+05/16/2018 04:01:06 First best validation accuracy: 0.646 at epoch 74
+05/16/2018 04:01:06 [Finished in 26.612s.]
+05/16/2018 04:01:06 New model for k_fold. 34/96 models done.
+05/16/2018 04:01:32 Early stopping at epoch 101, test loss is 0.757400
+05/16/2018 04:01:32 First best validation accuracy: 0.538 at epoch 19
+05/16/2018 04:01:32 [Finished in 26.215s.]
+05/16/2018 04:01:58 Early stopping at epoch 101, test loss is 0.683858
+05/16/2018 04:01:58 First best validation accuracy: 0.608 at epoch 98
+05/16/2018 04:01:58 [Finished in 26.177s.]
+05/16/2018 04:01:58 New model for k_fold. 35/96 models done.
+05/16/2018 04:02:24 Early stopping at epoch 101, test loss is 0.730701
+05/16/2018 04:02:24 First best validation accuracy: 0.532 at epoch 77
+05/16/2018 04:02:24 [Finished in 26.317s.]
+05/16/2018 04:02:50 Early stopping at epoch 101, test loss is 0.684962
+05/16/2018 04:02:50 First best validation accuracy: 0.576 at epoch 89
+05/16/2018 04:02:50 [Finished in 25.578s.]
+05/16/2018 04:02:50 New model for k_fold. 36/96 models done.
+05/16/2018 04:03:22 Early stopping at epoch 101, test loss is 0.802326
+05/16/2018 04:03:22 First best validation accuracy: 0.519 at epoch 8
+05/16/2018 04:03:22 [Finished in 31.729s.]
+05/16/2018 04:04:06 Early stopping at epoch 101, test loss is 0.681974
+05/16/2018 04:04:06 First best validation accuracy: 0.646 at epoch 11
+05/16/2018 04:04:06 [Finished in 43.941s.]
+05/16/2018 04:04:06 New model for k_fold. 37/96 models done.
+05/16/2018 04:04:48 Early stopping at epoch 101, test loss is 0.779329
+05/16/2018 04:04:48 First best validation accuracy: 0.525 at epoch 10
+05/16/2018 04:04:48 [Finished in 42.137s.]
+05/16/2018 04:05:28 Early stopping at epoch 101, test loss is 0.689592
+05/16/2018 04:05:28 First best validation accuracy: 0.633 at epoch 15
+05/16/2018 04:05:28 [Finished in 40.153s.]
+05/16/2018 04:05:28 New model for k_fold. 38/96 models done.
+05/16/2018 04:06:05 Early stopping at epoch 101, test loss is 0.737389
+05/16/2018 04:06:05 First best validation accuracy: 0.608 at epoch 45
+05/16/2018 04:06:05 [Finished in 37.516s.]
+05/16/2018 04:06:44 Early stopping at epoch 101, test loss is 0.660330
+05/16/2018 04:06:44 First best validation accuracy: 0.652 at epoch 17
+05/16/2018 04:06:44 [Finished in 38.608s.]
+05/16/2018 04:06:44 New model for k_fold. 39/96 models done.
+05/16/2018 04:07:15 Early stopping at epoch 101, test loss is 0.882073
+05/16/2018 04:07:15 First best validation accuracy: 0.443 at epoch 0
+05/16/2018 04:07:15 [Finished in 31.295s.]
+05/16/2018 04:07:47 Early stopping at epoch 101, test loss is 0.660915
+05/16/2018 04:07:47 First best validation accuracy: 0.627 at epoch 79
+05/16/2018 04:07:47 [Finished in 31.200s.]
+05/16/2018 04:07:47 New model for k_fold. 40/96 models done.
+05/16/2018 04:08:19 Early stopping at epoch 101, test loss is 0.784809
+05/16/2018 04:08:19 First best validation accuracy: 0.519 at epoch 28
+05/16/2018 04:08:19 [Finished in 32.435s.]
+05/16/2018 04:08:52 Early stopping at epoch 101, test loss is 0.678218
+05/16/2018 04:08:52 First best validation accuracy: 0.595 at epoch 92
+05/16/2018 04:08:52 [Finished in 33.465s.]
+05/16/2018 04:08:52 New model for k_fold. 41/96 models done.
+05/16/2018 04:09:26 Early stopping at epoch 101, test loss is 0.768878
+05/16/2018 04:09:26 First best validation accuracy: 0.525 at epoch 76
+05/16/2018 04:09:26 [Finished in 33.108s.]
+05/16/2018 04:09:59 Early stopping at epoch 101, test loss is 0.690644
+05/16/2018 04:09:59 First best validation accuracy: 0.582 at epoch 53
+05/16/2018 04:09:59 [Finished in 33.430s.]
+05/16/2018 04:09:59 New model for k_fold. 42/96 models done.
+05/16/2018 04:10:44 Early stopping at epoch 101, test loss is 0.753113
+05/16/2018 04:10:44 First best validation accuracy: 0.563 at epoch 14
+05/16/2018 04:10:44 [Finished in 45.315s.]
+05/16/2018 04:11:29 Early stopping at epoch 101, test loss is 0.651509
+05/16/2018 04:11:29 First best validation accuracy: 0.658 at epoch 28
+05/16/2018 04:11:29 [Finished in 44.931s.]
+05/16/2018 04:11:29 New model for k_fold. 43/96 models done.
+05/16/2018 04:12:16 Early stopping at epoch 101, test loss is 0.761904
+05/16/2018 04:12:16 First best validation accuracy: 0.563 at epoch 12
+05/16/2018 04:12:16 [Finished in 46.668s.]
+05/16/2018 04:13:05 Early stopping at epoch 101, test loss is 0.714051
+05/16/2018 04:13:05 First best validation accuracy: 0.595 at epoch 2
+05/16/2018 04:13:05 [Finished in 48.559s.]
+05/16/2018 04:13:05 New model for k_fold. 44/96 models done.
+05/16/2018 04:13:51 Early stopping at epoch 101, test loss is 0.801689
+05/16/2018 04:13:51 First best validation accuracy: 0.538 at epoch 5
+05/16/2018 04:13:51 [Finished in 46.231s.]
+05/16/2018 04:14:39 Early stopping at epoch 101, test loss is 0.659713
+05/16/2018 04:14:39 First best validation accuracy: 0.652 at epoch 38
+05/16/2018 04:14:39 [Finished in 48.258s.]
+05/16/2018 04:14:39 New model for k_fold. 45/96 models done.
+05/16/2018 04:15:18 Early stopping at epoch 101, test loss is 0.735334
+05/16/2018 04:15:18 First best validation accuracy: 0.532 at epoch 17
+05/16/2018 04:15:18 [Finished in 38.431s.]
+05/16/2018 04:15:54 Early stopping at epoch 101, test loss is 0.667151
+05/16/2018 04:15:54 First best validation accuracy: 0.639 at epoch 47
+05/16/2018 04:15:54 [Finished in 36.541s.]
+05/16/2018 04:15:54 New model for k_fold. 46/96 models done.
+05/16/2018 04:16:29 Early stopping at epoch 101, test loss is 0.789017
+05/16/2018 04:16:29 First best validation accuracy: 0.506 at epoch 3
+05/16/2018 04:16:29 [Finished in 34.692s.]
+05/16/2018 04:17:06 Early stopping at epoch 101, test loss is 0.675520
+05/16/2018 04:17:06 First best validation accuracy: 0.627 at epoch 66
+05/16/2018 04:17:06 [Finished in 37.596s.]
+05/16/2018 04:17:06 New model for k_fold. 47/96 models done.
+05/16/2018 04:17:43 Early stopping at epoch 101, test loss is 0.692463
+05/16/2018 04:17:43 First best validation accuracy: 0.582 at epoch 93
+05/16/2018 04:17:43 [Finished in 36.440s.]
+05/16/2018 04:18:19 Early stopping at epoch 101, test loss is 0.683971
+05/16/2018 04:18:19 First best validation accuracy: 0.570 at epoch 99
+05/16/2018 04:18:19 [Finished in 35.877s.]
+05/16/2018 04:18:19 New model for k_fold. 48/96 models done.
+05/16/2018 04:18:47 Early stopping at epoch 101, test loss is 0.786466
+05/16/2018 04:18:47 First best validation accuracy: 0.532 at epoch 74
+05/16/2018 04:18:47 [Finished in 28.281s.]
+05/16/2018 04:19:16 Early stopping at epoch 101, test loss is 0.684334
+05/16/2018 04:19:16 First best validation accuracy: 0.671 at epoch 14
+05/16/2018 04:19:16 [Finished in 28.577s.]
+05/16/2018 04:19:16 New model for k_fold. 49/96 models done.
+05/16/2018 04:19:44 Early stopping at epoch 101, test loss is 0.775509
+05/16/2018 04:19:44 First best validation accuracy: 0.551 at epoch 33
+05/16/2018 04:19:44 [Finished in 28.464s.]
+05/16/2018 04:20:14 Early stopping at epoch 101, test loss is 0.724728
+05/16/2018 04:20:14 First best validation accuracy: 0.627 at epoch 5
+05/16/2018 04:20:14 [Finished in 30.338s.]
+05/16/2018 04:20:14 New model for k_fold. 50/96 models done.
+05/16/2018 04:20:52 Early stopping at epoch 101, test loss is 0.728742
+05/16/2018 04:20:52 First best validation accuracy: 0.582 at epoch 90
+05/16/2018 04:20:52 [Finished in 37.254s.]
+05/16/2018 04:21:29 Early stopping at epoch 101, test loss is 0.665760
+05/16/2018 04:21:29 First best validation accuracy: 0.665 at epoch 48
+05/16/2018 04:21:29 [Finished in 37.531s.]
+05/16/2018 04:21:29 New model for k_fold. 51/96 models done.
+05/16/2018 04:22:00 Early stopping at epoch 101, test loss is 0.806216
+05/16/2018 04:22:00 First best validation accuracy: 0.519 at epoch 15
+05/16/2018 04:22:00 [Finished in 30.575s.]
+05/16/2018 04:22:33 Early stopping at epoch 101, test loss is 0.680700
+05/16/2018 04:22:33 First best validation accuracy: 0.595 at epoch 64
+05/16/2018 04:22:33 [Finished in 33.014s.]
+05/16/2018 04:22:33 New model for k_fold. 52/96 models done.
+05/16/2018 04:23:04 Early stopping at epoch 101, test loss is 0.768485
+05/16/2018 04:23:04 First best validation accuracy: 0.525 at epoch 0
+05/16/2018 04:23:04 [Finished in 31.656s.]
+05/16/2018 04:23:26 Early stopping at epoch 101, test loss is 0.704417
+05/16/2018 04:23:26 First best validation accuracy: 0.544 at epoch 0
+05/16/2018 04:23:26 [Finished in 21.017s.]
+05/16/2018 04:23:26 New model for k_fold. 53/96 models done.
+05/16/2018 04:23:44 Early stopping at epoch 101, test loss is 0.722355
+05/16/2018 04:23:44 First best validation accuracy: 0.500 at epoch 5
+05/16/2018 04:23:44 [Finished in 18.164s.]
+05/16/2018 04:24:00 Early stopping at epoch 101, test loss is 0.786747
+05/16/2018 04:24:00 First best validation accuracy: 0.525 at epoch 0
+05/16/2018 04:24:00 [Finished in 16.589s.]
+05/16/2018 04:24:00 New model for k_fold. 54/96 models done.
+05/16/2018 04:24:22 Early stopping at epoch 101, test loss is 0.776209
+05/16/2018 04:24:22 First best validation accuracy: 0.557 at epoch 39
+05/16/2018 04:24:22 [Finished in 21.563s.]
+05/16/2018 04:24:42 Early stopping at epoch 101, test loss is 0.676569
+05/16/2018 04:24:42 First best validation accuracy: 0.677 at epoch 33
+05/16/2018 04:24:42 [Finished in 20.280s.]
+05/16/2018 04:24:42 New model for k_fold. 55/96 models done.
+05/16/2018 04:25:03 Early stopping at epoch 101, test loss is 0.751950
+05/16/2018 04:25:03 First best validation accuracy: 0.570 at epoch 95
+05/16/2018 04:25:03 [Finished in 21.136s.]
+05/16/2018 04:25:25 Early stopping at epoch 101, test loss is 0.692045
+05/16/2018 04:25:25 First best validation accuracy: 0.665 at epoch 74
+05/16/2018 04:25:25 [Finished in 21.363s.]
+05/16/2018 04:25:25 New model for k_fold. 56/96 models done.
+05/16/2018 04:25:49 Early stopping at epoch 101, test loss is 0.756657
+05/16/2018 04:25:49 First best validation accuracy: 0.570 at epoch 62
+05/16/2018 04:25:49 [Finished in 23.880s.]
+05/16/2018 04:26:22 Early stopping at epoch 101, test loss is 0.702657
+05/16/2018 04:26:22 First best validation accuracy: 0.646 at epoch 46
+05/16/2018 04:26:22 [Finished in 33.602s.]
+05/16/2018 04:26:22 New model for k_fold. 57/96 models done.
+05/16/2018 04:26:44 Early stopping at epoch 101, test loss is 0.748891
+05/16/2018 04:26:44 First best validation accuracy: 0.525 at epoch 0
+05/16/2018 04:26:44 [Finished in 21.993s.]
+05/16/2018 04:27:06 Early stopping at epoch 101, test loss is 0.683806
+05/16/2018 04:27:06 First best validation accuracy: 0.595 at epoch 3
+05/16/2018 04:27:06 [Finished in 21.509s.]
+05/16/2018 04:27:06 New model for k_fold. 58/96 models done.
+05/16/2018 04:27:26 Early stopping at epoch 101, test loss is 0.746689
+05/16/2018 04:27:26 First best validation accuracy: 0.519 at epoch 40
+05/16/2018 04:27:26 [Finished in 20.608s.]
+05/16/2018 04:27:48 Early stopping at epoch 101, test loss is 0.699414
+05/16/2018 04:27:48 First best validation accuracy: 0.513 at epoch 58
+05/16/2018 04:27:48 [Finished in 21.827s.]
+05/16/2018 04:27:48 New model for k_fold. 59/96 models done.
+05/16/2018 04:28:16 Early stopping at epoch 101, test loss is 0.743203
+05/16/2018 04:28:16 First best validation accuracy: 0.538 at epoch 3
+05/16/2018 04:28:16 [Finished in 27.889s.]
+05/16/2018 04:28:38 Early stopping at epoch 101, test loss is 0.701424
+05/16/2018 04:28:38 First best validation accuracy: 0.506 at epoch 90
+05/16/2018 04:28:38 [Finished in 21.941s.]
+05/16/2018 04:28:38 New model for k_fold. 60/96 models done.
+05/16/2018 04:29:12 Early stopping at epoch 101, test loss is 0.773044
+05/16/2018 04:29:12 First best validation accuracy: 0.551 at epoch 98
+05/16/2018 04:29:12 [Finished in 33.635s.]
+05/16/2018 04:29:43 Early stopping at epoch 101, test loss is 0.663053
+05/16/2018 04:29:43 First best validation accuracy: 0.703 at epoch 13
+05/16/2018 04:29:43 [Finished in 30.907s.]
+05/16/2018 04:29:43 New model for k_fold. 61/96 models done.
+05/16/2018 04:30:15 Early stopping at epoch 101, test loss is 0.806595
+05/16/2018 04:30:15 First best validation accuracy: 0.525 at epoch 9
+05/16/2018 04:30:15 [Finished in 32.166s.]
+05/16/2018 04:30:39 Early stopping at epoch 101, test loss is 0.675139
+05/16/2018 04:30:39 First best validation accuracy: 0.658 at epoch 75
+05/16/2018 04:30:39 [Finished in 24.394s.]
+05/16/2018 04:30:39 New model for k_fold. 62/96 models done.
+05/16/2018 04:31:03 Early stopping at epoch 101, test loss is 0.740617
+05/16/2018 04:31:03 First best validation accuracy: 0.589 at epoch 52
+05/16/2018 04:31:03 [Finished in 23.865s.]
+05/16/2018 04:31:24 Early stopping at epoch 101, test loss is 0.667304
+05/16/2018 04:31:24 First best validation accuracy: 0.665 at epoch 32
+05/16/2018 04:31:24 [Finished in 21.116s.]
+05/16/2018 04:31:24 New model for k_fold. 63/96 models done.
+05/16/2018 04:31:42 Early stopping at epoch 101, test loss is 0.779018
+05/16/2018 04:31:42 First best validation accuracy: 0.506 at epoch 56
+05/16/2018 04:31:42 [Finished in 17.908s.]
+05/16/2018 04:32:00 Early stopping at epoch 101, test loss is 0.693538
+05/16/2018 04:32:00 First best validation accuracy: 0.576 at epoch 1
+05/16/2018 04:32:00 [Finished in 18.000s.]
+05/16/2018 04:32:00 New model for k_fold. 64/96 models done.
+05/16/2018 04:32:18 Early stopping at epoch 101, test loss is 0.769598
+05/16/2018 04:32:18 First best validation accuracy: 0.551 at epoch 0
+05/16/2018 04:32:18 [Finished in 18.019s.]
+05/16/2018 04:32:36 Early stopping at epoch 101, test loss is 0.702879
+05/16/2018 04:32:36 First best validation accuracy: 0.468 at epoch 54
+05/16/2018 04:32:36 [Finished in 18.104s.]
+05/16/2018 04:32:36 New model for k_fold. 65/96 models done.
+05/16/2018 04:32:54 Early stopping at epoch 101, test loss is 0.732968
+05/16/2018 04:32:54 First best validation accuracy: 0.538 at epoch 32
+05/16/2018 04:32:54 [Finished in 18.102s.]
+05/16/2018 04:33:19 Early stopping at epoch 101, test loss is 0.687309
+05/16/2018 04:33:19 First best validation accuracy: 0.532 at epoch 9
+05/16/2018 04:33:19 [Finished in 24.843s.]
+05/16/2018 04:33:19 New model for k_fold. 66/96 models done.
+05/16/2018 04:33:44 Early stopping at epoch 101, test loss is 0.754555
+05/16/2018 04:33:44 First best validation accuracy: 0.589 at epoch 41
+05/16/2018 04:33:44 [Finished in 24.822s.]
+05/16/2018 04:34:09 Early stopping at epoch 101, test loss is 0.691810
+05/16/2018 04:34:09 First best validation accuracy: 0.677 at epoch 54
+05/16/2018 04:34:09 [Finished in 24.563s.]
+05/16/2018 04:34:09 New model for k_fold. 67/96 models done.
+05/16/2018 04:34:32 Early stopping at epoch 101, test loss is 0.791760
+05/16/2018 04:34:32 First best validation accuracy: 0.544 at epoch 9
+05/16/2018 04:34:32 [Finished in 23.775s.]
+05/16/2018 04:34:55 Early stopping at epoch 101, test loss is 0.723605
+05/16/2018 04:34:55 First best validation accuracy: 0.665 at epoch 26
+05/16/2018 04:34:55 [Finished in 22.425s.]
+05/16/2018 04:34:55 New model for k_fold. 68/96 models done.
+05/16/2018 04:35:16 Early stopping at epoch 101, test loss is 0.760585
+05/16/2018 04:35:16 First best validation accuracy: 0.557 at epoch 99
+05/16/2018 04:35:16 [Finished in 21.477s.]
+05/16/2018 04:35:38 Early stopping at epoch 101, test loss is 0.687271
+05/16/2018 04:35:38 First best validation accuracy: 0.665 at epoch 75
+05/16/2018 04:35:38 [Finished in 21.512s.]
+05/16/2018 04:35:38 New model for k_fold. 69/96 models done.
+05/16/2018 04:35:57 Early stopping at epoch 101, test loss is 0.759960
+05/16/2018 04:35:57 First best validation accuracy: 0.544 at epoch 3
+05/16/2018 04:35:57 [Finished in 18.799s.]
+05/16/2018 04:36:27 Early stopping at epoch 101, test loss is 0.687717
+05/16/2018 04:36:27 First best validation accuracy: 0.563 at epoch 64
+05/16/2018 04:36:27 [Finished in 30.457s.]
+05/16/2018 04:36:27 New model for k_fold. 70/96 models done.
+05/16/2018 04:36:52 Early stopping at epoch 101, test loss is 0.740990
+05/16/2018 04:36:52 First best validation accuracy: 0.519 at epoch 21
+05/16/2018 04:36:52 [Finished in 24.948s.]
+05/16/2018 04:37:15 Early stopping at epoch 101, test loss is 0.706096
+05/16/2018 04:37:15 First best validation accuracy: 0.500 at epoch 69
+05/16/2018 04:37:15 [Finished in 23.510s.]
+05/16/2018 04:37:15 New model for k_fold. 71/96 models done.
+05/16/2018 04:37:52 Early stopping at epoch 101, test loss is 0.759375
+05/16/2018 04:37:52 First best validation accuracy: 0.500 at epoch 2
+05/16/2018 04:37:52 [Finished in 36.406s.]
+05/16/2018 04:38:23 Early stopping at epoch 101, test loss is 0.701697
+05/16/2018 04:38:23 First best validation accuracy: 0.513 at epoch 89
+05/16/2018 04:38:23 [Finished in 31.101s.]
+05/16/2018 04:38:23 New model for k_fold. 72/96 models done.
+05/16/2018 04:38:56 Early stopping at epoch 101, test loss is 0.803354
+05/16/2018 04:38:56 First best validation accuracy: 0.538 at epoch 65
+05/16/2018 04:38:56 [Finished in 33.451s.]
+05/16/2018 04:39:24 Early stopping at epoch 101, test loss is 0.689448
+05/16/2018 04:39:24 First best validation accuracy: 0.665 at epoch 64
+05/16/2018 04:39:24 [Finished in 27.680s.]
+05/16/2018 04:39:24 New model for k_fold. 73/96 models done.
+05/16/2018 04:39:50 Early stopping at epoch 101, test loss is 0.826038
+05/16/2018 04:39:50 First best validation accuracy: 0.513 at epoch 5
+05/16/2018 04:39:50 [Finished in 26.260s.]
+05/16/2018 04:40:16 Early stopping at epoch 101, test loss is 0.678610
+05/16/2018 04:40:16 First best validation accuracy: 0.652 at epoch 55
+05/16/2018 04:40:16 [Finished in 25.913s.]
+05/16/2018 04:40:16 New model for k_fold. 74/96 models done.
+05/16/2018 04:40:42 Early stopping at epoch 101, test loss is 0.716320
+05/16/2018 04:40:42 First best validation accuracy: 0.595 at epoch 76
+05/16/2018 04:40:42 [Finished in 25.162s.]
+05/16/2018 04:41:07 Early stopping at epoch 101, test loss is 0.653068
+05/16/2018 04:41:07 First best validation accuracy: 0.677 at epoch 52
+05/16/2018 04:41:07 [Finished in 25.228s.]
+05/16/2018 04:41:07 New model for k_fold. 75/96 models done.
+05/16/2018 04:41:27 Early stopping at epoch 101, test loss is 0.797333
+05/16/2018 04:41:27 First best validation accuracy: 0.532 at epoch 21
+05/16/2018 04:41:27 [Finished in 20.600s.]
+05/16/2018 04:41:48 Early stopping at epoch 101, test loss is 0.672523
+05/16/2018 04:41:48 First best validation accuracy: 0.633 at epoch 2
+05/16/2018 04:41:48 [Finished in 20.431s.]
+05/16/2018 04:41:48 New model for k_fold. 76/96 models done.
+05/16/2018 04:42:08 Early stopping at epoch 101, test loss is 0.772853
+05/16/2018 04:42:08 First best validation accuracy: 0.551 at epoch 1
+05/16/2018 04:42:08 [Finished in 19.731s.]
+05/16/2018 04:42:27 Early stopping at epoch 101, test loss is 0.690552
+05/16/2018 04:42:27 First best validation accuracy: 0.551 at epoch 82
+05/16/2018 04:42:27 [Finished in 19.777s.]
+05/16/2018 04:42:27 New model for k_fold. 77/96 models done.
+05/16/2018 04:42:47 Early stopping at epoch 101, test loss is 0.715626
+05/16/2018 04:42:47 First best validation accuracy: 0.557 at epoch 11
+05/16/2018 04:42:47 [Finished in 20.093s.]
+05/16/2018 04:43:09 Early stopping at epoch 101, test loss is 0.686823
+05/16/2018 04:43:09 First best validation accuracy: 0.519 at epoch 5
+05/16/2018 04:43:09 [Finished in 21.084s.]
+05/16/2018 04:43:09 New model for k_fold. 78/96 models done.
+05/16/2018 04:43:53 Early stopping at epoch 101, test loss is 0.729091
+05/16/2018 04:43:53 First best validation accuracy: 0.582 at epoch 46
+05/16/2018 04:43:53 [Finished in 44.456s.]
+05/16/2018 04:44:35 Early stopping at epoch 101, test loss is 0.687510
+05/16/2018 04:44:35 First best validation accuracy: 0.677 at epoch 73
+05/16/2018 04:44:35 [Finished in 41.794s.]
+05/16/2018 04:44:35 New model for k_fold. 79/96 models done.
+05/16/2018 04:45:19 Early stopping at epoch 101, test loss is 0.789567
+05/16/2018 04:45:19 First best validation accuracy: 0.544 at epoch 46
+05/16/2018 04:45:19 [Finished in 43.808s.]
+05/16/2018 04:46:04 Early stopping at epoch 101, test loss is 0.695079
+05/16/2018 04:46:04 First best validation accuracy: 0.646 at epoch 59
+05/16/2018 04:46:04 [Finished in 44.950s.]
+05/16/2018 04:46:04 New model for k_fold. 80/96 models done.
+05/16/2018 04:46:48 Early stopping at epoch 101, test loss is 0.723842
+05/16/2018 04:46:48 First best validation accuracy: 0.601 at epoch 95
+05/16/2018 04:46:48 [Finished in 44.024s.]
+05/16/2018 04:47:38 Early stopping at epoch 101, test loss is 0.688972
+05/16/2018 04:47:38 First best validation accuracy: 0.671 at epoch 80
+05/16/2018 04:47:38 [Finished in 50.690s.]
+05/16/2018 04:47:38 New model for k_fold. 81/96 models done.
+05/16/2018 04:48:17 Early stopping at epoch 101, test loss is 0.791987
+05/16/2018 04:48:17 First best validation accuracy: 0.525 at epoch 2
+05/16/2018 04:48:17 [Finished in 38.230s.]
+05/16/2018 04:48:53 Early stopping at epoch 101, test loss is 0.666831
+05/16/2018 04:48:53 First best validation accuracy: 0.620 at epoch 31
+05/16/2018 04:48:53 [Finished in 36.244s.]
+05/16/2018 04:48:53 New model for k_fold. 82/96 models done.
+05/16/2018 04:49:30 Early stopping at epoch 101, test loss is 0.770420
+05/16/2018 04:49:30 First best validation accuracy: 0.506 at epoch 4
+05/16/2018 04:49:30 [Finished in 37.637s.]
+05/16/2018 04:50:06 Early stopping at epoch 101, test loss is 0.687459
+05/16/2018 04:50:06 First best validation accuracy: 0.576 at epoch 17
+05/16/2018 04:50:06 [Finished in 36.037s.]
+05/16/2018 04:50:06 New model for k_fold. 83/96 models done.
+05/16/2018 04:50:44 Early stopping at epoch 101, test loss is 0.751498
+05/16/2018 04:50:44 First best validation accuracy: 0.532 at epoch 3
+05/16/2018 04:50:44 [Finished in 37.379s.]
+05/16/2018 04:51:21 Early stopping at epoch 101, test loss is 0.688481
+05/16/2018 04:51:21 First best validation accuracy: 0.513 at epoch 26
+05/16/2018 04:51:21 [Finished in 36.792s.]
+05/16/2018 04:51:21 New model for k_fold. 84/96 models done.
+05/16/2018 04:52:09 Early stopping at epoch 101, test loss is 0.818769
+05/16/2018 04:52:09 First best validation accuracy: 0.538 at epoch 8
+05/16/2018 04:52:09 [Finished in 48.381s.]
+05/16/2018 04:52:58 Early stopping at epoch 101, test loss is 0.682870
+05/16/2018 04:52:58 First best validation accuracy: 0.658 at epoch 42
+05/16/2018 04:52:58 [Finished in 48.919s.]
+05/16/2018 04:52:58 New model for k_fold. 85/96 models done.
+05/16/2018 04:53:46 Early stopping at epoch 101, test loss is 0.725259
+05/16/2018 04:53:46 First best validation accuracy: 0.595 at epoch 54
+05/16/2018 04:53:46 [Finished in 48.279s.]
+05/16/2018 04:54:32 Early stopping at epoch 101, test loss is 0.691609
+05/16/2018 04:54:32 First best validation accuracy: 0.658 at epoch 37
+05/16/2018 04:54:32 [Finished in 45.182s.]
+05/16/2018 04:54:32 New model for k_fold. 86/96 models done.
+05/16/2018 04:55:14 Early stopping at epoch 101, test loss is 0.707502
+05/16/2018 04:55:14 First best validation accuracy: 0.620 at epoch 75
+05/16/2018 04:55:14 [Finished in 42.290s.]
+05/16/2018 04:55:54 Early stopping at epoch 101, test loss is 0.671057
+05/16/2018 04:55:54 First best validation accuracy: 0.658 at epoch 46
+05/16/2018 04:55:54 [Finished in 40.402s.]
+05/16/2018 04:55:54 New model for k_fold. 87/96 models done.
+05/16/2018 04:56:32 Early stopping at epoch 101, test loss is 0.783267
+05/16/2018 04:56:32 First best validation accuracy: 0.544 at epoch 5
+05/16/2018 04:56:32 [Finished in 38.144s.]
+05/16/2018 04:57:09 Early stopping at epoch 101, test loss is 0.667784
+05/16/2018 04:57:09 First best validation accuracy: 0.620 at epoch 82
+05/16/2018 04:57:09 [Finished in 36.971s.]
+05/16/2018 04:57:09 New model for k_fold. 88/96 models done.
+05/16/2018 04:57:45 Early stopping at epoch 101, test loss is 0.785166
+05/16/2018 04:57:45 First best validation accuracy: 0.551 at epoch 0
+05/16/2018 04:57:45 [Finished in 36.082s.]
+05/16/2018 04:58:20 Early stopping at epoch 101, test loss is 0.665267
+05/16/2018 04:58:20 First best validation accuracy: 0.627 at epoch 68
+05/16/2018 04:58:20 [Finished in 34.868s.]
+05/16/2018 04:58:20 New model for k_fold. 89/96 models done.
+05/16/2018 04:58:51 Early stopping at epoch 101, test loss is 0.728363
+05/16/2018 04:58:51 First best validation accuracy: 0.519 at epoch 1
+05/16/2018 04:58:51 [Finished in 30.836s.]
+05/16/2018 04:59:23 Early stopping at epoch 101, test loss is 0.709572
+05/16/2018 04:59:23 First best validation accuracy: 0.538 at epoch 15
+05/16/2018 04:59:23 [Finished in 31.728s.]
+05/16/2018 04:59:23 New model for k_fold. 90/96 models done.
+05/16/2018 05:00:13 Early stopping at epoch 101, test loss is 0.771418
+05/16/2018 05:00:13 First best validation accuracy: 0.608 at epoch 42
+05/16/2018 05:00:13 [Finished in 50.023s.]
+05/16/2018 05:00:56 Early stopping at epoch 101, test loss is 0.657852
+05/16/2018 05:00:56 First best validation accuracy: 0.677 at epoch 28
+05/16/2018 05:00:56 [Finished in 43.510s.]
+05/16/2018 05:00:56 New model for k_fold. 91/96 models done.
+05/16/2018 05:01:40 Early stopping at epoch 101, test loss is 0.784070
+05/16/2018 05:01:40 First best validation accuracy: 0.570 at epoch 33
+05/16/2018 05:01:40 [Finished in 43.402s.]
+05/16/2018 05:02:23 Early stopping at epoch 101, test loss is 0.662327
+05/16/2018 05:02:23 First best validation accuracy: 0.646 at epoch 99
+05/16/2018 05:02:23 [Finished in 43.332s.]
+05/16/2018 05:02:23 New model for k_fold. 92/96 models done.
+05/16/2018 05:03:08 Early stopping at epoch 101, test loss is 0.717420
+05/16/2018 05:03:08 First best validation accuracy: 0.608 at epoch 83
+05/16/2018 05:03:08 [Finished in 44.717s.]
+05/16/2018 05:03:55 Early stopping at epoch 101, test loss is 0.685888
+05/16/2018 05:03:55 First best validation accuracy: 0.671 at epoch 32
+05/16/2018 05:03:55 [Finished in 46.715s.]
+05/16/2018 05:03:55 New model for k_fold. 93/96 models done.
+05/16/2018 05:04:34 Early stopping at epoch 101, test loss is 0.785171
+05/16/2018 05:04:34 First best validation accuracy: 0.500 at epoch 19
+05/16/2018 05:04:34 [Finished in 39.193s.]
+05/16/2018 05:05:15 Early stopping at epoch 101, test loss is 0.677342
+05/16/2018 05:05:15 First best validation accuracy: 0.620 at epoch 65
+05/16/2018 05:05:15 [Finished in 41.298s.]
+05/16/2018 05:05:15 New model for k_fold. 94/96 models done.
+05/16/2018 05:05:52 Early stopping at epoch 101, test loss is 0.795006
+05/16/2018 05:05:52 First best validation accuracy: 0.513 at epoch 3
+05/16/2018 05:05:52 [Finished in 37.043s.]
+05/16/2018 05:06:29 Early stopping at epoch 101, test loss is 0.696079
+05/16/2018 05:06:29 First best validation accuracy: 0.538 at epoch 96
+05/16/2018 05:06:29 [Finished in 36.873s.]
+05/16/2018 05:06:29 New model for k_fold. 95/96 models done.
+05/16/2018 05:07:11 Early stopping at epoch 101, test loss is 0.763520
+05/16/2018 05:07:11 First best validation accuracy: 0.538 at epoch 50
+05/16/2018 05:07:11 [Finished in 41.978s.]
+05/16/2018 05:07:54 Early stopping at epoch 101, test loss is 0.689468
+05/16/2018 05:07:54 First best validation accuracy: 0.525 at epoch 75
+05/16/2018 05:07:54 [Finished in 42.917s.]
+05/16/2018 05:08:45 Early stopping at epoch 101, train loss is 0.332253
+05/16/2018 05:08:45 First best training accuracy: 0.981 at epoch 77
+05/16/2018 05:08:45 [Finished in 51.369s.]
+05/16/2018 05:09:25 First best test accuracy: 0.620 at epoch 0
+05/16/2018 05:09:25 [Finished in 39.277s.]
+05/16/2018 05:10:21 Early stopping at epoch 101, train loss is 0.348647
+05/16/2018 05:10:21 First best training accuracy: 0.965 at epoch 56
+05/16/2018 05:10:21 [Finished in 55.779s.]
+05/16/2018 05:10:57 First best test accuracy: 0.580 at epoch 0
+05/16/2018 05:10:57 [Finished in 36.720s.]
+05/16/2018 05:11:43 Early stopping at epoch 101, train loss is 0.341771
+05/16/2018 05:11:43 First best training accuracy: 0.972 at epoch 31
+05/16/2018 05:11:43 [Finished in 45.619s.]
+05/16/2018 05:12:16 First best test accuracy: 0.650 at epoch 0
+05/16/2018 05:12:16 [Finished in 33.507s.]
+05/16/2018 05:12:56 Early stopping at epoch 101, train loss is 0.597508
+05/16/2018 05:12:56 First best training accuracy: 0.759 at epoch 94
+05/16/2018 05:12:56 [Finished in 39.179s.]
+05/16/2018 05:13:27 First best test accuracy: 0.580 at epoch 0
+05/16/2018 05:13:27 [Finished in 31.440s.]
+05/16/2018 05:13:51 Early stopping at epoch 101, train loss is 0.600342
+05/16/2018 05:13:51 First best training accuracy: 0.744 at epoch 99
+05/16/2018 05:13:51 [Finished in 23.968s.]
+05/16/2018 05:14:20 First best test accuracy: 0.650 at epoch 0
+05/16/2018 05:14:20 [Finished in 28.961s.]
+05/16/2018 05:14:54 Early stopping at epoch 101, train loss is 0.701777
+05/16/2018 05:14:54 First best training accuracy: 0.503 at epoch 0
+05/16/2018 05:14:54 [Finished in 33.912s.]
+05/16/2018 05:15:25 First best test accuracy: 0.490 at epoch 0
+05/16/2018 05:15:25 [Finished in 31.593s.]
+05/16/2018 05:16:18 Early stopping at epoch 101, train loss is 0.335416
+05/16/2018 05:16:18 First best training accuracy: 0.978 at epoch 30
+05/16/2018 05:16:18 [Finished in 53.015s.]
+05/16/2018 05:16:59 First best test accuracy: 0.570 at epoch 0
+05/16/2018 05:16:59 [Finished in 40.789s.]
+05/16/2018 05:17:48 Early stopping at epoch 101, train loss is 0.344910
+05/16/2018 05:17:48 First best training accuracy: 0.968 at epoch 15
+05/16/2018 05:17:48 [Finished in 48.557s.]
+05/16/2018 05:18:30 First best test accuracy: 0.660 at epoch 0
+05/16/2018 05:18:30 [Finished in 42.054s.]
+05/16/2018 05:19:18 Early stopping at epoch 101, train loss is 0.335417
+05/16/2018 05:19:18 First best training accuracy: 0.978 at epoch 31
+05/16/2018 05:19:18 [Finished in 48.362s.]
+05/16/2018 05:19:58 First best test accuracy: 0.620 at epoch 0
+05/16/2018 05:19:58 [Finished in 39.479s.]
+05/16/2018 05:20:40 Early stopping at epoch 101, train loss is 0.597205
+05/16/2018 05:20:40 First best training accuracy: 0.759 at epoch 100
+05/16/2018 05:20:40 [Finished in 42.561s.]
+05/16/2018 05:21:23 First best test accuracy: 0.620 at epoch 0
+05/16/2018 05:21:23 [Finished in 42.382s.]
+05/16/2018 05:22:04 Early stopping at epoch 101, train loss is 0.615294
+05/16/2018 05:22:04 First best training accuracy: 0.744 at epoch 98
+05/16/2018 05:22:04 [Finished in 40.983s.]
+05/16/2018 05:22:43 First best test accuracy: 0.540 at epoch 0
+05/16/2018 05:22:43 [Finished in 39.666s.]
+05/16/2018 05:23:08 Early stopping at epoch 101, train loss is 0.671924
+05/16/2018 05:23:08 First best training accuracy: 0.614 at epoch 5
+05/16/2018 05:23:08 [Finished in 25.138s.]
+05/16/2018 05:23:50 First best test accuracy: 0.610 at epoch 0
+05/16/2018 05:23:50 [Finished in 42.038s.]
+05/16/2018 05:24:42 Early stopping at epoch 101, train loss is 0.344909
+05/16/2018 05:24:42 First best training accuracy: 0.968 at epoch 25
+05/16/2018 05:24:42 [Finished in 51.618s.]
+05/16/2018 05:25:18 First best test accuracy: 0.620 at epoch 0
+05/16/2018 05:25:18 [Finished in 36.298s.]
+05/16/2018 05:26:07 Early stopping at epoch 101, train loss is 0.335416
+05/16/2018 05:26:07 First best training accuracy: 0.978 at epoch 51
+05/16/2018 05:26:07 [Finished in 48.918s.]
+05/16/2018 05:26:43 First best test accuracy: 0.660 at epoch 0
+05/16/2018 05:26:43 [Finished in 35.316s.]
+05/16/2018 05:27:18 Early stopping at epoch 101, train loss is 0.344939
+05/16/2018 05:27:18 First best training accuracy: 0.968 at epoch 80
+05/16/2018 05:27:18 [Finished in 35.264s.]
+05/16/2018 05:27:45 First best test accuracy: 0.630 at epoch 0
+05/16/2018 05:27:45 [Finished in 26.793s.]
+05/16/2018 05:28:08 Early stopping at epoch 101, train loss is 0.617254
+05/16/2018 05:28:08 First best training accuracy: 0.703 at epoch 88
+05/16/2018 05:28:08 [Finished in 23.398s.]
+05/16/2018 05:28:32 First best test accuracy: 0.570 at epoch 0
+05/16/2018 05:28:32 [Finished in 24.353s.]
+05/16/2018 05:28:53 Early stopping at epoch 101, train loss is 0.626257
+05/16/2018 05:28:53 First best training accuracy: 0.655 at epoch 98
+05/16/2018 05:28:53 [Finished in 20.616s.]
+05/16/2018 05:29:16 First best test accuracy: 0.540 at epoch 0
+05/16/2018 05:29:16 [Finished in 23.433s.]
+05/16/2018 05:29:38 Early stopping at epoch 101, train loss is 0.664410
+05/16/2018 05:29:38 First best training accuracy: 0.642 at epoch 57
+05/16/2018 05:29:38 [Finished in 21.950s.]
+05/16/2018 05:30:02 First best test accuracy: 0.590 at epoch 0
+05/16/2018 05:30:02 [Finished in 23.941s.]
+05/16/2018 05:30:35 Early stopping at epoch 101, train loss is 0.329086
+05/16/2018 05:30:35 First best training accuracy: 0.984 at epoch 42
+05/16/2018 05:30:35 [Finished in 32.774s.]
+05/16/2018 05:31:09 First best test accuracy: 0.630 at epoch 0
+05/16/2018 05:31:09 [Finished in 33.546s.]
+05/16/2018 05:31:44 Early stopping at epoch 101, train loss is 0.341747
+05/16/2018 05:31:44 First best training accuracy: 0.972 at epoch 18
+05/16/2018 05:31:44 [Finished in 35.150s.]
+05/16/2018 05:32:16 First best test accuracy: 0.670 at epoch 0
+05/16/2018 05:32:16 [Finished in 32.618s.]
+05/16/2018 05:32:49 Early stopping at epoch 101, train loss is 0.341746
+05/16/2018 05:32:49 First best training accuracy: 0.972 at epoch 42
+05/16/2018 05:32:49 [Finished in 32.948s.]
+05/16/2018 05:33:23 First best test accuracy: 0.610 at epoch 0
+05/16/2018 05:33:23 [Finished in 33.266s.]
+05/16/2018 05:33:51 Early stopping at epoch 101, train loss is 0.607030
+05/16/2018 05:33:51 First best training accuracy: 0.737 at epoch 96
+05/16/2018 05:33:51 [Finished in 28.666s.]
+05/16/2018 05:34:22 First best test accuracy: 0.590 at epoch 0
+05/16/2018 05:34:22 [Finished in 30.569s.]
+05/16/2018 05:34:51 Early stopping at epoch 101, train loss is 0.660832
+05/16/2018 05:34:51 First best training accuracy: 0.703 at epoch 95
+05/16/2018 05:34:51 [Finished in 28.794s.]
+05/16/2018 05:35:23 First best test accuracy: 0.570 at epoch 0
+05/16/2018 05:35:23 [Finished in 32.781s.]
+05/16/2018 05:35:52 Early stopping at epoch 101, train loss is 0.656562
+05/16/2018 05:35:52 First best training accuracy: 0.627 at epoch 88
+05/16/2018 05:35:52 [Finished in 28.809s.]
+05/16/2018 05:36:22 First best test accuracy: 0.570 at epoch 0
+05/16/2018 05:36:22 [Finished in 30.009s.]
+05/16/2018 05:37:07 Early stopping at epoch 101, train loss is 0.360731
+05/16/2018 05:37:07 First best training accuracy: 0.953 at epoch 20
+05/16/2018 05:37:07 [Finished in 45.011s.]
+05/16/2018 05:37:29 First best test accuracy: 0.680 at epoch 0
+05/16/2018 05:37:29 [Finished in 21.454s.]
+05/16/2018 05:38:08 Early stopping at epoch 101, train loss is 0.354403
+05/16/2018 05:38:08 First best training accuracy: 0.959 at epoch 15
+05/16/2018 05:38:08 [Finished in 39.569s.]
+05/16/2018 05:38:31 First best test accuracy: 0.630 at epoch 0
+05/16/2018 05:38:31 [Finished in 22.980s.]
+05/16/2018 05:39:16 Early stopping at epoch 101, train loss is 0.338598
+05/16/2018 05:39:16 First best training accuracy: 0.975 at epoch 36
+05/16/2018 05:39:16 [Finished in 45.170s.]
+05/16/2018 05:39:50 First best test accuracy: 0.640 at epoch 0
+05/16/2018 05:39:50 [Finished in 33.447s.]
+05/16/2018 05:40:30 Early stopping at epoch 101, train loss is 0.558607
+05/16/2018 05:40:30 First best training accuracy: 0.807 at epoch 89
+05/16/2018 05:40:30 [Finished in 40.327s.]
+05/16/2018 05:40:59 First best test accuracy: 0.610 at epoch 0
+05/16/2018 05:40:59 [Finished in 28.462s.]
+05/16/2018 05:41:38 Early stopping at epoch 101, train loss is 0.570375
+05/16/2018 05:41:38 First best training accuracy: 0.820 at epoch 97
+05/16/2018 05:41:38 [Finished in 38.980s.]
+05/16/2018 05:42:04 First best test accuracy: 0.620 at epoch 0
+05/16/2018 05:42:04 [Finished in 26.321s.]
+05/16/2018 05:42:43 Early stopping at epoch 101, train loss is 0.665345
+05/16/2018 05:42:43 First best training accuracy: 0.582 at epoch 94
+05/16/2018 05:42:43 [Finished in 39.232s.]
+05/16/2018 05:43:11 First best test accuracy: 0.530 at epoch 0
+05/16/2018 05:43:11 [Finished in 27.841s.]
+05/16/2018 05:44:11 Early stopping at epoch 101, train loss is 0.313264
+05/16/2018 05:44:11 First best training accuracy: 1.000 at epoch 26
+05/16/2018 05:44:11 [Finished in 60.187s.]
+05/16/2018 05:44:46 First best test accuracy: 0.690 at epoch 0
+05/16/2018 05:44:46 [Finished in 35.219s.]
+05/16/2018 05:45:42 Early stopping at epoch 101, train loss is 0.329086
+05/16/2018 05:45:42 First best training accuracy: 0.984 at epoch 10
+05/16/2018 05:45:42 [Finished in 55.802s.]
+05/16/2018 05:46:16 First best test accuracy: 0.660 at epoch 0
+05/16/2018 05:46:16 [Finished in 33.507s.]
+05/16/2018 05:47:11 Early stopping at epoch 101, train loss is 0.354403
+05/16/2018 05:47:11 First best training accuracy: 0.959 at epoch 21
+05/16/2018 05:47:11 [Finished in 55.500s.]
+05/16/2018 05:47:45 First best test accuracy: 0.670 at epoch 0
+05/16/2018 05:47:45 [Finished in 33.712s.]
+05/16/2018 05:48:25 Early stopping at epoch 101, train loss is 0.546539
+05/16/2018 05:48:25 First best training accuracy: 0.826 at epoch 99
+05/16/2018 05:48:25 [Finished in 40.402s.]
+05/16/2018 05:48:58 First best test accuracy: 0.620 at epoch 0
+05/16/2018 05:48:58 [Finished in 32.418s.]
+05/16/2018 05:49:32 Early stopping at epoch 101, train loss is 0.558207
+05/16/2018 05:49:32 First best training accuracy: 0.823 at epoch 100
+05/16/2018 05:49:32 [Finished in 34.011s.]
+05/16/2018 05:50:00 First best test accuracy: 0.640 at epoch 0
+05/16/2018 05:50:00 [Finished in 28.565s.]
+05/16/2018 05:50:33 Early stopping at epoch 101, train loss is 0.646987
+05/16/2018 05:50:33 First best training accuracy: 0.668 at epoch 95
+05/16/2018 05:50:33 [Finished in 32.804s.]
+05/16/2018 05:51:05 First best test accuracy: 0.590 at epoch 0
+05/16/2018 05:51:05 [Finished in 31.662s.]
+05/16/2018 05:52:01 Early stopping at epoch 101, train loss is 0.373391
+05/16/2018 05:52:01 First best training accuracy: 0.940 at epoch 90
+05/16/2018 05:52:01 [Finished in 56.501s.]
+05/16/2018 05:52:34 First best test accuracy: 0.600 at epoch 0
+05/16/2018 05:52:34 [Finished in 33.084s.]
+05/16/2018 05:53:26 Early stopping at epoch 101, train loss is 0.329087
+05/16/2018 05:53:26 First best training accuracy: 0.984 at epoch 66
+05/16/2018 05:53:26 [Finished in 51.477s.]
+05/16/2018 05:53:49 First best test accuracy: 0.620 at epoch 0
+05/16/2018 05:53:49 [Finished in 23.368s.]
+05/16/2018 05:54:36 Early stopping at epoch 101, train loss is 0.348108
+05/16/2018 05:54:36 First best training accuracy: 0.965 at epoch 91
+05/16/2018 05:54:36 [Finished in 46.934s.]
+05/16/2018 05:55:01 First best test accuracy: 0.630 at epoch 0
+05/16/2018 05:55:01 [Finished in 24.337s.]
+05/16/2018 05:55:39 Early stopping at epoch 101, train loss is 0.546905
+05/16/2018 05:55:39 First best training accuracy: 0.839 at epoch 99
+05/16/2018 05:55:39 [Finished in 38.168s.]
+05/16/2018 05:56:10 First best test accuracy: 0.590 at epoch 0
+05/16/2018 05:56:10 [Finished in 31.092s.]
+05/16/2018 05:56:45 Early stopping at epoch 101, train loss is 0.577154
+05/16/2018 05:56:45 First best training accuracy: 0.804 at epoch 100
+05/16/2018 05:56:45 [Finished in 35.151s.]
+05/16/2018 05:57:10 First best test accuracy: 0.560 at epoch 0
+05/16/2018 05:57:10 [Finished in 24.806s.]
+05/16/2018 05:57:45 Early stopping at epoch 101, train loss is 0.642289
+05/16/2018 05:57:45 First best training accuracy: 0.665 at epoch 94
+05/16/2018 05:57:45 [Finished in 35.567s.]
+05/16/2018 05:58:11 First best test accuracy: 0.520 at epoch 0
+05/16/2018 05:58:11 [Finished in 25.730s.]
+05/16/2018 05:59:02 Early stopping at epoch 101, train loss is 0.322757
+05/16/2018 05:59:02 First best training accuracy: 0.991 at epoch 19
+05/16/2018 05:59:02 [Finished in 51.413s.]
+05/16/2018 05:59:34 First best test accuracy: 0.600 at epoch 0
+05/16/2018 05:59:34 [Finished in 31.498s.]
+05/16/2018 06:00:28 Early stopping at epoch 101, train loss is 0.329086
+05/16/2018 06:00:28 First best training accuracy: 0.984 at epoch 15
+05/16/2018 06:00:28 [Finished in 53.606s.]
+05/16/2018 06:00:58 First best test accuracy: 0.650 at epoch 0
+05/16/2018 06:00:58 [Finished in 30.900s.]
+05/16/2018 06:01:52 Early stopping at epoch 101, train loss is 0.344909
+05/16/2018 06:01:52 First best training accuracy: 0.968 at epoch 23
+05/16/2018 06:01:52 [Finished in 53.355s.]
+05/16/2018 06:02:25 First best test accuracy: 0.670 at epoch 0
+05/16/2018 06:02:25 [Finished in 32.692s.]
+05/16/2018 06:03:04 Early stopping at epoch 101, train loss is 0.573437
+05/16/2018 06:03:04 First best training accuracy: 0.791 at epoch 99
+05/16/2018 06:03:04 [Finished in 38.973s.]
+05/16/2018 06:03:37 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:03:37 [Finished in 33.571s.]
+05/16/2018 06:04:15 Early stopping at epoch 101, train loss is 0.561409
+05/16/2018 06:04:15 First best training accuracy: 0.832 at epoch 99
+05/16/2018 06:04:15 [Finished in 37.616s.]
+05/16/2018 06:04:47 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:04:47 [Finished in 32.534s.]
+05/16/2018 06:05:26 Early stopping at epoch 101, train loss is 0.649903
+05/16/2018 06:05:26 First best training accuracy: 0.658 at epoch 84
+05/16/2018 06:05:26 [Finished in 39.155s.]
+05/16/2018 06:05:58 First best test accuracy: 0.600 at epoch 0
+05/16/2018 06:05:58 [Finished in 31.213s.]
+05/16/2018 06:06:31 Early stopping at epoch 101, train loss is 0.367216
+05/16/2018 06:06:31 First best training accuracy: 0.946 at epoch 83
+05/16/2018 06:06:31 [Finished in 33.601s.]
+05/16/2018 06:06:57 First best test accuracy: 0.620 at epoch 0
+05/16/2018 06:06:57 [Finished in 26.086s.]
+05/16/2018 06:07:28 Early stopping at epoch 101, train loss is 0.367358
+05/16/2018 06:07:28 First best training accuracy: 0.975 at epoch 95
+05/16/2018 06:07:28 [Finished in 31.100s.]
+05/16/2018 06:07:54 First best test accuracy: 0.650 at epoch 0
+05/16/2018 06:07:54 [Finished in 25.734s.]
+05/16/2018 06:08:29 Early stopping at epoch 101, train loss is 0.367722
+05/16/2018 06:08:29 First best training accuracy: 0.962 at epoch 84
+05/16/2018 06:08:29 [Finished in 34.740s.]
+05/16/2018 06:08:54 First best test accuracy: 0.630 at epoch 0
+05/16/2018 06:08:54 [Finished in 24.890s.]
+05/16/2018 06:09:16 Early stopping at epoch 101, train loss is 0.639378
+05/16/2018 06:09:16 First best training accuracy: 0.699 at epoch 97
+05/16/2018 06:09:16 [Finished in 22.128s.]
+05/16/2018 06:09:39 First best test accuracy: 0.580 at epoch 0
+05/16/2018 06:09:39 [Finished in 22.944s.]
+05/16/2018 06:10:04 Early stopping at epoch 101, train loss is 0.623858
+05/16/2018 06:10:04 First best training accuracy: 0.741 at epoch 95
+05/16/2018 06:10:04 [Finished in 25.507s.]
+05/16/2018 06:10:28 First best test accuracy: 0.580 at epoch 0
+05/16/2018 06:10:28 [Finished in 23.929s.]
+05/16/2018 06:10:53 Early stopping at epoch 101, train loss is 0.662552
+05/16/2018 06:10:53 First best training accuracy: 0.633 at epoch 93
+05/16/2018 06:10:53 [Finished in 24.820s.]
+05/16/2018 06:11:18 First best test accuracy: 0.570 at epoch 0
+05/16/2018 06:11:18 [Finished in 24.432s.]
+05/16/2018 06:11:50 Early stopping at epoch 101, train loss is 0.371279
+05/16/2018 06:11:50 First best training accuracy: 0.940 at epoch 100
+05/16/2018 06:11:50 [Finished in 32.115s.]
+05/16/2018 06:12:17 First best test accuracy: 0.600 at epoch 0
+05/16/2018 06:12:17 [Finished in 27.725s.]
+05/16/2018 06:12:49 Early stopping at epoch 101, train loss is 0.394515
+05/16/2018 06:12:49 First best training accuracy: 0.924 at epoch 96
+05/16/2018 06:12:49 [Finished in 31.402s.]
+05/16/2018 06:13:17 First best test accuracy: 0.680 at epoch 0
+05/16/2018 06:13:17 [Finished in 28.481s.]
+05/16/2018 06:13:47 Early stopping at epoch 101, train loss is 0.389354
+05/16/2018 06:13:47 First best training accuracy: 0.937 at epoch 91
+05/16/2018 06:13:47 [Finished in 29.724s.]
+05/16/2018 06:14:15 First best test accuracy: 0.620 at epoch 0
+05/16/2018 06:14:15 [Finished in 27.592s.]
+05/16/2018 06:14:39 Early stopping at epoch 101, train loss is 0.680957
+05/16/2018 06:14:39 First best training accuracy: 0.620 at epoch 83
+05/16/2018 06:14:39 [Finished in 24.303s.]
+05/16/2018 06:15:06 First best test accuracy: 0.510 at epoch 0
+05/16/2018 06:15:06 [Finished in 27.016s.]
+05/16/2018 06:15:29 Early stopping at epoch 101, train loss is 0.669071
+05/16/2018 06:15:29 First best training accuracy: 0.627 at epoch 45
+05/16/2018 06:15:29 [Finished in 23.311s.]
+05/16/2018 06:15:57 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:15:57 [Finished in 27.552s.]
+05/16/2018 06:16:21 Early stopping at epoch 101, train loss is 0.686983
+05/16/2018 06:16:21 First best training accuracy: 0.589 at epoch 68
+05/16/2018 06:16:21 [Finished in 24.157s.]
+05/16/2018 06:16:48 First best test accuracy: 0.540 at epoch 0
+05/16/2018 06:16:48 [Finished in 27.346s.]
+05/16/2018 06:17:15 Early stopping at epoch 101, train loss is 0.372425
+05/16/2018 06:17:15 First best training accuracy: 0.943 at epoch 66
+05/16/2018 06:17:15 [Finished in 26.521s.]
+05/16/2018 06:17:35 First best test accuracy: 0.620 at epoch 0
+05/16/2018 06:17:35 [Finished in 20.144s.]
+05/16/2018 06:18:01 Early stopping at epoch 101, train loss is 0.367215
+05/16/2018 06:18:01 First best training accuracy: 0.953 at epoch 100
+05/16/2018 06:18:01 [Finished in 25.857s.]
+05/16/2018 06:18:24 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:18:24 [Finished in 22.793s.]
+05/16/2018 06:18:53 Early stopping at epoch 101, train loss is 0.364660
+05/16/2018 06:18:53 First best training accuracy: 0.965 at epoch 100
+05/16/2018 06:18:53 [Finished in 29.845s.]
+05/16/2018 06:19:16 First best test accuracy: 0.630 at epoch 0
+05/16/2018 06:19:16 [Finished in 22.574s.]
+05/16/2018 06:19:41 Early stopping at epoch 101, train loss is 0.641480
+05/16/2018 06:19:41 First best training accuracy: 0.690 at epoch 95
+05/16/2018 06:19:41 [Finished in 25.351s.]
+05/16/2018 06:20:08 First best test accuracy: 0.580 at epoch 0
+05/16/2018 06:20:08 [Finished in 26.938s.]
+05/16/2018 06:20:41 Early stopping at epoch 101, train loss is 0.652429
+05/16/2018 06:20:41 First best training accuracy: 0.687 at epoch 76
+05/16/2018 06:20:41 [Finished in 32.392s.]
+05/16/2018 06:21:04 First best test accuracy: 0.580 at epoch 0
+05/16/2018 06:21:04 [Finished in 23.204s.]
+05/16/2018 06:21:26 Early stopping at epoch 101, train loss is 0.702240
+05/16/2018 06:21:26 First best training accuracy: 0.557 at epoch 78
+05/16/2018 06:21:26 [Finished in 22.565s.]
+05/16/2018 06:21:52 First best test accuracy: 0.520 at epoch 0
+05/16/2018 06:21:52 [Finished in 25.629s.]
+05/16/2018 06:22:30 Early stopping at epoch 101, train loss is 0.392889
+05/16/2018 06:22:30 First best training accuracy: 0.940 at epoch 83
+05/16/2018 06:22:30 [Finished in 38.001s.]
+05/16/2018 06:23:02 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:23:02 [Finished in 31.493s.]
+05/16/2018 06:23:36 Early stopping at epoch 101, train loss is 0.381945
+05/16/2018 06:23:36 First best training accuracy: 0.943 at epoch 82
+05/16/2018 06:23:36 [Finished in 34.521s.]
+05/16/2018 06:24:08 First best test accuracy: 0.630 at epoch 0
+05/16/2018 06:24:08 [Finished in 32.109s.]
+05/16/2018 06:24:42 Early stopping at epoch 101, train loss is 0.372492
+05/16/2018 06:24:42 First best training accuracy: 0.934 at epoch 81
+05/16/2018 06:24:42 [Finished in 33.687s.]
+05/16/2018 06:25:14 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:25:14 [Finished in 32.234s.]
+05/16/2018 06:25:43 Early stopping at epoch 101, train loss is 0.696686
+05/16/2018 06:25:43 First best training accuracy: 0.579 at epoch 56
+05/16/2018 06:25:43 [Finished in 29.264s.]
+05/16/2018 06:26:13 First best test accuracy: 0.520 at epoch 0
+05/16/2018 06:26:13 [Finished in 29.683s.]
+05/16/2018 06:26:44 Early stopping at epoch 101, train loss is 0.645390
+05/16/2018 06:26:44 First best training accuracy: 0.655 at epoch 58
+05/16/2018 06:26:44 [Finished in 31.042s.]
+05/16/2018 06:27:18 First best test accuracy: 0.600 at epoch 0
+05/16/2018 06:27:18 [Finished in 33.769s.]
+05/16/2018 06:27:48 Early stopping at epoch 101, train loss is 0.716185
+05/16/2018 06:27:48 First best training accuracy: 0.563 at epoch 63
+05/16/2018 06:27:48 [Finished in 30.021s.]
+05/16/2018 06:28:16 First best test accuracy: 0.490 at epoch 0
+05/16/2018 06:28:16 [Finished in 28.034s.]
+05/16/2018 06:29:02 Early stopping at epoch 101, train loss is 0.362934
+05/16/2018 06:29:02 First best training accuracy: 0.953 at epoch 84
+05/16/2018 06:29:02 [Finished in 46.572s.]
+05/16/2018 06:29:26 First best test accuracy: 0.660 at epoch 0
+05/16/2018 06:29:26 [Finished in 23.637s.]
+05/16/2018 06:30:07 Early stopping at epoch 101, train loss is 0.337914
+05/16/2018 06:30:07 First best training accuracy: 0.981 at epoch 86
+05/16/2018 06:30:07 [Finished in 40.686s.]
+05/16/2018 06:30:29 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:30:29 [Finished in 22.625s.]
+05/16/2018 06:31:08 Early stopping at epoch 101, train loss is 0.349090
+05/16/2018 06:31:08 First best training accuracy: 0.978 at epoch 91
+05/16/2018 06:31:08 [Finished in 38.370s.]
+05/16/2018 06:31:28 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:31:28 [Finished in 20.662s.]
+05/16/2018 06:31:59 Early stopping at epoch 101, train loss is 0.577681
+05/16/2018 06:31:59 First best training accuracy: 0.766 at epoch 79
+05/16/2018 06:31:59 [Finished in 30.421s.]
+05/16/2018 06:32:22 First best test accuracy: 0.620 at epoch 0
+05/16/2018 06:32:22 [Finished in 23.504s.]
+05/16/2018 06:32:58 Early stopping at epoch 101, train loss is 0.627396
+05/16/2018 06:32:58 First best training accuracy: 0.722 at epoch 65
+05/16/2018 06:32:58 [Finished in 35.611s.]
+05/16/2018 06:33:27 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:33:27 [Finished in 29.332s.]
+05/16/2018 06:34:14 Early stopping at epoch 101, train loss is 0.672247
+05/16/2018 06:34:14 First best training accuracy: 0.658 at epoch 86
+05/16/2018 06:34:14 [Finished in 46.534s.]
+05/16/2018 06:34:44 First best test accuracy: 0.580 at epoch 0
+05/16/2018 06:34:44 [Finished in 30.149s.]
+05/16/2018 06:35:54 Early stopping at epoch 101, train loss is 0.355422
+05/16/2018 06:35:54 First best training accuracy: 0.972 at epoch 92
+05/16/2018 06:35:54 [Finished in 70.331s.]
+05/16/2018 06:36:34 First best test accuracy: 0.600 at epoch 0
+05/16/2018 06:36:34 [Finished in 39.616s.]
+05/16/2018 06:37:46 Early stopping at epoch 101, train loss is 0.339247
+05/16/2018 06:37:46 First best training accuracy: 0.981 at epoch 91
+05/16/2018 06:37:46 [Finished in 71.743s.]
+05/16/2018 06:38:25 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:38:25 [Finished in 39.781s.]
+05/16/2018 06:39:37 Early stopping at epoch 101, train loss is 0.358837
+05/16/2018 06:39:37 First best training accuracy: 0.965 at epoch 100
+05/16/2018 06:39:37 [Finished in 71.306s.]
+05/16/2018 06:40:17 First best test accuracy: 0.660 at epoch 0
+05/16/2018 06:40:17 [Finished in 40.642s.]
+05/16/2018 06:41:10 Early stopping at epoch 101, train loss is 0.635264
+05/16/2018 06:41:10 First best training accuracy: 0.687 at epoch 95
+05/16/2018 06:41:10 [Finished in 52.956s.]
+05/16/2018 06:41:49 First best test accuracy: 0.570 at epoch 0
+05/16/2018 06:41:49 [Finished in 38.175s.]
+05/16/2018 06:42:47 Early stopping at epoch 101, train loss is 0.631026
+05/16/2018 06:42:47 First best training accuracy: 0.718 at epoch 68
+05/16/2018 06:42:47 [Finished in 58.772s.]
+05/16/2018 06:43:30 First best test accuracy: 0.610 at epoch 0
+05/16/2018 06:43:30 [Finished in 42.484s.]
+05/16/2018 06:44:31 Early stopping at epoch 101, train loss is 0.671481
+05/16/2018 06:44:31 First best training accuracy: 0.608 at epoch 79
+05/16/2018 06:44:31 [Finished in 61.357s.]
+05/16/2018 06:45:10 First best test accuracy: 0.600 at epoch 0
+05/16/2018 06:45:10 [Finished in 38.977s.]
+05/16/2018 06:46:20 Early stopping at epoch 101, train loss is 0.351224
+05/16/2018 06:46:20 First best training accuracy: 0.965 at epoch 63
+05/16/2018 06:46:20 [Finished in 69.354s.]
+05/16/2018 06:46:51 First best test accuracy: 0.640 at epoch 0
+05/16/2018 06:46:51 [Finished in 31.718s.]
+05/16/2018 06:47:58 Early stopping at epoch 101, train loss is 0.335677
+05/16/2018 06:47:58 First best training accuracy: 0.984 at epoch 83
+05/16/2018 06:47:58 [Finished in 66.427s.]
+05/16/2018 06:48:28 First best test accuracy: 0.630 at epoch 0
+05/16/2018 06:48:28 [Finished in 30.689s.]
+05/16/2018 06:49:32 Early stopping at epoch 101, train loss is 0.338029
+05/16/2018 06:49:32 First best training accuracy: 0.981 at epoch 94
+05/16/2018 06:49:32 [Finished in 63.640s.]
+05/16/2018 06:50:04 First best test accuracy: 0.680 at epoch 0
+05/16/2018 06:50:04 [Finished in 31.850s.]
+05/16/2018 06:50:53 Early stopping at epoch 101, train loss is 0.590557
+05/16/2018 06:50:53 First best training accuracy: 0.775 at epoch 94
+05/16/2018 06:50:53 [Finished in 49.074s.]
+05/16/2018 06:51:23 First best test accuracy: 0.620 at epoch 0
+05/16/2018 06:51:23 [Finished in 30.423s.]
+05/16/2018 06:52:09 Early stopping at epoch 101, train loss is 0.602094
+05/16/2018 06:52:09 First best training accuracy: 0.756 at epoch 92
+05/16/2018 06:52:09 [Finished in 45.761s.]
+05/16/2018 06:52:40 First best test accuracy: 0.620 at epoch 0
+05/16/2018 06:52:40 [Finished in 30.822s.]
+05/16/2018 06:53:28 Early stopping at epoch 101, train loss is 0.665419
+05/16/2018 06:53:28 First best training accuracy: 0.630 at epoch 60
+05/16/2018 06:53:28 [Finished in 47.635s.]
+05/16/2018 06:53:57 First best test accuracy: 0.540 at epoch 0
+05/16/2018 06:53:57 [Finished in 29.422s.]
+05/16/2018 06:55:08 Early stopping at epoch 101, train loss is 0.355527
+05/16/2018 06:55:08 First best training accuracy: 0.965 at epoch 82
+05/16/2018 06:55:08 [Finished in 71.235s.]
+05/16/2018 06:55:49 First best test accuracy: 0.660 at epoch 0
+05/16/2018 06:55:49 [Finished in 40.385s.]
+05/16/2018 06:57:06 Early stopping at epoch 101, train loss is 0.353481
+05/16/2018 06:57:06 First best training accuracy: 0.975 at epoch 100
+05/16/2018 06:57:06 [Finished in 77.025s.]
+05/16/2018 06:57:50 First best test accuracy: 0.650 at epoch 0
+05/16/2018 06:57:50 [Finished in 44.096s.]
+05/16/2018 06:59:11 Early stopping at epoch 101, train loss is 0.357028
+05/16/2018 06:59:11 First best training accuracy: 0.965 at epoch 90
+05/16/2018 06:59:11 [Finished in 81.410s.]
+05/16/2018 06:59:50 First best test accuracy: 0.620 at epoch 0
+05/16/2018 06:59:50 [Finished in 38.517s.]
+05/16/2018 07:00:32 Early stopping at epoch 101, train loss is 0.619855
+05/16/2018 07:00:32 First best training accuracy: 0.696 at epoch 43
+05/16/2018 07:00:32 [Finished in 41.905s.]
+05/16/2018 07:01:10 First best test accuracy: 0.560 at epoch 0
+05/16/2018 07:01:10 [Finished in 38.605s.]
+05/16/2018 07:02:03 Early stopping at epoch 101, train loss is 0.631505
+05/16/2018 07:02:03 First best training accuracy: 0.699 at epoch 80
+05/16/2018 07:02:03 [Finished in 52.809s.]
+05/16/2018 07:02:34 First best test accuracy: 0.610 at epoch 0
+05/16/2018 07:02:34 [Finished in 31.326s.]
+05/16/2018 07:03:12 Early stopping at epoch 101, train loss is 0.687367
+05/16/2018 07:03:12 First best training accuracy: 0.627 at epoch 91
+05/16/2018 07:03:12 [Finished in 37.944s.]
+05/16/2018 07:03:49 First best test accuracy: 0.520 at epoch 0
+05/16/2018 07:03:49 [Finished in 37.142s.]

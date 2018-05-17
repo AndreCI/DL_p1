@@ -1,0 +1,349 @@
+05/16/2018 07:21:24 [Program starts.]
+05/16/2018 07:21:24 [Arg used:][{'normalize_data': True}, {'exp_name': 'rec_testing_I1'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'activation_type': 'ELU'}, {'remove_DC_level': True}, {'criterion': 'CrossEntropy'}, {'epoch_number': 1000}, {'patience': 100}, {'verbose': 'low'}, {'hidden_units': 5}, {'init_type': 'xavier_uniform'}, {'model': 'Recurrent'}, {'optimizer': 'Adadelta'}, {'k_fold': 2}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 07:21:25 [Data loaded.]
+05/16/2018 07:21:25 New model for k_fold. 0/16 models done.
+05/16/2018 07:22:48 [Program starts.]
+05/16/2018 07:22:48 [Arg used:][{'model': 'Recurrent'}, {'patience': 100}, {'verbose': 'low'}, {'remove_DC_level': True}, {'k_fold': 2}, {'optimizer': 'Adadelta'}, {'activation_type': 'ELU'}, {'criterion': 'CrossEntropy'}, {'normalize_data': True}, {'exp_name': 'rec_testing_I1'}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'hidden_units': 5}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'recurrent_cell_type': 'GRU'}]
+05/16/2018 07:22:49 [Data loaded.]
+05/16/2018 07:22:49 New model for k_fold. 0/16 models done.
+05/16/2018 07:23:22 [Program starts.]
+05/16/2018 07:23:22 [Arg used:][{'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'verbose': 'low'}, {'activation_type': 'ELU'}, {'model': 'Recurrent'}, {'patience': 100}, {'epoch_number': 1000}, {'normalize_data': True}, {'init_type': 'xavier_uniform'}, {'recurrent_cell_type': 'GRU'}, {'hidden_units': 5}, {'exp_name': 'rec_testing_I1'}, {'k_fold': 2}, {'remove_DC_level': True}, {'optimizer': 'Adadelta'}]
+05/16/2018 07:23:22 [Data loaded.]
+05/16/2018 07:23:22 New model for k_fold. 0/16 models done.
+05/16/2018 07:24:48 [Program starts.]
+05/16/2018 07:24:48 [Arg used:][{'patience': 100}, {'remove_DC_level': True}, {'activation_type': 'ELU'}, {'model': 'Recurrent'}, {'epoch_number': 1000}, {'exp_name': 'rec_testing_I1'}, {'hidden_units': 5}, {'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'init_type': 'xavier_uniform'}, {'normalize_data': True}, {'k_fold': 2}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'optimizer': 'Adadelta'}]
+05/16/2018 07:24:48 [Data loaded.]
+05/16/2018 07:24:48 New model for k_fold. 0/16 models done.
+05/16/2018 07:24:59 [Program starts.]
+05/16/2018 07:24:59 [Arg used:][{'remove_DC_level': True}, {'patience': 100}, {'verbose': 'low'}, {'hidden_units': 5}, {'epoch_number': 1000}, {'normalize_data': True}, {'k_fold': 2}, {'activation_type': 'ELU'}, {'init_type': 'xavier_uniform'}, {'model': 'Recurrent'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'optimizer': 'Adadelta'}, {'exp_name': 'rec_testing_I1'}, {'recurrent_cell_type': 'GRU'}, {'criterion': 'CrossEntropy'}]
+05/16/2018 07:24:59 [Data loaded.]
+05/16/2018 07:25:00 New model for k_fold. 0/16 models done.
+05/16/2018 07:26:46 [Program starts.]
+05/16/2018 07:26:46 [Arg used:][{'patience': 100}, {'normalize_data': True}, {'verbose': 'low'}, {'epoch_number': 1000}, {'exp_name': 'rec_testing_I1'}, {'init_type': 'xavier_uniform'}, {'model': 'Recurrent'}, {'k_fold': 2}, {'activation_type': 'ELU'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'hidden_units': 5}, {'recurrent_cell_type': 'GRU'}, {'optimizer': 'Adadelta'}, {'remove_DC_level': True}]
+05/16/2018 07:26:47 [Data loaded.]
+05/16/2018 07:26:47 New model for k_fold. 0/16 models done.
+05/16/2018 07:27:00 [Program starts.]
+05/16/2018 07:27:00 [Arg used:][{'exp_name': 'rec_testing_I1'}, {'remove_DC_level': True}, {'init_type': 'xavier_uniform'}, {'model': 'Recurrent'}, {'criterion': 'CrossEntropy'}, {'hidden_units': 5}, {'optimizer': 'Adadelta'}, {'recurrent_cell_type': 'GRU'}, {'normalize_data': True}, {'verbose': 'low'}, {'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'k_fold': 2}, {'activation_type': 'ELU'}, {'patience': 100}]
+05/16/2018 07:27:01 [Program starts.]
+05/16/2018 07:27:01 [Arg used:][{'normalize_data': True}, {'init_type': 'xavier_uniform'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'hidden_units': 5}, {'optimizer': 'Adadelta'}, {'model': 'Recurrent'}, {'verbose': 'low'}, {'patience': 100}, {'criterion': 'CrossEntropy'}, {'activation_type': 'ELU'}, {'exp_name': 'rec_testing_I1'}, {'k_fold': 2}, {'recurrent_cell_type': 'GRU'}, {'epoch_number': 1000}, {'remove_DC_level': True}]
+05/16/2018 07:27:01 [Data loaded.]
+05/16/2018 07:27:01 New model for k_fold. 0/16 models done.
+05/16/2018 07:27:01 [Data loaded.]
+05/16/2018 07:27:01 New model for k_fold. 0/16 models done.
+05/16/2018 07:28:04 [Program starts.]
+05/16/2018 07:28:04 [Arg used:][{'exp_name': 'rec_testing_I1'}, {'verbose': 'low'}, {'patience': 100}, {'init_type': 'xavier_uniform'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'k_fold': 2}, {'hidden_units': 5}, {'remove_DC_level': True}, {'criterion': 'CrossEntropy'}, {'epoch_number': 1000}, {'recurrent_cell_type': 'GRU'}, {'activation_type': 'ELU'}, {'optimizer': 'Adadelta'}, {'normalize_data': True}, {'model': 'Recurrent'}]
+05/16/2018 07:28:05 [Data loaded.]
+05/16/2018 07:28:05 New model for k_fold. 0/16 models done.
+05/16/2018 07:28:31 [Program starts.]
+05/16/2018 07:28:31 [Arg used:][{'recurrent_cell_type': 'GRU'}, {'verbose': 'low'}, {'normalize_data': True}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'k_fold': 2}, {'hidden_units': 5}, {'epoch_number': 1000}, {'patience': 100}, {'activation_type': 'ELU'}, {'init_type': 'xavier_uniform'}, {'exp_name': 'rec_testing_I1'}, {'optimizer': 'Adadelta'}, {'model': 'Recurrent'}]
+05/16/2018 07:28:31 [Data loaded.]
+05/16/2018 07:28:31 New model for k_fold. 0/16 models done.
+05/16/2018 07:29:12 [Program starts.]
+05/16/2018 07:29:12 [Arg used:][{'normalize_data': True}, {'k_fold': 2}, {'hidden_units': 5}, {'model': 'Recurrent'}, {'exp_name': 'rec_testing_I1'}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'remove_DC_level': True}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'optimizer': 'Adadelta'}, {'init_type': 'xavier_uniform'}, {'activation_type': 'ELU'}, {'epoch_number': 1000}, {'verbose': 'low'}]
+05/16/2018 07:29:12 [Data loaded.]
+05/16/2018 07:29:12 New model for k_fold. 0/16 models done.
+05/16/2018 07:30:30 [Program starts.]
+05/16/2018 07:30:30 [Arg used:][{'k_fold': 4}, {'patience': 100}, {'hidden_units': 5}, {'criterion': 'CrossEntropy'}, {'model': 'Recurrent'}, {'exp_name': 'rec_testing_I1'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'activation_type': 'ELU'}, {'normalize_data': True}, {'optimizer': 'Adadelta'}, {'recurrent_cell_type': 'GRU'}, {'remove_DC_level': True}, {'verbose': 'low'}]
+05/16/2018 07:30:31 [Data loaded.]
+05/16/2018 07:30:31 New model for k_fold. 0/16 models done.
+05/16/2018 07:36:56 Early stopping at epoch 101, test loss is 0.656147
+05/16/2018 07:36:56 First best validation accuracy: 0.722 at epoch 40
+05/16/2018 07:36:56 [Finished in 385.320s.]
+05/16/2018 07:44:12 Early stopping at epoch 101, test loss is 0.597574
+05/16/2018 07:44:12 First best validation accuracy: 0.759 at epoch 8
+05/16/2018 07:44:12 [Finished in 435.895s.]
+05/16/2018 07:51:17 Early stopping at epoch 101, test loss is 0.567427
+05/16/2018 07:51:17 First best validation accuracy: 0.810 at epoch 13
+05/16/2018 07:51:17 [Finished in 424.740s.]
+05/16/2018 07:58:28 Early stopping at epoch 101, test loss is 0.635040
+05/16/2018 07:58:28 First best validation accuracy: 0.759 at epoch 7
+05/16/2018 07:58:28 [Finished in 431.259s.]
+05/16/2018 07:58:28 New model for k_fold. 1/16 models done.
+05/16/2018 08:05:44 Early stopping at epoch 101, test loss is 0.648326
+05/16/2018 08:05:44 First best validation accuracy: 0.633 at epoch 69
+05/16/2018 08:05:44 [Finished in 435.708s.]
+05/16/2018 08:13:15 Early stopping at epoch 101, test loss is 0.683892
+05/16/2018 08:13:15 First best validation accuracy: 0.557 at epoch 83
+05/16/2018 08:13:15 [Finished in 451.632s.]
+05/16/2018 08:19:05 Early stopping at epoch 101, test loss is 0.668617
+05/16/2018 08:19:05 First best validation accuracy: 0.595 at epoch 21
+05/16/2018 08:19:05 [Finished in 349.345s.]
+05/16/2018 08:25:03 Early stopping at epoch 101, test loss is 0.702644
+05/16/2018 08:25:03 First best validation accuracy: 0.468 at epoch 74
+05/16/2018 08:25:03 [Finished in 358.270s.]
+05/16/2018 08:25:03 New model for k_fold. 2/16 models done.
+05/16/2018 08:30:15 Early stopping at epoch 101, test loss is 0.617137
+05/16/2018 08:30:15 First best validation accuracy: 0.734 at epoch 23
+05/16/2018 08:30:15 [Finished in 312.661s.]
+05/16/2018 08:36:27 Early stopping at epoch 101, test loss is 0.586433
+05/16/2018 08:36:27 First best validation accuracy: 0.785 at epoch 10
+05/16/2018 08:36:27 [Finished in 371.285s.]
+05/16/2018 08:43:00 Early stopping at epoch 101, test loss is 0.533205
+05/16/2018 08:43:00 First best validation accuracy: 0.797 at epoch 4
+05/16/2018 08:43:00 [Finished in 393.507s.]
+05/16/2018 08:48:15 Early stopping at epoch 101, test loss is 0.675492
+05/16/2018 08:48:15 First best validation accuracy: 0.722 at epoch 2
+05/16/2018 08:48:15 [Finished in 314.339s.]
+05/16/2018 08:48:15 New model for k_fold. 3/16 models done.
+05/16/2018 08:54:10 Early stopping at epoch 101, test loss is 0.588730
+05/16/2018 08:54:10 First best validation accuracy: 0.722 at epoch 97
+05/16/2018 08:54:10 [Finished in 355.846s.]
+05/16/2018 09:00:00 Early stopping at epoch 101, test loss is 0.657025
+05/16/2018 09:00:00 First best validation accuracy: 0.696 at epoch 6
+05/16/2018 09:00:00 [Finished in 349.071s.]
+05/16/2018 09:06:14 Early stopping at epoch 101, test loss is 0.652405
+05/16/2018 09:06:14 First best validation accuracy: 0.696 at epoch 81
+05/16/2018 09:06:14 [Finished in 374.866s.]
+05/16/2018 09:11:39 Early stopping at epoch 101, test loss is 0.744827
+05/16/2018 09:11:39 First best validation accuracy: 0.392 at epoch 0
+05/16/2018 09:11:39 [Finished in 324.544s.]
+05/16/2018 09:11:39 New model for k_fold. 4/16 models done.
+05/16/2018 09:18:28 Early stopping at epoch 101, test loss is 0.665527
+05/16/2018 09:18:28 First best validation accuracy: 0.671 at epoch 3
+05/16/2018 09:18:28 [Finished in 409.304s.]
+05/16/2018 09:25:56 Early stopping at epoch 101, test loss is 0.546600
+05/16/2018 09:25:56 First best validation accuracy: 0.861 at epoch 35
+05/16/2018 09:25:56 [Finished in 447.326s.]
+05/16/2018 09:32:34 Early stopping at epoch 101, test loss is 0.631125
+05/16/2018 09:32:34 First best validation accuracy: 0.747 at epoch 1
+05/16/2018 09:32:34 [Finished in 398.667s.]
+05/16/2018 09:39:54 Early stopping at epoch 101, test loss is 0.691142
+05/16/2018 09:39:54 First best validation accuracy: 0.772 at epoch 8
+05/16/2018 09:39:54 [Finished in 439.357s.]
+05/16/2018 09:39:54 New model for k_fold. 5/16 models done.
+05/16/2018 09:47:00 Early stopping at epoch 101, test loss is 0.631706
+05/16/2018 09:47:00 First best validation accuracy: 0.684 at epoch 86
+05/16/2018 09:47:00 [Finished in 426.275s.]
+05/16/2018 09:54:49 Early stopping at epoch 101, test loss is 0.731054
+05/16/2018 09:54:49 First best validation accuracy: 0.418 at epoch 21
+05/16/2018 09:54:49 [Finished in 469.446s.]
+05/16/2018 10:01:43 Early stopping at epoch 101, test loss is 0.703088
+05/16/2018 10:01:43 First best validation accuracy: 0.506 at epoch 0
+05/16/2018 10:01:43 [Finished in 413.214s.]
+05/16/2018 10:07:36 Early stopping at epoch 101, test loss is 0.666696
+05/16/2018 10:07:37 First best validation accuracy: 0.646 at epoch 29
+05/16/2018 10:07:37 [Finished in 353.862s.]
+05/16/2018 10:07:37 New model for k_fold. 6/16 models done.
+05/16/2018 10:14:38 Early stopping at epoch 101, test loss is 0.609464
+05/16/2018 10:14:38 First best validation accuracy: 0.747 at epoch 41
+05/16/2018 10:14:38 [Finished in 421.468s.]
+05/16/2018 10:21:06 Early stopping at epoch 101, test loss is 0.535603
+05/16/2018 10:21:06 First best validation accuracy: 0.835 at epoch 8
+05/16/2018 10:21:06 [Finished in 387.659s.]
+05/16/2018 10:27:35 Early stopping at epoch 101, test loss is 0.611877
+05/16/2018 10:27:35 First best validation accuracy: 0.823 at epoch 2
+05/16/2018 10:27:35 [Finished in 389.744s.]
+05/16/2018 10:33:35 Early stopping at epoch 101, test loss is 0.597440
+05/16/2018 10:33:35 First best validation accuracy: 0.747 at epoch 98
+05/16/2018 10:33:35 [Finished in 359.214s.]
+05/16/2018 10:33:35 New model for k_fold. 7/16 models done.
+05/16/2018 10:39:28 Early stopping at epoch 101, test loss is 0.611794
+05/16/2018 10:39:28 First best validation accuracy: 0.684 at epoch 11
+05/16/2018 10:39:28 [Finished in 353.528s.]
+05/16/2018 10:45:00 Early stopping at epoch 101, test loss is 0.672126
+05/16/2018 10:45:00 First best validation accuracy: 0.633 at epoch 88
+05/16/2018 10:45:00 [Finished in 331.638s.]
+05/16/2018 10:50:46 Early stopping at epoch 101, test loss is 0.658900
+05/16/2018 10:50:46 First best validation accuracy: 0.658 at epoch 71
+05/16/2018 10:50:46 [Finished in 346.086s.]
+05/16/2018 10:56:27 Early stopping at epoch 101, test loss is 0.717910
+05/16/2018 10:56:27 First best validation accuracy: 0.405 at epoch 21
+05/16/2018 10:56:27 [Finished in 341.208s.]
+05/16/2018 10:56:27 New model for k_fold. 8/16 models done.
+05/16/2018 11:01:49 Early stopping at epoch 101, test loss is 0.665976
+05/16/2018 11:01:49 First best validation accuracy: 0.684 at epoch 5
+05/16/2018 11:01:49 [Finished in 322.011s.]
+05/16/2018 11:07:29 Early stopping at epoch 101, test loss is 0.551071
+05/16/2018 11:07:29 First best validation accuracy: 0.848 at epoch 26
+05/16/2018 11:07:29 [Finished in 340.054s.]
+05/16/2018 11:13:09 Early stopping at epoch 101, test loss is 0.581442
+05/16/2018 11:13:09 First best validation accuracy: 0.797 at epoch 32
+05/16/2018 11:13:09 [Finished in 339.614s.]
+05/16/2018 11:18:40 Early stopping at epoch 101, test loss is 0.692818
+05/16/2018 11:18:40 First best validation accuracy: 0.785 at epoch 24
+05/16/2018 11:18:40 [Finished in 331.077s.]
+05/16/2018 11:18:40 New model for k_fold. 9/16 models done.
+05/16/2018 11:24:04 Early stopping at epoch 101, test loss is 0.609960
+05/16/2018 11:24:04 First best validation accuracy: 0.696 at epoch 21
+05/16/2018 11:24:04 [Finished in 324.185s.]
+05/16/2018 11:29:44 Early stopping at epoch 101, test loss is 0.687702
+05/16/2018 11:29:44 First best validation accuracy: 0.582 at epoch 15
+05/16/2018 11:29:44 [Finished in 339.622s.]
+05/16/2018 11:35:30 Early stopping at epoch 101, test loss is 0.692820
+05/16/2018 11:35:30 First best validation accuracy: 0.519 at epoch 19
+05/16/2018 11:35:30 [Finished in 345.868s.]
+05/16/2018 11:41:09 Early stopping at epoch 101, test loss is 0.713820
+05/16/2018 11:41:09 First best validation accuracy: 0.392 at epoch 94
+05/16/2018 11:41:09 [Finished in 339.901s.]
+05/16/2018 11:41:09 New model for k_fold. 10/16 models done.
+05/16/2018 11:47:27 Early stopping at epoch 101, test loss is 0.657337
+05/16/2018 11:47:27 First best validation accuracy: 0.684 at epoch 44
+05/16/2018 11:47:27 [Finished in 377.321s.]
+05/16/2018 11:53:36 Early stopping at epoch 101, test loss is 0.615745
+05/16/2018 11:53:36 First best validation accuracy: 0.810 at epoch 16
+05/16/2018 11:53:36 [Finished in 369.111s.]
+05/16/2018 11:59:18 Early stopping at epoch 101, test loss is 0.569102
+05/16/2018 11:59:18 First best validation accuracy: 0.797 at epoch 38
+05/16/2018 11:59:18 [Finished in 342.443s.]
+05/17/2018 12:05:18 Early stopping at epoch 101, test loss is 0.656271
+05/17/2018 12:05:18 First best validation accuracy: 0.734 at epoch 7
+05/17/2018 12:05:18 [Finished in 359.251s.]
+05/17/2018 12:05:18 New model for k_fold. 11/16 models done.
+05/17/2018 12:10:59 Early stopping at epoch 101, test loss is 0.601630
+05/17/2018 12:10:59 First best validation accuracy: 0.709 at epoch 20
+05/17/2018 12:10:59 [Finished in 341.242s.]
+05/17/2018 12:16:54 Early stopping at epoch 101, test loss is 0.712529
+05/17/2018 12:16:54 First best validation accuracy: 0.405 at epoch 37
+05/17/2018 12:16:54 [Finished in 355.137s.]
+05/17/2018 12:22:34 Early stopping at epoch 101, test loss is 0.689927
+05/17/2018 12:22:34 First best validation accuracy: 0.519 at epoch 100
+05/17/2018 12:22:34 [Finished in 339.753s.]
+05/17/2018 12:28:04 Early stopping at epoch 101, test loss is 0.708962
+05/17/2018 12:28:04 First best validation accuracy: 0.392 at epoch 23
+05/17/2018 12:28:04 [Finished in 329.854s.]
+05/17/2018 12:28:04 New model for k_fold. 12/16 models done.
+05/17/2018 12:33:28 Early stopping at epoch 101, test loss is 0.727650
+05/17/2018 12:33:28 First best validation accuracy: 0.696 at epoch 6
+05/17/2018 12:33:28 [Finished in 324.785s.]
+05/17/2018 12:38:55 Early stopping at epoch 101, test loss is 0.592867
+05/17/2018 12:38:55 First best validation accuracy: 0.797 at epoch 23
+05/17/2018 12:38:55 [Finished in 326.420s.]
+05/17/2018 12:44:15 Early stopping at epoch 101, test loss is 0.626671
+05/17/2018 12:44:15 First best validation accuracy: 0.759 at epoch 7
+05/17/2018 12:44:15 [Finished in 320.520s.]
+05/17/2018 12:49:28 Early stopping at epoch 101, test loss is 0.679179
+05/17/2018 12:49:28 First best validation accuracy: 0.734 at epoch 10
+05/17/2018 12:49:28 [Finished in 312.380s.]
+05/17/2018 12:49:28 New model for k_fold. 13/16 models done.
+05/17/2018 12:54:41 Early stopping at epoch 101, test loss is 0.628984
+05/17/2018 12:54:41 First best validation accuracy: 0.658 at epoch 11
+05/17/2018 12:54:41 [Finished in 313.046s.]
+05/17/2018 12:59:50 Early stopping at epoch 101, test loss is 0.714931
+05/17/2018 12:59:50 First best validation accuracy: 0.405 at epoch 0
+05/17/2018 12:59:50 [Finished in 309.239s.]
+05/17/2018 01:04:29 Early stopping at epoch 101, test loss is 0.720681
+05/17/2018 01:04:29 First best validation accuracy: 0.342 at epoch 57
+05/17/2018 01:04:29 [Finished in 278.946s.]
+05/17/2018 01:09:35 Early stopping at epoch 101, test loss is 0.689646
+05/17/2018 01:09:35 First best validation accuracy: 0.481 at epoch 33
+05/17/2018 01:09:35 [Finished in 305.688s.]
+05/17/2018 01:09:35 New model for k_fold. 14/16 models done.
+05/17/2018 01:15:01 Early stopping at epoch 101, test loss is 0.647459
+05/17/2018 01:15:01 First best validation accuracy: 0.709 at epoch 8
+05/17/2018 01:15:01 [Finished in 326.134s.]
+05/17/2018 01:19:59 Early stopping at epoch 101, test loss is 0.539666
+05/17/2018 01:19:59 First best validation accuracy: 0.823 at epoch 16
+05/17/2018 01:19:59 [Finished in 298.307s.]
+05/17/2018 01:24:54 Early stopping at epoch 101, test loss is 0.585352
+05/17/2018 01:24:54 First best validation accuracy: 0.810 at epoch 5
+05/17/2018 01:24:54 [Finished in 294.943s.]
+05/17/2018 01:29:47 Early stopping at epoch 101, test loss is 0.625326
+05/17/2018 01:29:47 First best validation accuracy: 0.734 at epoch 4
+05/17/2018 01:29:47 [Finished in 292.610s.]
+05/17/2018 01:29:47 New model for k_fold. 15/16 models done.
+05/17/2018 01:34:37 Early stopping at epoch 101, test loss is 0.621464
+05/17/2018 01:34:37 First best validation accuracy: 0.684 at epoch 3
+05/17/2018 01:34:37 [Finished in 290.230s.]
+05/17/2018 01:39:30 Early stopping at epoch 101, test loss is 0.670353
+05/17/2018 01:39:30 First best validation accuracy: 0.633 at epoch 32
+05/17/2018 01:39:30 [Finished in 292.977s.]
+05/17/2018 01:44:20 Early stopping at epoch 101, test loss is 0.686238
+05/17/2018 01:44:20 First best validation accuracy: 0.494 at epoch 0
+05/17/2018 01:44:20 [Finished in 289.761s.]
+05/17/2018 01:49:08 Early stopping at epoch 101, test loss is 0.699729
+05/17/2018 01:49:08 First best validation accuracy: 0.405 at epoch 0
+05/17/2018 01:49:08 [Finished in 288.625s.]
+05/17/2018 01:54:47 Early stopping at epoch 101, train loss is 0.370000
+05/17/2018 01:54:47 First best training accuracy: 0.953 at epoch 98
+05/17/2018 01:54:47 [Finished in 339.103s.]
+05/17/2018 02:02:23 First best test accuracy: 0.740 at epoch 7
+05/17/2018 02:02:23 Saving model...
+05/17/2018 02:02:23 ----------------------------------------------------------------------------------------------------
+05/17/2018 02:02:23 [Finished in 455.227s.]
+05/17/2018 02:07:57 Early stopping at epoch 101, train loss is 0.682699
+05/17/2018 02:07:57 First best training accuracy: 0.528 at epoch 24
+05/17/2018 02:07:57 [Finished in 334.245s.]
+05/17/2018 02:15:34 First best test accuracy: 0.530 at epoch 0
+05/17/2018 02:15:34 [Finished in 457.073s.]
+05/17/2018 02:21:28 Early stopping at epoch 101, train loss is 0.354404
+05/17/2018 02:21:28 First best training accuracy: 0.959 at epoch 44
+05/17/2018 02:21:28 [Finished in 353.837s.]
+05/17/2018 02:29:28 First best test accuracy: 0.720 at epoch 23
+05/17/2018 02:29:28 Saving model...
+05/17/2018 02:29:28 ----------------------------------------------------------------------------------------------------
+05/17/2018 02:29:28 [Finished in 479.994s.]
+05/17/2018 02:35:13 Early stopping at epoch 101, train loss is 0.703829
+05/17/2018 02:35:13 First best training accuracy: 0.468 at epoch 95
+05/17/2018 02:35:13 [Finished in 344.987s.]
+05/17/2018 02:43:14 First best test accuracy: 0.460 at epoch 0
+05/17/2018 02:43:14 [Finished in 481.112s.]
+05/17/2018 02:48:49 Early stopping at epoch 101, train loss is 0.351288
+05/17/2018 02:48:49 First best training accuracy: 0.965 at epoch 82
+05/17/2018 02:48:49 [Finished in 334.935s.]
+05/17/2018 02:56:30 First best test accuracy: 0.740 at epoch 1
+05/17/2018 02:56:30 Saving model...
+05/17/2018 02:56:30 ----------------------------------------------------------------------------------------------------
+05/17/2018 02:56:30 [Finished in 461.053s.]
+05/17/2018 03:02:08 Early stopping at epoch 101, train loss is 0.686617
+05/17/2018 03:02:08 First best training accuracy: 0.566 at epoch 38
+05/17/2018 03:02:08 [Finished in 338.099s.]
+05/17/2018 03:09:50 First best test accuracy: 0.500 at epoch 0
+05/17/2018 03:09:50 [Finished in 461.562s.]
+05/17/2018 03:15:48 Early stopping at epoch 101, train loss is 0.344910
+05/17/2018 03:15:48 First best training accuracy: 0.968 at epoch 46
+05/17/2018 03:15:48 [Finished in 358.481s.]
+05/17/2018 03:23:44 First best test accuracy: 0.710 at epoch 15
+05/17/2018 03:23:44 Saving model...
+05/17/2018 03:23:44 ----------------------------------------------------------------------------------------------------
+05/17/2018 03:23:44 [Finished in 476.037s.]
+05/17/2018 03:29:36 Early stopping at epoch 101, train loss is 0.692508
+05/17/2018 03:29:36 First best training accuracy: 0.503 at epoch 87
+05/17/2018 03:29:36 [Finished in 351.818s.]
+05/17/2018 03:37:31 First best test accuracy: 0.460 at epoch 0
+05/17/2018 03:37:31 [Finished in 475.191s.]
+05/17/2018 03:43:01 Early stopping at epoch 101, train loss is 0.364518
+05/17/2018 03:43:01 First best training accuracy: 0.968 at epoch 87
+05/17/2018 03:43:01 [Finished in 329.812s.]
+05/17/2018 03:50:29 First best test accuracy: 0.730 at epoch 196
+05/17/2018 03:50:29 Saving model...
+05/17/2018 03:50:29 ----------------------------------------------------------------------------------------------------
+05/17/2018 03:50:29 [Finished in 448.007s.]
+05/17/2018 03:55:58 Early stopping at epoch 101, train loss is 0.686069
+05/17/2018 03:55:58 First best training accuracy: 0.503 at epoch 91
+05/17/2018 03:55:58 [Finished in 329.520s.]
+05/17/2018 04:03:20 First best test accuracy: 0.560 at epoch 0
+05/17/2018 04:03:20 [Finished in 441.572s.]
+05/17/2018 04:09:11 Early stopping at epoch 101, train loss is 0.347224
+05/17/2018 04:09:11 First best training accuracy: 0.968 at epoch 71
+05/17/2018 04:09:11 [Finished in 351.490s.]
+05/17/2018 04:16:51 First best test accuracy: 0.700 at epoch 0
+05/17/2018 04:16:51 Saving model...
+05/17/2018 04:16:51 ----------------------------------------------------------------------------------------------------
+05/17/2018 04:16:51 [Finished in 459.557s.]
+05/17/2018 04:22:44 Early stopping at epoch 101, train loss is 0.714137
+05/17/2018 04:22:44 First best training accuracy: 0.443 at epoch 15
+05/17/2018 04:22:44 [Finished in 352.761s.]
+05/17/2018 04:30:33 First best test accuracy: 0.460 at epoch 0
+05/17/2018 04:30:33 [Finished in 469.144s.]
+05/17/2018 04:36:03 Early stopping at epoch 101, train loss is 0.369723
+05/17/2018 04:36:03 First best training accuracy: 0.946 at epoch 96
+05/17/2018 04:36:03 [Finished in 329.626s.]
+05/17/2018 04:43:32 First best test accuracy: 0.730 at epoch 727
+05/17/2018 04:43:32 Saving model...
+05/17/2018 04:43:32 ----------------------------------------------------------------------------------------------------
+05/17/2018 04:43:32 [Finished in 449.387s.]
+05/17/2018 04:49:01 Early stopping at epoch 101, train loss is 0.692982
+05/17/2018 04:49:01 First best training accuracy: 0.525 at epoch 10
+05/17/2018 04:49:01 [Finished in 328.771s.]
+05/17/2018 04:56:27 First best test accuracy: 0.580 at epoch 0
+05/17/2018 04:56:27 [Finished in 446.630s.]
+05/17/2018 05:02:24 Early stopping at epoch 101, train loss is 0.335422
+05/17/2018 05:02:24 First best training accuracy: 0.981 at epoch 80
+05/17/2018 05:02:24 [Finished in 357.032s.]
+05/17/2018 05:10:15 First best test accuracy: 0.670 at epoch 0
+05/17/2018 05:10:15 [Finished in 470.913s.]
+05/17/2018 05:16:06 Early stopping at epoch 101, train loss is 0.690196
+05/17/2018 05:16:06 First best training accuracy: 0.522 at epoch 0
+05/17/2018 05:16:06 [Finished in 350.349s.]
+05/17/2018 05:23:55 First best test accuracy: 0.480 at epoch 0
+05/17/2018 05:23:55 [Finished in 469.361s.]

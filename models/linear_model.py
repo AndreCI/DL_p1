@@ -104,3 +104,9 @@ class LinearModel(Model):
             #if i % 10 == 0:
                 #print("total_loss:",total_loss/i)
         return losses, predictions
+
+    def reset(self):
+        for m in self.layers:
+            if isinstance(m, torch.nn.Linear):
+                m.reset_parameters()
+                self._initialize_param(m.weight)

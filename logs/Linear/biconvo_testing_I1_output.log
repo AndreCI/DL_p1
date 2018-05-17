@@ -1,0 +1,3 @@
+05/17/2018 11:57:17 [Program starts.]
+05/17/2018 11:57:17 [Arg used:][{'verbose': 'low'}, {'init_type': 'xavier_uniform'}, {'normalize_data': True}, {'activation_type': 'ELU'}, {'optimizer': 'Adadelta'}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'patience': 100}, {'remove_DC_level': True}, {'epoch_number': 1000}, {'recurrent_cell_type': 'GRU'}, {'k_fold': 4}, {'hidden_units': 10}, {'exp_name': 'biconvo_testing_I1'}, {'model': 'Linear'}]
+05/17/2018 11:57:17 [Data loaded.]

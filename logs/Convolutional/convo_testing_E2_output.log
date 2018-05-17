@@ -1,0 +1,224 @@
+05/15/2018 07:33:14 [Program starts.]
+05/15/2018 07:33:14 [Arg used:][{'model': 'Convolutional'}, {'patience': 100}, {'verbose': 'low'}, {'exp_name': 'convo_testing_E2'}, {'remove_DC_level': True}, {'criterion': 'CrossEntropy'}, {'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'hidden_units': 5}, {'init_type': 'xavier_uniform'}, {'recurrent_cell_type': 'GRU'}]
+05/15/2018 07:33:15 [Data loaded.]
+05/15/2018 07:33:15 ************************************************************
+05/15/2018 07:33:15 new model with parameters:
+05/15/2018 07:33:15 {'model': 'Convolutional', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'patience': 100, 'verbose': 'low', 'one_khz': False, 'last_ms': 0, 'notch_filter': None, 'rho': 0.9, 'exp_name': "CONVO_0.0_5_xavier_uniform_0_['Adadelta', 1.0]_0", 'high_pass': None, 'remove_DC_level': True, 'criterion': 'CrossEntropy', 'optimizer': 'Adadelta', 'epoch_number': 1000, 'depth': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'weight_decay': 0, 'validation_set_ratio': 0.25, 'pca_features': 0, 'lr': 1.0, 'hidden_units': 5, 'init_type': 'xavier_uniform', 'dropout': 0.0, 'momentum': 0.9, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'low_pass': None, 'eps': 1e-06, 'lr_decay': 0.001}
+05/15/2018 07:33:31 Early stopping at epoch 101, test loss is 0.676657
+05/15/2018 07:33:31 First best validation accuracy: 0.720 at epoch 19
+05/15/2018 07:33:31 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:33:31 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.72.pt.]
+05/15/2018 07:33:31 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:33:31 [Producing accuracy and loss figures.]
+05/15/2018 07:33:31 [Finished in 16.962s.]
+05/15/2018 07:34:26 [Program starts.]
+05/15/2018 07:34:26 [Arg used:][{'optimizer': 'Adadelta'}, {'hidden_units': 5}, {'patience': 100}, {'remove_DC_level': True}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'normalize_data': True}, {'recurrent_cell_type': 'GRU'}, {'exp_name': 'convo_testing_E2'}, {'criterion': 'CrossEntropy'}, {'init_type': 'xavier_uniform'}, {'model': 'Convolutional'}, {'verbose': 'low'}, {'epoch_number': 1000}]
+05/15/2018 07:34:27 [Data loaded.]
+05/15/2018 07:34:27 ************************************************************
+05/15/2018 07:34:27 new model with parameters:
+05/15/2018 07:34:27 {'lr_decay': 0.001, 'dropout': 0.0, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 5, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.0_5_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:34:44 Early stopping at epoch 101, test loss is 0.712587
+05/15/2018 07:34:44 First best validation accuracy: 0.680 at epoch 9
+05/15/2018 07:34:44 [Producing accuracy and loss figures.]
+05/15/2018 07:34:44 [Finished in 17.344s.]
+05/15/2018 07:35:03 First best test accuracy: 0.660 at epoch 0
+05/15/2018 07:35:03 [Producing accuracy and loss figures.]
+05/15/2018 07:35:03 [Finished in 18.686s.]
+05/15/2018 07:35:03 best model on test set has an accuracy of 0.680.
+05/15/2018 07:35:03 best model: 0.680
+05/15/2018 07:35:03 ************************************************************
+05/15/2018 07:35:03 new model with parameters:
+05/15/2018 07:35:03 {'lr_decay': 0.001, 'dropout': 0.0, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 5, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.0_5_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:35:19 Early stopping at epoch 101, test loss is 0.616633
+05/15/2018 07:35:19 First best validation accuracy: 0.760 at epoch 13
+05/15/2018 07:35:19 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:35:19 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.76.pt.]
+05/15/2018 07:35:19 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:35:19 [Producing accuracy and loss figures.]
+05/15/2018 07:35:19 [Finished in 16.456s.]
+05/15/2018 07:35:38 First best test accuracy: 0.590 at epoch 0
+05/15/2018 07:35:38 [Producing accuracy and loss figures.]
+05/15/2018 07:35:38 [Finished in 18.842s.]
+05/15/2018 07:35:38 best model on test set has an accuracy of 0.760.
+05/15/2018 07:35:38 best model: 0.760
+05/15/2018 07:35:38 ************************************************************
+05/15/2018 07:35:38 new model with parameters:
+05/15/2018 07:35:38 {'lr_decay': 0.001, 'dropout': 0.0, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 10, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.0_10_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:36:02 Early stopping at epoch 101, test loss is 0.617698
+05/15/2018 07:36:02 First best validation accuracy: 0.800 at epoch 32
+05/15/2018 07:36:02 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:36:02 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.8.pt.]
+05/15/2018 07:36:02 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:36:02 [Producing accuracy and loss figures.]
+05/15/2018 07:36:02 [Finished in 23.952s.]
+05/15/2018 07:36:22 First best test accuracy: 0.660 at epoch 0
+05/15/2018 07:36:22 [Producing accuracy and loss figures.]
+05/15/2018 07:36:22 [Finished in 19.947s.]
+05/15/2018 07:36:22 best model on test set has an accuracy of 0.800.
+05/15/2018 07:36:22 best model: 0.800
+05/15/2018 07:36:22 ************************************************************
+05/15/2018 07:36:22 new model with parameters:
+05/15/2018 07:36:22 {'lr_decay': 0.001, 'dropout': 0.0, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 10, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.0_10_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:36:43 Early stopping at epoch 101, test loss is 0.641936
+05/15/2018 07:36:43 First best validation accuracy: 0.720 at epoch 12
+05/15/2018 07:36:43 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:36:43 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.72.pt.]
+05/15/2018 07:36:43 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:36:43 [Producing accuracy and loss figures.]
+05/15/2018 07:36:43 [Finished in 21.244s.]
+05/15/2018 07:36:43 best model: 0.800
+05/15/2018 07:36:43 ************************************************************
+05/15/2018 07:36:43 new model with parameters:
+05/15/2018 07:36:43 {'lr_decay': 0.001, 'dropout': 0.0, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 28, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.0_28_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:37:15 Early stopping at epoch 101, test loss is 0.596885
+05/15/2018 07:37:15 First best validation accuracy: 0.760 at epoch 29
+05/15/2018 07:37:15 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:37:15 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.76.pt.]
+05/15/2018 07:37:15 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:37:15 [Producing accuracy and loss figures.]
+05/15/2018 07:37:15 [Finished in 31.917s.]
+05/15/2018 07:37:15 best model: 0.800
+05/15/2018 07:37:15 ************************************************************
+05/15/2018 07:37:15 new model with parameters:
+05/15/2018 07:37:15 {'lr_decay': 0.001, 'dropout': 0.0, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 28, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.0_28_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:37:47 Early stopping at epoch 101, test loss is 0.595620
+05/15/2018 07:37:47 First best validation accuracy: 0.760 at epoch 28
+05/15/2018 07:37:47 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:37:47 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.76.pt.]
+05/15/2018 07:37:47 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:37:47 [Producing accuracy and loss figures.]
+05/15/2018 07:37:47 [Finished in 32.256s.]
+05/15/2018 07:37:47 best model: 0.800
+05/15/2018 07:37:47 ************************************************************
+05/15/2018 07:37:47 new model with parameters:
+05/15/2018 07:37:47 {'lr_decay': 0.001, 'dropout': 0.1, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 5, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.1_5_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:38:05 Early stopping at epoch 101, test loss is 0.588190
+05/15/2018 07:38:05 First best validation accuracy: 0.880 at epoch 37
+05/15/2018 07:38:05 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:38:05 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.88.pt.]
+05/15/2018 07:38:05 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:38:05 [Producing accuracy and loss figures.]
+05/15/2018 07:38:05 [Finished in 17.249s.]
+05/15/2018 07:38:24 First best test accuracy: 0.600 at epoch 0
+05/15/2018 07:38:24 [Producing accuracy and loss figures.]
+05/15/2018 07:38:24 [Finished in 18.958s.]
+05/15/2018 07:38:24 best model on test set has an accuracy of 0.880.
+05/15/2018 07:38:24 best model: 0.880
+05/15/2018 07:38:24 ************************************************************
+05/15/2018 07:38:24 new model with parameters:
+05/15/2018 07:38:24 {'lr_decay': 0.001, 'dropout': 0.1, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 5, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.1_5_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:38:42 Early stopping at epoch 101, test loss is 0.641843
+05/15/2018 07:38:42 First best validation accuracy: 0.760 at epoch 17
+05/15/2018 07:38:42 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:38:42 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.76.pt.]
+05/15/2018 07:38:42 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:38:42 [Producing accuracy and loss figures.]
+05/15/2018 07:38:42 [Finished in 18.113s.]
+05/15/2018 07:38:42 best model: 0.880
+05/15/2018 07:38:42 ************************************************************
+05/15/2018 07:38:42 new model with parameters:
+05/15/2018 07:38:42 {'lr_decay': 0.001, 'dropout': 0.1, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 10, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.1_10_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:39:02 Early stopping at epoch 101, test loss is 0.618553
+05/15/2018 07:39:02 First best validation accuracy: 0.760 at epoch 49
+05/15/2018 07:39:02 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:39:02 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.76.pt.]
+05/15/2018 07:39:02 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:39:02 [Producing accuracy and loss figures.]
+05/15/2018 07:39:02 [Finished in 20.578s.]
+05/15/2018 07:39:02 best model: 0.880
+05/15/2018 07:39:02 ************************************************************
+05/15/2018 07:39:02 new model with parameters:
+05/15/2018 07:39:02 {'lr_decay': 0.001, 'dropout': 0.1, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 10, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.1_10_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:39:22 Early stopping at epoch 101, test loss is 0.584125
+05/15/2018 07:39:22 First best validation accuracy: 0.760 at epoch 59
+05/15/2018 07:39:22 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:39:22 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.76.pt.]
+05/15/2018 07:39:22 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:39:22 [Producing accuracy and loss figures.]
+05/15/2018 07:39:22 [Finished in 20.062s.]
+05/15/2018 07:39:22 best model: 0.880
+05/15/2018 07:39:22 ************************************************************
+05/15/2018 07:39:22 new model with parameters:
+05/15/2018 07:39:22 {'lr_decay': 0.001, 'dropout': 0.1, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 28, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.1_28_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:39:55 Early stopping at epoch 101, test loss is 0.563621
+05/15/2018 07:39:55 First best validation accuracy: 0.800 at epoch 35
+05/15/2018 07:39:55 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:39:55 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.8.pt.]
+05/15/2018 07:39:55 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:39:55 [Producing accuracy and loss figures.]
+05/15/2018 07:39:55 [Finished in 32.465s.]
+05/15/2018 07:39:55 best model: 0.880
+05/15/2018 07:39:55 ************************************************************
+05/15/2018 07:39:55 new model with parameters:
+05/15/2018 07:39:55 {'lr_decay': 0.001, 'dropout': 0.1, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 28, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.1_28_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:40:28 Early stopping at epoch 101, test loss is 0.616742
+05/15/2018 07:40:28 First best validation accuracy: 0.680 at epoch 7
+05/15/2018 07:40:28 [Producing accuracy and loss figures.]
+05/15/2018 07:40:28 [Finished in 32.976s.]
+05/15/2018 07:40:28 best model: 0.880
+05/15/2018 07:40:28 ************************************************************
+05/15/2018 07:40:28 new model with parameters:
+05/15/2018 07:40:28 {'lr_decay': 0.001, 'dropout': 0.2, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 5, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.2_5_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:40:45 Early stopping at epoch 101, test loss is 0.665456
+05/15/2018 07:40:45 First best validation accuracy: 0.760 at epoch 88
+05/15/2018 07:40:45 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:40:45 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.76.pt.]
+05/15/2018 07:40:45 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:40:45 [Producing accuracy and loss figures.]
+05/15/2018 07:40:45 [Finished in 16.875s.]
+05/15/2018 07:40:45 best model: 0.880
+05/15/2018 07:40:45 ************************************************************
+05/15/2018 07:40:45 new model with parameters:
+05/15/2018 07:40:45 {'lr_decay': 0.001, 'dropout': 0.2, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 5, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.2_5_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:41:02 Early stopping at epoch 101, test loss is 0.574408
+05/15/2018 07:41:02 First best validation accuracy: 0.800 at epoch 29
+05/15/2018 07:41:02 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:41:02 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.8.pt.]
+05/15/2018 07:41:02 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:41:02 [Producing accuracy and loss figures.]
+05/15/2018 07:41:02 [Finished in 17.367s.]
+05/15/2018 07:41:02 best model: 0.880
+05/15/2018 07:41:02 ************************************************************
+05/15/2018 07:41:02 new model with parameters:
+05/15/2018 07:41:02 {'lr_decay': 0.001, 'dropout': 0.2, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 10, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.2_10_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:41:22 Early stopping at epoch 101, test loss is 0.630754
+05/15/2018 07:41:22 First best validation accuracy: 0.720 at epoch 93
+05/15/2018 07:41:22 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:41:22 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.72.pt.]
+05/15/2018 07:41:22 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:41:22 [Producing accuracy and loss figures.]
+05/15/2018 07:41:22 [Finished in 20.156s.]
+05/15/2018 07:41:22 best model: 0.880
+05/15/2018 07:41:22 ************************************************************
+05/15/2018 07:41:22 new model with parameters:
+05/15/2018 07:41:22 {'lr_decay': 0.001, 'dropout': 0.2, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 10, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.2_10_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:41:42 Early stopping at epoch 101, test loss is 0.614392
+05/15/2018 07:41:42 First best validation accuracy: 0.760 at epoch 82
+05/15/2018 07:41:42 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:41:42 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.76.pt.]
+05/15/2018 07:41:42 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:41:42 [Producing accuracy and loss figures.]
+05/15/2018 07:41:42 [Finished in 20.009s.]
+05/15/2018 07:41:42 best model: 0.880
+05/15/2018 07:41:42 ************************************************************
+05/15/2018 07:41:42 new model with parameters:
+05/15/2018 07:41:42 {'lr_decay': 0.001, 'dropout': 0.2, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 28, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.2_28_xavier_uniform_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_uniform', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:42:15 Early stopping at epoch 101, test loss is 0.589663
+05/15/2018 07:42:15 First best validation accuracy: 0.800 at epoch 25
+05/15/2018 07:42:15 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:42:15 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.8.pt.]
+05/15/2018 07:42:15 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:42:15 [Producing accuracy and loss figures.]
+05/15/2018 07:42:15 [Finished in 32.875s.]
+05/15/2018 07:42:15 best model: 0.880
+05/15/2018 07:42:15 ************************************************************
+05/15/2018 07:42:15 new model with parameters:
+05/15/2018 07:42:15 {'lr_decay': 0.001, 'dropout': 0.2, 'rho': 0.9, 'optimizer': 'Adadelta', 'low_pass': None, 'eps': 1e-06, 'hidden_units': 28, 'lr': 1.0, 'patience': 100, 'remove_DC_level': True, 'last_ms': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'normalize_data': True, 'cannalwise_pca_features': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'high_pass': None, 'recurrent_cell_type': 'GRU', 'momentum': 0.9, 'exp_name': "CONVO_0.2_28_xavier_normal_0_['Adadelta', 1.0]_0", 'pca_features': 0, 'validation_set_ratio': 0.25, 'criterion': 'CrossEntropy', 'init_type': 'xavier_normal', 'model': 'Convolutional', 'one_khz': False, 'depth': 0, 'verbose': 'low', 'notch_filter': None, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'weight_decay': 0, 'epoch_number': 1000}
+05/15/2018 07:42:48 Early stopping at epoch 101, test loss is 0.598751
+05/15/2018 07:42:48 First best validation accuracy: 0.800 at epoch 30
+05/15/2018 07:42:48 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:42:48 [Saving Model at location /home/andre/Documents/DL_p1/models/stored_models/Convolutinal/savedModel_10000.8.pt.]
+05/15/2018 07:42:48 ----------------------------------------------------------------------------------------------------
+05/15/2018 07:42:48 [Producing accuracy and loss figures.]
+05/15/2018 07:42:48 [Finished in 32.876s.]
+05/15/2018 07:42:48 best model: 0.880

@@ -1,0 +1,72 @@
+05/17/2018 11:33:09 [Program starts.]
+05/17/2018 11:33:09 [Arg used:][{'verbose': 'low'}, {'hidden_units': 5}, {'recurrent_cell_type': 'GRU'}, {'model': 'Linear'}, {'init_type': 'xavier_uniform'}, {'epoch_number': 1000}, {'exp_name': 'rec_testing_O1'}, {'optimizer': 'Adadelta'}, {'criterion': 'CrossEntropy'}, {'activation_type': 'ELU'}, {'normalize_data': True}, {'patience': 100}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'remove_DC_level': True}, {'k_fold': 4}]
+05/17/2018 11:33:09 [Data loaded.]
+05/17/2018 11:33:09 New model for k_fold (4 k_fold to do). 0/108 models done.
+05/17/2018 11:33:09 Current option used:
+05/17/2018 11:33:09 {'verbose': 'low', 'momentum': 0.9, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'hidden_units': 20, 'pca_features': 0, 'high_pass': None, 'recurrent_cell_type': 'GRU', 'model': 'Recurrent', 'dropout': 0.2, 'last_ms': 0, 'init_type': 'xavier_normal', 'eps': 1e-06, 'epoch_number': 1000, 'rho': 0.9, 'produce_figures': False, 'depth': 0, 'notch_filter': None, 'lr_decay': 0.001, 'exp_name': 'rec_testing_O1', 'optimizer': 'Adadelta', 'criterion': 'CrossEntropy', 'cannalwise_pca_features': 0, 'activation_type': 'ELU', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'normalize_data': True, 'lr': 1.0, 'patience': 100, 'weight_decay': 0, 'low_pass': None, 'one_khz': False, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'remove_DC_level': True, 'k_fold': 4}
+05/17/2018 11:33:31 [Program starts.]
+05/17/2018 11:33:31 [Arg used:][{'optimizer': 'Adadelta'}, {'epoch_number': 1000}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'activation_type': 'ELU'}, {'patience': 100}, {'hidden_units': 5}, {'remove_DC_level': True}, {'exp_name': 'rec_testing_O1'}, {'verbose': 'low'}, {'init_type': 'xavier_uniform'}, {'model': 'Linear'}, {'k_fold': 4}, {'recurrent_cell_type': 'GRU'}, {'normalize_data': True}]
+05/17/2018 11:33:32 [Data loaded.]
+05/17/2018 11:33:32 New model for k_fold (4 k_fold to do). 0/72 models done.
+05/17/2018 11:33:32 Current option used:
+05/17/2018 11:33:32 {'optimizer': 'Adadelta', 'epoch_number': 1000, 'momentum': 0.9, 'dropout': 0.2, 'criterion': 'CrossEntropy', 'log_root': '/home/andre/Documents/DL_p1/logs/', 'activation_type': 'ELU', 'last_ms': 0, 'patience': 100, 'hidden_units': 20, 'lr_decay': 0.001, 'remove_DC_level': True, 'low_pass': None, 'rho': 0.9, 'depth': 0, 'notch_filter': None, 'exp_name': 'rec_testing_O1', 'verbose': 'low', 'init_type': 'xavier_normal', 'lr': 1.0, 'produce_figures': False, 'eps': 1e-06, 'pca_features': 0, 'model': 'Recurrent', 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'k_fold': 4, 'high_pass': None, 'cannalwise_pca_features': 0, 'recurrent_cell_type': 'GRU', 'one_khz': False, 'weight_decay': 0, 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'normalize_data': True}
+05/17/2018 11:34:20 [Program starts.]
+05/17/2018 11:34:20 [Arg used:][{'optimizer': 'Adadelta'}, {'remove_DC_level': True}, {'verbose': 'low'}, {'activation_type': 'ELU'}, {'recurrent_cell_type': 'GRU'}, {'criterion': 'CrossEntropy'}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'model': 'Linear'}, {'exp_name': 'rec_testing_O1'}, {'normalize_data': True}, {'hidden_units': 5}, {'epoch_number': 1000}, {'k_fold': 4}, {'patience': 100}, {'init_type': 'xavier_uniform'}]
+05/17/2018 11:34:21 [Data loaded.]
+05/17/2018 11:34:21 New model for k_fold (4 k_fold to do). 0/24 models done.
+05/17/2018 11:34:21 Current option used:
+05/17/2018 11:34:21 {'lr_decay': 0.001, 'high_pass': None, 'optimizer': 'Adadelta', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'eps': 1e-06, 'pca_features': 0, 'remove_DC_level': True, 'depth': 0, 'dropout': 0.2, 'verbose': 'low', 'activation_type': 'RELU', 'momentum': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'recurrent_cell_type': 'GRU', 'criterion': 'CrossEntropy', 'weight_decay': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'rho': 0.9, 'last_ms': 0, 'model': 'Recurrent', 'lr': 1.0, 'notch_filter': None, 'exp_name': 'rec_testing_O1', 'normalize_data': True, 'hidden_units': 20, 'epoch_number': 1000, 'produce_figures': False, 'cannalwise_pca_features': 0, 'k_fold': 4, 'low_pass': None, 'patience': 100, 'init_type': 'xavier_normal'}
+05/17/2018 11:40:04 Early stopping at epoch 101, test loss is 0.695066
+05/17/2018 11:40:04 First best validation accuracy: 0.696 at epoch 12
+05/17/2018 11:40:04 [Finished in 343.235s.]
+05/17/2018 11:46:46 Early stopping at epoch 101, test loss is 0.580258
+05/17/2018 11:46:46 First best validation accuracy: 0.797 at epoch 6
+05/17/2018 11:46:46 [Finished in 402.156s.]
+05/17/2018 11:53:09 Early stopping at epoch 101, test loss is 0.579304
+05/17/2018 11:53:09 First best validation accuracy: 0.848 at epoch 32
+05/17/2018 11:53:09 [Finished in 382.386s.]
+05/18/2018 12:00:42 Early stopping at epoch 101, test loss is 0.690043
+05/18/2018 12:00:42 First best validation accuracy: 0.734 at epoch 21
+05/18/2018 12:00:42 [Finished in 453.659s.]
+05/18/2018 12:00:42 New model for k_fold (4 k_fold to do). 1/24 models done.
+05/18/2018 12:00:42 Current option used:
+05/18/2018 12:00:42 {'lr_decay': 0.001, 'high_pass': None, 'optimizer': 'Adadelta', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'eps': 1e-06, 'pca_features': 0, 'remove_DC_level': True, 'depth': 0, 'dropout': 0.2, 'verbose': 'low', 'activation_type': 'sigmoid', 'momentum': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'recurrent_cell_type': 'GRU', 'criterion': 'CrossEntropy', 'weight_decay': 0, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'rho': 0.9, 'last_ms': 0, 'model': 'Recurrent', 'lr': 1.0, 'notch_filter': None, 'exp_name': 'rec_testing_O1', 'normalize_data': True, 'hidden_units': 20, 'epoch_number': 1000, 'produce_figures': False, 'cannalwise_pca_features': 0, 'k_fold': 4, 'low_pass': None, 'patience': 100, 'init_type': 'xavier_normal'}
+05/18/2018 12:05:55 Early stopping at epoch 101, test loss is 0.685914
+05/18/2018 12:05:55 First best validation accuracy: 0.696 at epoch 9
+05/18/2018 12:05:55 [Finished in 312.820s.]
+05/18/2018 12:11:51 Early stopping at epoch 101, test loss is 0.556634
+05/18/2018 12:11:51 First best validation accuracy: 0.848 at epoch 14
+05/18/2018 12:11:51 [Finished in 355.448s.]
+05/18/2018 12:17:30 Early stopping at epoch 101, test loss is 0.593365
+05/18/2018 12:17:30 First best validation accuracy: 0.785 at epoch 1
+05/18/2018 12:17:30 [Finished in 339.809s.]
+05/18/2018 12:23:19 Early stopping at epoch 101, test loss is 0.664878
+05/18/2018 12:23:19 First best validation accuracy: 0.759 at epoch 7
+05/18/2018 12:23:19 [Finished in 348.235s.]
+05/18/2018 12:23:19 New model for k_fold (4 k_fold to do). 2/24 models done.
+05/18/2018 12:23:19 Current option used:
+05/18/2018 12:23:19 {'lr_decay': 0.001, 'high_pass': None, 'optimizer': 'Adadelta', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'eps': 1e-06, 'pca_features': 0, 'remove_DC_level': True, 'depth': 0, 'dropout': 0.2, 'verbose': 'low', 'activation_type': 'RELU', 'momentum': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'recurrent_cell_type': 'GRU', 'criterion': 'CrossEntropy', 'weight_decay': 0.01, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'rho': 0.9, 'last_ms': 0, 'model': 'Recurrent', 'lr': 1.0, 'notch_filter': None, 'exp_name': 'rec_testing_O1', 'normalize_data': True, 'hidden_units': 20, 'epoch_number': 1000, 'produce_figures': False, 'cannalwise_pca_features': 0, 'k_fold': 4, 'low_pass': None, 'patience': 100, 'init_type': 'xavier_normal'}
+05/18/2018 12:29:39 Early stopping at epoch 101, test loss is 0.609990
+05/18/2018 12:29:39 First best validation accuracy: 0.747 at epoch 26
+05/18/2018 12:29:39 [Finished in 380.192s.]
+05/18/2018 12:35:30 Early stopping at epoch 101, test loss is 0.562779
+05/18/2018 12:35:30 First best validation accuracy: 0.835 at epoch 66
+05/18/2018 12:35:30 [Finished in 351.024s.]
+05/18/2018 12:41:23 Early stopping at epoch 101, test loss is 0.554752
+05/18/2018 12:41:23 First best validation accuracy: 0.835 at epoch 34
+05/18/2018 12:41:23 [Finished in 352.784s.]
+05/18/2018 12:47:12 Early stopping at epoch 101, test loss is 0.553786
+05/18/2018 12:47:12 First best validation accuracy: 0.797 at epoch 86
+05/18/2018 12:47:12 [Finished in 349.851s.]
+05/18/2018 12:47:12 New model for k_fold (4 k_fold to do). 3/24 models done.
+05/18/2018 12:47:12 Current option used:
+05/18/2018 12:47:12 {'lr_decay': 0.001, 'high_pass': None, 'optimizer': 'Adadelta', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'eps': 1e-06, 'pca_features': 0, 'remove_DC_level': True, 'depth': 0, 'dropout': 0.2, 'verbose': 'low', 'activation_type': 'sigmoid', 'momentum': 0.9, 'one_khz': False, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'recurrent_cell_type': 'GRU', 'criterion': 'CrossEntropy', 'weight_decay': 0.01, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'rho': 0.9, 'last_ms': 0, 'model': 'Recurrent', 'lr': 1.0, 'notch_filter': None, 'exp_name': 'rec_testing_O1', 'normalize_data': True, 'hidden_units': 20, 'epoch_number': 1000, 'produce_figures': False, 'cannalwise_pca_features': 0, 'k_fold': 4, 'low_pass': None, 'patience': 100, 'init_type': 'xavier_normal'}
+05/18/2018 12:53:03 Early stopping at epoch 101, test loss is 0.601565
+05/18/2018 12:53:03 First best validation accuracy: 0.759 at epoch 5
+05/18/2018 12:53:03 [Finished in 350.152s.]
+05/18/2018 12:58:48 Early stopping at epoch 101, test loss is 0.524365
+05/18/2018 12:58:48 First best validation accuracy: 0.835 at epoch 57
+05/18/2018 12:58:48 [Finished in 345.433s.]
+05/18/2018 01:05:16 Early stopping at epoch 101, test loss is 0.520959
+05/18/2018 01:05:16 First best validation accuracy: 0.823 at epoch 42
+05/18/2018 01:05:16 [Finished in 388.189s.]

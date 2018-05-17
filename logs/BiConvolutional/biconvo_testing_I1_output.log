@@ -1,0 +1,646 @@
+05/17/2018 07:41:14 [Program starts.]
+05/17/2018 07:41:14 [Arg used:][{'verbose': 'low'}, {'remove_DC_level': True}, {'epoch_number': 1000}, {'init_type': 'xavier_uniform'}, {'model': 'BiConvolutional'}, {'k_fold': 4}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'exp_name': 'biconvo_testing_I1'}, {'criterion': 'CrossEntropy'}, {'recurrent_cell_type': 'GRU'}, {'patience': 100}, {'activation_type': 'ELU'}, {'hidden_units': 5}, {'normalize_data': True}, {'optimizer': 'Adadelta'}]
+05/17/2018 07:41:14 [Data loaded.]
+05/17/2018 07:41:38 [Program starts.]
+05/17/2018 07:41:38 [Arg used:][{'epoch_number': 1000}, {'normalize_data': True}, {'verbose': 'low'}, {'k_fold': 4}, {'log_root': '/home/andre/Documents/DL_p1/logs/'}, {'criterion': 'CrossEntropy'}, {'recurrent_cell_type': 'GRU'}, {'hidden_units': 5}, {'model': 'BiConvolutional'}, {'patience': 100}, {'remove_DC_level': True}, {'exp_name': 'biconvo_testing_I1'}, {'init_type': 'xavier_uniform'}, {'activation_type': 'ELU'}, {'optimizer': 'Adadelta'}]
+05/17/2018 07:41:39 [Data loaded.]
+05/17/2018 07:41:39 New model for k_fold. 0/32 models done.
+05/17/2018 07:41:39 Current option used:
+05/17/2018 07:41:39 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_10_xavier_normal_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_normal', 'activation_type': 'ELU', 'optimizer': 'Adadelta'}
+05/17/2018 07:42:10 Early stopping at epoch 101, test loss is 0.775153
+05/17/2018 07:42:10 First best validation accuracy: 0.544 at epoch 85
+05/17/2018 07:42:10 [Finished in 30.661s.]
+05/17/2018 07:42:41 Early stopping at epoch 101, test loss is 0.746000
+05/17/2018 07:42:41 First best validation accuracy: 0.608 at epoch 2
+05/17/2018 07:42:41 [Finished in 31.218s.]
+05/17/2018 07:43:13 Early stopping at epoch 101, test loss is 0.631440
+05/17/2018 07:43:13 First best validation accuracy: 0.684 at epoch 3
+05/17/2018 07:43:13 [Finished in 31.914s.]
+05/17/2018 07:43:46 Early stopping at epoch 101, test loss is 0.695443
+05/17/2018 07:43:46 First best validation accuracy: 0.684 at epoch 22
+05/17/2018 07:43:46 [Finished in 32.785s.]
+05/17/2018 07:43:46 New model for k_fold. 1/32 models done.
+05/17/2018 07:43:46 Current option used:
+05/17/2018 07:43:46 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_10_xavier_normal_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_normal', 'activation_type': 'sigmoid', 'optimizer': 'Adadelta'}
+05/17/2018 07:44:15 Early stopping at epoch 101, test loss is 0.714557
+05/17/2018 07:44:15 First best validation accuracy: 0.620 at epoch 19
+05/17/2018 07:44:15 [Finished in 29.911s.]
+05/17/2018 07:44:45 Early stopping at epoch 101, test loss is 0.647678
+05/17/2018 07:44:45 First best validation accuracy: 0.671 at epoch 5
+05/17/2018 07:44:45 [Finished in 29.816s.]
+05/17/2018 07:45:15 Early stopping at epoch 101, test loss is 0.657412
+05/17/2018 07:45:15 First best validation accuracy: 0.722 at epoch 22
+05/17/2018 07:45:15 [Finished in 30.046s.]
+05/17/2018 07:45:48 Early stopping at epoch 101, test loss is 0.718093
+05/17/2018 07:45:48 First best validation accuracy: 0.646 at epoch 4
+05/17/2018 07:45:48 [Finished in 32.742s.]
+05/17/2018 07:45:48 New model for k_fold. 2/32 models done.
+05/17/2018 07:45:48 Current option used:
+05/17/2018 07:45:48 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_10_xavier_normal_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_normal', 'activation_type': 'ELU', 'optimizer': 'Adagrad'}
+05/17/2018 07:46:17 Early stopping at epoch 101, test loss is 0.874707
+05/17/2018 07:46:17 First best validation accuracy: 0.443 at epoch 2
+05/17/2018 07:46:17 [Finished in 29.233s.]
+05/17/2018 07:46:52 Early stopping at epoch 101, test loss is 0.631648
+05/17/2018 07:46:52 First best validation accuracy: 0.696 at epoch 70
+05/17/2018 07:46:52 [Finished in 34.797s.]
+05/17/2018 07:47:22 Early stopping at epoch 101, test loss is 0.659311
+05/17/2018 07:47:22 First best validation accuracy: 0.658 at epoch 41
+05/17/2018 07:47:22 [Finished in 30.189s.]
+05/17/2018 07:47:57 Early stopping at epoch 101, test loss is 0.717106
+05/17/2018 07:47:57 First best validation accuracy: 0.544 at epoch 69
+05/17/2018 07:47:57 [Finished in 34.564s.]
+05/17/2018 07:47:57 New model for k_fold. 3/32 models done.
+05/17/2018 07:47:57 Current option used:
+05/17/2018 07:47:57 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_10_xavier_normal_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_normal', 'activation_type': 'sigmoid', 'optimizer': 'Adagrad'}
+05/17/2018 07:48:30 Early stopping at epoch 101, test loss is 0.691729
+05/17/2018 07:48:30 First best validation accuracy: 0.595 at epoch 87
+05/17/2018 07:48:30 [Finished in 33.148s.]
+05/17/2018 07:49:00 Early stopping at epoch 101, test loss is 0.708644
+05/17/2018 07:49:00 First best validation accuracy: 0.430 at epoch 58
+05/17/2018 07:49:00 [Finished in 29.982s.]
+05/17/2018 07:49:33 Early stopping at epoch 101, test loss is 0.677080
+05/17/2018 07:49:33 First best validation accuracy: 0.557 at epoch 86
+05/17/2018 07:49:33 [Finished in 32.466s.]
+05/17/2018 07:50:03 Early stopping at epoch 101, test loss is 0.742002
+05/17/2018 07:50:03 First best validation accuracy: 0.544 at epoch 0
+05/17/2018 07:50:03 [Finished in 30.672s.]
+05/17/2018 07:50:03 New model for k_fold. 4/32 models done.
+05/17/2018 07:50:03 Current option used:
+05/17/2018 07:50:03 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_10_xavier_uniform_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_uniform', 'activation_type': 'ELU', 'optimizer': 'Adadelta'}
+05/17/2018 07:50:43 Early stopping at epoch 101, test loss is 0.813888
+05/17/2018 07:50:43 First best validation accuracy: 0.544 at epoch 10
+05/17/2018 07:50:43 [Finished in 39.321s.]
+05/17/2018 07:51:21 Early stopping at epoch 101, test loss is 0.675724
+05/17/2018 07:51:21 First best validation accuracy: 0.696 at epoch 8
+05/17/2018 07:51:21 [Finished in 38.827s.]
+05/17/2018 07:52:14 Early stopping at epoch 101, test loss is 0.631446
+05/17/2018 07:52:14 First best validation accuracy: 0.696 at epoch 10
+05/17/2018 07:52:14 [Finished in 52.760s.]
+05/17/2018 07:53:05 Early stopping at epoch 101, test loss is 0.734084
+05/17/2018 07:53:05 First best validation accuracy: 0.620 at epoch 23
+05/17/2018 07:53:05 [Finished in 50.951s.]
+05/17/2018 07:53:05 New model for k_fold. 5/32 models done.
+05/17/2018 07:53:05 Current option used:
+05/17/2018 07:53:05 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_10_xavier_uniform_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_uniform', 'activation_type': 'sigmoid', 'optimizer': 'Adadelta'}
+05/17/2018 07:53:55 Early stopping at epoch 101, test loss is 0.770731
+05/17/2018 07:53:55 First best validation accuracy: 0.595 at epoch 8
+05/17/2018 07:53:55 [Finished in 49.597s.]
+05/17/2018 07:54:41 Early stopping at epoch 101, test loss is 0.693673
+05/17/2018 07:54:41 First best validation accuracy: 0.709 at epoch 8
+05/17/2018 07:54:41 [Finished in 46.156s.]
+05/17/2018 07:55:27 Early stopping at epoch 101, test loss is 0.667592
+05/17/2018 07:55:27 First best validation accuracy: 0.709 at epoch 4
+05/17/2018 07:55:27 [Finished in 45.831s.]
+05/17/2018 07:56:04 Early stopping at epoch 101, test loss is 0.676106
+05/17/2018 07:56:04 First best validation accuracy: 0.658 at epoch 32
+05/17/2018 07:56:04 [Finished in 37.761s.]
+05/17/2018 07:56:04 New model for k_fold. 6/32 models done.
+05/17/2018 07:56:04 Current option used:
+05/17/2018 07:56:04 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_10_xavier_uniform_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_uniform', 'activation_type': 'ELU', 'optimizer': 'Adagrad'}
+05/17/2018 07:56:35 Early stopping at epoch 101, test loss is 0.843513
+05/17/2018 07:56:35 First best validation accuracy: 0.481 at epoch 0
+05/17/2018 07:56:35 [Finished in 30.062s.]
+05/17/2018 07:57:06 Early stopping at epoch 101, test loss is 0.632857
+05/17/2018 07:57:06 First best validation accuracy: 0.684 at epoch 80
+05/17/2018 07:57:06 [Finished in 31.832s.]
+05/17/2018 07:58:05 Early stopping at epoch 101, test loss is 0.657540
+05/17/2018 07:58:05 First best validation accuracy: 0.633 at epoch 14
+05/17/2018 07:58:05 [Finished in 58.681s.]
+05/17/2018 08:00:52 Early stopping at epoch 101, test loss is 0.722082
+05/17/2018 08:00:52 First best validation accuracy: 0.506 at epoch 30
+05/17/2018 08:00:52 [Finished in 166.632s.]
+05/17/2018 08:00:52 New model for k_fold. 7/32 models done.
+05/17/2018 08:00:52 Current option used:
+05/17/2018 08:00:52 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_10_xavier_uniform_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_uniform', 'activation_type': 'sigmoid', 'optimizer': 'Adagrad'}
+05/17/2018 08:03:12 Early stopping at epoch 101, test loss is 0.739179
+05/17/2018 08:03:12 First best validation accuracy: 0.544 at epoch 56
+05/17/2018 08:03:12 [Finished in 140.056s.]
+05/17/2018 08:06:27 Early stopping at epoch 101, test loss is 0.724915
+05/17/2018 08:06:27 First best validation accuracy: 0.418 at epoch 95
+05/17/2018 08:06:27 [Finished in 195.362s.]
+05/17/2018 08:08:38 Early stopping at epoch 101, test loss is 0.667859
+05/17/2018 08:08:38 First best validation accuracy: 0.595 at epoch 78
+05/17/2018 08:08:38 [Finished in 131.270s.]
+05/17/2018 08:10:01 Early stopping at epoch 101, test loss is 0.742657
+05/17/2018 08:10:01 First best validation accuracy: 0.456 at epoch 0
+05/17/2018 08:10:01 [Finished in 82.300s.]
+05/17/2018 08:10:01 New model for k_fold. 8/32 models done.
+05/17/2018 08:10:01 Current option used:
+05/17/2018 08:10:01 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_28_xavier_normal_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_normal', 'activation_type': 'ELU', 'optimizer': 'Adadelta'}
+05/17/2018 08:12:49 Early stopping at epoch 101, test loss is 0.770231
+05/17/2018 08:12:49 First best validation accuracy: 0.595 at epoch 7
+05/17/2018 08:12:49 [Finished in 168.188s.]
+05/17/2018 08:15:18 Early stopping at epoch 101, test loss is 0.694564
+05/17/2018 08:15:18 First best validation accuracy: 0.633 at epoch 9
+05/17/2018 08:15:18 [Finished in 149.286s.]
+05/17/2018 08:17:37 Early stopping at epoch 101, test loss is 0.629221
+05/17/2018 08:17:37 First best validation accuracy: 0.709 at epoch 14
+05/17/2018 08:17:37 [Finished in 138.573s.]
+05/17/2018 08:19:45 Early stopping at epoch 101, test loss is 0.754061
+05/17/2018 08:19:45 First best validation accuracy: 0.570 at epoch 22
+05/17/2018 08:19:45 [Finished in 128.406s.]
+05/17/2018 08:19:45 New model for k_fold. 9/32 models done.
+05/17/2018 08:19:45 Current option used:
+05/17/2018 08:19:45 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_28_xavier_normal_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_normal', 'activation_type': 'sigmoid', 'optimizer': 'Adadelta'}
+05/17/2018 08:21:23 Early stopping at epoch 101, test loss is 0.688626
+05/17/2018 08:21:23 First best validation accuracy: 0.633 at epoch 76
+05/17/2018 08:21:23 [Finished in 97.467s.]
+05/17/2018 08:22:59 Early stopping at epoch 101, test loss is 0.640962
+05/17/2018 08:22:59 First best validation accuracy: 0.722 at epoch 35
+05/17/2018 08:22:59 [Finished in 96.589s.]
+05/17/2018 08:24:42 Early stopping at epoch 101, test loss is 0.606676
+05/17/2018 08:24:42 First best validation accuracy: 0.734 at epoch 10
+05/17/2018 08:24:42 [Finished in 102.727s.]
+05/17/2018 08:26:33 Early stopping at epoch 101, test loss is 0.674728
+05/17/2018 08:26:33 First best validation accuracy: 0.671 at epoch 26
+05/17/2018 08:26:33 [Finished in 110.501s.]
+05/17/2018 08:26:33 New model for k_fold. 10/32 models done.
+05/17/2018 08:26:33 Current option used:
+05/17/2018 08:26:33 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_28_xavier_normal_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_normal', 'activation_type': 'ELU', 'optimizer': 'Adagrad'}
+05/17/2018 08:28:11 Early stopping at epoch 101, test loss is 0.769940
+05/17/2018 08:28:11 First best validation accuracy: 0.595 at epoch 0
+05/17/2018 08:28:11 [Finished in 98.812s.]
+05/17/2018 08:29:42 Early stopping at epoch 101, test loss is 0.622106
+05/17/2018 08:29:42 First best validation accuracy: 0.684 at epoch 91
+05/17/2018 08:29:42 [Finished in 90.682s.]
+05/17/2018 08:31:07 Early stopping at epoch 101, test loss is 0.634812
+05/17/2018 08:31:07 First best validation accuracy: 0.646 at epoch 30
+05/17/2018 08:31:07 [Finished in 84.331s.]
+05/17/2018 08:32:30 Early stopping at epoch 101, test loss is 0.706536
+05/17/2018 08:32:30 First best validation accuracy: 0.570 at epoch 8
+05/17/2018 08:32:30 [Finished in 83.823s.]
+05/17/2018 08:32:30 New model for k_fold. 11/32 models done.
+05/17/2018 08:32:30 Current option used:
+05/17/2018 08:32:30 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_28_xavier_normal_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_normal', 'activation_type': 'sigmoid', 'optimizer': 'Adagrad'}
+05/17/2018 08:33:49 Early stopping at epoch 101, test loss is 0.742559
+05/17/2018 08:33:49 First best validation accuracy: 0.557 at epoch 100
+05/17/2018 08:33:49 [Finished in 78.977s.]
+05/17/2018 08:35:11 Early stopping at epoch 101, test loss is 0.686174
+05/17/2018 08:35:11 First best validation accuracy: 0.582 at epoch 87
+05/17/2018 08:35:11 [Finished in 81.301s.]
+05/17/2018 08:36:30 Early stopping at epoch 101, test loss is 0.650916
+05/17/2018 08:36:30 First best validation accuracy: 0.646 at epoch 92
+05/17/2018 08:36:30 [Finished in 79.523s.]
+05/17/2018 08:37:49 Early stopping at epoch 101, test loss is 0.694684
+05/17/2018 08:37:49 First best validation accuracy: 0.608 at epoch 17
+05/17/2018 08:37:49 [Finished in 79.156s.]
+05/17/2018 08:37:49 New model for k_fold. 12/32 models done.
+05/17/2018 08:37:49 Current option used:
+05/17/2018 08:37:49 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_28_xavier_uniform_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_uniform', 'activation_type': 'ELU', 'optimizer': 'Adadelta'}
+05/17/2018 08:39:52 Early stopping at epoch 101, test loss is 0.774824
+05/17/2018 08:39:52 First best validation accuracy: 0.570 at epoch 10
+05/17/2018 08:39:52 [Finished in 122.417s.]
+05/17/2018 08:41:50 Early stopping at epoch 101, test loss is 0.672552
+05/17/2018 08:41:50 First best validation accuracy: 0.709 at epoch 14
+05/17/2018 08:41:50 [Finished in 117.879s.]
+05/17/2018 08:43:22 Early stopping at epoch 101, test loss is 0.646436
+05/17/2018 08:43:22 First best validation accuracy: 0.722 at epoch 4
+05/17/2018 08:43:22 [Finished in 92.721s.]
+05/17/2018 08:45:00 Early stopping at epoch 101, test loss is 0.740871
+05/17/2018 08:45:00 First best validation accuracy: 0.608 at epoch 5
+05/17/2018 08:45:00 [Finished in 97.991s.]
+05/17/2018 08:45:00 New model for k_fold. 13/32 models done.
+05/17/2018 08:45:00 Current option used:
+05/17/2018 08:45:00 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_28_xavier_uniform_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_uniform', 'activation_type': 'sigmoid', 'optimizer': 'Adadelta'}
+05/17/2018 08:46:28 Early stopping at epoch 101, test loss is 0.690064
+05/17/2018 08:46:28 First best validation accuracy: 0.620 at epoch 19
+05/17/2018 08:46:28 [Finished in 87.389s.]
+05/17/2018 08:47:43 Early stopping at epoch 101, test loss is 0.645160
+05/17/2018 08:47:43 First best validation accuracy: 0.734 at epoch 6
+05/17/2018 08:47:43 [Finished in 75.474s.]
+05/17/2018 08:48:59 Early stopping at epoch 101, test loss is 0.680497
+05/17/2018 08:48:59 First best validation accuracy: 0.684 at epoch 7
+05/17/2018 08:48:59 [Finished in 75.725s.]
+05/17/2018 08:50:16 Early stopping at epoch 101, test loss is 0.693091
+05/17/2018 08:50:16 First best validation accuracy: 0.646 at epoch 10
+05/17/2018 08:50:16 [Finished in 76.975s.]
+05/17/2018 08:50:16 New model for k_fold. 14/32 models done.
+05/17/2018 08:50:16 Current option used:
+05/17/2018 08:50:16 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_28_xavier_uniform_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_uniform', 'activation_type': 'ELU', 'optimizer': 'Adagrad'}
+05/17/2018 08:51:12 Early stopping at epoch 101, test loss is 0.880697
+05/17/2018 08:51:12 First best validation accuracy: 0.430 at epoch 10
+05/17/2018 08:51:12 [Finished in 55.863s.]
+05/17/2018 08:52:08 Early stopping at epoch 101, test loss is 0.604694
+05/17/2018 08:52:08 First best validation accuracy: 0.747 at epoch 91
+05/17/2018 08:52:08 [Finished in 55.879s.]
+05/17/2018 08:53:03 Early stopping at epoch 101, test loss is 0.630961
+05/17/2018 08:53:03 First best validation accuracy: 0.658 at epoch 12
+05/17/2018 08:53:03 [Finished in 55.578s.]
+05/17/2018 08:54:01 Early stopping at epoch 101, test loss is 0.717349
+05/17/2018 08:54:01 First best validation accuracy: 0.544 at epoch 9
+05/17/2018 08:54:01 [Finished in 57.765s.]
+05/17/2018 08:54:01 New model for k_fold. 15/32 models done.
+05/17/2018 08:54:01 Current option used:
+05/17/2018 08:54:01 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0_28_xavier_uniform_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_uniform', 'activation_type': 'sigmoid', 'optimizer': 'Adagrad'}
+05/17/2018 08:54:56 Early stopping at epoch 101, test loss is 0.723938
+05/17/2018 08:54:56 First best validation accuracy: 0.570 at epoch 12
+05/17/2018 08:54:56 [Finished in 54.517s.]
+05/17/2018 08:55:52 Early stopping at epoch 101, test loss is 0.677395
+05/17/2018 08:55:52 First best validation accuracy: 0.570 at epoch 100
+05/17/2018 08:55:52 [Finished in 55.891s.]
+05/17/2018 08:56:47 Early stopping at epoch 101, test loss is 0.656012
+05/17/2018 08:56:47 First best validation accuracy: 0.646 at epoch 67
+05/17/2018 08:56:47 [Finished in 55.445s.]
+05/17/2018 08:57:45 Early stopping at epoch 101, test loss is 0.708310
+05/17/2018 08:57:45 First best validation accuracy: 0.608 at epoch 32
+05/17/2018 08:57:45 [Finished in 57.766s.]
+05/17/2018 08:57:45 New model for k_fold. 16/32 models done.
+05/17/2018 08:57:45 Current option used:
+05/17/2018 08:57:45 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_10_xavier_normal_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_normal', 'activation_type': 'ELU', 'optimizer': 'Adadelta'}
+05/17/2018 08:58:35 Early stopping at epoch 101, test loss is 0.737119
+05/17/2018 08:58:35 First best validation accuracy: 0.608 at epoch 17
+05/17/2018 08:58:35 [Finished in 50.242s.]
+05/17/2018 08:59:24 Early stopping at epoch 101, test loss is 0.631678
+05/17/2018 08:59:24 First best validation accuracy: 0.734 at epoch 36
+05/17/2018 08:59:24 [Finished in 48.855s.]
+05/17/2018 09:00:14 Early stopping at epoch 101, test loss is 0.697741
+05/17/2018 09:00:14 First best validation accuracy: 0.722 at epoch 13
+05/17/2018 09:00:14 [Finished in 50.134s.]
+05/17/2018 09:01:00 Early stopping at epoch 101, test loss is 0.664791
+05/17/2018 09:01:00 First best validation accuracy: 0.658 at epoch 16
+05/17/2018 09:01:00 [Finished in 46.197s.]
+05/17/2018 09:01:00 New model for k_fold. 17/32 models done.
+05/17/2018 09:01:00 Current option used:
+05/17/2018 09:01:00 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_10_xavier_normal_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_normal', 'activation_type': 'sigmoid', 'optimizer': 'Adadelta'}
+05/17/2018 09:01:41 Early stopping at epoch 101, test loss is 0.726613
+05/17/2018 09:01:41 First best validation accuracy: 0.620 at epoch 34
+05/17/2018 09:01:41 [Finished in 40.962s.]
+05/17/2018 09:02:35 Early stopping at epoch 101, test loss is 0.686586
+05/17/2018 09:02:35 First best validation accuracy: 0.722 at epoch 25
+05/17/2018 09:02:35 [Finished in 54.250s.]
+05/17/2018 09:03:20 Early stopping at epoch 101, test loss is 0.676516
+05/17/2018 09:03:20 First best validation accuracy: 0.722 at epoch 9
+05/17/2018 09:03:20 [Finished in 44.929s.]
+05/17/2018 09:04:04 Early stopping at epoch 101, test loss is 0.702239
+05/17/2018 09:04:04 First best validation accuracy: 0.633 at epoch 60
+05/17/2018 09:04:04 [Finished in 43.107s.]
+05/17/2018 09:04:04 New model for k_fold. 18/32 models done.
+05/17/2018 09:04:04 Current option used:
+05/17/2018 09:04:04 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_10_xavier_normal_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_normal', 'activation_type': 'ELU', 'optimizer': 'Adagrad'}
+05/17/2018 09:04:38 Early stopping at epoch 101, test loss is 0.812410
+05/17/2018 09:04:38 First best validation accuracy: 0.519 at epoch 29
+05/17/2018 09:04:38 [Finished in 34.881s.]
+05/17/2018 09:05:12 Early stopping at epoch 101, test loss is 0.671798
+05/17/2018 09:05:12 First best validation accuracy: 0.595 at epoch 91
+05/17/2018 09:05:12 [Finished in 33.482s.]
+05/17/2018 09:05:49 Early stopping at epoch 101, test loss is 0.662159
+05/17/2018 09:05:49 First best validation accuracy: 0.620 at epoch 99
+05/17/2018 09:05:49 [Finished in 36.750s.]
+05/17/2018 09:06:23 Early stopping at epoch 101, test loss is 0.721249
+05/17/2018 09:06:23 First best validation accuracy: 0.494 at epoch 13
+05/17/2018 09:06:23 [Finished in 34.255s.]
+05/17/2018 09:06:23 New model for k_fold. 19/32 models done.
+05/17/2018 09:06:23 Current option used:
+05/17/2018 09:06:23 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_10_xavier_normal_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_normal', 'activation_type': 'sigmoid', 'optimizer': 'Adagrad'}
+05/17/2018 09:06:59 Early stopping at epoch 101, test loss is 0.717415
+05/17/2018 09:06:59 First best validation accuracy: 0.582 at epoch 15
+05/17/2018 09:06:59 [Finished in 36.029s.]
+05/17/2018 09:07:34 Early stopping at epoch 101, test loss is 0.729117
+05/17/2018 09:07:34 First best validation accuracy: 0.418 at epoch 70
+05/17/2018 09:07:34 [Finished in 34.657s.]
+05/17/2018 09:08:06 Early stopping at epoch 101, test loss is 0.659995
+05/17/2018 09:08:06 First best validation accuracy: 0.633 at epoch 14
+05/17/2018 09:08:06 [Finished in 32.643s.]
+05/17/2018 09:08:42 Early stopping at epoch 101, test loss is 0.739534
+05/17/2018 09:08:42 First best validation accuracy: 0.456 at epoch 0
+05/17/2018 09:08:42 [Finished in 36.105s.]
+05/17/2018 09:08:42 New model for k_fold. 20/32 models done.
+05/17/2018 09:08:42 Current option used:
+05/17/2018 09:08:42 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_10_xavier_uniform_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_uniform', 'activation_type': 'ELU', 'optimizer': 'Adadelta'}
+05/17/2018 09:09:31 Early stopping at epoch 101, test loss is 0.727813
+05/17/2018 09:09:31 First best validation accuracy: 0.608 at epoch 100
+05/17/2018 09:09:31 [Finished in 48.475s.]
+05/17/2018 09:10:18 Early stopping at epoch 101, test loss is 0.693602
+05/17/2018 09:10:18 First best validation accuracy: 0.709 at epoch 13
+05/17/2018 09:10:18 [Finished in 46.826s.]
+05/17/2018 09:11:01 Early stopping at epoch 101, test loss is 0.670989
+05/17/2018 09:11:01 First best validation accuracy: 0.709 at epoch 6
+05/17/2018 09:11:01 [Finished in 43.673s.]
+05/17/2018 09:11:46 Early stopping at epoch 101, test loss is 0.714313
+05/17/2018 09:11:46 First best validation accuracy: 0.620 at epoch 9
+05/17/2018 09:11:46 [Finished in 44.432s.]
+05/17/2018 09:11:46 New model for k_fold. 21/32 models done.
+05/17/2018 09:11:46 Current option used:
+05/17/2018 09:11:46 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_10_xavier_uniform_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_uniform', 'activation_type': 'sigmoid', 'optimizer': 'Adadelta'}
+05/17/2018 09:12:26 Early stopping at epoch 101, test loss is 0.786722
+05/17/2018 09:12:26 First best validation accuracy: 0.620 at epoch 10
+05/17/2018 09:12:26 [Finished in 40.565s.]
+05/17/2018 09:13:06 Early stopping at epoch 101, test loss is 0.618955
+05/17/2018 09:13:06 First best validation accuracy: 0.709 at epoch 11
+05/17/2018 09:13:06 [Finished in 40.002s.]
+05/17/2018 09:13:47 Early stopping at epoch 101, test loss is 0.676134
+05/17/2018 09:13:47 First best validation accuracy: 0.734 at epoch 8
+05/17/2018 09:13:47 [Finished in 40.641s.]
+05/17/2018 09:14:28 Early stopping at epoch 101, test loss is 0.683275
+05/17/2018 09:14:28 First best validation accuracy: 0.646 at epoch 20
+05/17/2018 09:14:28 [Finished in 40.725s.]
+05/17/2018 09:14:28 New model for k_fold. 22/32 models done.
+05/17/2018 09:14:28 Current option used:
+05/17/2018 09:14:28 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_10_xavier_uniform_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_uniform', 'activation_type': 'ELU', 'optimizer': 'Adagrad'}
+05/17/2018 09:15:02 Early stopping at epoch 101, test loss is 0.809795
+05/17/2018 09:15:02 First best validation accuracy: 0.494 at epoch 44
+05/17/2018 09:15:02 [Finished in 34.064s.]
+05/17/2018 09:15:34 Early stopping at epoch 101, test loss is 0.680978
+05/17/2018 09:15:34 First best validation accuracy: 0.557 at epoch 94
+05/17/2018 09:15:34 [Finished in 32.485s.]
+05/17/2018 09:16:07 Early stopping at epoch 101, test loss is 0.642081
+05/17/2018 09:16:07 First best validation accuracy: 0.684 at epoch 54
+05/17/2018 09:16:07 [Finished in 32.174s.]
+05/17/2018 09:16:40 Early stopping at epoch 101, test loss is 0.701948
+05/17/2018 09:16:40 First best validation accuracy: 0.557 at epoch 2
+05/17/2018 09:16:40 [Finished in 33.342s.]
+05/17/2018 09:16:40 New model for k_fold. 23/32 models done.
+05/17/2018 09:16:40 Current option used:
+05/17/2018 09:16:40 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 10, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_10_xavier_uniform_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_uniform', 'activation_type': 'sigmoid', 'optimizer': 'Adagrad'}
+05/17/2018 09:17:13 Early stopping at epoch 101, test loss is 0.733933
+05/17/2018 09:17:13 First best validation accuracy: 0.557 at epoch 29
+05/17/2018 09:17:13 [Finished in 33.062s.]
+05/17/2018 09:17:46 Early stopping at epoch 101, test loss is 0.723934
+05/17/2018 09:17:46 First best validation accuracy: 0.456 at epoch 54
+05/17/2018 09:17:46 [Finished in 32.751s.]
+05/17/2018 09:18:20 Early stopping at epoch 101, test loss is 0.737281
+05/17/2018 09:18:20 First best validation accuracy: 0.506 at epoch 0
+05/17/2018 09:18:20 [Finished in 34.398s.]
+05/17/2018 09:18:53 Early stopping at epoch 101, test loss is 0.777165
+05/17/2018 09:18:53 First best validation accuracy: 0.456 at epoch 0
+05/17/2018 09:18:53 [Finished in 32.672s.]
+05/17/2018 09:18:53 New model for k_fold. 24/32 models done.
+05/17/2018 09:18:53 Current option used:
+05/17/2018 09:18:53 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_28_xavier_normal_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_normal', 'activation_type': 'ELU', 'optimizer': 'Adadelta'}
+05/17/2018 09:20:22 Early stopping at epoch 101, test loss is 0.749434
+05/17/2018 09:20:22 First best validation accuracy: 0.620 at epoch 40
+05/17/2018 09:20:22 [Finished in 88.821s.]
+05/17/2018 09:21:50 Early stopping at epoch 101, test loss is 0.697793
+05/17/2018 09:21:50 First best validation accuracy: 0.684 at epoch 21
+05/17/2018 09:21:50 [Finished in 87.938s.]
+05/17/2018 09:23:04 Early stopping at epoch 101, test loss is 0.663309
+05/17/2018 09:23:04 First best validation accuracy: 0.722 at epoch 7
+05/17/2018 09:23:04 [Finished in 74.863s.]
+05/17/2018 09:24:20 Early stopping at epoch 101, test loss is 0.737489
+05/17/2018 09:24:20 First best validation accuracy: 0.633 at epoch 26
+05/17/2018 09:24:20 [Finished in 75.748s.]
+05/17/2018 09:24:20 New model for k_fold. 25/32 models done.
+05/17/2018 09:24:20 Current option used:
+05/17/2018 09:24:20 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_28_xavier_normal_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_normal', 'activation_type': 'sigmoid', 'optimizer': 'Adadelta'}
+05/17/2018 09:59:12 Early stopping at epoch 101, test loss is 0.706011
+05/17/2018 09:59:12 First best validation accuracy: 0.658 at epoch 42
+05/17/2018 09:59:12 [Finished in 2092.124s.]
+05/17/2018 10:00:24 Early stopping at epoch 101, test loss is 0.673826
+05/17/2018 10:00:24 First best validation accuracy: 0.709 at epoch 7
+05/17/2018 10:00:24 [Finished in 71.822s.]
+05/17/2018 10:01:37 Early stopping at epoch 101, test loss is 0.653791
+05/17/2018 10:01:37 First best validation accuracy: 0.696 at epoch 2
+05/17/2018 10:01:37 [Finished in 73.059s.]
+05/17/2018 10:02:59 Early stopping at epoch 101, test loss is 0.719132
+05/17/2018 10:02:59 First best validation accuracy: 0.633 at epoch 10
+05/17/2018 10:02:59 [Finished in 81.435s.]
+05/17/2018 10:02:59 New model for k_fold. 26/32 models done.
+05/17/2018 10:02:59 Current option used:
+05/17/2018 10:02:59 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_28_xavier_normal_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_normal', 'activation_type': 'ELU', 'optimizer': 'Adagrad'}
+05/17/2018 10:04:06 Early stopping at epoch 101, test loss is 0.818560
+05/17/2018 10:04:06 First best validation accuracy: 0.494 at epoch 6
+05/17/2018 10:04:06 [Finished in 67.717s.]
+05/17/2018 10:05:03 Early stopping at epoch 101, test loss is 0.629952
+05/17/2018 10:05:03 First best validation accuracy: 0.633 at epoch 56
+05/17/2018 10:05:03 [Finished in 56.394s.]
+05/17/2018 10:05:52 Early stopping at epoch 101, test loss is 0.630858
+05/17/2018 10:05:52 First best validation accuracy: 0.722 at epoch 67
+05/17/2018 10:05:52 [Finished in 49.452s.]
+05/17/2018 10:06:50 Early stopping at epoch 101, test loss is 0.745245
+05/17/2018 10:06:50 First best validation accuracy: 0.519 at epoch 99
+05/17/2018 10:06:50 [Finished in 57.639s.]
+05/17/2018 10:06:50 New model for k_fold. 27/32 models done.
+05/17/2018 10:06:50 Current option used:
+05/17/2018 10:06:50 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_28_xavier_normal_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_normal', 'activation_type': 'sigmoid', 'optimizer': 'Adagrad'}
+05/17/2018 10:07:50 Early stopping at epoch 101, test loss is 0.727174
+05/17/2018 10:07:50 First best validation accuracy: 0.570 at epoch 42
+05/17/2018 10:07:50 [Finished in 60.143s.]
+05/17/2018 10:08:45 Early stopping at epoch 101, test loss is 0.685600
+05/17/2018 10:08:45 First best validation accuracy: 0.570 at epoch 81
+05/17/2018 10:08:45 [Finished in 54.791s.]
+05/17/2018 10:09:38 Early stopping at epoch 101, test loss is 0.685275
+05/17/2018 10:09:38 First best validation accuracy: 0.557 at epoch 81
+05/17/2018 10:09:38 [Finished in 52.879s.]
+05/17/2018 10:10:35 Early stopping at epoch 101, test loss is 0.702913
+05/17/2018 10:10:35 First best validation accuracy: 0.582 at epoch 79
+05/17/2018 10:10:35 [Finished in 56.902s.]
+05/17/2018 10:10:35 New model for k_fold. 28/32 models done.
+05/17/2018 10:10:35 Current option used:
+05/17/2018 10:10:35 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_28_xavier_uniform_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_uniform', 'activation_type': 'ELU', 'optimizer': 'Adadelta'}
+05/17/2018 10:12:06 Early stopping at epoch 101, test loss is 0.758672
+05/17/2018 10:12:06 First best validation accuracy: 0.608 at epoch 21
+05/17/2018 10:12:06 [Finished in 91.534s.]
+05/17/2018 10:18:07 Early stopping at epoch 101, test loss is 0.640942
+05/17/2018 10:18:07 First best validation accuracy: 0.684 at epoch 65
+05/17/2018 10:18:07 [Finished in 360.635s.]
+05/17/2018 10:19:41 Early stopping at epoch 101, test loss is 0.673836
+05/17/2018 10:19:41 First best validation accuracy: 0.734 at epoch 10
+05/17/2018 10:19:41 [Finished in 93.557s.]
+05/17/2018 10:21:10 Early stopping at epoch 101, test loss is 0.725371
+05/17/2018 10:21:10 First best validation accuracy: 0.671 at epoch 57
+05/17/2018 10:21:10 [Finished in 89.775s.]
+05/17/2018 10:21:10 New model for k_fold. 29/32 models done.
+05/17/2018 10:21:10 Current option used:
+05/17/2018 10:21:10 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 1.0, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_28_xavier_uniform_0_['Adadelta', 1.0]_0", 'init_type': 'xavier_uniform', 'activation_type': 'sigmoid', 'optimizer': 'Adadelta'}
+05/17/2018 10:22:32 Early stopping at epoch 101, test loss is 0.733320
+05/17/2018 10:22:32 First best validation accuracy: 0.633 at epoch 25
+05/17/2018 10:22:32 [Finished in 82.063s.]
+05/17/2018 10:24:04 Early stopping at epoch 101, test loss is 0.680510
+05/17/2018 10:24:04 First best validation accuracy: 0.696 at epoch 16
+05/17/2018 10:24:04 [Finished in 91.794s.]
+05/17/2018 10:25:22 Early stopping at epoch 101, test loss is 0.669322
+05/17/2018 10:25:22 First best validation accuracy: 0.709 at epoch 5
+05/17/2018 10:25:22 [Finished in 78.128s.]
+05/17/2018 10:27:13 Early stopping at epoch 101, test loss is 0.655968
+05/17/2018 10:27:13 First best validation accuracy: 0.658 at epoch 69
+05/17/2018 10:27:13 [Finished in 110.366s.]
+05/17/2018 10:27:13 New model for k_fold. 30/32 models done.
+05/17/2018 10:27:13 Current option used:
+05/17/2018 10:27:13 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_28_xavier_uniform_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_uniform', 'activation_type': 'ELU', 'optimizer': 'Adagrad'}
+05/17/2018 10:28:38 Early stopping at epoch 101, test loss is 0.822926
+05/17/2018 10:28:38 First best validation accuracy: 0.506 at epoch 7
+05/17/2018 10:28:38 [Finished in 85.494s.]
+05/17/2018 10:30:09 Early stopping at epoch 101, test loss is 0.634250
+05/17/2018 10:30:09 First best validation accuracy: 0.684 at epoch 62
+05/17/2018 10:30:09 [Finished in 90.657s.]
+05/17/2018 10:31:35 Early stopping at epoch 101, test loss is 0.659438
+05/17/2018 10:31:35 First best validation accuracy: 0.646 at epoch 78
+05/17/2018 10:31:35 [Finished in 86.504s.]
+05/17/2018 10:33:01 Early stopping at epoch 101, test loss is 0.717639
+05/17/2018 10:33:01 First best validation accuracy: 0.544 at epoch 20
+05/17/2018 10:33:01 [Finished in 85.182s.]
+05/17/2018 10:33:01 New model for k_fold. 31/32 models done.
+05/17/2018 10:33:01 Current option used:
+05/17/2018 10:33:01 {'epoch_number': 1000, 'cannalwise_pca_features': 0, 'momentum': 0.9, 'normalize_data': True, 'verbose': 'low', 'weight_decay': 0, 'produce_figures': False, 'one_khz': False, 'last_ms': 0, 'k_fold': 4, 'log_root': '/home/andre/Documents/DL_p1/logs/', 'criterion': 'CrossEntropy', 'pca_features': 0, 'recurrent_cell_type': 'GRU', 'fig_dir': '/home/andre/Documents/DL_p1/figs/', 'lr_decay': 0.001, 'hidden_units': 28, 'model': 'BiConvolutional', 'dropout': 0.4, 'notch_filter': None, 'depth': 0, 'rho': 0.9, 'patience': 100, 'lr': 0.015, 'save_dir': '/home/andre/Documents/DL_p1/models/stored_models/', 'high_pass': None, 'low_pass': None, 'remove_DC_level': True, 'eps': 1e-06, 'exp_name': "CONVO_0.4_28_xavier_uniform_0_['Adagrad', 0.015]_0", 'init_type': 'xavier_uniform', 'activation_type': 'sigmoid', 'optimizer': 'Adagrad'}
+05/17/2018 10:34:31 Early stopping at epoch 101, test loss is 0.714495
+05/17/2018 10:34:31 First best validation accuracy: 0.608 at epoch 98
+05/17/2018 10:34:31 [Finished in 89.852s.]
+05/17/2018 10:35:53 Early stopping at epoch 101, test loss is 0.658171
+05/17/2018 10:35:53 First best validation accuracy: 0.671 at epoch 2
+05/17/2018 10:35:53 [Finished in 82.885s.]
+05/17/2018 10:37:16 Early stopping at epoch 101, test loss is 0.674051
+05/17/2018 10:37:16 First best validation accuracy: 0.570 at epoch 87
+05/17/2018 10:37:16 [Finished in 82.602s.]
+05/17/2018 10:39:31 Early stopping at epoch 101, test loss is 0.760382
+05/17/2018 10:39:31 First best validation accuracy: 0.456 at epoch 0
+05/17/2018 10:39:31 [Finished in 135.314s.]
+05/17/2018 10:42:08 Early stopping at epoch 101, train loss is 0.344909
+05/17/2018 10:42:08 First best training accuracy: 0.968 at epoch 22
+05/17/2018 10:42:08 [Finished in 156.546s.]
+05/17/2018 10:43:19 First best test accuracy: 0.670 at epoch 0
+05/17/2018 10:43:19 [Finished in 71.324s.]
+05/17/2018 10:46:14 Early stopping at epoch 101, train loss is 0.363911
+05/17/2018 10:46:14 First best training accuracy: 0.949 at epoch 23
+05/17/2018 10:46:14 [Finished in 175.174s.]
+05/17/2018 10:47:40 First best test accuracy: 0.640 at epoch 0
+05/17/2018 10:47:40 [Finished in 86.026s.]
+05/17/2018 10:50:44 Early stopping at epoch 101, train loss is 0.641584
+05/17/2018 10:50:44 First best training accuracy: 0.649 at epoch 98
+05/17/2018 10:50:44 [Finished in 183.838s.]
+05/17/2018 10:51:44 First best test accuracy: 0.540 at epoch 0
+05/17/2018 10:51:44 [Finished in 59.295s.]
+05/17/2018 10:53:15 Early stopping at epoch 101, train loss is 0.671995
+05/17/2018 10:53:15 First best training accuracy: 0.614 at epoch 79
+05/17/2018 10:53:15 [Finished in 91.340s.]
+05/17/2018 10:54:30 First best test accuracy: 0.560 at epoch 0
+05/17/2018 10:54:30 [Finished in 75.176s.]
+05/17/2018 10:57:12 Early stopping at epoch 101, train loss is 0.360732
+05/17/2018 10:57:12 First best training accuracy: 0.953 at epoch 39
+05/17/2018 10:57:12 [Finished in 162.211s.]
+05/17/2018 10:58:29 First best test accuracy: 0.630 at epoch 0
+05/17/2018 10:58:29 [Finished in 76.976s.]
+05/17/2018 11:01:06 Early stopping at epoch 101, train loss is 0.344929
+05/17/2018 11:01:06 First best training accuracy: 0.968 at epoch 55
+05/17/2018 11:01:06 [Finished in 156.501s.]
+05/17/2018 11:02:09 First best test accuracy: 0.630 at epoch 0
+05/17/2018 11:02:09 [Finished in 63.364s.]
+05/17/2018 11:03:14 Early stopping at epoch 101, train loss is 0.643845
+05/17/2018 11:03:14 First best training accuracy: 0.649 at epoch 93
+05/17/2018 11:03:14 [Finished in 65.072s.]
+05/17/2018 11:04:00 First best test accuracy: 0.550 at epoch 0
+05/17/2018 11:04:00 [Finished in 46.245s.]
+05/17/2018 11:04:57 Early stopping at epoch 101, train loss is 0.672601
+05/17/2018 11:04:57 First best training accuracy: 0.642 at epoch 87
+05/17/2018 11:04:57 [Finished in 56.732s.]
+05/17/2018 11:05:45 First best test accuracy: 0.550 at epoch 0
+05/17/2018 11:05:45 [Finished in 48.060s.]
+05/17/2018 11:07:59 Early stopping at epoch 101, train loss is 0.379719
+05/17/2018 11:07:59 First best training accuracy: 0.934 at epoch 27
+05/17/2018 11:07:59 [Finished in 134.173s.]
+05/17/2018 11:08:48 First best test accuracy: 0.580 at epoch 0
+05/17/2018 11:08:48 [Finished in 49.003s.]
+05/17/2018 11:10:42 Early stopping at epoch 101, train loss is 0.338594
+05/17/2018 11:10:42 First best training accuracy: 0.975 at epoch 27
+05/17/2018 11:10:42 [Finished in 113.489s.]
+05/17/2018 11:11:30 First best test accuracy: 0.580 at epoch 0
+05/17/2018 11:11:30 [Finished in 47.627s.]
+05/17/2018 11:12:52 Early stopping at epoch 101, train loss is 0.623219
+05/17/2018 11:12:52 First best training accuracy: 0.693 at epoch 100
+05/17/2018 11:12:52 [Finished in 82.168s.]
+05/17/2018 11:13:38 First best test accuracy: 0.560 at epoch 0
+05/17/2018 11:13:38 [Finished in 45.906s.]
+05/17/2018 11:14:59 Early stopping at epoch 101, train loss is 0.707039
+05/17/2018 11:14:59 First best training accuracy: 0.503 at epoch 0
+05/17/2018 11:14:59 [Finished in 81.693s.]
+05/17/2018 11:15:50 First best test accuracy: 0.490 at epoch 0
+05/17/2018 11:15:50 [Finished in 51.161s.]
+05/17/2018 11:17:57 Early stopping at epoch 101, train loss is 0.363896
+05/17/2018 11:17:57 First best training accuracy: 0.949 at epoch 21
+05/17/2018 11:17:57 [Finished in 126.622s.]
+05/17/2018 11:18:45 First best test accuracy: 0.640 at epoch 0
+05/17/2018 11:18:45 [Finished in 47.923s.]
+05/17/2018 11:20:35 Early stopping at epoch 101, train loss is 0.341757
+05/17/2018 11:20:35 First best training accuracy: 0.972 at epoch 28
+05/17/2018 11:20:35 [Finished in 110.352s.]
+05/17/2018 11:21:24 First best test accuracy: 0.600 at epoch 0
+05/17/2018 11:21:24 [Finished in 48.807s.]
+05/17/2018 11:22:42 Early stopping at epoch 101, train loss is 0.636355
+05/17/2018 11:22:42 First best training accuracy: 0.655 at epoch 85
+05/17/2018 11:22:42 [Finished in 78.250s.]
+05/17/2018 11:23:28 First best test accuracy: 0.590 at epoch 0
+05/17/2018 11:23:28 [Finished in 45.155s.]
+05/17/2018 11:24:46 Early stopping at epoch 101, train loss is 0.696313
+05/17/2018 11:24:46 First best training accuracy: 0.506 at epoch 71
+05/17/2018 11:24:46 [Finished in 78.424s.]
+05/17/2018 11:25:29 First best test accuracy: 0.500 at epoch 0
+05/17/2018 11:25:29 [Finished in 42.517s.]
+05/17/2018 11:26:30 Early stopping at epoch 101, train loss is 0.342090
+05/17/2018 11:26:30 First best training accuracy: 0.972 at epoch 88
+05/17/2018 11:26:30 [Finished in 61.209s.]
+05/17/2018 11:27:11 First best test accuracy: 0.620 at epoch 0
+05/17/2018 11:27:11 [Finished in 41.536s.]
+05/17/2018 11:28:10 Early stopping at epoch 101, train loss is 0.339430
+05/17/2018 11:28:10 First best training accuracy: 0.981 at epoch 100
+05/17/2018 11:28:10 [Finished in 58.798s.]
+05/17/2018 11:28:53 First best test accuracy: 0.590 at epoch 0
+05/17/2018 11:28:53 [Finished in 42.673s.]
+05/17/2018 11:29:42 Early stopping at epoch 101, train loss is 0.687682
+05/17/2018 11:29:42 First best training accuracy: 0.604 at epoch 94
+05/17/2018 11:29:42 [Finished in 49.179s.]
+05/17/2018 11:30:26 First best test accuracy: 0.540 at epoch 0
+05/17/2018 11:30:26 [Finished in 44.353s.]
+05/17/2018 11:31:14 Early stopping at epoch 101, train loss is 0.708677
+05/17/2018 11:31:14 First best training accuracy: 0.589 at epoch 66
+05/17/2018 11:31:14 [Finished in 47.708s.]
+05/17/2018 11:31:58 First best test accuracy: 0.570 at epoch 0
+05/17/2018 11:31:58 [Finished in 44.226s.]
+05/17/2018 11:33:03 Early stopping at epoch 101, train loss is 0.356537
+05/17/2018 11:33:03 First best training accuracy: 0.962 at epoch 81
+05/17/2018 11:33:03 [Finished in 65.064s.]
+05/17/2018 11:33:45 First best test accuracy: 0.590 at epoch 0
+05/17/2018 11:33:45 [Finished in 41.336s.]
+05/17/2018 11:34:41 Early stopping at epoch 101, train loss is 0.346627
+05/17/2018 11:34:41 First best training accuracy: 0.972 at epoch 99
+05/17/2018 11:34:41 [Finished in 56.635s.]
+05/17/2018 11:35:23 First best test accuracy: 0.660 at epoch 0
+05/17/2018 11:35:23 [Finished in 41.718s.]
+05/17/2018 11:36:09 Early stopping at epoch 101, train loss is 0.668763
+05/17/2018 11:36:09 First best training accuracy: 0.652 at epoch 85
+05/17/2018 11:36:09 [Finished in 45.979s.]
+05/17/2018 11:36:51 First best test accuracy: 0.610 at epoch 0
+05/17/2018 11:36:51 [Finished in 41.907s.]
+05/17/2018 11:37:35 Early stopping at epoch 101, train loss is 0.718881
+05/17/2018 11:37:35 First best training accuracy: 0.538 at epoch 92
+05/17/2018 11:37:35 [Finished in 43.707s.]
+05/17/2018 11:38:16 First best test accuracy: 0.510 at epoch 0
+05/17/2018 11:38:16 [Finished in 41.047s.]
+05/17/2018 11:40:10 Early stopping at epoch 101, train loss is 0.344817
+05/17/2018 11:40:10 First best training accuracy: 0.975 at epoch 93
+05/17/2018 11:40:10 [Finished in 114.724s.]
+05/17/2018 11:40:53 First best test accuracy: 0.620 at epoch 0
+05/17/2018 11:40:53 [Finished in 42.964s.]
+05/17/2018 11:42:32 Early stopping at epoch 101, train loss is 0.326702
+05/17/2018 11:42:32 First best training accuracy: 0.987 at epoch 54
+05/17/2018 11:42:32 [Finished in 98.765s.]
+05/17/2018 11:43:15 First best test accuracy: 0.600 at epoch 0
+05/17/2018 11:43:15 [Finished in 43.176s.]
+05/17/2018 11:44:26 Early stopping at epoch 101, train loss is 0.651442
+05/17/2018 11:44:26 First best training accuracy: 0.655 at epoch 88
+05/17/2018 11:44:26 [Finished in 70.790s.]
+05/17/2018 11:45:11 First best test accuracy: 0.610 at epoch 0
+05/17/2018 11:45:11 [Finished in 44.903s.]
+05/17/2018 11:46:22 Early stopping at epoch 101, train loss is 0.716747
+05/17/2018 11:46:22 First best training accuracy: 0.538 at epoch 52
+05/17/2018 11:46:22 [Finished in 71.400s.]
+05/17/2018 11:47:06 First best test accuracy: 0.490 at epoch 0
+05/17/2018 11:47:06 [Finished in 43.810s.]
+05/17/2018 11:48:59 Early stopping at epoch 101, train loss is 0.342311
+05/17/2018 11:48:59 First best training accuracy: 0.978 at epoch 81
+05/17/2018 11:48:59 [Finished in 113.222s.]
+05/17/2018 11:49:44 First best test accuracy: 0.590 at epoch 0
+05/17/2018 11:49:44 [Finished in 44.343s.]
+05/17/2018 11:51:24 Early stopping at epoch 101, train loss is 0.333582
+05/17/2018 11:51:24 First best training accuracy: 0.987 at epoch 86
+05/17/2018 11:51:24 [Finished in 99.863s.]
+05/17/2018 11:52:07 First best test accuracy: 0.630 at epoch 0
+05/17/2018 11:52:07 [Finished in 43.772s.]
+05/17/2018 11:53:25 Early stopping at epoch 101, train loss is 0.638470
+05/17/2018 11:53:25 First best training accuracy: 0.693 at epoch 78
+05/17/2018 11:53:25 [Finished in 77.475s.]
+05/17/2018 11:54:11 First best test accuracy: 0.510 at epoch 0
+05/17/2018 11:54:11 [Finished in 46.322s.]
+05/17/2018 11:55:27 Early stopping at epoch 101, train loss is 0.676340
+05/17/2018 11:55:27 First best training accuracy: 0.582 at epoch 83
+05/17/2018 11:55:27 [Finished in 75.703s.]
+05/17/2018 11:56:17 First best test accuracy: 0.520 at epoch 0
+05/17/2018 11:56:17 [Finished in 50.429s.]
